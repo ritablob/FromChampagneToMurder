@@ -1,0 +1,1 @@
+My aunt? We are very close. She helped me abort my baby. She works really hard! Thats why I don't see her as often anymore

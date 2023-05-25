@@ -1,0 +1,1 @@
+Yes, I care a lot about the enviroment! I'm kind of a [[youth warrior]].
