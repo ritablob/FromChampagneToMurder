@@ -6,11 +6,11 @@ using System.Linq;
 using System;
 using System.Collections;
 
+
 public class Hyperlink : MonoBehaviour
 {
 
     public VariableReference fungusVarRef;
-    public Color normalHyperlinkColor; // hex code for hyperlinks :)
     public bool doesColorChangeOnHover = true;
     public Color hoverColor = new Color(60f / 255f, 120f / 255f, 1f);
 
@@ -19,8 +19,6 @@ public class Hyperlink : MonoBehaviour
     public bool IsLinkHighlighted { get { return pCurrentLink != -1; } }
     public Canvas pCanvas;
 
-    private string _linkStartReplace = "<u color=#FF44FFFF><color=#FF44FFFF>";
-    private string _linkEndReplace = "</u></color>";
     private TextMeshProUGUI pTextMeshPro;
     private Camera pCamera;
 
@@ -29,69 +27,19 @@ public class Hyperlink : MonoBehaviour
     private const int INVALID_LINK_INDEX = -1;
     int selectedLinkIndex; // index of the hyperlink you just clicked on (from 0 to infinity, each hyperlink
                            // in the text has the next int number index)
-    private bool hasFormatted;
     protected virtual void Awake()
     {
         m_TextComponent = GetComponent<TMP_Text>();
         pTextMeshPro = GetComponent<TextMeshProUGUI>();
         pCanvas = GetComponentInParent<Canvas>();
+
         // Get a reference to the camera if Canvas Render Mode is not ScreenSpace Overlay.
         if (pCanvas.renderMode == RenderMode.ScreenSpaceOverlay)
             pCamera = null;
         else
             pCamera = pCanvas.worldCamera;
     }
-    private void OnEnable()
-    {
-        TMPro_EventManager.TEXT_CHANGED_EVENT.Add(ON_TEXT_CHANGED);
-        StartCoroutine(TimerFormatting());
-    }
-    private void OnDisable()
-    {
-        TMPro_EventManager.TEXT_CHANGED_EVENT.Remove(ON_TEXT_CHANGED);
-    }
-    private void Start()
-    {
-        if (normalHyperlinkColor != null)
-        {
-            string colourHex = ColorUtility.ToHtmlStringRGB(normalHyperlinkColor);
-            _linkStartReplace = "<u color=#" + colourHex + "><color=#" + colourHex + ">";
-        }
-        Debug.Log(_linkStartReplace);
 
-    }
-
-    void ON_TEXT_CHANGED(UnityEngine.Object obj) // do all the things once the text in the textbox is changed
-    {
-        if (obj == m_TextComponent)
-        {
-            // this is being triggered like 50 times during the typing of the fungus messages and i cant figure out what script triggers it
-        }
-    }
-
-    private void FormatLinks()
-    {
-        if (!hasFormatted)
-        {
-            Debug.Log("FOrmatting 1");
-            //We go backwards thrrough the list so we only have to get the indexes once
-            pTextMeshPro.UpdateVertexData(TMP_VertexDataUpdateFlags.All);
-            TMP_LinkInfo[] links = pTextMeshPro.textInfo.linkInfo.ToArray();
-            for (int i = links.Count()-1; i > -1; i--)
-            {
-                int multiplier = 13*i;
-                Debug.LogWarning("FOrmatting 2, link text: "+links[i].GetLinkText() + ", position - " + links[i].linkTextfirstCharacterIndex);
-                //Append behind </link>
-                pTextMeshPro.text = pTextMeshPro.text.Insert((links[i].linkTextfirstCharacterIndex + links[i].linkTextLength + links[i].linkIdLength + 13+multiplier), _linkEndReplace);
-                //Place before <link
-                pTextMeshPro.text = pTextMeshPro.text.Insert(links[i].linkTextfirstCharacterIndex+multiplier, _linkStartReplace);
-            }
-            //pTextMeshPro.text = pTextMeshPro.text.Insert(links[1].linkTextfirstCharacterIndex + links[1].linkTextLength + links[1].linkIdLength + 13, _linkEndReplace);
-            //Place before <link
-
-            hasFormatted = true;
-        }
-    }
 
     void LateUpdate()
     {
@@ -122,12 +70,10 @@ public class Hyperlink : MonoBehaviour
         selectedLinkIndex = INVALID_LINK_INDEX;
         if (CheckForInteraction(out selectedLinkIndex))
         {
-            hasFormatted = false;
-            // we send the selected link index back to fungus through here
+            // we send the selected link index back to fungus
             fungusVarRef.Set(selectedLinkIndex);
             Debug.Log("Link Clicked, link ID = " + selectedLinkIndex);
         }
-        // Debug.Log(string.Format("isHovering: {0}, link: {1}", isHoveringOver, linkIndex));
     }
 
 
@@ -184,20 +130,5 @@ public class Hyperlink : MonoBehaviour
         inputPosition = Input.mousePosition;
 
         return TMP_TextUtilities.IsIntersectingRectTransform(m_TextComponent.rectTransform, inputPosition, null);
-    }
-    IEnumerator TimerFormatting()
-    {
-        yield return new WaitForSeconds(1.5f);
-        FormatLinks();
-        yield return null;
-    }
-    IEnumerator DeactivationTimer()
-    {
-        yield return new WaitForSeconds(0.2f);
-        gameObject.SetActive(false);
-        yield return new WaitForEndOfFrame();
-        gameObject.SetActive(true);
-        Debug.Log("waited");
-        yield return true;
     }
 }
