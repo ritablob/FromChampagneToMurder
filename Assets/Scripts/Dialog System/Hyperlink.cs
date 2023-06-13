@@ -9,7 +9,6 @@ using System.Collections;
 
 public class Hyperlink : MonoBehaviour
 {
-
     public VariableReference fungusVarRef;
     public bool doesColorChangeOnHover = true;
     public Color hoverColor = new Color(60f / 255f, 120f / 255f, 1f);

@@ -1,0 +1,3013 @@
+{
+  "attributes": {
+    "creator": "Gephi 0.10.1"
+  },
+  "options": {
+    "multi": false,
+    "allowSelfLoops": true,
+    "type": "directed"
+  },
+  "nodes": [
+    {
+      "key": "0",
+      "attributes": {
+        "label": "Start",
+        "x": 33.79976,
+        "y": -4.179535,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "Introduce",
+        "Type": "Start",
+        "indegree": 0,
+        "outdegree": 3,
+        "Degree": 3
+      }
+    },
+    {
+      "key": "1",
+      "attributes": {
+        "label": "Interests and Hobbies",
+        "x": 5.9487762,
+        "y": -34.969265,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She has an extensive list of Hobbies and doesn\u0027t understand why not everyone has so many",
+        "Type": "null",
+        "indegree": 1,
+        "outdegree": 7,
+        "Degree": 8
+      }
+    },
+    {
+      "key": "2",
+      "attributes": {
+        "label": "Job and Role",
+        "x": -28.859999,
+        "y": 10.228522,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She has a very important job as the founder of her company",
+        "Type": "null",
+        "indegree": 2,
+        "outdegree": 4,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "3",
+      "attributes": {
+        "label": "Her role as a Founder",
+        "x": -19.83235,
+        "y": 25.511488,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She is the founder of her company \"Oracle\" and is very stressed by the amount of money she always has to carry around",
+        "Type": "null",
+        "indegree": 2,
+        "outdegree": 2,
+        "Degree": 4
+      }
+    },
+    {
+      "key": "4",
+      "attributes": {
+        "label": "Wellness and Fitness",
+        "x": 18.001059,
+        "y": -18.429497,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She has weekly wellness and fitness session which she finds a bit annoying. But what she does enjoy is her personal trainer.",
+        "Type": "null",
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
+      }
+    },
+    {
+      "key": "5",
+      "attributes": {
+        "label": "Networking",
+        "x": 18.07242,
+        "y": 13.901962,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "To grow her business she attends a lot of networking events, like this one. Thats actually where she met her current personal trainer.",
+        "Type": "null",
+        "indegree": 4,
+        "outdegree": 3,
+        "Degree": 7
+      }
+    },
+    {
+      "key": "6",
+      "attributes": {
+        "label": "Healthy eating",
+        "x": 11.30091,
+        "y": -13.683905,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "For her eating healthy is very important, which is why she only eats at very fine restaurant, since then she can be sure there is only natural ingredients in there. In her opinion other peopele are not as pretty as her because of their unhealthy diets. \"You are what you eat\"",
+        "Type": "null",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2
+      }
+    },
+    {
+      "key": "7",
+      "attributes": {
+        "label": "Fine Dining",
+        "x": -12.15685,
+        "y": -11.214235,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "When she doesn\u0027t want to cook, she does out to eat, but only at very high class restaurants which are usally pretty far away. She complanes about these long trips taking up a lot of her time",
+        "Type": "null",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2
+      }
+    },
+    {
+      "key": "8",
+      "attributes": {
+        "label": "Fashion Events",
+        "x": 4.9092064,
+        "y": 2.819794,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She will always make room in her scedule to attend the latest fashion events",
+        "Type": "null",
+        "indegree": 1,
+        "outdegree": 2,
+        "Degree": 3
+      }
+    },
+    {
+      "key": "9",
+      "attributes": {
+        "label": "Traveling",
+        "x": 20.227913,
+        "y": 20.91164,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She loves traveling and seeing new places. She thinks that you have to been traveling the world before one can express their opinion, because she can\u0027t take uncultured people seriously",
+        "Type": "null",
+        "indegree": 3,
+        "outdegree": 0,
+        "Degree": 3
+      }
+    },
+    {
+      "key": "10",
+      "attributes": {
+        "label": "Fashion and shopping",
+        "x": 9.079877,
+        "y": -11.284151,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She likes to dress like the elite that she is",
+        "Type": "null",
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
+      }
+    },
+    {
+      "key": "11",
+      "attributes": {
+        "label": "Shopping Destinations",
+        "x": -4.43793,
+        "y": -2.9260805,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She only shops at small indepantend sewing studios all around the world. She prefers to go there in person since with delivery she couldn\u0027t look at the clothes before buying them.",
+        "Type": "null",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2
+      }
+    },
+    {
+      "key": "12",
+      "attributes": {
+        "label": "Fashion Trends",
+        "x": -6.650858,
+        "y": 21.606058,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She stays on top of all the Fashion trends and often combines multiple fashion trends with each other, like latex and crochet",
+        "Type": "null",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2
+      }
+    },
+    {
+      "key": "13",
+      "attributes": {
+        "label": "Cultural Events",
+        "x": 18.244287,
+        "y": -27.811716,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She is a fan of cultural events like theater and visits them quite regulary",
+        "Type": "null",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2
+      }
+    },
+    {
+      "key": "14",
+      "attributes": {
+        "label": "Art",
+        "x": 21.961658,
+        "y": 35.25356,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She is very interested in Art, she tries to visit all the art exhibitions and other cultural events, but not for modern art because she hates that one",
+        "Type": "null",
+        "indegree": 1,
+        "outdegree": 2,
+        "Degree": 3
+      }
+    },
+    {
+      "key": "15",
+      "attributes": {
+        "label": "Industry Trends",
+        "x": 34.673424,
+        "y": 28.623663,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "The growing minimalism industry calls for more cleaning products, which is the direction her company is taking",
+        "Type": "null",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2
+      }
+    },
+    {
+      "key": "16",
+      "attributes": {
+        "label": "Her company",
+        "x": 2.832873,
+        "y": 21.753525,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "Her comapy is called \"Oracle\" and sells vacuum cleaner which when used tell you the news",
+        "Type": "null",
+        "indegree": 5,
+        "outdegree": 0,
+        "Degree": 5
+      }
+    },
+    {
+      "key": "17",
+      "attributes": {
+        "label": "Future goals and plans",
+        "x": -0.27921194,
+        "y": 22.233805,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She wants to move her company to the US to make \"the big money\"",
+        "Type": "null",
+        "indegree": 1,
+        "outdegree": 2,
+        "Degree": 3
+      }
+    },
+    {
+      "key": "18",
+      "attributes": {
+        "label": "personal trainer",
+        "x": 35.250954,
+        "y": -5.3403754,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She has a personal trainer named Micheal, which she is very interested in",
+        "Type": "null",
+        "indegree": 3,
+        "outdegree": 0,
+        "Degree": 3
+      }
+    },
+    {
+      "key": "19",
+      "attributes": {
+        "label": "Modern Art",
+        "x": -25.867502,
+        "y": 9.165016,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She hates modern art because of the lack of aestetic quality, It\u0027s just ugly in her oppinion and that annoys. It\u0027s only one of the things that annoy her",
+        "Type": "null",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2
+      }
+    },
+    {
+      "key": "20",
+      "attributes": {
+        "label": "annoying things",
+        "x": -22.033045,
+        "y": -9.19733,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "modern art is one of things that annoy her, but also all of the new technology that she can\u0027t get her head around",
+        "Type": "null",
+        "indegree": 2,
+        "outdegree": 1,
+        "Degree": 3
+      }
+    },
+    {
+      "key": "21",
+      "attributes": {
+        "label": "struggle with new tech",
+        "x": 16.827057,
+        "y": -27.60074,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She doesn\u0027t understand why new technologie can\u0027t be made accessible for the people it\u0027s supposed to serve. She complains that she always has to go to her tech support for help",
+        "Type": "null",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2
+      }
+    },
+    {
+      "key": "22",
+      "attributes": {
+        "label": "Richard",
+        "x": -11.982754,
+        "y": -30.454025,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "Richard is her tech support and really nice. Both of them were once dating but she lost interest since he isn\u0027t as successfull as her",
+        "Type": "Clue",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2
+      }
+    },
+    {
+      "key": "23",
+      "attributes": {
+        "label": "Why attending event? ",
+        "x": -14.126453,
+        "y": -25.875393,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She is attending this event, because she need to network for her job.",
+        "Type": "null",
+        "indegree": 2,
+        "outdegree": 1,
+        "Degree": 3
+      }
+    },
+    {
+      "key": "24",
+      "attributes": {
+        "label": "This event",
+        "x": 17.567488,
+        "y": 23.479534,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "The event is a networking event for growing businesses. The after-party is the main reason why she is attending, but not all",
+        "Type": "null",
+        "indegree": 2,
+        "outdegree": 2,
+        "Degree": 4
+      }
+    },
+    {
+      "key": "25",
+      "attributes": {
+        "label": "After-party",
+        "x": 28.006138,
+        "y": -22.591986,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "There is going to be an after-party happening at the bar, later. It\u0027s one of the main reason why she is attending. There also family member and partners can attend.",
+        "Type": "null",
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
+      }
+    },
+    {
+      "key": "26",
+      "attributes": {
+        "label": "Her family situation",
+        "x": 1.2627686,
+        "y": -35.936916,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1
+      }
+    },
+    {
+      "key": "27",
+      "attributes": {
+        "label": "Her partner?",
+        "x": 18.850939,
+        "y": 12.277956,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She almost laughs at the question. Of course she is single, how else could she be a successfull business woman with her own company. Though she of course does some dating from time to time, she would never settle for one man",
+        "Type": "null",
+        "indegree": 1,
+        "outdegree": 2,
+        "Degree": 3
+      }
+    },
+    {
+      "key": "28",
+      "attributes": {
+        "label": "About Dating",
+        "x": -31.986126,
+        "y": -6.5141687,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She is a wanted woman and has therefor a lot of admirers, like her personal trainer micheal or one very nice tech guy",
+        "Type": "null",
+        "indegree": 1,
+        "outdegree": 2,
+        "Degree": 3
+      }
+    },
+    {
+      "key": "29",
+      "attributes": {
+        "label": "Moving to the US",
+        "x": 18.611567,
+        "y": -12.792506,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She want\u0027s to move to the US but can\u0027t yet because she can\u0027t find a rentable apartment in New York, thats one of the things that currently really annoy her",
+        "Type": "null",
+        "indegree": 1,
+        "outdegree": 2,
+        "Degree": 3
+      }
+    },
+    {
+      "key": "30",
+      "attributes": {
+        "label": "Why move to New York?",
+        "x": 0.8448764,
+        "y": 20.018484,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "She wants to move there because that\u0027s where all the sucessfull businesses are and by moving there she also expects her business to explode in market value. ",
+        "Type": "null",
+        "indegree": 1,
+        "outdegree": 2,
+        "Degree": 3
+      }
+    },
+    {
+      "key": "31",
+      "attributes": {
+        "x": 34.780006,
+        "y": 27.12102,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "32",
+      "attributes": {
+        "x": 30.372633,
+        "y": -13.608902,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "33",
+      "attributes": {
+        "x": 2.509809,
+        "y": -14.569208,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "34",
+      "attributes": {
+        "x": 33.684067,
+        "y": 7.2378855,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "35",
+      "attributes": {
+        "x": -31.391151,
+        "y": 18.242191,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "36",
+      "attributes": {
+        "x": 16.822418,
+        "y": -31.591837,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "37",
+      "attributes": {
+        "x": 28.679256,
+        "y": 7.749397,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "38",
+      "attributes": {
+        "x": 1.788892,
+        "y": -0.049727675,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "39",
+      "attributes": {
+        "x": -21.247625,
+        "y": 18.976063,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "40",
+      "attributes": {
+        "x": 21.911629,
+        "y": -8.166845,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "41",
+      "attributes": {
+        "x": -25.162937,
+        "y": 21.3983,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "42",
+      "attributes": {
+        "x": 4.629001,
+        "y": 28.978155,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "43",
+      "attributes": {
+        "x": -13.880267,
+        "y": -3.3798254,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "44",
+      "attributes": {
+        "x": -35.820263,
+        "y": 23.931303,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "45",
+      "attributes": {
+        "x": 8.1250725,
+        "y": -18.845318,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "46",
+      "attributes": {
+        "x": -21.6124,
+        "y": 33.514256,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "47",
+      "attributes": {
+        "x": -33.03347,
+        "y": -32.504017,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "48",
+      "attributes": {
+        "x": 7.673656,
+        "y": 16.049814,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "49",
+      "attributes": {
+        "x": 18.886074,
+        "y": 35.051506,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "50",
+      "attributes": {
+        "x": 2.6245408,
+        "y": -9.734159,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "51",
+      "attributes": {
+        "x": 34.602955,
+        "y": 21.135344,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "52",
+      "attributes": {
+        "x": 2.8903723,
+        "y": -16.260973,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "53",
+      "attributes": {
+        "x": 23.561623,
+        "y": 7.1071734,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "54",
+      "attributes": {
+        "x": -1.118685,
+        "y": -0.25196338,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "55",
+      "attributes": {
+        "x": 10.989118,
+        "y": -34.126286,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "56",
+      "attributes": {
+        "x": -7.322893,
+        "y": 30.663122,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "57",
+      "attributes": {
+        "x": 22.742725,
+        "y": -33.6474,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "58",
+      "attributes": {
+        "x": 11.759173,
+        "y": -16.492739,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "59",
+      "attributes": {
+        "x": 7.248858,
+        "y": -17.86865,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "60",
+      "attributes": {
+        "x": 30.620234,
+        "y": -20.918358,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "61",
+      "attributes": {
+        "x": -21.595432,
+        "y": -34.56315,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "62",
+      "attributes": {
+        "x": -22.99833,
+        "y": 32.056114,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "63",
+      "attributes": {
+        "x": 22.133251,
+        "y": 15.663737,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "64",
+      "attributes": {
+        "x": 25.454222,
+        "y": 15.683057,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "65",
+      "attributes": {
+        "x": 16.356619,
+        "y": 2.0926712,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "66",
+      "attributes": {
+        "x": -12.887173,
+        "y": 13.30094,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "67",
+      "attributes": {
+        "x": -30.53492,
+        "y": -18.937475,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "68",
+      "attributes": {
+        "x": -16.978148,
+        "y": 35.551624,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "69",
+      "attributes": {
+        "x": -30.060726,
+        "y": -21.256872,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "70",
+      "attributes": {
+        "x": -4.9578133,
+        "y": 21.243307,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "71",
+      "attributes": {
+        "x": -20.404507,
+        "y": -16.21182,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "72",
+      "attributes": {
+        "x": 27.316952,
+        "y": -6.9511943,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "73",
+      "attributes": {
+        "x": -9.001639,
+        "y": 29.530607,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "74",
+      "attributes": {
+        "x": 2.468047,
+        "y": 22.736671,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "75",
+      "attributes": {
+        "x": -26.095848,
+        "y": 3.0156283,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "76",
+      "attributes": {
+        "x": 32.140877,
+        "y": -13.609507,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "77",
+      "attributes": {
+        "x": 12.1687155,
+        "y": 18.049412,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "78",
+      "attributes": {
+        "x": -2.7899485,
+        "y": 30.079466,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "79",
+      "attributes": {
+        "x": -22.625946,
+        "y": 7.5741663,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "80",
+      "attributes": {
+        "x": 8.904072,
+        "y": -27.298737,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "81",
+      "attributes": {
+        "x": -33.501915,
+        "y": -20.936737,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "82",
+      "attributes": {
+        "x": 2.302443,
+        "y": -14.774145,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "83",
+      "attributes": {
+        "x": -11.727669,
+        "y": -16.73719,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "84",
+      "attributes": {
+        "x": -33.896183,
+        "y": -35.673042,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "85",
+      "attributes": {
+        "x": 24.442627,
+        "y": -16.511127,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "86",
+      "attributes": {
+        "x": -30.740795,
+        "y": -0.6045754,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "87",
+      "attributes": {
+        "x": -30.031744,
+        "y": 15.8224325,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "88",
+      "attributes": {
+        "x": -9.990435,
+        "y": -8.813202,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "89",
+      "attributes": {
+        "x": -17.734776,
+        "y": 11.926894,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "90",
+      "attributes": {
+        "x": -13.937644,
+        "y": 25.863049,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "91",
+      "attributes": {
+        "x": -28.080309,
+        "y": 15.845847,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "92",
+      "attributes": {
+        "x": 18.087019,
+        "y": -4.053702,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "93",
+      "attributes": {
+        "x": -22.132097,
+        "y": 8.021501,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "94",
+      "attributes": {
+        "x": -7.595375,
+        "y": 5.710177,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "95",
+      "attributes": {
+        "x": -27.140738,
+        "y": -14.092835,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "96",
+      "attributes": {
+        "x": 18.692226,
+        "y": -9.207747,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "97",
+      "attributes": {
+        "x": -23.910454,
+        "y": 12.929801,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "98",
+      "attributes": {
+        "x": 12.717793,
+        "y": 32.3188,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "99",
+      "attributes": {
+        "x": -6.788535,
+        "y": 20.191614,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "100",
+      "attributes": {
+        "x": 12.566943,
+        "y": 30.590994,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "101",
+      "attributes": {
+        "x": 19.500238,
+        "y": 12.18239,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "102",
+      "attributes": {
+        "x": -8.482101,
+        "y": 26.389349,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "103",
+      "attributes": {
+        "x": 33.772015,
+        "y": -35.092884,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "104",
+      "attributes": {
+        "x": -34.33346,
+        "y": 7.211217,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "105",
+      "attributes": {
+        "x": 18.723406,
+        "y": 8.216253,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "106",
+      "attributes": {
+        "x": -10.401383,
+        "y": 15.263734,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "107",
+      "attributes": {
+        "x": -8.319384,
+        "y": -18.241173,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "108",
+      "attributes": {
+        "x": 32.85163,
+        "y": 7.792611,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "109",
+      "attributes": {
+        "x": 34.317047,
+        "y": -14.138716,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "110",
+      "attributes": {
+        "x": 5.6040177,
+        "y": -31.665127,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "111",
+      "attributes": {
+        "x": 10.718469,
+        "y": 34.76795,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "112",
+      "attributes": {
+        "x": -6.0252085,
+        "y": -18.258474,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "113",
+      "attributes": {
+        "x": 4.2453003,
+        "y": 32.061665,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "114",
+      "attributes": {
+        "x": 1.51197,
+        "y": 30.323843,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "115",
+      "attributes": {
+        "x": 12.961701,
+        "y": 10.716004,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "116",
+      "attributes": {
+        "x": -18.106535,
+        "y": -0.76505244,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "117",
+      "attributes": {
+        "x": -23.028404,
+        "y": 25.113361,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "118",
+      "attributes": {
+        "x": 8.559444,
+        "y": -3.794036,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "119",
+      "attributes": {
+        "x": -15.1779585,
+        "y": -30.504148,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "120",
+      "attributes": {
+        "x": 11.940455,
+        "y": 26.014025,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "121",
+      "attributes": {
+        "x": -15.795375,
+        "y": -17.30101,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "122",
+      "attributes": {
+        "x": -7.859045,
+        "y": -14.432912,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "123",
+      "attributes": {
+        "x": 16.50593,
+        "y": -33.349293,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "124",
+      "attributes": {
+        "x": 16.38315,
+        "y": 29.248404,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "125",
+      "attributes": {
+        "x": 1.3284128,
+        "y": 16.001278,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "126",
+      "attributes": {
+        "x": -35.788593,
+        "y": -27.828718,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "127",
+      "attributes": {
+        "x": -24.076666,
+        "y": -11.617621,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "128",
+      "attributes": {
+        "x": 17.402786,
+        "y": 23.252584,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "129",
+      "attributes": {
+        "label": "Start",
+        "x": 29.547705,
+        "y": 7.17641,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "130",
+      "attributes": {
+        "label": "Interests and Hobbies",
+        "x": -14.275428,
+        "y": 18.521204,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "131",
+      "attributes": {
+        "label": "Job and Role",
+        "x": 12.07753,
+        "y": -18.68999,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "132",
+      "attributes": {
+        "label": "Her role as a Founder",
+        "x": 18.124968,
+        "y": -30.164375,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "133",
+      "attributes": {
+        "label": "Wellness and Fitness",
+        "x": -8.220062,
+        "y": 9.468465,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "134",
+      "attributes": {
+        "label": "Networking",
+        "x": 7.638472,
+        "y": -12.807595,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "135",
+      "attributes": {
+        "label": "Healthy eating",
+        "x": 4.967088,
+        "y": -22.739445,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "136",
+      "attributes": {
+        "label": "Fine Dining",
+        "x": 1.232713,
+        "y": -29.934656,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "137",
+      "attributes": {
+        "label": "Fashion Events",
+        "x": 16.325066,
+        "y": 11.246237,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "138",
+      "attributes": {
+        "label": "Traveling",
+        "x": 21.018896,
+        "y": -33.277214,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "139",
+      "attributes": {
+        "label": "Fashion and shopping",
+        "x": -14.968686,
+        "y": -28.62776,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "140",
+      "attributes": {
+        "label": "Shopping Destinations",
+        "x": 10.693268,
+        "y": -21.771622,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "141",
+      "attributes": {
+        "label": "Fashion Trends",
+        "x": -27.655577,
+        "y": 27.243658,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "142",
+      "attributes": {
+        "label": "Cultural Events",
+        "x": -3.227665,
+        "y": 3.8385124,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "143",
+      "attributes": {
+        "label": "Art",
+        "x": 35.170403,
+        "y": 21.79225,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "144",
+      "attributes": {
+        "label": "Industry Trends",
+        "x": 22.129942,
+        "y": 14.7672415,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "145",
+      "attributes": {
+        "label": "Her company",
+        "x": 19.179968,
+        "y": -13.714915,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "146",
+      "attributes": {
+        "label": "Future goals and plans",
+        "x": -22.460484,
+        "y": -16.20241,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "147",
+      "attributes": {
+        "label": "personal trainer",
+        "x": 6.3715334,
+        "y": -22.75006,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "148",
+      "attributes": {
+        "label": "Modern Art",
+        "x": -26.629791,
+        "y": 0.9757105,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "149",
+      "attributes": {
+        "label": "annoying things",
+        "x": -10.4549265,
+        "y": -17.2233,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "150",
+      "attributes": {
+        "label": "struggle with new tech",
+        "x": -17.719112,
+        "y": 14.632347,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "151",
+      "attributes": {
+        "label": "Richard",
+        "x": -28.027803,
+        "y": -15.213251,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "152",
+      "attributes": {
+        "label": "Why attending event? ",
+        "x": -15.298669,
+        "y": 12.23376,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "153",
+      "attributes": {
+        "label": "This event",
+        "x": -19.381828,
+        "y": -34.754723,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "154",
+      "attributes": {
+        "label": "After-party",
+        "x": -21.914799,
+        "y": 33.072132,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "155",
+      "attributes": {
+        "label": "Her family situation",
+        "x": -12.408049,
+        "y": -4.075887,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "156",
+      "attributes": {
+        "label": "Her partner?",
+        "x": 24.364754,
+        "y": -35.436707,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "157",
+      "attributes": {
+        "label": "About Dating",
+        "x": 9.070466,
+        "y": -30.794428,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "158",
+      "attributes": {
+        "label": "Moving to the US",
+        "x": -24.26748,
+        "y": 31.927393,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "159",
+      "attributes": {
+        "label": "Why move to New York?",
+        "x": -26.236082,
+        "y": 35.55063,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "170",
+      "attributes": {
+        "x": 20.820513,
+        "y": -0.71406186,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "171",
+      "attributes": {
+        "x": -11.941026,
+        "y": 3.637531,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "172",
+      "attributes": {
+        "x": 35.542847,
+        "y": 22.716488,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "173",
+      "attributes": {
+        "x": -19.702808,
+        "y": -8.1903105,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "174",
+      "attributes": {
+        "x": 1.3129196,
+        "y": -31.4359,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "175",
+      "attributes": {
+        "x": 6.216181,
+        "y": 14.354688,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "176",
+      "attributes": {
+        "x": -11.958324,
+        "y": 17.316347,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "160",
+      "attributes": {
+        "x": 29.40151,
+        "y": 7.2688613,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "161",
+      "attributes": {
+        "x": -1.7312404,
+        "y": -29.393364,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "162",
+      "attributes": {
+        "x": -29.332523,
+        "y": 5.5448503,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "163",
+      "attributes": {
+        "x": -12.026344,
+        "y": -29.581617,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "164",
+      "attributes": {
+        "x": -23.394674,
+        "y": -22.34774,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "165",
+      "attributes": {
+        "x": -12.940736,
+        "y": 13.320262,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "166",
+      "attributes": {
+        "x": -1.8922839,
+        "y": -13.235557,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "167",
+      "attributes": {
+        "x": 14.195668,
+        "y": 2.5707812,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "168",
+      "attributes": {
+        "x": -9.501375,
+        "y": -5.5828457,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "169",
+      "attributes": {
+        "x": -7.342898,
+        "y": -0.81195563,
+        "size": 10.0,
+        "color": "#aeaeae",
+        "characterDialogue": "null",
+        "Type": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "0",
+      "source": "0",
+      "target": "1",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "1",
+      "source": "0",
+      "target": "2",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "13",
+      "source": "1",
+      "target": "9",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "12",
+      "source": "1",
+      "target": "10",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "11",
+      "source": "1",
+      "target": "13",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "10",
+      "source": "1",
+      "target": "14",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "14",
+      "source": "1",
+      "target": "7",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "15",
+      "source": "1",
+      "target": "5",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "17",
+      "source": "1",
+      "target": "4",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "18",
+      "source": "2",
+      "target": "15",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "19",
+      "source": "2",
+      "target": "16",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "20",
+      "source": "2",
+      "target": "17",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "21",
+      "source": "2",
+      "target": "3",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "22",
+      "source": "3",
+      "target": "4",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "23",
+      "source": "3",
+      "target": "2",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "24",
+      "source": "4",
+      "target": "3",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "25",
+      "source": "4",
+      "target": "18",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "26",
+      "source": "4",
+      "target": "6",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "27",
+      "source": "6",
+      "target": "7",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "28",
+      "source": "8",
+      "target": "9",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "29",
+      "source": "8",
+      "target": "5",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "30",
+      "source": "10",
+      "target": "12",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "31",
+      "source": "10",
+      "target": "11",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "32",
+      "source": "10",
+      "target": "8",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "33",
+      "source": "11",
+      "target": "9",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "34",
+      "source": "12",
+      "target": "15",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "38",
+      "source": "14",
+      "target": "19",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "39",
+      "source": "19",
+      "target": "20",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "40",
+      "source": "20",
+      "target": "21",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "41",
+      "source": "21",
+      "target": "22",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "42",
+      "source": "14",
+      "target": "13",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "43",
+      "source": "24",
+      "target": "23",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "44",
+      "source": "0",
+      "target": "24",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "45",
+      "source": "25",
+      "target": "23",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "46",
+      "source": "24",
+      "target": "25",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "47",
+      "source": "28",
+      "target": "22",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "48",
+      "source": "28",
+      "target": "18",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "49",
+      "source": "25",
+      "target": "26",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "50",
+      "source": "25",
+      "target": "27",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "51",
+      "source": "27",
+      "target": "28",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "52",
+      "source": "17",
+      "target": "16",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "53",
+      "source": "29",
+      "target": "20",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "54",
+      "source": "17",
+      "target": "29",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "55",
+      "source": "30",
+      "target": "16",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "56",
+      "source": "29",
+      "target": "30",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "57",
+      "source": "30",
+      "target": "5",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "58",
+      "source": "23",
+      "target": "5",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "59",
+      "source": "5",
+      "target": "24",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "60",
+      "source": "27",
+      "target": "16",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "61",
+      "source": "5",
+      "target": "16",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "62",
+      "source": "5",
+      "target": "18",
+      "attributes": {
+        "color": "#c0c0c0",
+        "weight": 1.0
+      }
+    }
+  ]
+}
