@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class TextWriter : MonoBehaviour
 {
+    public float typingSpeed = 0.1f;
     ParseJson parser;
     int nodeID;
     string clickedLinkText;
@@ -19,8 +21,7 @@ public class TextWriter : MonoBehaviour
     }
     void Start()
     {
-        tmp.text = parser.graph.nodes[0].attributes.characterDialogue;
-        nodeID = 1;
+        WriteText();
     }
 
     // test code
@@ -28,14 +29,17 @@ public class TextWriter : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            tmp.text = parser.graph.nodes[nodeID].attributes.characterDialogue;
-            nodeID++;
+            WriteText();
         }
     }
 
-    void WriteText(int nodeID, TextMeshProUGUI tmp)
+    void WriteText()
     {
+        tmp.maxVisibleCharacters = 0;
         tmp.text = parser.graph.nodes[nodeID].attributes.characterDialogue;
+        nodeID++;
+        Debug.Log(nodeID);
+        StartCoroutine(AnimateTypewriter(tmp));
     }
     /// <summary>
     /// Get the node next in the graph, based on which link has been clicked. 
@@ -56,5 +60,16 @@ public class TextWriter : MonoBehaviour
         }
         Debug.LogWarning("Next node does not exist! Node ID - " + currentNodeID +", clicked link - " + clickedLinkText);
         return null;
+    }
+    IEnumerator AnimateTypewriter(TextMeshProUGUI tmp)
+    {
+        yield return new WaitForEndOfFrame();
+        if (tmp.maxVisibleCharacters < tmp.textInfo.characterCount)
+        {
+            tmp.maxVisibleCharacters++;
+            yield return new WaitForSeconds(typingSpeed);
+            StartCoroutine(AnimateTypewriter(tmp));
+        }
+        yield return null;
     }
 }

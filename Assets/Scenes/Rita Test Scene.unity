@@ -255,12 +255,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   graph:
-    attributes:
-      creator: 
-    options:
-      multi: 0
-      allowSelfLoops: 0
-      type: 
     nodes: []
     edges: []
   jsonFile: {fileID: 4900000, guid: 1da29c0278e188c4abaa3098e68fc403, type: 3}
@@ -291,6 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54c465752aea7ff4bb9d5c0ea605c8cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  typingSpeed: 0.01
   tmp: {fileID: 753012129}
 --- !u!1 &753012127
 GameObject:
