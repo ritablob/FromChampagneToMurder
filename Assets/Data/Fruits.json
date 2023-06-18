@@ -1,0 +1,222 @@
+{
+  "attributes": {
+    "creator": "Gephi 0.10.1"
+  },
+  "options": {
+    "multi": false,
+    "allowSelfLoops": true,
+    "type": "directed"
+  },
+  "nodes": [
+    {
+      "key": "0",
+      "attributes": {
+        "label": "Start",
+        "x": -38.707733,
+        "y": 105.538246,
+        "size": 11.0,
+        "color": "#70f814",
+        "characterDialogue": "I just love talking about fruit. Let\u0027s talk about \u003cstyle\u003d\"Link\"\u003eapples\u003c/style\u003e or \u003cstyle\u003d\"Link\"\u003epears\u003c/style\u003e. "
+      }
+    },
+    {
+      "key": "1",
+      "attributes": {
+        "label": "Apple",
+        "x": 209.55914,
+        "y": 116.44371,
+        "size": 11.0,
+        "color": "#cbb2ff",
+        "characterDialogue": "Mmmmm apples... They are one of the best \u003cstyle\u003d\"Link\"\u003efruit\u003c/style\u003e. DOn\u0027t you think? I especially like \u003cstyle\u003d\"Link\"\u003egreen apples\u003c/style\u003e. "
+      }
+    },
+    {
+      "key": "2",
+      "attributes": {
+        "label": "Pear",
+        "x": -237.80458,
+        "y": -0.17412567,
+        "size": 11.0,
+        "color": "#cbb2ff",
+        "characterDialogue": "Yeah! Pears are great! What\u0027s your favourite type of pear? Mine are \u003cstyle\u003d\"Link\"\u003ered pears\u003c/style\u003e."
+      }
+    },
+    {
+      "key": "3",
+      "attributes": {
+        "label": "Green apple",
+        "x": 330.15744,
+        "y": -18.288261,
+        "size": 11.0,
+        "color": "#cbb2ff",
+        "characterDialogue": "Green apples - there\u0027s nothing better than them. Oh wait... Nevermind, there is. It\u0027s \u003cstyle\u003d\"Link\"\u003estrawberries\u003c/style\u003e!"
+      }
+    },
+    {
+      "key": "4",
+      "attributes": {
+        "label": "Red pear",
+        "x": -133.35678,
+        "y": -166.85599,
+        "size": 11.0,
+        "color": "#cbb2ff",
+        "characterDialogue": "A crisp juicy red pear will always brighten my day. One of the best \u003cstyle\u003d\"Link\"\u003efruit\u003c/style\u003e ever!"
+      }
+    },
+    {
+      "key": "5",
+      "attributes": {
+        "label": "Strawberry",
+        "x": 160.90816,
+        "y": -115.24823,
+        "size": 11.0,
+        "color": "#cbb2ff",
+        "characterDialogue": "Oh! Strawberries are probably ebtter than anything else I have mentioned up to this point! They are my highest of the high ratings of\u003cstyle\u003d\"Link\"\u003efruit\u003c/style\u003e. Do you know what is my lowest of the lowest though? \u003cstyle\u003d\"Link\"\u003eOnions\u003c/style\u003e. \u003cstyle\u003d\"Link\"\u003eBlueberries\u003c/style\u003e would be about 13th place i think."
+      }
+    },
+    {
+      "key": "6",
+      "attributes": {
+        "label": "Blueberry",
+        "x": 317.30887,
+        "y": -225.94598,
+        "size": 11.0,
+        "color": "#cbb2ff",
+        "characterDialogue": "Yeah, I\u0027m okay with blueberries, not super into them, but not scared of them either. Unlike \u003cstyle\u003d\"Link\"\u003eonions\u003c/style\u003e.... Brr."
+      }
+    },
+    {
+      "key": "7",
+      "attributes": {
+        "label": "Onion",
+        "x": 12.961861,
+        "y": -249.47852,
+        "size": 11.0,
+        "color": "#cbb2ff",
+        "characterDialogue": "You wanna know why I hate onions so much? Well, they are simply not \u003cstyle\u003d\"Link\"\u003efruit\u003c/style\u003e. And they stink! Once my mom smelled an onion and she died instantly. From then on onions have been my arch nemesis. "
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "0",
+      "source": "0",
+      "target": "1",
+      "attributes": {
+        "label": "apples",
+        "color": "#235aff",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "1",
+      "source": "0",
+      "target": "2",
+      "attributes": {
+        "label": "pears",
+        "color": "#235aff",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "2",
+      "source": "1",
+      "target": "0",
+      "attributes": {
+        "label": "fruit",
+        "color": "#235aff",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "3",
+      "source": "1",
+      "target": "3",
+      "attributes": {
+        "label": "green apples",
+        "color": "#235aff",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "4",
+      "source": "2",
+      "target": "4",
+      "attributes": {
+        "label": "red pears",
+        "color": "#235aff",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "5",
+      "source": "3",
+      "target": "5",
+      "attributes": {
+        "label": "strawberries",
+        "color": "#235aff",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "6",
+      "source": "4",
+      "target": "0",
+      "attributes": {
+        "label": "fruit",
+        "color": "#235aff",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "7",
+      "source": "5",
+      "target": "0",
+      "attributes": {
+        "label": "fruit",
+        "color": "#235aff",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "8",
+      "source": "5",
+      "target": "7",
+      "attributes": {
+        "label": "onions",
+        "color": "#235aff",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "9",
+      "source": "5",
+      "target": "6",
+      "attributes": {
+        "label": "blueberries",
+        "color": "#235aff",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "10",
+      "source": "7",
+      "target": "0",
+      "attributes": {
+        "label": "fruit",
+        "color": "#235aff",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "11",
+      "source": "6",
+      "target": "7",
+      "attributes": {
+        "label": "onions",
+        "color": "#235aff",
+        "weight": 1.0
+      }
+    }
+  ]
+}

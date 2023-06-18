@@ -24,6 +24,8 @@ public class Hyperlink : MonoBehaviour
     private const int INVALID_LINK_INDEX = -1;
     int selectedLinkIndex; // index of the hyperlink you just clicked on (from 0 to infinity, each hyperlink
                            // in the text has the next int number index)
+
+    public TextWriter textWriterRef;
     protected virtual void Awake()
     {
         m_TextComponent = GetComponent<TMP_Text>();
@@ -36,8 +38,6 @@ public class Hyperlink : MonoBehaviour
         else
             pCamera = pCanvas.worldCamera;
     }
-
-
     void LateUpdate()
     {
 
@@ -67,17 +67,19 @@ public class Hyperlink : MonoBehaviour
         selectedLinkIndex = INVALID_LINK_INDEX;
         if (CheckForInteraction(out selectedLinkIndex))
         {
-            // we send the selected link index back to fungus
-           // fungusVarRef.Set(selectedLinkIndex);
-            Debug.Log("Link Clicked, link ID = " + selectedLinkIndex);
+            // we send the selected link text to text writer (will have to make this cleaner in the future)
+
+            string linkName = pTextMeshPro.textInfo.linkInfo[selectedLinkIndex].GetLinkText().ToLower();
+            textWriterRef.FindNextNodeID(linkName);
+
+            Debug.Log("Link Clicked, link ID = " + selectedLinkIndex + ", link name - " +linkName);
         }
     }
-
 
     List<Color32[]> SetLinkToColor(int linkIndex, Func<int, int, Color32> colorForLinkAndVert)
     {
         TMP_LinkInfo linkInfo = pTextMeshPro.textInfo.linkInfo[linkIndex];
-
+        
         var oldVertColors = new List<Color32[]>(); // store the old character colors
 
         for (int i = 0; i < linkInfo.linkTextLength; i++)

@@ -10,7 +10,6 @@ public class TextWriter : MonoBehaviour
     public float typingSpeed = 0.1f;
     ParseJson parser;
     int nodeID;
-    string clickedLinkText;
 
     public TextMeshProUGUI tmp;
 
@@ -27,41 +26,36 @@ public class TextWriter : MonoBehaviour
     // test code
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        /*if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             WriteText();
-        }
+        }*/
     }
+
 
     void WriteText()
     {
         tmp.maxVisibleCharacters = 0;
         tmp.text = parser.graph.nodes[nodeID].attributes.characterDialogue;
-        nodeID++;
-        Debug.Log(nodeID);
+        //Debug.Log(nodeID);
         StartCoroutine(AnimateTypewriter(tmp));
     }
-    /// <summary>
-    /// Get the node next in the graph, based on which link has been clicked. 
-    /// </summary>
-    /// <param name="currentNodeID"></param>
-    /// <returns></returns>
-    Nodes GetNextNode(int currentNodeID)
+    public void FindNextNodeID(string linkName)
     {
         int nextNodeID;
         for (int i = 0; i < parser.graph.edges.Length; i++)
         {
             // check if the edge is right + make sure we are clicking on the right link
-            if (parser.graph.edges[i].source == currentNodeID && parser.graph.edges[i].attributes.label == clickedLinkText)
+            if (parser.graph.edges[i].source == nodeID && parser.graph.edges[i].attributes.label == linkName)
             {
                 nextNodeID = parser.graph.edges[i].target;
-                return parser.graph.nodes[nextNodeID];
+                nodeID = nextNodeID;
+                WriteText();
             }
         }
-        Debug.LogWarning("Next node does not exist! Node ID - " + currentNodeID +", clicked link - " + clickedLinkText);
-        return null;
+        //Debug.LogWarning("Next node does not exist! Node ID - " + nodeID + ", clicked link - " + linkName);
     }
-    IEnumerator AnimateTypewriter(TextMeshProUGUI tmp)
+    IEnumerator AnimateTypewriter(TextMeshProUGUI tmp) // simple typing animation
     {
         yield return new WaitForEndOfFrame();
         if (tmp.maxVisibleCharacters < tmp.textInfo.characterCount)

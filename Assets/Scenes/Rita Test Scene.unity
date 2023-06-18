@@ -257,7 +257,7 @@ MonoBehaviour:
   graph:
     nodes: []
     edges: []
-  jsonFile: {fileID: 4900000, guid: 1da29c0278e188c4abaa3098e68fc403, type: 3}
+  jsonFile: {fileID: 4900000, guid: e0a303ec29ea4b246a191aa02223bec2, type: 3}
 --- !u!4 &350097431
 Transform:
   m_ObjectHideFlags: 0
@@ -298,6 +298,7 @@ GameObject:
   - component: {fileID: 753012128}
   - component: {fileID: 753012130}
   - component: {fileID: 753012129}
+  - component: {fileID: 753012131}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -422,6 +423,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753012127}
   m_CullTransparentMesh: 1
+--- !u!114 &753012131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753012127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86b5ca74bc4aa1e41996335b7b8b7855, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doesColorChangeOnHover: 1
+  hoverColor: {r: 0.47547168, g: 0.6368649, b: 1, a: 1}
+  pCanvas: {fileID: 0}
+  textWriterRef: {fileID: 350097432}
 --- !u!1 &1061542456
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,7 +552,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
 --- !u!4 &1318132527
 Transform:
   m_ObjectHideFlags: 1
