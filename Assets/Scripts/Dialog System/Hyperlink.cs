@@ -1,6 +1,5 @@
 using UnityEngine;
 using TMPro;
-using Fungus;
 using System.Collections.Generic;
 using System.Linq;
 using System;
@@ -9,7 +8,6 @@ using System.Collections;
 
 public class Hyperlink : MonoBehaviour
 {
-    public VariableReference fungusVarRef;
     public bool doesColorChangeOnHover = true;
     public Color hoverColor = new Color(60f / 255f, 120f / 255f, 1f);
 
@@ -70,7 +68,7 @@ public class Hyperlink : MonoBehaviour
         if (CheckForInteraction(out selectedLinkIndex))
         {
             // we send the selected link index back to fungus
-            fungusVarRef.Set(selectedLinkIndex);
+           // fungusVarRef.Set(selectedLinkIndex);
             Debug.Log("Link Clicked, link ID = " + selectedLinkIndex);
         }
     }

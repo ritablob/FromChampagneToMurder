@@ -22,13 +22,10 @@ public class SelectionMapNavigation : MonoBehaviour
     public void NavigateCharacter(Transform camPos)
     {
         /* - zoom in on the player
-         * - get character json 
-         * - send it to parseJson (maybe create a storage for such things?)
-         * - spawn a continue button that allows you to continue after reading 
+         * - get character 
          */
         StartCoroutine(InterpolateCameraZoom(zoomNo));
         StartCoroutine(InterpolatePosition(camPos.position));
-        JsonHolder jholder = camPos.GetComponent<JsonHolder>();
         //Database.currentJson = jholder.json; i should send scene info instead
         //Database.currentJson = jsonFile;
     }
