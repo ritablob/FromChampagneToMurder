@@ -12,6 +12,9 @@ public class ParseJson : MonoBehaviour
 {
     public NodeGraph graph;
     public TextAsset jsonFile;
+    public DrawMinimap minimap;
+
+
 
     void Awake()
     {
@@ -42,6 +45,8 @@ public class Nodes
 public class NodeAttributes
 {
     public string label;
+    public double x;
+    public double y;
     public string characterDialogue;
     public string Type;
 }

@@ -1,0 +1,2923 @@
+{
+  "attributes": {
+    "creator": "Gephi 0.10.1"
+  },
+  "options": {
+    "multi": false,
+    "allowSelfLoops": true,
+    "type": "directed"
+  },
+  "nodes": [
+    {
+      "key": "0",
+      "attributes": {
+        "label": "Start",
+        "x": 107.95869,
+        "y": -32.191933,
+        "size": 13.893465,
+        "color": "#3fb17d",
+        "characterDialogue": "Oh! Hello there, \u003cstyle\u003d\"Link\"\u003eyou\u003c/style\u003e don\u0027t seem like you belong \u003cstyle\u003d\"Link\"\u003ehere\u003c/style\u003e. This event is only for \u003cstyle\u003d\"Link\"\u003eelite\u003c/style\u003e, dear",
+        "Special Type": "Start",
+        "componentnumber": 0,
+        "strongcompnum": 1,
+        "Eccentricity": 7.0,
+        "closnesscentrality": 0.24521072796934865,
+        "harmonicclosnesscentrality": 0.29572172619047604,
+        "betweenesscentrality": 0.0
+      }
+    },
+    {
+      "key": "1",
+      "attributes": {
+        "label": "This event",
+        "x": 1292.1909,
+        "y": -986.57245,
+        "size": 13.893465,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 6.0,
+        "closnesscentrality": 0.27155172413793105,
+        "harmonicclosnesscentrality": 0.324074074074074,
+        "betweenesscentrality": 446.30165287928423
+      }
+    },
+    {
+      "key": "2",
+      "attributes": {
+        "label": "Yourself",
+        "x": -1159.9126,
+        "y": -990.8983,
+        "size": 13.893465,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 6.0,
+        "closnesscentrality": 0.2727272727272727,
+        "harmonicclosnesscentrality": 0.32222222222222213,
+        "betweenesscentrality": 301.76185919343817
+      }
+    },
+    {
+      "key": "3",
+      "attributes": {
+        "label": "Elite",
+        "x": 36.679947,
+        "y": 1450.8796,
+        "size": 13.893465,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 7.0,
+        "closnesscentrality": 0.2571428571428571,
+        "harmonicclosnesscentrality": 0.30888133030990156,
+        "betweenesscentrality": 206.2663419913419
+      }
+    },
+    {
+      "key": "4",
+      "attributes": {
+        "label": "Herself",
+        "x": 1568.1755,
+        "y": 517.427,
+        "size": 13.893465,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.24324324324324326,
+        "harmonicclosnesscentrality": 0.2987339380196521,
+        "betweenesscentrality": 426.1302909079225
+      }
+    },
+    {
+      "key": "5",
+      "attributes": {
+        "label": "Spending money",
+        "x": -1397.8223,
+        "y": 491.32803,
+        "size": 13.893465,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.24803149606299213,
+        "harmonicclosnesscentrality": 0.3038737717309144,
+        "betweenesscentrality": 510.6721615372932
+      }
+    },
+    {
+      "key": "6",
+      "attributes": {
+        "label": "Her company",
+        "x": 66.58512,
+        "y": 2101.547,
+        "size": 13.893465,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.23773584905660378,
+        "harmonicclosnesscentrality": 0.2908163265306121,
+        "betweenesscentrality": 383.64047100560254
+      }
+    },
+    {
+      "key": "7",
+      "attributes": {
+        "label": "Scouting",
+        "x": 0.024489569,
+        "y": -1646.1969,
+        "size": 13.893465,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.2647058823529412,
+        "harmonicclosnesscentrality": 0.3208427815570673,
+        "betweenesscentrality": 359.7812295891243
+      }
+    },
+    {
+      "key": "9",
+      "attributes": {
+        "label": "The people here",
+        "x": 1623.715,
+        "y": -1877.4314,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 7.0,
+        "closnesscentrality": 0.2692307692307692,
+        "harmonicclosnesscentrality": 0.33998488284202555,
+        "betweenesscentrality": 597.2887168387167
+      }
+    },
+    {
+      "key": "10",
+      "attributes": {
+        "label": "Recently becoming rich",
+        "x": -1589.8303,
+        "y": -1816.6536,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 7.0,
+        "closnesscentrality": 0.2680851063829787,
+        "harmonicclosnesscentrality": 0.32713529856386997,
+        "betweenesscentrality": 486.4827333485228
+      }
+    },
+    {
+      "key": "11",
+      "attributes": {
+        "label": "Business Trips",
+        "x": 2748.5835,
+        "y": 1167.3607,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 9.0,
+        "closnesscentrality": 0.23954372623574144,
+        "harmonicclosnesscentrality": 0.31453766691861906,
+        "betweenesscentrality": 269.56647657897656
+      }
+    },
+    {
+      "key": "12",
+      "attributes": {
+        "label": "Her product",
+        "x": -2724.2827,
+        "y": 1100.9636,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 9.0,
+        "closnesscentrality": 0.24045801526717558,
+        "harmonicclosnesscentrality": 0.31440539178634397,
+        "betweenesscentrality": 289.5599339257235
+      }
+    },
+    {
+      "key": "13",
+      "attributes": {
+        "x": 26.378052,
+        "y": -2721.618,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.2413793103448276,
+        "harmonicclosnesscentrality": 0.3186130007558579,
+        "betweenesscentrality": 175.50916305916303
+      }
+    },
+    {
+      "key": "14",
+      "attributes": {
+        "x": -1576.593,
+        "y": 1983.0978,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 7.0,
+        "closnesscentrality": 0.2603305785123967,
+        "harmonicclosnesscentrality": 0.3198790627362053,
+        "betweenesscentrality": 334.1722513597514
+      }
+    },
+    {
+      "key": "15",
+      "attributes": {
+        "label": "Traveling",
+        "x": 1648.3192,
+        "y": 2068.4656,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.2540322580645161,
+        "harmonicclosnesscentrality": 0.31434240362811766,
+        "betweenesscentrality": 322.5243931507089
+      }
+    },
+    {
+      "key": "16",
+      "attributes": {
+        "x": 2921.82,
+        "y": -694.39545,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 7.0,
+        "closnesscentrality": 0.24705882352941178,
+        "harmonicclosnesscentrality": 0.30468631897203297,
+        "betweenesscentrality": 188.021608946609
+      }
+    },
+    {
+      "key": "17",
+      "attributes": {
+        "x": 972.6845,
+        "y": -2101.9624,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 7.0,
+        "closnesscentrality": 0.2423076923076923,
+        "harmonicclosnesscentrality": 0.29977324263038546,
+        "betweenesscentrality": 236.75890673653828
+      }
+    },
+    {
+      "key": "18",
+      "attributes": {
+        "x": -941.9409,
+        "y": -2095.237,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 7.0,
+        "closnesscentrality": 0.245136186770428,
+        "harmonicclosnesscentrality": 0.30332577475434624,
+        "betweenesscentrality": 266.8800656945393
+      }
+    },
+    {
+      "key": "19",
+      "attributes": {
+        "label": "Data management",
+        "x": -3070.9119,
+        "y": -630.3259,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 7.0,
+        "closnesscentrality": 0.25,
+        "harmonicclosnesscentrality": 0.30744520030234296,
+        "betweenesscentrality": 236.35216070479225
+      }
+    },
+    {
+      "key": "20",
+      "attributes": {
+        "x": 2193.293,
+        "y": -2643.5781,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.2441860465116279,
+        "harmonicclosnesscentrality": 0.30882464096749807,
+        "betweenesscentrality": 261.1186507936508
+      }
+    },
+    {
+      "key": "21",
+      "attributes": {
+        "x": 3095.974,
+        "y": -1302.2107,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 7.0,
+        "closnesscentrality": 0.25,
+        "harmonicclosnesscentrality": 0.32350718065003764,
+        "betweenesscentrality": 132.56785714285715
+      }
+    },
+    {
+      "key": "22",
+      "attributes": {
+        "label": "Dating",
+        "x": 3417.7395,
+        "y": 184.91321,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 7.0,
+        "closnesscentrality": 0.27391304347826084,
+        "harmonicclosnesscentrality": 0.3390400604686318,
+        "betweenesscentrality": 293.6714285714285
+      }
+    },
+    {
+      "key": "23",
+      "attributes": {
+        "label": "Her husband",
+        "x": 2615.1067,
+        "y": 2266.3323,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.26582278481012656,
+        "harmonicclosnesscentrality": 0.32609599395313665,
+        "betweenesscentrality": 343.69550172050174
+      }
+    },
+    {
+      "key": "24",
+      "attributes": {
+        "label": "Her home",
+        "x": 970.03345,
+        "y": 2983.4155,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.2550607287449393,
+        "harmonicclosnesscentrality": 0.3146069538926681,
+        "betweenesscentrality": 361.152229568677
+      }
+    },
+    {
+      "key": "25",
+      "attributes": {
+        "label": "Working hard",
+        "x": -1085.6873,
+        "y": 3006.3071,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.26359832635983266,
+        "harmonicclosnesscentrality": 0.3345616024187451,
+        "betweenesscentrality": 382.85288739038754
+      }
+    },
+    {
+      "key": "26",
+      "attributes": {
+        "x": -2561.9578,
+        "y": 2145.7961,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.26359832635983266,
+        "harmonicclosnesscentrality": 0.32277021919879045,
+        "betweenesscentrality": 290.723051948052
+      }
+    },
+    {
+      "key": "27",
+      "attributes": {
+        "x": -3284.8604,
+        "y": 228.24821,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 7.0,
+        "closnesscentrality": 0.2775330396475771,
+        "harmonicclosnesscentrality": 0.34168556311413445,
+        "betweenesscentrality": 332.7454365079364
+      }
+    },
+    {
+      "key": "28",
+      "attributes": {
+        "x": -2865.6482,
+        "y": -1195.0109,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.23773584905660378,
+        "harmonicclosnesscentrality": 0.3005102040816326,
+        "betweenesscentrality": 82.61475279106857
+      }
+    },
+    {
+      "key": "29",
+      "attributes": {
+        "x": -2167.237,
+        "y": -2385.9072,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.24705882352941178,
+        "harmonicclosnesscentrality": 0.3189909297052154,
+        "betweenesscentrality": 309.865681248576
+      }
+    },
+    {
+      "key": "30",
+      "attributes": {
+        "label": "Opportunities",
+        "x": -792.1248,
+        "y": -3212.6404,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.24705882352941178,
+        "harmonicclosnesscentrality": 0.30655706727135296,
+        "betweenesscentrality": 265.98902749297486
+      }
+    },
+    {
+      "key": "31",
+      "attributes": {
+        "label": "Possible buyers",
+        "x": 861.38446,
+        "y": -3153.588,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.2441860465116279,
+        "harmonicclosnesscentrality": 0.3039115646258503,
+        "betweenesscentrality": 263.4776999316473
+      }
+    },
+    {
+      "key": "37",
+      "attributes": {
+        "x": -2178.8474,
+        "y": -3911.3157,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.21875,
+        "harmonicclosnesscentrality": 0.271334089191232,
+        "betweenesscentrality": 13.0
+      }
+    },
+    {
+      "key": "33",
+      "attributes": {
+        "label": "Marketing",
+        "x": -1030.0613,
+        "y": -4239.8867,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.23076923076923078,
+        "harmonicclosnesscentrality": 0.292687074829932,
+        "betweenesscentrality": 141.25007215007213
+      }
+    },
+    {
+      "key": "34",
+      "attributes": {
+        "label": "Clue 1",
+        "x": 93.10128,
+        "y": -5000.0,
+        "size": 4.0,
+        "color": "#ee7993",
+        "characterDialogue": "null",
+        "Special Type": "Clue",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 9.0,
+        "closnesscentrality": 0.2490118577075099,
+        "harmonicclosnesscentrality": 0.3176744771982867,
+        "betweenesscentrality": 101.1102453102453
+      }
+    },
+    {
+      "key": "35",
+      "attributes": {
+        "label": "Her target group",
+        "x": 1127.4028,
+        "y": -4289.3833,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.23076923076923078,
+        "harmonicclosnesscentrality": 0.292687074829932,
+        "betweenesscentrality": 169.12380952380954
+      }
+    },
+    {
+      "key": "38",
+      "attributes": {
+        "x": 2295.453,
+        "y": -4306.7188,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.2202797202797203,
+        "harmonicclosnesscentrality": 0.27171201814058954,
+        "betweenesscentrality": 15.604761904761904
+      }
+    },
+    {
+      "key": "39",
+      "attributes": {
+        "x": -2938.438,
+        "y": -2860.3757,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 7.0,
+        "closnesscentrality": 0.2540322580645161,
+        "harmonicclosnesscentrality": 0.31390778533635677,
+        "betweenesscentrality": 108.8420634920635
+      }
+    },
+    {
+      "key": "40",
+      "attributes": {
+        "x": 2898.9631,
+        "y": -3110.1038,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 7.0,
+        "closnesscentrality": 0.2550607287449393,
+        "harmonicclosnesscentrality": 0.3125850340136055,
+        "betweenesscentrality": 112.51746031746033
+      }
+    },
+    {
+      "key": "41",
+      "attributes": {
+        "label": "IT structure",
+        "x": -3670.4705,
+        "y": -801.8962,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.245136186770428,
+        "harmonicclosnesscentrality": 0.3057256235827662,
+        "betweenesscentrality": 203.64833675096835
+      }
+    },
+    {
+      "key": "42",
+      "attributes": {
+        "x": -3753.7153,
+        "y": -2123.3242,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 7.0,
+        "closnesscentrality": 0.25609756097560976,
+        "harmonicclosnesscentrality": 0.31258503401360543,
+        "betweenesscentrality": 69.29213184476343
+      }
+    },
+    {
+      "key": "43",
+      "attributes": {
+        "label": "Panic",
+        "x": 3654.6555,
+        "y": -864.31726,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.23595505617977527,
+        "harmonicclosnesscentrality": 0.28286092214663616,
+        "betweenesscentrality": 179.2198717948718
+      }
+    },
+    {
+      "key": "44",
+      "attributes": {
+        "label": "The media",
+        "x": 3550.6057,
+        "y": -2268.9941,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 7.0,
+        "closnesscentrality": 0.245136186770428,
+        "harmonicclosnesscentrality": 0.30109599395313674,
+        "betweenesscentrality": 78.56980241980243
+      }
+    },
+    {
+      "key": "45",
+      "attributes": {
+        "label": "Emergencies",
+        "x": 4055.3042,
+        "y": -1671.2267,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.2290909090909091,
+        "harmonicclosnesscentrality": 0.2904572940287225,
+        "betweenesscentrality": 13.921428571428569
+      }
+    },
+    {
+      "key": "46",
+      "attributes": {
+        "label": "Fear of heights",
+        "x": 3972.0645,
+        "y": -19.481588,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 9.0,
+        "closnesscentrality": 0.21140939597315436,
+        "harmonicclosnesscentrality": 0.259983623078861,
+        "betweenesscentrality": 122.12510822510822
+      }
+    },
+    {
+      "key": "47",
+      "attributes": {
+        "label": "Clue 2",
+        "x": 4632.813,
+        "y": -861.6661,
+        "size": 4.0,
+        "color": "#ee7993",
+        "characterDialogue": "null",
+        "Special Type": "Clue",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 7.0,
+        "closnesscentrality": 0.2703862660944206,
+        "harmonicclosnesscentrality": 0.32263794406651536,
+        "betweenesscentrality": 125.08376068376069
+      }
+    },
+    {
+      "key": "48",
+      "attributes": {
+        "label": "Safety",
+        "x": -4143.37,
+        "y": -81.91167,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.24324324324324326,
+        "harmonicclosnesscentrality": 0.30175736961451227,
+        "betweenesscentrality": 185.40648211437681
+      }
+    },
+    {
+      "key": "49",
+      "attributes": {
+        "x": -4248.781,
+        "y": -1323.8022,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.23247232472324722,
+        "harmonicclosnesscentrality": 0.2966931216931216,
+        "betweenesscentrality": 9.366666666666667
+      }
+    },
+    {
+      "key": "50",
+      "attributes": {
+        "label": "Clue 3",
+        "x": -4500.524,
+        "y": -717.11,
+        "size": 4.0,
+        "color": "#ee7993",
+        "characterDialogue": "null",
+        "Special Type": "Clue",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 7.0,
+        "closnesscentrality": 0.27155172413793105,
+        "harmonicclosnesscentrality": 0.32501889644746773,
+        "betweenesscentrality": 124.85692640692642
+      }
+    },
+    {
+      "key": "51",
+      "attributes": {
+        "label": "Her doctor",
+        "x": -2199.4167,
+        "y": 3020.8933,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.23161764705882354,
+        "harmonicclosnesscentrality": 0.2904761904761904,
+        "betweenesscentrality": 29.383333333333333
+      }
+    },
+    {
+      "key": "52",
+      "attributes": {
+        "x": 2087.5872,
+        "y": 3020.8933,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.23161764705882354,
+        "harmonicclosnesscentrality": 0.2904761904761904,
+        "betweenesscentrality": 26.76904761904762
+      }
+    },
+    {
+      "key": "53",
+      "attributes": {
+        "label": "Pets",
+        "x": 1494.4822,
+        "y": 3926.1294,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.23863636363636365,
+        "harmonicclosnesscentrality": 0.3019274376417232,
+        "betweenesscentrality": 172.22728937728937
+      }
+    },
+    {
+      "key": "54",
+      "attributes": {
+        "label": "Allergies",
+        "x": 2482.9905,
+        "y": 3988.5437,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.2423076923076923,
+        "harmonicclosnesscentrality": 0.29741118669690086,
+        "betweenesscentrality": 49.62014652014652
+      }
+    },
+    {
+      "key": "55",
+      "attributes": {
+        "label": "Being sick",
+        "x": -1564.6904,
+        "y": 3988.5593,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.23863636363636365,
+        "harmonicclosnesscentrality": 0.3019274376417232,
+        "betweenesscentrality": 164.86933760683763
+      }
+    },
+    {
+      "key": "56",
+      "attributes": {
+        "label": "Medicine",
+        "x": -2542.7932,
+        "y": 4113.406,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.2413793103448276,
+        "harmonicclosnesscentrality": 0.2962018140589567,
+        "betweenesscentrality": 48.37985347985348
+      }
+    },
+    {
+      "key": "57",
+      "attributes": {
+        "label": "Clue 4",
+        "x": -51.02681,
+        "y": 4683.333,
+        "size": 4.0,
+        "color": "#ee7993",
+        "characterDialogue": "null",
+        "Special Type": "Clue",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 7.0,
+        "closnesscentrality": 0.26582278481012656,
+        "harmonicclosnesscentrality": 0.3201436130007556,
+        "betweenesscentrality": 39.016666666666666
+      }
+    },
+    {
+      "key": "58",
+      "attributes": {
+        "x": -3402.9324,
+        "y": 1386.0553,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 9.0,
+        "closnesscentrality": 0.19504643962848298,
+        "harmonicclosnesscentrality": 0.23766691861929945,
+        "betweenesscentrality": 71.32288866104655
+      }
+    },
+    {
+      "key": "59",
+      "attributes": {
+        "x": -3135.0303,
+        "y": 3148.4124,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.23773584905660378,
+        "harmonicclosnesscentrality": 0.29408541194255455,
+        "betweenesscentrality": 105.7232408673198
+      }
+    },
+    {
+      "key": "60",
+      "attributes": {
+        "x": -4164.3364,
+        "y": 878.49646,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.22743682310469315,
+        "harmonicclosnesscentrality": 0.27333711262282673,
+        "betweenesscentrality": 71.05659033948508
+      }
+    },
+    {
+      "key": "61",
+      "attributes": {
+        "x": 2956.2043,
+        "y": 3345.7961,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 9.0,
+        "closnesscentrality": 0.22992700729927007,
+        "harmonicclosnesscentrality": 0.2911438649533885,
+        "betweenesscentrality": 106.47662337662335
+      }
+    },
+    {
+      "key": "62",
+      "attributes": {
+        "x": 3322.8066,
+        "y": 1569.3403,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 10.0,
+        "closnesscentrality": 0.1897590361445783,
+        "harmonicclosnesscentrality": 0.23540564373897693,
+        "betweenesscentrality": 85.6274531024531
+      }
+    },
+    {
+      "key": "63",
+      "attributes": {
+        "label": "Date ideas",
+        "x": 4084.2107,
+        "y": 934.8918,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.22743682310469315,
+        "harmonicclosnesscentrality": 0.27375283446712007,
+        "betweenesscentrality": 81.72034632034634
+      }
+    },
+    {
+      "key": "64",
+      "attributes": {
+        "x": 3759.9092,
+        "y": 2739.5454,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 9.0,
+        "closnesscentrality": 0.20588235294117646,
+        "harmonicclosnesscentrality": 0.25297304106827906,
+        "betweenesscentrality": 138.60310245310245
+      }
+    },
+    {
+      "key": "65",
+      "attributes": {
+        "x": 4140.6113,
+        "y": 1512.9451,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.245136186770428,
+        "harmonicclosnesscentrality": 0.3049319727891155,
+        "betweenesscentrality": 161.69213564213564
+      }
+    },
+    {
+      "key": "66",
+      "attributes": {
+        "label": "Watching movies",
+        "x": -3868.2346,
+        "y": 2570.3591,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 9.0,
+        "closnesscentrality": 0.20655737704918034,
+        "harmonicclosnesscentrality": 0.2528407659360039,
+        "betweenesscentrality": 150.67996316548945
+      }
+    },
+    {
+      "key": "67",
+      "attributes": {
+        "x": -4164.3364,
+        "y": 1414.2529,
+        "size": 4.0,
+        "color": "#909090",
+        "characterDialogue": "null",
+        "Special Type": "null",
+        "componentnumber": 0,
+        "strongcompnum": 0,
+        "Eccentricity": 8.0,
+        "closnesscentrality": 0.2441860465116279,
+        "harmonicclosnesscentrality": 0.30319349962207087,
+        "betweenesscentrality": 152.74843073593075
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "0",
+      "source": "0",
+      "target": "1",
+      "attributes": {
+        "label": "here",
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "12",
+      "source": "5",
+      "target": "6",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "13",
+      "source": "4",
+      "target": "6",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "14",
+      "source": "0",
+      "target": "3",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "15",
+      "source": "0",
+      "target": "2",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "16",
+      "source": "2",
+      "target": "5",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "17",
+      "source": "3",
+      "target": "1",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "18",
+      "source": "3",
+      "target": "4",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "19",
+      "source": "3",
+      "target": "5",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "20",
+      "source": "1",
+      "target": "4",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "21",
+      "source": "1",
+      "target": "7",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "22",
+      "source": "2",
+      "target": "7",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "23",
+      "source": "4",
+      "target": "15",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "24",
+      "source": "15",
+      "target": "3",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "25",
+      "source": "4",
+      "target": "16",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "26",
+      "source": "16",
+      "target": "1",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "27",
+      "source": "5",
+      "target": "14",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "28",
+      "source": "14",
+      "target": "3",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "29",
+      "source": "7",
+      "target": "10",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "30",
+      "source": "7",
+      "target": "13",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "31",
+      "source": "7",
+      "target": "9",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "32",
+      "source": "5",
+      "target": "19",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "33",
+      "source": "19",
+      "target": "2",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "34",
+      "source": "1",
+      "target": "9",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "35",
+      "source": "2",
+      "target": "10",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "36",
+      "source": "12",
+      "target": "5",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "37",
+      "source": "11",
+      "target": "4",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "38",
+      "source": "19",
+      "target": "12",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "39",
+      "source": "14",
+      "target": "12",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "40",
+      "source": "15",
+      "target": "11",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "41",
+      "source": "16",
+      "target": "11",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "42",
+      "source": "13",
+      "target": "17",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "43",
+      "source": "17",
+      "target": "1",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "44",
+      "source": "13",
+      "target": "18",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "45",
+      "source": "18",
+      "target": "2",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "46",
+      "source": "9",
+      "target": "11",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "47",
+      "source": "10",
+      "target": "12",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "48",
+      "source": "9",
+      "target": "31",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "49",
+      "source": "10",
+      "target": "30",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "50",
+      "source": "13",
+      "target": "30",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "51",
+      "source": "13",
+      "target": "31",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "69",
+      "source": "30",
+      "target": "33",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "70",
+      "source": "33",
+      "target": "31",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "71",
+      "source": "31",
+      "target": "35",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "55",
+      "source": "18",
+      "target": "29",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "56",
+      "source": "17",
+      "target": "20",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "57",
+      "source": "29",
+      "target": "30",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "58",
+      "source": "29",
+      "target": "10",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "59",
+      "source": "20",
+      "target": "31",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "60",
+      "source": "20",
+      "target": "9",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "61",
+      "source": "31",
+      "target": "7",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "62",
+      "source": "30",
+      "target": "7",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "72",
+      "source": "35",
+      "target": "30",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "73",
+      "source": "35",
+      "target": "18",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "65",
+      "source": "33",
+      "target": "34",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "66",
+      "source": "35",
+      "target": "34",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "74",
+      "source": "33",
+      "target": "17",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "75",
+      "source": "34",
+      "target": "13",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "76",
+      "source": "34",
+      "target": "29",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "77",
+      "source": "34",
+      "target": "20",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "78",
+      "source": "18",
+      "target": "37",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "79",
+      "source": "37",
+      "target": "33",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "80",
+      "source": "17",
+      "target": "38",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "81",
+      "source": "38",
+      "target": "35",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "82",
+      "source": "37",
+      "target": "39",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "83",
+      "source": "38",
+      "target": "40",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "84",
+      "source": "20",
+      "target": "21",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "85",
+      "source": "40",
+      "target": "20",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "86",
+      "source": "39",
+      "target": "29",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "87",
+      "source": "29",
+      "target": "28",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "88",
+      "source": "28",
+      "target": "39",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "89",
+      "source": "21",
+      "target": "40",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "90",
+      "source": "39",
+      "target": "2",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "91",
+      "source": "40",
+      "target": "1",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "92",
+      "source": "9",
+      "target": "17",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "93",
+      "source": "10",
+      "target": "18",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "94",
+      "source": "40",
+      "target": "13",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "95",
+      "source": "39",
+      "target": "13",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "96",
+      "source": "28",
+      "target": "19",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "97",
+      "source": "21",
+      "target": "16",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "98",
+      "source": "21",
+      "target": "45",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "99",
+      "source": "45",
+      "target": "43",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "100",
+      "source": "43",
+      "target": "47",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "101",
+      "source": "46",
+      "target": "43",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "102",
+      "source": "41",
+      "target": "50",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "103",
+      "source": "48",
+      "target": "41",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "104",
+      "source": "49",
+      "target": "41",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "105",
+      "source": "28",
+      "target": "49",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "106",
+      "source": "19",
+      "target": "48",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "107",
+      "source": "16",
+      "target": "46",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "108",
+      "source": "9",
+      "target": "44",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "109",
+      "source": "44",
+      "target": "43",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "110",
+      "source": "22",
+      "target": "43",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "111",
+      "source": "29",
+      "target": "42",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "112",
+      "source": "27",
+      "target": "41",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "113",
+      "source": "42",
+      "target": "41",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "114",
+      "source": "26",
+      "target": "27",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "115",
+      "source": "23",
+      "target": "22",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "116",
+      "source": "11",
+      "target": "23",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "117",
+      "source": "12",
+      "target": "26",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "118",
+      "source": "25",
+      "target": "26",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "119",
+      "source": "24",
+      "target": "23",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "120",
+      "source": "6",
+      "target": "24",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "123",
+      "source": "6",
+      "target": "25",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "124",
+      "source": "26",
+      "target": "14",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "125",
+      "source": "23",
+      "target": "15",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "126",
+      "source": "12",
+      "target": "48",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "127",
+      "source": "11",
+      "target": "46",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "128",
+      "source": "24",
+      "target": "53",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "129",
+      "source": "53",
+      "target": "54",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "130",
+      "source": "54",
+      "target": "57",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "131",
+      "source": "56",
+      "target": "57",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "132",
+      "source": "55",
+      "target": "56",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "133",
+      "source": "25",
+      "target": "55",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "134",
+      "source": "55",
+      "target": "51",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "135",
+      "source": "53",
+      "target": "52",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "136",
+      "source": "15",
+      "target": "24",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "137",
+      "source": "14",
+      "target": "25",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "138",
+      "source": "51",
+      "target": "14",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "139",
+      "source": "52",
+      "target": "15",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "140",
+      "source": "53",
+      "target": "25",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "141",
+      "source": "55",
+      "target": "24",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "142",
+      "source": "57",
+      "target": "6",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "143",
+      "source": "57",
+      "target": "26",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "144",
+      "source": "57",
+      "target": "23",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "145",
+      "source": "56",
+      "target": "51",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "146",
+      "source": "54",
+      "target": "52",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "147",
+      "source": "54",
+      "target": "23",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "148",
+      "source": "56",
+      "target": "26",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "149",
+      "source": "26",
+      "target": "4",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "150",
+      "source": "23",
+      "target": "5",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "151",
+      "source": "52",
+      "target": "6",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "152",
+      "source": "51",
+      "target": "6",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "153",
+      "source": "52",
+      "target": "14",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "154",
+      "source": "25",
+      "target": "15",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "155",
+      "source": "51",
+      "target": "15",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "156",
+      "source": "44",
+      "target": "1",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "157",
+      "source": "42",
+      "target": "2",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "158",
+      "source": "44",
+      "target": "40",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "159",
+      "source": "42",
+      "target": "39",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "160",
+      "source": "27",
+      "target": "5",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "161",
+      "source": "22",
+      "target": "4",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "162",
+      "source": "27",
+      "target": "10",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "163",
+      "source": "22",
+      "target": "9",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "164",
+      "source": "49",
+      "target": "10",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "165",
+      "source": "49",
+      "target": "42",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "166",
+      "source": "45",
+      "target": "44",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "167",
+      "source": "45",
+      "target": "9",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "168",
+      "source": "27",
+      "target": "60",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "169",
+      "source": "22",
+      "target": "63",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "170",
+      "source": "63",
+      "target": "65",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "171",
+      "source": "60",
+      "target": "67",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "172",
+      "source": "67",
+      "target": "58",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "173",
+      "source": "65",
+      "target": "62",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "174",
+      "source": "62",
+      "target": "64",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "175",
+      "source": "58",
+      "target": "66",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "176",
+      "source": "66",
+      "target": "59",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "177",
+      "source": "64",
+      "target": "61",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "178",
+      "source": "61",
+      "target": "15",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "179",
+      "source": "59",
+      "target": "14",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "180",
+      "source": "66",
+      "target": "67",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "181",
+      "source": "64",
+      "target": "65",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "182",
+      "source": "67",
+      "target": "26",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "183",
+      "source": "65",
+      "target": "23",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "184",
+      "source": "11",
+      "target": "62",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "186",
+      "source": "12",
+      "target": "58",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "187",
+      "source": "58",
+      "target": "59",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "188",
+      "source": "62",
+      "target": "61",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "189",
+      "source": "61",
+      "target": "65",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "190",
+      "source": "61",
+      "target": "23",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "191",
+      "source": "59",
+      "target": "67",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "192",
+      "source": "59",
+      "target": "26",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "193",
+      "source": "67",
+      "target": "27",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "194",
+      "source": "65",
+      "target": "22",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "195",
+      "source": "60",
+      "target": "64",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "196",
+      "source": "63",
+      "target": "66",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "198",
+      "source": "46",
+      "target": "63",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "199",
+      "source": "48",
+      "target": "60",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "200",
+      "source": "48",
+      "target": "27",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "201",
+      "source": "43",
+      "target": "16",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "202",
+      "source": "41",
+      "target": "19",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "203",
+      "source": "41",
+      "target": "58",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "204",
+      "source": "21",
+      "target": "62",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "205",
+      "source": "24",
+      "target": "66",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "206",
+      "source": "25",
+      "target": "64",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "207",
+      "source": "50",
+      "target": "29",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "208",
+      "source": "47",
+      "target": "20",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "209",
+      "source": "47",
+      "target": "4",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "210",
+      "source": "50",
+      "target": "5",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "211",
+      "source": "50",
+      "target": "4",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "212",
+      "source": "47",
+      "target": "5",
+      "attributes": {
+        "color": "#707070",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "213",
+      "source": "30",
+      "target": "39",
+      "attributes": {
+        "color": "#808080",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "214",
+      "source": "31",
+      "target": "40",
+      "attributes": {
+        "color": "#808080",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "215",
+      "source": "6",
+      "target": "12",
+      "attributes": {
+        "color": "#808080",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "216",
+      "source": "6",
+      "target": "11",
+      "attributes": {
+        "color": "#808080",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "217",
+      "source": "12",
+      "target": "12",
+      "attributes": {
+        "color": "#808080",
+        "weight": 1.0
+      }
+    }
+  ]
+}
