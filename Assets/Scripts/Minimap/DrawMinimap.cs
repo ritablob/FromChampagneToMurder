@@ -25,7 +25,6 @@ public class DrawMinimap : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public ParseJson parseJsonRef;
     public MinimapLabel labelRef;
-    TextWriter textWriterRef;
 
     private GameObject lineRef;
     private GameObject dotRef;
@@ -47,7 +46,6 @@ public class DrawMinimap : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     void Start()
     {
         lineRenderer = GetComponent<LineRenderer>();
-        textWriterRef = parseJsonRef.GetComponent<TextWriter>();
         DrawFullMinimap();
     }
 
@@ -112,11 +110,11 @@ public class DrawMinimap : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         // nodes
         for (int i = 0; i < dotArray.Length; i++)
         {
-            if (i == textWriterRef.previousNodeID)
+            if (i == parseJsonRef.previousNodeID)
             {
                 ColourDot(dotArray[i].GetComponent<Image>(), traversedColor);
             }
-            else if (i == textWriterRef.nodeID)
+            else if (i == parseJsonRef.nodeID)
             {
                 ColourDot(dotArray[i].GetComponent<Image>(), activeColor);
             }
@@ -127,13 +125,13 @@ public class DrawMinimap : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         for (int j = 0; j < parseJsonRef.graph.edges.Length; j++)
         {
             // traversed edges
-            if (parseJsonRef.graph.edges[j].source == textWriterRef.previousNodeID && parseJsonRef.graph.edges[j].target == textWriterRef.nodeID)
+            if (parseJsonRef.graph.edges[j].source == parseJsonRef.previousNodeID && parseJsonRef.graph.edges[j].target == parseJsonRef.nodeID)
             {
                 ColourLine(lineArray[j].GetComponent<LineRenderer>(), traversedColor);
                 traversedLineArray[j] = lineArray[j];
             }
             // upcoming edges
-            else if (parseJsonRef.graph.edges[j].source == textWriterRef.nodeID)
+            else if (parseJsonRef.graph.edges[j].source == parseJsonRef.nodeID)
             {
                 ColourLine(lineArray[j].GetComponent<LineRenderer>(), activeColor);
                 activeLineArray[j] = lineArray[j];
