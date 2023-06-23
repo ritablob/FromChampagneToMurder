@@ -4,27 +4,28 @@ using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.TerrainUtils;
 using UnityEngine.UI;
 
 public class DrawMinimap : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     public float mapScale = 1f;
     [Tooltip("Unused nodes, nodes you havent traversed yet, etc.")]
-    public Color defaultLineColor = Color.grey;
+    public Color defaultColor = Color.grey;
     [Tooltip("Nodes that you are about to traverse + currently are standing on")]
-    public Color activeLineColor = Color.red;
+    public Color activeColor = Color.red;
     [Tooltip("Nodes you have traversed already")]
-    public Color traversedLineColor = Color.black;
-    public Color hoverLineColor = Color.blue;
+    public Color traversedColor = Color.black;
 
     public float lineWidth;
-    public Color defaultNodeColor;
     public float nodeSize;
 
     public GameObject linePrefab;
     public GameObject dotPrefab;
 
     public ParseJson parseJsonRef;
+    public MinimapLabel labelRef;
+    TextWriter textWriterRef;
 
     private GameObject lineRef;
     private GameObject dotRef;
@@ -35,10 +36,21 @@ public class DrawMinimap : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     private GameObject[] lineArray;
     private GameObject[] dotArray;
 
+    private GameObject[] traversedLineArray;
+
     /* To do:
      * - edit scale of the map
      * - line / dot highlights when hovered
      */
+
+
+    void Start()
+    {
+        lineRenderer = GetComponent<LineRenderer>();
+        textWriterRef = parseJsonRef.GetComponent<TextWriter>();
+        DrawFullMinimap();
+    }
+
     public GameObject DrawMinimapLine(Vector2 startPos, Vector2 endPos)
     {
         startPos = new Vector2(startPos.x*mapScale, startPos.y*mapScale);
@@ -49,25 +61,14 @@ public class DrawMinimap : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         lineRenderer = lineRef.GetComponent<LineRenderer>();
 
         // draw line
-        lineRenderer.startColor = defaultLineColor;
-        lineRenderer.endColor = defaultLineColor;
+        lineRenderer.startColor = defaultColor;
+        lineRenderer.endColor = defaultColor;
         lineRenderer.startWidth = lineWidth;
         lineRenderer.endWidth = lineWidth;
         lineRenderer.SetPosition(0, startPos);
         lineRenderer.SetPosition(1, endPos);
 
         lineRenderer.useWorldSpace = false;
-
-        /* ----------- FIX THIS, GIVES ERROR: 
-         * Converting invalid MinMaxAABB
-         * UnityEngine.LineRenderer:BakeMesh (UnityEngine.Mesh,bool)
-
-
-        Mesh lineBakedMesh = new Mesh();
-        lineRenderer.BakeMesh(lineBakedMesh, true);
-        lineRef.GetComponent<MeshCollider>().sharedMesh = lineBakedMesh;
-        lineRef.GetComponent<MeshCollider>().convex = true;
-        */
 
         return lineRef;
     }
@@ -87,6 +88,7 @@ public class DrawMinimap : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         {
             lineArray = new GameObject[parseJsonRef.graph.edges.Length+2];
             dotArray = new GameObject[parseJsonRef.graph.nodes.Length + 2];
+            traversedLineArray = new GameObject[lineArray.Length];
 
             Nodes lastNode = parseJsonRef.graph.nodes[parseJsonRef.graph.nodes.Length-1];
             nodePositions = new Vector2[lastNode.key+2];
@@ -105,17 +107,69 @@ public class DrawMinimap : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
             }
         }
     }
-    // Start is called before the first frame update
-    void Start()
+    public void RecolorMinimap()
     {
-        lineRenderer = GetComponent<LineRenderer>();
-        DrawFullMinimap();
+        // nodes
+        for (int i = 0; i < dotArray.Length; i++)
+        {
+            if (i == textWriterRef.previousNodeID)
+            {
+                ColourDot(dotArray[i].GetComponent<Image>(), traversedColor);
+            }
+            else if (i == textWriterRef.nodeID)
+            {
+                ColourDot(dotArray[i].GetComponent<Image>(), activeColor);
+            }
+        }
+
+        //edges 
+        GameObject[] activeLineArray = new GameObject[lineArray.Length];
+        for (int j = 0; j < parseJsonRef.graph.edges.Length; j++)
+        {
+            // traversed edges
+            if (parseJsonRef.graph.edges[j].source == textWriterRef.previousNodeID && parseJsonRef.graph.edges[j].target == textWriterRef.nodeID)
+            {
+                ColourLine(lineArray[j].GetComponent<LineRenderer>(), traversedColor);
+                traversedLineArray[j] = lineArray[j];
+            }
+            // upcoming edges
+            else if (parseJsonRef.graph.edges[j].source == textWriterRef.nodeID)
+            {
+                ColourLine(lineArray[j].GetComponent<LineRenderer>(), activeColor);
+                activeLineArray[j] = lineArray[j];
+            }
+            // clearing the previous mistakes
+            if (lineArray[j].GetComponent<LineRenderer>().startColor != traversedColor && lineArray[j] != traversedLineArray[j] && lineArray[j] != activeLineArray[j])
+            {
+                ColourLine(lineArray[j].GetComponent<LineRenderer>(), defaultColor);
+            }
+            else if (lineArray[j] == activeLineArray[j])
+            {
+                ColourLine(lineArray[j].GetComponent<LineRenderer>(), activeColor);
+            }
+            else
+            {
+                ColourLine(lineArray[j].GetComponent<LineRenderer>(), traversedColor);
+            }
+        }
     }
+    public void ColourLine(LineRenderer lineRenderer, Color color)
+    {
+        lineRenderer.startColor = color;
+        lineRenderer.endColor = color;
+        //Debug.Log("Line coloured, game object - " +  lineRenderer.gameObject.name);
+    }
+    public void ColourDot(Image image, Color color)
+    {
+        image.color = color;
+    }
+
+    //-----------------------------------------------------
 
     public void OnPointerEnter(PointerEventData eventData)
     {
         Debug.Log("hover");
-        if (eventData.pointerEnter.GetComponent<MeshCollider>() != null)
+       /* if (eventData.pointerEnter.GetComponent<MeshCollider>() != null)
         {
             LineRenderer renderer = eventData.pointerEnter.GetComponent<LineRenderer>();
             renderer.startColor = hoverLineColor;
@@ -127,7 +181,7 @@ public class DrawMinimap : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
             image.color = hoverLineColor;
         }
 
-        //throw new NotImplementedException();
+        //throw new NotImplementedException();*/
     }
 
     public void OnPointerExit(PointerEventData eventData)

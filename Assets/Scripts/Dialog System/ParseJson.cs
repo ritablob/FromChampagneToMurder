@@ -12,7 +12,6 @@ public class ParseJson : MonoBehaviour
 {
     public NodeGraph graph;
     public TextAsset jsonFile;
-    public DrawMinimap minimap;
 
 
 

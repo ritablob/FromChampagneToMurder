@@ -19,6 +19,8 @@ public class Hyperlink : MonoBehaviour
     private TextMeshProUGUI pTextMeshPro;
     private Camera pCamera;
 
+    public DrawMinimap minimapRef;
+
     private List<Color32[]> pOriginalVertexColors = new List<Color32[]>();
     private TMP_Text m_TextComponent;
     private const int INVALID_LINK_INDEX = -1;
@@ -50,7 +52,8 @@ public class Hyperlink : MonoBehaviour
         if (pCurrentLink != -1 && linkIndex != pCurrentLink)
         {
             // Debug.Log("Clear old selection");
-            SetLinkToColor(pCurrentLink, (linkIdx, vertIdx) => pOriginalVertexColors[linkIdx][vertIdx]);
+            SetLinkToColor(pCurrentLink, (linkIdx, vertIdx) => pOriginalVertexColors[linkIdx][vertIdx]); // Sometimes spawns a null ref error :)
+                                                                                                  // too bad i dont know anything about lambda expressions lol
             pOriginalVertexColors.Clear();
             pCurrentLink = -1;
         }
@@ -73,6 +76,7 @@ public class Hyperlink : MonoBehaviour
             textWriterRef.FindNextNodeID(linkName);
 
             Debug.Log("Link Clicked, link ID = " + selectedLinkIndex + ", link name - " +linkName);
+            minimapRef.RecolorMinimap();
         }
     }
 

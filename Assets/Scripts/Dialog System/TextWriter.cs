@@ -9,7 +9,9 @@ public class TextWriter : MonoBehaviour
 {
     public float typingSpeed = 0.1f;
     ParseJson parser;
-    int nodeID;
+    //[HideInInspector]
+    public int nodeID;
+    public int previousNodeID;
 
     public TextMeshProUGUI tmp;
 
@@ -23,16 +25,6 @@ public class TextWriter : MonoBehaviour
         WriteText();
     }
 
-    // test code
-    private void Update()
-    {
-        /*if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            WriteText();
-        }*/
-    }
-
-
     void WriteText()
     {
         tmp.maxVisibleCharacters = 0;
@@ -40,7 +32,7 @@ public class TextWriter : MonoBehaviour
         //Debug.Log(nodeID);
         StartCoroutine(AnimateTypewriter(tmp));
     }
-    public void FindNextNodeID(string linkName)
+    public void FindNextNodeID(string linkName)  // move to different script (maybe GameManager or ParseJson)
     {
         int nextNodeID;
         for (int i = 0; i < parser.graph.edges.Length; i++)
@@ -49,6 +41,7 @@ public class TextWriter : MonoBehaviour
             if (parser.graph.edges[i].source == nodeID && parser.graph.edges[i].attributes.label == linkName)
             {
                 nextNodeID = parser.graph.edges[i].target;
+                previousNodeID = nodeID;
                 nodeID = nextNodeID;
                 WriteText();
             }
