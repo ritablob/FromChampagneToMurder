@@ -261,7 +261,7 @@ MonoBehaviour:
   graph:
     nodes: []
     edges: []
-  jsonFile: {fileID: 4900000, guid: e0a303ec29ea4b246a191aa02223bec2, type: 3}
+  jsonFile: {fileID: 4900000, guid: afd97129a5194bc4685f104667b7dfcb, type: 3}
   nodeID: 0
   previousNodeID: 0
 --- !u!4 &350097431
@@ -821,7 +821,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 95267700336440594, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 95267700336440595, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
       propertyPath: labelRef

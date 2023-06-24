@@ -32,14 +32,16 @@ public class ParseJson : MonoBehaviour
         for (int i = 0; i < graph.edges.Length; i++)
         {
             // check if the edge is right + make sure we are clicking on the right link
-            if (graph.edges[i].source == nodeID && graph.edges[i].attributes.label == linkName)
+            if (graph.edges[i].source == nodeID && graph.edges[i].attributes.label.ToLower() == linkName)
             {
                 nextNodeID = graph.edges[i].target;
                 CheckIfEdgesAreValid(nextNodeID);
                 previousNodeID = nodeID;
                 nodeID = nextNodeID;
                 writer.WriteText();
+                break;
             }
+            //Debug.Log(graph.edges[i].attributes.label + " " + linkName);
         }
     }
     public void CheckIfEdgesAreValid(int nodeID)
