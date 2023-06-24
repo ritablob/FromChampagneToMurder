@@ -68,6 +68,7 @@ public class Hyperlink : MonoBehaviour
         }
 
         selectedLinkIndex = INVALID_LINK_INDEX;
+        // on click
         if (CheckForInteraction(out selectedLinkIndex))
         {
             // we send the selected link text to text writer (will have to make this cleaner in the future)
@@ -75,8 +76,9 @@ public class Hyperlink : MonoBehaviour
             string linkName = pTextMeshPro.textInfo.linkInfo[selectedLinkIndex].GetLinkText().ToLower();
             parseJsonRef.FindNextNodeID(linkName);
 
-            Debug.Log("Link Clicked, link ID = " + selectedLinkIndex + ", link name - " +linkName);
-            minimapRef.RecolorMinimap();
+            //Debug.Log("Link Clicked, link ID = " + selectedLinkIndex + ", link name - " +linkName);
+            if (minimapRef.enabled) { minimapRef.RecolorMinimap(); }
+
         }
     }
 

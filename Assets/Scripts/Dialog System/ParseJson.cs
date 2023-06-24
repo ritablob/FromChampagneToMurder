@@ -4,7 +4,7 @@ using UnityEngine;
 using Newtonsoft.Json;
 using System;
 using UnityEngine.Networking.Types;
-
+using System.Text.RegularExpressions;
 
 /// <summary>
 /// parses the json file and puts all the data into the Nodegraph variable :)
@@ -27,6 +27,7 @@ public class ParseJson : MonoBehaviour
 
     public void FindNextNodeID(string linkName)
     {
+        //Debug.Log("Finding node ID, link - " + linkName);
         int nextNodeID;
         for (int i = 0; i < graph.edges.Length; i++)
         {
@@ -34,10 +35,86 @@ public class ParseJson : MonoBehaviour
             if (graph.edges[i].source == nodeID && graph.edges[i].attributes.label == linkName)
             {
                 nextNodeID = graph.edges[i].target;
+                CheckIfEdgesAreValid(nextNodeID);
                 previousNodeID = nodeID;
                 nodeID = nextNodeID;
                 writer.WriteText();
             }
+        }
+    }
+    public void CheckIfEdgesAreValid(int nodeID)
+    {
+        string[] splitText = graph.nodes[nodeID].attributes.characterDialogue.Split(' ');
+        List<string> keywords = new List<string>();
+        List<string> edgeLabels = new List<string>();
+        // clean up hyperlink keywords
+        for (int i = 0; i < splitText.Length;i++)
+        {
+            if (splitText[i].StartsWith('<'))
+            {
+                //Debug.Log("found link - " + splitText[i]);
+                string keyword = splitText[i].Replace("<style=\"Link\">", "");
+                keyword.Replace("</style>", "");
+                keywords.Add(keyword);
+            }
+            else if (splitText[i].EndsWith('>') && splitText[i-1].StartsWith('<')) // in case of two-word keywords (if 3 or more - i guess we will die)
+            {
+                string previousKeyword = splitText[i - 1].Replace("<style=\"Link\">", "");
+                string keyword = previousKeyword + " " + splitText[i].Replace("</style>", "");
+                keywords.Remove(previousKeyword);
+                keywords.Add(keyword);
+            }
+        }
+
+        // count edges for the node
+        int edgesCount = 0;
+        for (int i = 0; i < graph.edges.Length; i++)
+        {
+            if (graph.edges[i].source == nodeID)
+            {
+                edgeLabels.Add(graph.edges[i].attributes.label);
+                edgesCount++;
+            }
+        }
+
+
+        if (edgesCount > keywords.Count) // if not enough hyperlinks
+        {
+            Debug.Log("Case 1 - More edges than hyperlinks, "+ edgesCount +" "+ keywords.Count);
+            string newText = graph.nodes[nodeID].attributes.characterDialogue;
+            for (int i = keywords.Count; i < edgesCount; i++) // adds more hyperlinks
+            {
+                 newText += " <style=\"Link\">" + edgeLabels[i] + "</style>";
+            }
+            graph.nodes[nodeID].attributes.characterDialogue = newText;
+        }
+        else if (edgesCount < keywords.Count) // if not enough edges
+        {
+            Debug.Log("Case 2 - More hyperlinks than edges" + edgesCount + " " + keywords.Count);
+            string newText1 = null;
+
+            for (int i = 0; i < splitText.Length; i++)
+            {
+                if (splitText[i].StartsWith('<'))
+                {
+                    string keyword2 = splitText[i].Replace("<style=\"Link\">", "");
+                    keyword2.Replace("</style>", "");
+                    for (int z = edgesCount; z < keywords.Count; z++) // changes the stylization of the keyword, for now its black 
+                    {
+                        if (keywords[z] == keyword2)
+                        {
+                            keyword2 = "<u><link><color=\"black\">" + keyword2 + "</u></link></color>";
+                            splitText[i] = keyword2;
+                        }
+                    }
+                }
+                newText1 += splitText[i] + " ";
+            }
+            graph.nodes[nodeID].attributes.characterDialogue = newText1;
+        }
+        else
+        {
+            Debug.Log("Edges and hyperlinks match :)");
         }
     }
 }
