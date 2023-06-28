@@ -43,43 +43,53 @@ public class Hyperlink : MonoBehaviour
     void LateUpdate()
     {
 
-        // is the cursor in the correct region (above the text area) and furthermore, in the link region?
-        var isHoveringOver = TMP_TextUtilities.IsIntersectingRectTransform(pTextMeshPro.rectTransform, Input.mousePosition, pCamera);
-        int linkIndex = isHoveringOver ? TMP_TextUtilities.FindIntersectingLink(pTextMeshPro, Input.mousePosition, pCamera)
-            : -1;
-
-        // Clear previous link selection if one existed.
-        if (pCurrentLink != -1 && linkIndex != pCurrentLink)
+        if (parseJsonRef.GetComponent<TextWriter>().finishedTyping) // make sure theres no typing going on
         {
-            // Debug.Log("Clear old selection");
-            SetLinkToColor(pCurrentLink, (linkIdx, vertIdx) => pOriginalVertexColors[linkIdx][vertIdx]); // Sometimes spawns a null ref error :)
-                                                                                                  // too bad i dont know anything about lambda expressions lol
-            pOriginalVertexColors.Clear();
+            // is the cursor in the correct region (above the text area) and furthermore, in the link region?
+            var isHoveringOver = TMP_TextUtilities.IsIntersectingRectTransform(pTextMeshPro.rectTransform, Input.mousePosition, pCamera);
+            int linkIndex = isHoveringOver ? TMP_TextUtilities.FindIntersectingLink(pTextMeshPro, Input.mousePosition, pCamera)
+                : -1;
+            // Clear previous link selection if one existed.
+            if (pCurrentLink != -1 && linkIndex != pCurrentLink)
+            {
+                // Debug.Log("Clear old selection");
+                SetLinkToColor(pCurrentLink, (linkIdx, vertIdx) => pOriginalVertexColors[linkIdx][vertIdx]); // Sometimes spawns a null ref error :)
+                                                                                                      // too bad i dont know anything about lambda expressions lol
+                pOriginalVertexColors.Clear();
+                pCurrentLink = -1;
+            }
+
+
+            // Handle new link selection.
+            if (linkIndex != -1 && linkIndex != pCurrentLink)
+            {
+                // Debug.Log("New selection");
+                pCurrentLink = linkIndex;
+                if (doesColorChangeOnHover)
+                    pOriginalVertexColors = SetLinkToColor(linkIndex, (_linkIdx, _vertIdx) => hoverColor);
+            }
+
+            selectedLinkIndex = INVALID_LINK_INDEX;
+
+            // on click
+            if (CheckForInteraction(out selectedLinkIndex))
+            {
+                // we send the selected link text to text writer (will have to make this cleaner in the future)
+
+                string linkName = pTextMeshPro.textInfo.linkInfo[selectedLinkIndex].GetLinkText().ToLower();
+                //Debug.Log(linkName);
+                parseJsonRef.FindNextNodeID(linkName);
+
+                //Debug.Log("Link Clicked, link ID = " + selectedLinkIndex + ", link name - " +linkName);
+                if (minimapRef.enabled) { minimapRef.RecolorMinimap(); }
+
+            }
+        }
+        else
+        {
             pCurrentLink = -1;
         }
 
-        // Handle new link selection.
-        if (linkIndex != -1 && linkIndex != pCurrentLink)
-        {
-            // Debug.Log("New selection");
-            pCurrentLink = linkIndex;
-            if (doesColorChangeOnHover)
-                pOriginalVertexColors = SetLinkToColor(linkIndex, (_linkIdx, _vertIdx) => hoverColor);
-        }
-
-        selectedLinkIndex = INVALID_LINK_INDEX;
-        // on click
-        if (CheckForInteraction(out selectedLinkIndex))
-        {
-            // we send the selected link text to text writer (will have to make this cleaner in the future)
-
-            string linkName = pTextMeshPro.textInfo.linkInfo[selectedLinkIndex].GetLinkText().ToLower();
-            parseJsonRef.FindNextNodeID(linkName);
-
-            //Debug.Log("Link Clicked, link ID = " + selectedLinkIndex + ", link name - " +linkName);
-            if (minimapRef.enabled) { minimapRef.RecolorMinimap(); }
-
-        }
     }
 
     List<Color32[]> SetLinkToColor(int linkIndex, Func<int, int, Color32> colorForLinkAndVert)

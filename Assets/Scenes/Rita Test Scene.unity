@@ -292,6 +292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   typingSpeed: 0.01
+  finishedTyping: 0
   tmp: {fileID: 753012129}
 --- !u!114 &350097433
 MonoBehaviour:
@@ -625,7 +626,7 @@ MonoBehaviour:
   hoverColor: {r: 0.47547168, g: 0.6368649, b: 1, a: 1}
   pCanvas: {fileID: 0}
   minimapRef: {fileID: 543606647}
-  parseJsonRef: {fileID: 0}
+  parseJsonRef: {fileID: 350097430}
 --- !u!1 &1061542456
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,7 +822,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 95267700336440594, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 95267700336440595, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
       propertyPath: labelRef
@@ -829,7 +830,7 @@ PrefabInstance:
       objectReference: {fileID: 350097433}
     - target: {fileID: 95267700336440595, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
       propertyPath: mapScale
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 95267700336440595, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
       propertyPath: parseJsonRef

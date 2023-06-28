@@ -9,6 +9,8 @@ public class TextWriter : MonoBehaviour
 {
     public float typingSpeed = 0.1f;
     ParseJson parser;
+    [HideInInspector]
+    public bool finishedTyping = false;
 
 
     public TextMeshProUGUI tmp;
@@ -25,7 +27,9 @@ public class TextWriter : MonoBehaviour
 
     public void WriteText()
     {
+        //Debug.LogWarning("typing Start");
         tmp.maxVisibleCharacters = 0;
+        finishedTyping = false;
         tmp.text = parser.graph.nodes[parser.nodeID].attributes.characterDialogue;
         //Debug.Log(nodeID);
         StartCoroutine(AnimateTypewriter(tmp));
@@ -39,6 +43,11 @@ public class TextWriter : MonoBehaviour
             tmp.maxVisibleCharacters++;
             yield return new WaitForSeconds(typingSpeed);
             StartCoroutine(AnimateTypewriter(tmp));
+        }
+        else
+        {
+            finishedTyping=true;
+            yield return null;
         }
         yield return null;
     }
