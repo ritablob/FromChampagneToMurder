@@ -1,24 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class MinimapLabel : MonoBehaviour
 {
-    public void SpawnLabel()
+    private TextMeshProUGUI tmp;
+    public void EditLabelText(string text)
     {
-        /* - spawn prefab
-         * - type in text based on which node it is
-         */
+        tmp.text = text;
     }
-    // Start is called before the first frame update
-    void Start()
+    private void OnEnable()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        tmp = GetComponentInChildren<TextMeshProUGUI>();
     }
 }

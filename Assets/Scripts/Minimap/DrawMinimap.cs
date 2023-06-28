@@ -1,13 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.TerrainUtils;
 using UnityEngine.UI;
 
-public class DrawMinimap : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
+public class DrawMinimap : MonoBehaviour
 {
     public float mapScale = 1f;
     [Tooltip("Unused nodes, nodes you havent traversed yet, etc.")]
@@ -22,9 +23,9 @@ public class DrawMinimap : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public GameObject linePrefab;
     public GameObject dotPrefab;
+    public GameObject labelPrefab;
 
     public ParseJson parseJsonRef;
-    public MinimapLabel labelRef;
 
     private GameObject lineRef;
     private GameObject dotRef;
@@ -117,6 +118,8 @@ public class DrawMinimap : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
             else if (i == parseJsonRef.nodeID)
             {
                 ColourDot(dotArray[i].GetComponent<Image>(), activeColor);
+                if (dotArray[i].GetComponentInChildren<MinimapLabel>() == null)
+                    SpawnLabel(dotArray[i], i);
             }
         }
 
@@ -162,33 +165,20 @@ public class DrawMinimap : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         image.color = color;
     }
 
+    public void SpawnLabel(GameObject dot, int index) // activates label prefab and adds text to it
+    {
+        GameObject label = Instantiate(labelPrefab, dot.transform);
+
+        TextMeshProUGUI textmesh = label.GetComponentInChildren<TextMeshProUGUI>();
+        for (int i = 0; i < parseJsonRef.graph.nodes.Length; i++)
+        {
+            if (parseJsonRef.graph.nodes[i].key == index)
+            {
+                textmesh.text = parseJsonRef.graph.nodes[i].attributes.label;
+                break;
+            }
+        }
+    }
     //-----------------------------------------------------
 
-    public void OnPointerEnter(PointerEventData eventData)
-    {
-        Debug.Log("hover");
-       /* if (eventData.pointerEnter.GetComponent<MeshCollider>() != null)
-        {
-            LineRenderer renderer = eventData.pointerEnter.GetComponent<LineRenderer>();
-            renderer.startColor = hoverLineColor;
-            renderer.endColor = hoverLineColor;
-        }
-        else if (eventData.pointerEnter.GetComponent<Image>() != null)
-        {
-            Image image = eventData.pointerEnter.GetComponent<Image>();
-            image.color = hoverLineColor;
-        }
-
-        //throw new NotImplementedException();*/
-    }
-
-    public void OnPointerExit(PointerEventData eventData)
-    {
-        //throw new NotImplementedException();
-    }
-
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        //throw new NotImplementedException();
-    }
 }

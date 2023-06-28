@@ -27,7 +27,7 @@ public class ParseJson : MonoBehaviour
 
     public void FindNextNodeID(string linkName)
     {
-        //Debug.Log("Finding node ID, link - " + linkName);
+        Debug.Log("Finding node ID, link - " + linkName);
         int nextNodeID;
         for (int i = 0; i < graph.edges.Length; i++)
         {

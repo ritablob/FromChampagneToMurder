@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System;
 using System.Collections;
-
+using UnityEngine.EventSystems;
 
 public class Hyperlink : MonoBehaviour
 {
@@ -49,6 +49,7 @@ public class Hyperlink : MonoBehaviour
             var isHoveringOver = TMP_TextUtilities.IsIntersectingRectTransform(pTextMeshPro.rectTransform, Input.mousePosition, pCamera);
             int linkIndex = isHoveringOver ? TMP_TextUtilities.FindIntersectingLink(pTextMeshPro, Input.mousePosition, pCamera)
                 : -1;
+            //Debug.Log(linkIndex);
             // Clear previous link selection if one existed.
             if (pCurrentLink != -1 && linkIndex != pCurrentLink)
             {
@@ -77,7 +78,7 @@ public class Hyperlink : MonoBehaviour
                 // we send the selected link text to text writer (will have to make this cleaner in the future)
 
                 string linkName = pTextMeshPro.textInfo.linkInfo[selectedLinkIndex].GetLinkText().ToLower();
-                //Debug.Log(linkName);
+                Debug.Log(linkName);
                 parseJsonRef.FindNextNodeID(linkName);
 
                 //Debug.Log("Link Clicked, link ID = " + selectedLinkIndex + ", link name - " +linkName);
@@ -126,24 +127,26 @@ public class Hyperlink : MonoBehaviour
     private bool CheckForInteraction(out int linkIndex)
     {
         linkIndex = INVALID_LINK_INDEX;
-        Vector2 inputPosition = Vector2.zero;
 
-        if (!CheckForInput(out inputPosition))
+        if (!CheckForInput(out Vector2 inputPosition))
         {
             return false;
         }
 
-        linkIndex = TMP_TextUtilities.FindIntersectingLink(m_TextComponent, inputPosition, null); // this finds the index of the hyperlink
+        linkIndex = TMP_TextUtilities.FindIntersectingLink(m_TextComponent, inputPosition, pCamera); // this finds the index of the hyperlink
+        Debug.Log(linkIndex);
         return linkIndex > INVALID_LINK_INDEX;
     }
 
     private bool CheckForInput(out Vector2 inputPosition)
     {
+
         inputPosition = Vector2.zero;
 
         if (!Input.GetMouseButtonUp(0)) return false;
         inputPosition = Input.mousePosition;
+        Debug.Log(inputPosition+ " "+ TMP_TextUtilities.IsIntersectingRectTransform(m_TextComponent.rectTransform, inputPosition, pCamera));
 
-        return TMP_TextUtilities.IsIntersectingRectTransform(m_TextComponent.rectTransform, inputPosition, null);
+        return TMP_TextUtilities.IsIntersectingRectTransform(m_TextComponent.rectTransform, inputPosition, pCamera);
     }
 }
