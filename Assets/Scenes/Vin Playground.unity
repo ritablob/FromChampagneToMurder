@@ -217,7 +217,7 @@ RectTransform:
   m_Children:
   - {fileID: 410913844}
   - {fileID: 753012128}
-  - {fileID: 543606648}
+  - {fileID: 657892489}
   - {fileID: 555691163}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -292,6 +292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   typingSpeed: 0.01
+  finishedTyping: 0
   tmp: {fileID: 753012129}
 --- !u!114 &350097433
 MonoBehaviour:
@@ -387,16 +388,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 95267699805516388}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ffc4233856d170642a3a5cd2ccde2589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &543606648 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 95267700336440604, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
-  m_PrefabInstance: {fileID: 95267699805516388}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &555691162
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,6 +469,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 555691162}
   m_CullTransparentMesh: 1
+--- !u!224 &657892489 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 554673445156488101, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
+  m_PrefabInstance: {fileID: 95267699805516388}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &753012127
 GameObject:
   m_ObjectHideFlags: 0
@@ -833,8 +834,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 95267700336440595, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 95267700336440595, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
+      propertyPath: labelPrefab
+      value: 
+      objectReference: {fileID: 7776220886532757357, guid: 139fbbcbd718d9646b58c0e660ac4b60, type: 3}
     - target: {fileID: 95267700336440595, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
       propertyPath: parseJsonRef
       value: 
@@ -918,6 +923,10 @@ PrefabInstance:
     - target: {fileID: 95267700336440604, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 554673445156488101, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}

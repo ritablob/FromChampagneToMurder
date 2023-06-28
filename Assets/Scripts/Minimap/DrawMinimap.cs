@@ -35,6 +35,8 @@ public class DrawMinimap : MonoBehaviour
 
     private GameObject[] lineArray;
     private GameObject[] dotArray;
+    private Dictionary<int, GameObject> lineDict = new Dictionary<int, GameObject>();
+    private Dictionary<int, GameObject> dotDict = new Dictionary<int, GameObject>();
 
     private GameObject[] traversedLineArray;
 
