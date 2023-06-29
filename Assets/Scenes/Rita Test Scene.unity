@@ -337,7 +337,7 @@ MonoBehaviour:
   graph:
     nodes: []
     edges: []
-  jsonFile: {fileID: 4900000, guid: e0a303ec29ea4b246a191aa02223bec2, type: 3}
+  jsonFile: {fileID: 4900000, guid: afd97129a5194bc4685f104667b7dfcb, type: 3}
   nodeID: 0
   previousNodeID: 0
 --- !u!4 &350097431
@@ -353,7 +353,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &350097432
 MonoBehaviour:
@@ -773,7 +773,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1318132525
 GameObject:
@@ -823,7 +823,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2061733326
 RectTransform:
   m_ObjectHideFlags: 0
@@ -971,7 +971,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 95267700336440595, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
       propertyPath: mapScale
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 95267700336440595, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
       propertyPath: labelPrefab
@@ -1067,11 +1067,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 554673445156488101, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -417
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 554673445156488101, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 192
+      value: 73
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}

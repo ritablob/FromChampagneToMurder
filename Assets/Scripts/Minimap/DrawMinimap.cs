@@ -31,14 +31,11 @@ public class DrawMinimap : MonoBehaviour
     private GameObject dotRef;
     LineRenderer lineRenderer;
 
-    private Vector2[] nodePositions;
+    private Dictionary<int, GameObject> lineDict = new();
+    private Dictionary<int, GameObject> dotDict = new();
 
-    private GameObject[] lineArray;
-    private GameObject[] dotArray;
-    private Dictionary<int, GameObject> lineDict = new Dictionary<int, GameObject>();
-    private Dictionary<int, GameObject> dotDict = new Dictionary<int, GameObject>();
-
-    private GameObject[] traversedLineArray;
+    private Dictionary<int, Vector2> nodePositions = new();
+    private Dictionary<int, GameObject> traversedLineDict = new();
 
     /* To do:
      * - edit scale of the map
@@ -87,73 +84,77 @@ public class DrawMinimap : MonoBehaviour
 
         if (parseJsonRef != null)
         {
-            lineArray = new GameObject[parseJsonRef.graph.edges.Length+2];
-            dotArray = new GameObject[parseJsonRef.graph.nodes.Length + 2];
-            traversedLineArray = new GameObject[lineArray.Length];
 
             Nodes lastNode = parseJsonRef.graph.nodes[parseJsonRef.graph.nodes.Length-1];
-            nodePositions = new Vector2[lastNode.key+2];
 
             // draw dots
             for (int i = 0; i < parseJsonRef.graph.nodes.Length; i++)
             {
                 Vector2 pos = new Vector2((float)parseJsonRef.graph.nodes[i].attributes.x, (float)parseJsonRef.graph.nodes[i].attributes.y);
                 nodePositions[parseJsonRef.graph.nodes[i].key] = pos;
-                dotArray[i] = DrawMinimapDot(pos);
+                dotDict[parseJsonRef.graph.nodes[i].key] = DrawMinimapDot(pos);
             }
             // draw lines
             for (int i = 0; i < parseJsonRef.graph.edges.Length; i++)
             {
-                lineArray[i]=DrawMinimapLine(nodePositions[parseJsonRef.graph.edges[i].source], nodePositions[parseJsonRef.graph.edges[i].target]);
+                lineDict[parseJsonRef.graph.edges[i].key] = DrawMinimapLine(nodePositions[parseJsonRef.graph.edges[i].source], nodePositions[parseJsonRef.graph.edges[i].target]);
+                //Debug.LogError(parseJsonRef.graph.edges[i].key);
             }
         }
     }
     public void RecolorMinimap()
     {
         // nodes
-        for (int i = 0; i < dotArray.Length; i++)
+        for (int i = 0; i < dotDict.Count; i++)
         {
-            if (i == parseJsonRef.previousNodeID)
+            if (parseJsonRef.graph.nodes[i].key == parseJsonRef.previousNodeID)
             {
-                ColourDot(dotArray[i].GetComponent<Image>(), traversedColor);
+                ColourDot(dotDict[parseJsonRef.graph.nodes[i].key].GetComponent<Image>(), traversedColor);
             }
-            else if (i == parseJsonRef.nodeID)
+            else if (parseJsonRef.graph.nodes[i].key == parseJsonRef.nodeID)
             {
-                ColourDot(dotArray[i].GetComponent<Image>(), activeColor);
-                if (dotArray[i].GetComponentInChildren<MinimapLabel>() == null)
-                    SpawnLabel(dotArray[i], i);
+                ColourDot(dotDict[parseJsonRef.graph.nodes[i].key].GetComponent<Image>(), activeColor);
+                if (dotDict[parseJsonRef.graph.nodes[i].key].GetComponentInChildren<MinimapLabel>() == null)
+                    SpawnLabel(dotDict[parseJsonRef.graph.nodes[i].key], parseJsonRef.graph.nodes[i].key);
             }
         }
 
         //edges 
-        GameObject[] activeLineArray = new GameObject[lineArray.Length];
+        GameObject[] activeLineArray = new GameObject[parseJsonRef.graph.edges.Length + 1];
         for (int j = 0; j < parseJsonRef.graph.edges.Length; j++)
         {
-            // traversed edges
+            // traversed nodes
             if (parseJsonRef.graph.edges[j].source == parseJsonRef.previousNodeID && parseJsonRef.graph.edges[j].target == parseJsonRef.nodeID)
             {
-                ColourLine(lineArray[j].GetComponent<LineRenderer>(), traversedColor);
-                traversedLineArray[j] = lineArray[j];
+                ColourLine(lineDict[parseJsonRef.graph.edges[j].key].GetComponent<LineRenderer>(), traversedColor);
+                traversedLineDict[parseJsonRef.graph.edges[j].key] = lineDict[parseJsonRef.graph.edges[j].key];
             }
-            // upcoming edges
+            // upcoming / active nodes
             else if (parseJsonRef.graph.edges[j].source == parseJsonRef.nodeID)
             {
-                ColourLine(lineArray[j].GetComponent<LineRenderer>(), activeColor);
-                activeLineArray[j] = lineArray[j];
-            }
-            // clearing the previous mistakes
-            if (lineArray[j].GetComponent<LineRenderer>().startColor != traversedColor && lineArray[j] != traversedLineArray[j] && lineArray[j] != activeLineArray[j])
+                ColourLine(lineDict[parseJsonRef.graph.edges[j].key].GetComponent<LineRenderer>(), activeColor);
+                activeLineArray[j] = lineDict[parseJsonRef.graph.edges[j].key];
+                //Debug.Log("upcoming line - " + parseJsonRef.graph.edges[j].key);
+            } // previously coloured lines
+
+            if (lineDict[parseJsonRef.graph.edges[j].key].GetComponent<LineRenderer>().startColor != traversedColor)
             {
-                ColourLine(lineArray[j].GetComponent<LineRenderer>(), defaultColor);
+                if (lineDict[parseJsonRef.graph.edges[j].key] == activeLineArray[j])
+                {
+                    ColourLine(lineDict[parseJsonRef.graph.edges[j].key].GetComponent<LineRenderer>(), activeColor);
+                }
+                else if (traversedLineDict.ContainsKey(parseJsonRef.graph.edges[j].key))
+                {
+                    ColourLine(lineDict[parseJsonRef.graph.edges[j].key].GetComponent<LineRenderer>(), traversedColor);
+                }
+                else
+                {
+                    ColourLine(lineDict[parseJsonRef.graph.edges[j].key].GetComponent<LineRenderer>(), defaultColor);
+                }
             }
-            else if (lineArray[j] == activeLineArray[j])
-            {
-                ColourLine(lineArray[j].GetComponent<LineRenderer>(), activeColor);
-            }
-            else
-            {
-                ColourLine(lineArray[j].GetComponent<LineRenderer>(), traversedColor);
-            }
+            //Debug.LogError(j + " "+parseJsonRef.graph.edges[j].key + " " + parseJsonRef.graph.edges[j].attributes.label);
+
+
         }
     }
     public void ColourLine(LineRenderer lineRenderer, Color color)

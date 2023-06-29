@@ -78,7 +78,7 @@ public class Hyperlink : MonoBehaviour
                 // we send the selected link text to text writer (will have to make this cleaner in the future)
 
                 string linkName = pTextMeshPro.textInfo.linkInfo[selectedLinkIndex].GetLinkText().ToLower();
-                Debug.Log(linkName);
+                //Debug.Log(linkName);
                 parseJsonRef.FindNextNodeID(linkName);
 
                 //Debug.Log("Link Clicked, link ID = " + selectedLinkIndex + ", link name - " +linkName);
@@ -134,7 +134,7 @@ public class Hyperlink : MonoBehaviour
         }
 
         linkIndex = TMP_TextUtilities.FindIntersectingLink(m_TextComponent, inputPosition, pCamera); // this finds the index of the hyperlink
-        Debug.Log(linkIndex);
+        //Debug.Log(linkIndex);
         return linkIndex > INVALID_LINK_INDEX;
     }
 
@@ -145,7 +145,7 @@ public class Hyperlink : MonoBehaviour
 
         if (!Input.GetMouseButtonUp(0)) return false;
         inputPosition = Input.mousePosition;
-        Debug.Log(inputPosition+ " "+ TMP_TextUtilities.IsIntersectingRectTransform(m_TextComponent.rectTransform, inputPosition, pCamera));
+        //Debug.Log(inputPosition+ " "+ TMP_TextUtilities.IsIntersectingRectTransform(m_TextComponent.rectTransform, inputPosition, pCamera));
 
         return TMP_TextUtilities.IsIntersectingRectTransform(m_TextComponent.rectTransform, inputPosition, pCamera);
     }

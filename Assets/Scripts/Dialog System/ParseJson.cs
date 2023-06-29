@@ -5,6 +5,7 @@ using Newtonsoft.Json;
 using System;
 using UnityEngine.Networking.Types;
 using System.Text.RegularExpressions;
+using UnityEditorInternal;
 
 /// <summary>
 /// parses the json file and puts all the data into the Nodegraph variable :)
@@ -16,6 +17,7 @@ public class ParseJson : MonoBehaviour
     //[HideInInspector]
     public int nodeID;
     public int previousNodeID;
+
     TextWriter writer;
 
 
@@ -27,7 +29,7 @@ public class ParseJson : MonoBehaviour
 
     public void FindNextNodeID(string linkName)
     {
-        Debug.Log("Finding node ID, link - " + linkName);
+        //Debug.Log("Finding node ID, link - " + linkName);
         int nextNodeID;
         for (int i = 0; i < graph.edges.Length; i++)
         {
@@ -38,15 +40,36 @@ public class ParseJson : MonoBehaviour
                 CheckIfEdgesAreValid(nextNodeID);
                 previousNodeID = nodeID;
                 nodeID = nextNodeID;
-                writer.WriteText();
+                StartCoroutine(WriteWithDelay());
                 break;
             }
             //Debug.Log(graph.edges[i].attributes.label + " " + linkName);
         }
     }
+    IEnumerator WriteWithDelay()
+    {
+        yield return new WaitForSeconds(0.5f);
+        writer.WriteText();
+        yield return null;
+    }
+    public int FindNodeIndex(int index)
+    {
+        for (int i = 0; i < graph.nodes.Length;i++)
+        {
+            if (graph.nodes[i].key == index)
+            {
+                return i;
+            }
+        }
+        return -1;
+    }
     public void CheckIfEdgesAreValid(int nodeID)
     {
-        string[] splitText = graph.nodes[nodeID].attributes.characterDialogue.Split(' ');
+        Debug.LogError(nodeID);
+        string[] splitText = new string[100];
+        int nodeIndex = FindNodeIndex(nodeID);
+        Debug.LogError("node index "+nodeIndex);
+        splitText = graph.nodes[nodeIndex].attributes.characterDialogue.Split(' ');
         List<string> keywords = new List<string>();
         List<string> edgeLabels = new List<string>();
         // clean up hyperlink keywords
@@ -83,12 +106,14 @@ public class ParseJson : MonoBehaviour
         if (edgesCount > keywords.Count) // if not enough hyperlinks
         {
             Debug.Log("Case 1 - More edges than hyperlinks, "+ edgesCount +" "+ keywords.Count);
-            string newText = graph.nodes[nodeID].attributes.characterDialogue;
+            string newText = graph.nodes[nodeIndex].attributes.characterDialogue;
             for (int i = keywords.Count; i < edgesCount; i++) // adds more hyperlinks
             {
                  newText += " <style=\"Link\">" + edgeLabels[i] + "</style>";
             }
-            graph.nodes[nodeID].attributes.characterDialogue = newText;
+            Debug.Log(newText);
+            graph.nodes[nodeIndex].attributes.characterDialogue = newText;
+            Debug.Log(graph.nodes[nodeIndex].attributes.characterDialogue);
         }
         else if (edgesCount < keywords.Count) // if not enough edges
         {
@@ -112,13 +137,14 @@ public class ParseJson : MonoBehaviour
                 }
                 newText1 += splitText[i] + " ";
             }
-            graph.nodes[nodeID].attributes.characterDialogue = newText1;
+            graph.nodes[nodeIndex].attributes.characterDialogue = newText1;
         }
         else
         {
             Debug.Log("Edges and hyperlinks match :)");
         }
     }
+
 }
 
 // node graph classes based on the json data groups vvv

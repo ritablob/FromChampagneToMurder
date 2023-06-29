@@ -27,7 +27,7 @@ public class TextWriter : MonoBehaviour
 
     public void WriteText()
     {
-        Debug.LogWarning("typing Start");
+        //Debug.LogWarning("typing Start");
         tmp.maxVisibleCharacters = 0;
         finishedTyping = false;
         tmp.text = parser.graph.nodes[parser.nodeID].attributes.characterDialogue;
@@ -47,7 +47,7 @@ public class TextWriter : MonoBehaviour
         else
         {
             finishedTyping=true;
-            Debug.LogWarning("finished typing");
+            //Debug.LogWarning("finished typing");
             yield return null;
         }
         yield return null;
