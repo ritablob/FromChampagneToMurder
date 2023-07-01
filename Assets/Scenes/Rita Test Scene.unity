@@ -915,6 +915,7 @@ GameObject:
   - component: {fileID: 1537009535}
   - component: {fileID: 1537009534}
   - component: {fileID: 1537009536}
+  - component: {fileID: 1537009537}
   m_Layer: 5
   m_Name: TestImage
   m_TagString: Untagged
@@ -993,7 +994,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragOnSurfaces: 1
-  zoomSpeed: 1
+  zoomSpeed: 0.1
+--- !u!61 &1537009537
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537009532}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2009.747, y: 1618.809}
+  m_EdgeRadius: 0
 --- !u!1 &2061733325
 GameObject:
   m_ObjectHideFlags: 0
@@ -1295,7 +1322,9 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 95267699805516394, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
+    - {fileID: 95267699805516395, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2fcd8328ded9ee044b394b0e5de1f5de, type: 3}
 --- !u!224 &95267699805516389 stripped
 RectTransform:
