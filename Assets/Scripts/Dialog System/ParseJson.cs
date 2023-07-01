@@ -14,9 +14,10 @@ public class ParseJson : MonoBehaviour
 {
     public NodeGraph graph;
     public TextAsset jsonFile;
-    //[HideInInspector]
-    public int nodeID;
-    public int previousNodeID;
+
+    [HideInInspector] public int currentNodeKey;
+    [HideInInspector] public int previousNodeKey;
+    [HideInInspector] public int currentNodeIndex;
 
     TextWriter writer;
 
@@ -30,48 +31,42 @@ public class ParseJson : MonoBehaviour
     public void FindNextNodeID(string linkName)
     {
         //Debug.Log("Finding node ID, link - " + linkName);
-        int nextNodeID;
+        int nextNodeKey;
         for (int i = 0; i < graph.edges.Length; i++)
         {
             // check if the edge is right + make sure we are clicking on the right link
-            if (graph.edges[i].source == nodeID && graph.edges[i].attributes.label.ToLower() == linkName)
+            if (graph.edges[i].source == currentNodeKey && graph.edges[i].attributes.label.ToLower() == linkName)
             {
-                nextNodeID = graph.edges[i].target;
-                CheckIfEdgesAreValid(nextNodeID);
-                previousNodeID = nodeID;
-                nodeID = nextNodeID;
-                StartCoroutine(WriteWithDelay());
+                nextNodeKey = graph.edges[i].target;
+                CheckIfEdgesAreValid(nextNodeKey);
+                previousNodeKey = currentNodeKey;
+                currentNodeKey = nextNodeKey;
+                writer.WriteText();
                 break;
             }
-            //Debug.Log(graph.edges[i].attributes.label + " " + linkName);
         }
     }
-    IEnumerator WriteWithDelay()
-    {
-        yield return new WaitForSeconds(0.5f);
-        writer.WriteText();
-        yield return null;
-    }
-    public int FindNodeIndex(int index)
+    public int FindNodeIndex(int key) // finds node position in the array based on its key
     {
         for (int i = 0; i < graph.nodes.Length;i++)
         {
-            if (graph.nodes[i].key == index)
+            if (graph.nodes[i].key == key)
             {
                 return i;
             }
         }
         return -1;
     }
-    public void CheckIfEdgesAreValid(int nodeID)
+    public void CheckIfEdgesAreValid(int nodeKey)
     {
-        Debug.LogError(nodeID);
+        //Debug.LogError(nodeKey); // node key
         string[] splitText = new string[100];
-        int nodeIndex = FindNodeIndex(nodeID);
-        Debug.LogError("node index "+nodeIndex);
-        splitText = graph.nodes[nodeIndex].attributes.characterDialogue.Split(' ');
+        currentNodeIndex = FindNodeIndex(nodeKey); // currentNodeIndex - position in the array
+        //Debug.LogError("node index "+currentNodeIndex);
+        splitText = graph.nodes[currentNodeIndex].attributes.characterDialogue.Split(' ');
         List<string> keywords = new List<string>();
         List<string> edgeLabels = new List<string>();
+
         // clean up hyperlink keywords
         for (int i = 0; i < splitText.Length;i++)
         {
@@ -95,7 +90,7 @@ public class ParseJson : MonoBehaviour
         int edgesCount = 0;
         for (int i = 0; i < graph.edges.Length; i++)
         {
-            if (graph.edges[i].source == nodeID)
+            if (graph.edges[i].source == nodeKey)
             {
                 edgeLabels.Add(graph.edges[i].attributes.label);
                 edgesCount++;
@@ -106,14 +101,14 @@ public class ParseJson : MonoBehaviour
         if (edgesCount > keywords.Count) // if not enough hyperlinks
         {
             Debug.Log("Case 1 - More edges than hyperlinks, "+ edgesCount +" "+ keywords.Count);
-            string newText = graph.nodes[nodeIndex].attributes.characterDialogue;
+            string newText = graph.nodes[currentNodeIndex].attributes.characterDialogue;
             for (int i = keywords.Count; i < edgesCount; i++) // adds more hyperlinks
             {
                  newText += " <style=\"Link\">" + edgeLabels[i] + "</style>";
             }
-            Debug.Log(newText);
-            graph.nodes[nodeIndex].attributes.characterDialogue = newText;
-            Debug.Log(graph.nodes[nodeIndex].attributes.characterDialogue);
+            //Debug.Log(newText);
+            graph.nodes[currentNodeIndex].attributes.characterDialogue = newText;
+           // Debug.Log(graph.nodes[currentNodeIndex].attributes.characterDialogue);
         }
         else if (edgesCount < keywords.Count) // if not enough edges
         {
@@ -137,7 +132,7 @@ public class ParseJson : MonoBehaviour
                 }
                 newText1 += splitText[i] + " ";
             }
-            graph.nodes[nodeIndex].attributes.characterDialogue = newText1;
+            graph.nodes[currentNodeIndex].attributes.characterDialogue = newText1;
         }
         else
         {

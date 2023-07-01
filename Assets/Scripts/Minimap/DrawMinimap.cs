@@ -107,11 +107,11 @@ public class DrawMinimap : MonoBehaviour
         // nodes
         for (int i = 0; i < dotDict.Count; i++)
         {
-            if (parseJsonRef.graph.nodes[i].key == parseJsonRef.previousNodeID)
+            if (parseJsonRef.graph.nodes[i].key == parseJsonRef.previousNodeKey)
             {
                 ColourDot(dotDict[parseJsonRef.graph.nodes[i].key].GetComponent<Image>(), traversedColor);
             }
-            else if (parseJsonRef.graph.nodes[i].key == parseJsonRef.nodeID)
+            else if (parseJsonRef.graph.nodes[i].key == parseJsonRef.currentNodeKey)
             {
                 ColourDot(dotDict[parseJsonRef.graph.nodes[i].key].GetComponent<Image>(), activeColor);
                 if (dotDict[parseJsonRef.graph.nodes[i].key].GetComponentInChildren<MinimapLabel>() == null)
@@ -124,13 +124,13 @@ public class DrawMinimap : MonoBehaviour
         for (int j = 0; j < parseJsonRef.graph.edges.Length; j++)
         {
             // traversed nodes
-            if (parseJsonRef.graph.edges[j].source == parseJsonRef.previousNodeID && parseJsonRef.graph.edges[j].target == parseJsonRef.nodeID)
+            if (parseJsonRef.graph.edges[j].source == parseJsonRef.previousNodeKey && parseJsonRef.graph.edges[j].target == parseJsonRef.currentNodeKey)
             {
                 ColourLine(lineDict[parseJsonRef.graph.edges[j].key].GetComponent<LineRenderer>(), traversedColor);
                 traversedLineDict[parseJsonRef.graph.edges[j].key] = lineDict[parseJsonRef.graph.edges[j].key];
             }
             // upcoming / active nodes
-            else if (parseJsonRef.graph.edges[j].source == parseJsonRef.nodeID)
+            else if (parseJsonRef.graph.edges[j].source == parseJsonRef.currentNodeKey)
             {
                 ColourLine(lineDict[parseJsonRef.graph.edges[j].key].GetComponent<LineRenderer>(), activeColor);
                 activeLineArray[j] = lineDict[parseJsonRef.graph.edges[j].key];

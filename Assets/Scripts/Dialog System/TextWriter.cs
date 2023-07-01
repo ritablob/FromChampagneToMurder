@@ -30,7 +30,7 @@ public class TextWriter : MonoBehaviour
         //Debug.LogWarning("typing Start");
         tmp.maxVisibleCharacters = 0;
         finishedTyping = false;
-        tmp.text = parser.graph.nodes[parser.nodeID].attributes.characterDialogue;
+        tmp.text = parser.graph.nodes[parser.currentNodeIndex].attributes.characterDialogue; // this is the problem
         //Debug.Log(nodeID);
         StartCoroutine(AnimateTypewriter(tmp));
     }
