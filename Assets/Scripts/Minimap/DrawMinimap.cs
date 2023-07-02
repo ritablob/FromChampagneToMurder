@@ -76,6 +76,7 @@ public class DrawMinimap : MonoBehaviour
 
         dotRef = Instantiate(dotPrefab, gameObject.transform);
         dotRef.transform.localPosition = pos;
+        dotRef.GetComponent<Image>().color = defaultColor;
 
         return dotRef;
     }
