@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
 public class TextWriter : MonoBehaviour
@@ -11,6 +12,8 @@ public class TextWriter : MonoBehaviour
     ParseJson parser;
     [HideInInspector]
     public bool finishedTyping = false;
+    public UnityEvent TalkingStart;
+    public UnityEvent TalkingFinish;
 
 
     public TextMeshProUGUI tmp;
@@ -30,6 +33,7 @@ public class TextWriter : MonoBehaviour
         //Debug.LogWarning("typing Start");
         tmp.maxVisibleCharacters = 0;
         finishedTyping = false;
+        TalkingStart.Invoke();
         tmp.text = parser.graph.nodes[parser.currentNodeIndex].attributes.characterDialogue; // this is the problem
         //Debug.Log(nodeID);
         StartCoroutine(AnimateTypewriter(tmp));
@@ -47,6 +51,7 @@ public class TextWriter : MonoBehaviour
         else
         {
             finishedTyping=true;
+            TalkingFinish.Invoke();
             //Debug.LogWarning("finished typing");
             yield return null;
         }

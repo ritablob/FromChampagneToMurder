@@ -78,4 +78,13 @@ public class TestAnimationsCharacter : MonoBehaviour
             
         }
     }
+
+    public void StartTalking()
+    {
+        PlayMotion(happy_talking_animation, 4, true);
+    }
+    public void FinishTalking()
+    {
+        StopMotion(4);
+    }
 }
