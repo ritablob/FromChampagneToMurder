@@ -9,11 +9,13 @@ using UnityEditorInternal;
 
 /// <summary>
 /// parses the json file and puts all the data into the Nodegraph variable :)
+/// <para>Basically the game manager script lol</para>
 /// </summary>
 public class ParseJson : MonoBehaviour
 {
     public NodeGraph graph;
     public TextAsset jsonFile;
+    public DoubtMeter doubtm;
 
     [HideInInspector] public int currentNodeKey;
     [HideInInspector] public int previousNodeKey;
@@ -38,6 +40,7 @@ public class ParseJson : MonoBehaviour
             if (graph.edges[i].source == currentNodeKey && graph.edges[i].attributes.label.ToLower() == linkName)
             {
                 nextNodeKey = graph.edges[i].target;
+                doubtm.ChangeDoubtMeter(nextNodeKey);
                 CheckIfEdgesAreValid(nextNodeKey);
                 previousNodeKey = currentNodeKey;
                 currentNodeKey = nextNodeKey;
