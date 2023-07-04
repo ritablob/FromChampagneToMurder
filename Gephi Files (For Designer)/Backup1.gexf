@@ -1,0 +1,1873 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2023-07-04">
+    <creator>Gephi 0.10.1</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="characterdialogue" title="characterDialogue" type="string"/>
+      <attribute id="special type" title="Special Type" type="string"/>
+      <attribute id="clue/filler" title="Clue/Filler" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="0" label="Start">
+        <attvalues>
+          <attvalue for="characterdialogue" value="Start"/>
+          <attvalue for="special type" value="Start"/>
+          <attvalue for="clue/filler" value="Clue"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="152.91519" y="727.3343"/>
+        <viz:color r="0" g="175" b="135"/>
+      </node>
+      <node id="1" label="Herself as the CEO">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="192.61981" y="700.2642"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="2" label="IT Workforce">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="114.28577" y="699.6016"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="3" label="Her company Summary">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="146.44243" y="764.65454"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="128" label="Hotel">
+        <attvalues>
+          <attvalue for="characterdialogue" value="Their original hotel they wanted to stay at rejected them"/>
+          <attvalue for="special type" value="Her recent Trip"/>
+          <attvalue for="clue/filler" value="Clue"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="174.71579" y="1182.123"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="127">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="176.30048" y="1136.9612"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="126">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="173.13109" y="1087.8378"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="125">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="124.00549" y="1061.6915"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="124">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="68.54113" y="1047.4298"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="123" label="Coffee Shops">
+        <attvalues>
+          <attvalue for="characterdialogue" value="They went to one Coffee Shop in the morning"/>
+          <attvalue for="special type" value="Her recent Trip"/>
+          <attvalue for="clue/filler" value="Clue"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="16.246138" y="1048.2223"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="122">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-47.93407" y="1033.9606"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="121">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-87.55146" y="1065.6531"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="120" label="Harbor">
+        <attvalues>
+          <attvalue for="characterdialogue" value="She avoided the Harbor, because the she hates the stinking fish"/>
+          <attvalue for="special type" value="Her recent Trip"/>
+          <attvalue for="clue/filler" value="Clue"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-109.183495" y="1082.4442"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="119" label="Fish &amp; Crab Market">
+        <attvalues>
+          <attvalue for="characterdialogue" value="They went past this and she hated the smell"/>
+          <attvalue for="special type" value="Her recent Trip"/>
+          <attvalue for="clue/filler" value="Clue"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-135.89403" y="1122.6898"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="118" label="Surfing Club">
+        <attvalues>
+          <attvalue for="characterdialogue" value="She liked seeing hot surfers guys on the beach. Her husband was mad at her for whistling but she doesnt understand why"/>
+          <attvalue for="special type" value="Her recent Trip"/>
+          <attvalue for="clue/filler" value="Clue"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-133.50766" y="1188.4615"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="117">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-112.90664" y="1243.9235"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="116">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-66.950424" y="1281.9545"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="115">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="24.96197" y="1297.8009"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="114">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="99.4427" y="1289.8777"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="113">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="149.36064" y="1272.4468"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="112" label="Bought Gem Jewellery">
+        <attvalues>
+          <attvalue for="characterdialogue" value="She brought home some expensive Jewellery, like a pearl necklace and an emerald bracelet. Her husband said she doesn't need it but she believes otherwise"/>
+          <attvalue for="special type" value="Her recent Trip"/>
+          <attvalue for="clue/filler" value="Clue"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="190.56276" y="1226.4927"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="111">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="210.37146" y="1154.3921"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="110" label="Style Boutiques">
+        <attvalues>
+          <attvalue for="characterdialogue" value="They went to a lot of different Style Boutiques"/>
+          <attvalue for="special type" value="Her recent Trip"/>
+          <attvalue for="clue/filler" value="Clue"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="197.6939" y="1098.138"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="109" label="Busses">
+        <attvalues>
+          <attvalue for="characterdialogue" value="They went on a bus in the morning"/>
+          <attvalue for="special type" value="Her recent Trip"/>
+          <attvalue for="clue/filler" value="Clue"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="169.16934" y="1041.8838"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="108">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="101.027405" y="1021.2834"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="107">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="42.393627" y="1018.90643"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="106" label="Restaurants">
+        <attvalues>
+          <attvalue for="characterdialogue" value="They were in multiple Restaurants"/>
+          <attvalue for="special type" value="Her recent Trip"/>
+          <attvalue for="clue/filler" value="Clue"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-8.316655" y="1021.2834"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="105">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="437.27795" y="862.1323"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="104">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="426.9774" y="894.6207"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="103">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="386.5677" y="851.8312"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="102">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="421.43097" y="829.6439"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="101">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="465.01016" y="827.2666"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="100">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="490.36526" y="853.41583"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="99">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="474.51834" y="889.8664"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="98">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="500.6658" y="887.48914"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="97">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="468.97183" y="928.69403"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="96">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="411.9228" y="931.8637"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="95" label="Showing one's status">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="335.25497" y="912.5418"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="94" label="Staying true to herself">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="345.42435" y="861.2657"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="93">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="441.23965" y="794.7782"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="92">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="489.5729" y="803.4947"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="91">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="516.51276" y="829.6439"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="90">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="537.11383" y="869.264"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="89">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="538.6986" y="922.3548"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="88">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="489.8334" y="943.83655"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="87">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="422.32645" y="961.9748"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="86" label="Dressing appropriate">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="372.3488" y="933.3348"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="85">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="365.73322" y="895.5169"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="84" label="Loving the people">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="401.07745" y="790.96814"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="83" label="Her Loyality to her company">
+        <attvalues>
+          <attvalue for="special type" value="Her Values"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="356.4585" y="813.79584"/>
+        <viz:color r="250" g="146" b="0"/>
+      </node>
+      <node id="82" label="Mission Statement">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="180.14223" y="844.41644"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="81" label="She uses the service herself">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="54.380947" y="810.2052"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="80" label="Affording the expensive Lifestyle">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="104.298996" y="914.1913"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="79" label="Safety of the product">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="260.12796" y="800.59735"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="78">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="96.44468" y="851.5755"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="77" label="Saving Money">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="127.4591" y="837.5887"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="76">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="60.72078" y="729.0672"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="75" label="Legitimacy">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="299.69147" y="773.53894"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="74" label="Future Company Plans">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="229.02728" y="702.3854"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="73" label="Company Values">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="230.4142" y="782.9698"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="72">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="97.83126" y="759.3053"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="71">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="59.41492" y="691.8313"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="70" label="Company Structure">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="170.12682" y="662.8295"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="69" label="What she stands for">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="267.82718" y="734.3214"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="68">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="146.94456" y="693.6118"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="129">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="134.30602" y="1238.3773"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="130" label="Galleries">
+        <attvalues>
+          <attvalue for="characterdialogue" value="They first wanted to go inside a Gallery in morning but it wasn't open yet, So they headed to another"/>
+          <attvalue for="special type" value="Her recent Trip"/>
+          <attvalue for="clue/filler" value="Clue"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="101.027405" y="1259.7699"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="131">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="55.863544" y="1265.3159"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="132" label="Boat Tours">
+        <attvalues>
+          <attvalue for="characterdialogue" value="They were only on a Boat once, which was horrible, never again"/>
+          <attvalue for="special type" value="Her recent Trip"/>
+          <attvalue for="clue/filler" value="Clue"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-38.42589" y="1270.07"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="133">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-76.45861" y="1237.585"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="134">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-95.47492" y="1207.477"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="135" label="Stores">
+        <attvalues>
+          <attvalue for="characterdialogue" value="They were in a bunch of &quot;different&quot; premium stores"/>
+          <attvalue for="special type" value="Her recent Trip"/>
+          <attvalue for="clue/filler" value="Clue"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="84.68416" y="1076.1122"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="136" label="Beaches">
+        <attvalues>
+          <attvalue for="characterdialogue" value="They traveled along the beach because they wanted to get to a gallery at the end"/>
+          <attvalue for="special type" value="Her recent Trip"/>
+          <attvalue for="clue/filler" value="Clue"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-88.66819" y="1148.8556"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="137" label="Seafood Restaurant">
+        <attvalues>
+          <attvalue for="characterdialogue" value="They ate together in one Seafood restaurant which was very close to the beach"/>
+          <attvalue for="special type" value="Her recent Trip"/>
+          <attvalue for="clue/filler" value="Clue"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-52.525967" y="1102.9777"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="138">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-16.240149" y="1068.0299"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="139">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="13.0767355" y="1104.4763"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="140">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-32.08711" y="1149.6381"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="141">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-32.08711" y="1191.6309"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="142">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-9.109006" y="1237.585"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="143">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="26.711765" y="1240.6718"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="144">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="66.16408" y="1224.1156"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="145" label="Hotel: The Pearl">
+        <attvalues>
+          <attvalue for="characterdialogue" value="She isn't a fan anymore, first they deny her stay and then they didn't even let her pass through. She had to take such a long path arounf the property to get where she wanted to go"/>
+          <attvalue for="special type" value="Her recent Trip"/>
+          <attvalue for="clue/filler" value="Clue"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="104.98914" y="1199.5541"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="146">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="132.72133" y="1166.2766"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="147">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="125.590195" y="1129.0381"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="148">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="85.18043" y="1103.6841"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="149">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="55.863544" y="1096.5533"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="150">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="55.863544" y="1140.9227"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="151">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="82.80339" y="1164.6923"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="152" label="Gondolas">
+        <attvalues>
+          <attvalue for="characterdialogue" value="She took one down the mountain"/>
+          <attvalue for="special type" value="Her recent Trip"/>
+          <attvalue for="clue/filler" value="Clue"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="41.60129" y="1190.8384"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="153">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-3.562585" y="1198.7616"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="154">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="5.1532655" y="1154.3921"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="155" label="Hiking / Mountain">
+        <attvalues>
+          <attvalue for="characterdialogue" value="When she went up the Mount Doom it was very annoying for her"/>
+          <attvalue for="special type" value="Her recent Trip"/>
+          <attvalue for="clue/filler" value="Clue"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="27.33901" y="1155.9768"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="156" label="Italian Restaurant">
+        <attvalues>
+          <attvalue for="characterdialogue" value="She went to Italian Restaurant in the evening"/>
+          <attvalue for="special type" value="Her recent Trip"/>
+          <attvalue for="clue/filler" value="Clue"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="90.61332" y="983.85187"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="157">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="154.80215" y="994.153"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="158">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="219.78345" y="1029.8113"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="159">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="268.224" y="1063.1365"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="160" label="Her interest in vintage cars">
+        <attvalues>
+          <attvalue for="characterdialogue" value="She loves cars especially vintage ones, shes disappointed of misora. She heard of a car colletion but couldnt find one."/>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="256.03876" y="1171.8988"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="161">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="229.2929" y="1236.6278"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="162">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="204.72679" y="1293.6809"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="163">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="146.87761" y="1309.529"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="164">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="99.33032" y="1326.1693"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="165">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="39.89621" y="1335.6782"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="166">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-58.36816" y="1339.64"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="167">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-113.04752" y="1293.6809"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="168">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-152.67029" y="1252.476"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="169">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-187.53824" y="1193.0459"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="170">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-165.1189" y="1159.1519"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="171">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-155.84009" y="1072.6008"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="172">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-128.10419" y="1047.244"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="173" label="Spa">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-75.0097" y="1011.58594"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="174">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-1.3114407" y="985.4366"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="175">
+        <attvalues>
+          <attvalue for="special type" value="Her recent Trip"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="28.80184" y="982.267"/>
+        <viz:color r="226" g="139" b="255"/>
+      </node>
+      <node id="176">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-206.42088" y="1099.9711"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="177">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-216.93938" y="1032.9233"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="178">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-219.56895" y="952.7287"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="179">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-224.30058" y="867.98566"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="180">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-180.55199" y="820.1395"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="181">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-188.55777" y="861.6044"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="182">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-114.31723" y="831.72205"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="183" label="No taxes and focusing on more important things">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-70.995445" y="859.3875"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="184">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-26.291868" y="884.3662"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="185">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="7.893191" y="910.65936"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="186">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="27.615362" y="946.1554"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="187" label="Having Disagreements">
+        <attvalues>
+          <attvalue for="characterdialogue" value="From time to time there are some times instances where her husband gets angry at her for no reason, but those can be quickly resolved and would never destroy the bond they share"/>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-178.16504" y="1019.4805"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="188" label="Wellness">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-111.75457" y="975.07794"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="189" label="Fine Dining">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-59.80392" y="965.59607"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="190">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-21.032621" y="944.84076"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="191">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-68.58783" y="935.39465"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="192" label="Her husband">
+        <attvalues>
+          <attvalue for="characterdialogue" value="&quot;I love my husband&quot;"/>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-164.24747" y="940.6994"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="193">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-150.00726" y="984.4314"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="194">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-148.02498" y="894.0582"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="195">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-145.28046" y="852.0894"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="196">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-201.76456" y="910.2084"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="197" label="Expensive Cars">
+        <attvalues>
+          <attvalue for="characterdialogue" value="She likes cars and also own a bunch"/>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="234.93243" y="933.0525"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="198" label="Her dress she is wearing">
+        <attvalues>
+          <attvalue for="special type" value="Her sucessful life"/>
+          <attvalue for="clue/filler" value="Filler"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="328.70694" y="1106.5444"/>
+        <viz:color r="128" g="107" b="104"/>
+      </node>
+      <node id="199">
+        <attvalues>
+          <attvalue for="special type" value="Her sucessful life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="327.39218" y="1169.6484"/>
+        <viz:color r="128" g="107" b="104"/>
+      </node>
+      <node id="200">
+        <attvalues>
+          <attvalue for="special type" value="Her sucessful life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="305.04037" y="1234.0667"/>
+        <viz:color r="128" g="107" b="104"/>
+      </node>
+      <node id="201">
+        <attvalues>
+          <attvalue for="special type" value="Her sucessful life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="266.91086" y="1284.0242"/>
+        <viz:color r="128" g="107" b="104"/>
+      </node>
+      <node id="202">
+        <attvalues>
+          <attvalue for="special type" value="Her sucessful life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="379.98462" y="1260.3601"/>
+        <viz:color r="128" g="107" b="104"/>
+      </node>
+      <node id="203">
+        <attvalues>
+          <attvalue for="special type" value="Her sucessful life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="386.55865" y="1184.1095"/>
+        <viz:color r="128" g="107" b="104"/>
+      </node>
+      <node id="204">
+        <attvalues>
+          <attvalue for="special type" value="Her sucessful life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="360.26242" y="1076.3071"/>
+        <viz:color r="128" g="107" b="104"/>
+      </node>
+      <node id="205">
+        <attvalues>
+          <attvalue for="special type" value="Her sucessful life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="386.55865" y="1135.467"/>
+        <viz:color r="128" g="107" b="104"/>
+      </node>
+      <node id="206">
+        <attvalues>
+          <attvalue for="special type" value="Her sucessful life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="422.0585" y="1136.7817"/>
+        <viz:color r="128" g="107" b="104"/>
+      </node>
+      <node id="207">
+        <attvalues>
+          <attvalue for="special type" value="Her sucessful life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="427.31775" y="1176.2214"/>
+        <viz:color r="128" g="107" b="104"/>
+      </node>
+      <node id="208">
+        <attvalues>
+          <attvalue for="special type" value="Her sucessful life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="432.57697" y="1219.6056"/>
+        <viz:color r="128" g="107" b="104"/>
+      </node>
+      <node id="209">
+        <attvalues>
+          <attvalue for="special type" value="Her sucessful life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="361.57724" y="1231.4376"/>
+        <viz:color r="128" g="107" b="104"/>
+      </node>
+      <node id="210">
+        <attvalues>
+          <attvalue for="special type" value="Her sucessful life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="319.50327" y="1289.2828"/>
+        <viz:color r="128" g="107" b="104"/>
+      </node>
+      <node id="211" label="Traveling">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="84.214615" y="946.6576"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="212">
+        <attvalues>
+          <attvalue for="special type" value="Her private life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="172.86345" y="948.71936"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="213" label="Public Transport">
+        <attvalues>
+          <attvalue for="characterdialogue" value="She never uses public transport"/>
+          <attvalue for="special type" value="Her private life"/>
+          <attvalue for="clue/filler" value="&lt;null value>"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="209.72856" y="987.10187"/>
+        <viz:color r="0" g="199" b="255"/>
+      </node>
+      <node id="214">
+        <attvalues>
+          <attvalue for="special type" value="Her sucessful life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="266.6663" y="1002.3256"/>
+        <viz:color r="128" g="107" b="104"/>
+      </node>
+      <node id="215">
+        <attvalues>
+          <attvalue for="special type" value="Her sucessful life"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="303.7751" y="1066.241"/>
+        <viz:color r="128" g="107" b="104"/>
+      </node>
+      <node id="216">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="305.09747" y="663.2962"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="217">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="101.618065" y="636.4939"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="218">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="176.9055" y="613.9988"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="219">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="135.12202" y="606.0046"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="220" label="Legal Team">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="230.97241" y="622.551"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="221">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="271.1717" y="589.5323"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="222">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="18.197315" y="725.8447"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="223">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-13.828919" y="676.3541"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="224">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-94.22033" y="724.1793"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="225">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="332.82294" y="633.7966"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="226" label="&quot;Studies have shown&quot;">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="360.1663" y="694.59973"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="227" label="Safe Testing">
+        <attvalues>
+          <attvalue for="special type" value="Selling you her product"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="426.49146" y="741.3696"/>
+        <viz:color r="105" g="196" b="4"/>
+      </node>
+      <node id="228">
+        <attvalues>
+          <attvalue for="special type" value="Border"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="331.75623" y="556.7252"/>
+        <viz:color r="255" g="93" b="133"/>
+      </node>
+      <node id="229">
+        <attvalues>
+          <attvalue for="special type" value="Border"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="171.17307" y="525.27576"/>
+        <viz:color r="255" g="93" b="133"/>
+      </node>
+      <node id="230">
+        <attvalues>
+          <attvalue for="special type" value="Border"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="5.4957657" y="581.89764"/>
+        <viz:color r="255" g="93" b="133"/>
+      </node>
+      <node id="231">
+        <attvalues>
+          <attvalue for="special type" value="Border"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="83.26707" y="546.2365"/>
+        <viz:color r="255" g="93" b="133"/>
+      </node>
+      <node id="232">
+        <attvalues>
+          <attvalue for="special type" value="Border"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="263.8306" y="528.1948"/>
+        <viz:color r="255" g="93" b="133"/>
+      </node>
+      <node id="233">
+        <attvalues>
+          <attvalue for="special type" value="Border"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="382.92667" y="616.91907"/>
+        <viz:color r="255" g="93" b="133"/>
+      </node>
+      <node id="234">
+        <attvalues>
+          <attvalue for="special type" value="Border"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-68.66541" y="633.8585"/>
+        <viz:color r="255" g="93" b="133"/>
+      </node>
+      <node id="235">
+        <attvalues/>
+        <viz:size value="10.0"/>
+        <viz:position x="809.36597" y="1033.8809"/>
+        <viz:color r="153" g="153" b="153"/>
+      </node>
+      <node id="236">
+        <attvalues/>
+        <viz:size value="10.0"/>
+        <viz:position x="805.59326" y="1079.151"/>
+        <viz:color r="153" g="153" b="153"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="1" label="here" weight="2.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="14" source="0" target="3" weight="2.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="15" source="0" target="2" weight="2.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="17" source="3" target="1">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="329" source="221" target="219">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="332" source="226" target="220">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="281" source="219" target="2">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="277" source="75" target="226">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="278" source="70" target="2">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="333" source="226" target="74">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="287" source="216" target="75" weight="2.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="325" source="222" target="71">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="280" source="2" target="218">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="331" source="225" target="69">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="274" source="220" target="74">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="273" source="220" target="70">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="283" source="1" target="69">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="322" source="69" target="75" weight="2.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="275" source="221" target="216">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="272" source="218" target="70">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="276" source="221" target="1">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="271" source="70" target="73">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="326" source="222" target="3">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="323" source="68" target="76">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="284" source="69" target="74">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="289" source="3" target="73">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="290" source="73" target="75" weight="2.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="318" source="82" target="77">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="270" source="70" target="72">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="268" source="217" target="223">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="327" source="216" target="225">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="319" source="82" target="79" weight="2.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="256" source="223" target="224" weight="2.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="259" source="225" target="226">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="257" source="71" target="2">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="265" source="220" target="221">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="262" source="224" target="222">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="263" source="222" target="223">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="291" source="72" target="81" weight="2.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="330" source="225" target="221">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="258" source="74" target="225">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="316" source="73" target="82">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="288" source="3" target="72">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="294" source="72" target="222">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="264" source="1" target="220">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="300" source="224" target="180" weight="3.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="314" source="77" target="74">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="302" source="219" target="218">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="308" source="78" target="80" weight="2.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="306" source="78" target="77">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="246" source="80" target="211" weight="3.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="245" source="79" target="84" weight="3.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="243" source="3" target="77">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="244" source="75" target="94" weight="3.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="303" source="218" target="217">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="249" source="81" target="183" weight="3.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="247" source="80" target="197" weight="3.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="301" source="227" target="92" weight="3.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="305" source="227" target="218">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="296" source="76" target="71">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="309" source="75" target="219">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="250" source="183" target="192">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="248" source="84" target="192">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="310" source="79" target="73">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="297" source="76" target="78">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="255" source="71" target="223">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="261" source="227" target="225">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="267" source="217" target="219">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="269" source="217" target="68">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="260" source="226" target="227" weight="2.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="254" source="81" target="74">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="295" source="72" target="74">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="317" source="82" target="80" weight="2.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="228" source="198" target="110">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="235" source="95" target="197">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="239" source="77" target="80" weight="2.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="230" source="106" target="156">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="231" source="106" target="137">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="240" source="80" target="189" weight="3.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="237" source="187" target="118">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="232" source="197" target="160">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="226" source="137" target="136">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="227" source="86" target="198">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="298" source="76" target="222">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="311" source="79" target="217">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="241" source="79" target="81" weight="2.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="233" source="197" target="213">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="234" source="213" target="109">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="312" source="80" target="73">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="238" source="192" target="187">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="299" source="223" target="76">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="292" source="71" target="68">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="315" source="223" target="218">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="236" source="189" target="106">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="229" source="106" target="123">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="253" source="81" target="71">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="252" source="188" target="173">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="293" source="68" target="72">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="328" source="216" target="220">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="266" source="2" target="217">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="320" source="73" target="69">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="307" source="78" target="2">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="304" source="219" target="71">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="285" source="74" target="1">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="324" source="68" target="70">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="282" source="2" target="76">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="279" source="70" target="1">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="313" source="77" target="71">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="321" source="69" target="68">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="286" source="74" target="68">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="251" source="183" target="188">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="334" source="221" target="232">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="335" source="219" target="231">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="336" source="224" target="234">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="337" source="227" target="233">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="338" source="223" target="230">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="339" source="217" target="230">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="340" source="216" target="228">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="341" source="225" target="228">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="342" source="218" target="229">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="343" source="220" target="229">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="344" source="229" target="70">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="345" source="229" target="219">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="346" source="229" target="221">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="347" source="232" target="218">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="348" source="232" target="216">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="349" source="232" target="225">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="350" source="228" target="221">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="351" source="228" target="74">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="352" source="228" target="226">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="353" source="233" target="225">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="354" source="233" target="221">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="355" source="233" target="216">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="356" source="231" target="217">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="357" source="231" target="220">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="358" source="230" target="224" weight="2.0">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="359" source="230" target="71">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="360" source="230" target="219">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="361" source="234" target="223">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="362" source="234" target="230">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="363" source="235" target="236" weight="0.5">
+        <viz:color r="144" g="144" b="144"/>
+      </edge>
+      <edge id="364" source="235" target="236" weight="5.0">
+        <viz:color r="128" g="128" b="128"/>
+      </edge>
+      <edge id="366" source="82" target="3">
+        <viz:color r="128" g="128" b="128"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
