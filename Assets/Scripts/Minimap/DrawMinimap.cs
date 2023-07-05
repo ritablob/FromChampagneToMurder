@@ -25,7 +25,7 @@ public class DrawMinimap : MonoBehaviour
     public GameObject dotPrefab;
     public GameObject labelPrefab;
 
-    public ParseJson parseJsonRef;
+    public GameManager gameManager;
 
     private GameObject lineRef;
     private GameObject dotRef;
@@ -83,22 +83,22 @@ public class DrawMinimap : MonoBehaviour
     public void DrawFullMinimap()
     {
 
-        if (parseJsonRef != null)
+        if (gameManager != null)
         {
 
-            Nodes lastNode = parseJsonRef.graph.nodes[parseJsonRef.graph.nodes.Length-1];
+            Nodes lastNode = gameManager.graph.nodes[gameManager.graph.nodes.Length-1];
 
             // draw dots
-            for (int i = 0; i < parseJsonRef.graph.nodes.Length; i++)
+            for (int i = 0; i < gameManager.graph.nodes.Length; i++)
             {
-                Vector2 pos = new Vector2((float)parseJsonRef.graph.nodes[i].attributes.x, (float)parseJsonRef.graph.nodes[i].attributes.y);
-                nodePositions[parseJsonRef.graph.nodes[i].key] = pos;
-                dotDict[parseJsonRef.graph.nodes[i].key] = DrawMinimapDot(pos);
+                Vector2 pos = new Vector2((float)gameManager.graph.nodes[i].attributes.x, (float)gameManager.graph.nodes[i].attributes.y);
+                nodePositions[gameManager.graph.nodes[i].key] = pos;
+                dotDict[gameManager.graph.nodes[i].key] = DrawMinimapDot(pos);
             }
             // draw lines
-            for (int i = 0; i < parseJsonRef.graph.edges.Length; i++)
+            for (int i = 0; i < gameManager.graph.edges.Length; i++)
             {
-                lineDict[parseJsonRef.graph.edges[i].key] = DrawMinimapLine(nodePositions[parseJsonRef.graph.edges[i].source], nodePositions[parseJsonRef.graph.edges[i].target]);
+                lineDict[gameManager.graph.edges[i].key] = DrawMinimapLine(nodePositions[gameManager.graph.edges[i].source], nodePositions[gameManager.graph.edges[i].target]);
                 //Debug.LogError(parseJsonRef.graph.edges[i].key);
             }
         }
@@ -108,49 +108,49 @@ public class DrawMinimap : MonoBehaviour
         // nodes
         for (int i = 0; i < dotDict.Count; i++)
         {
-            if (parseJsonRef.graph.nodes[i].key == parseJsonRef.previousNodeKey)
+            if (gameManager.graph.nodes[i].key == gameManager.previousNodeKey)
             {
-                ColourDot(dotDict[parseJsonRef.graph.nodes[i].key].GetComponent<Image>(), traversedColor);
+                ColourDot(dotDict[gameManager.graph.nodes[i].key].GetComponent<Image>(), traversedColor);
             }
-            else if (parseJsonRef.graph.nodes[i].key == parseJsonRef.currentNodeKey)
+            else if (gameManager.graph.nodes[i].key == gameManager.currentNodeKey)
             {
-                ColourDot(dotDict[parseJsonRef.graph.nodes[i].key].GetComponent<Image>(), activeColor);
-                if (dotDict[parseJsonRef.graph.nodes[i].key].GetComponentInChildren<MinimapLabel>() == null)
-                    SpawnLabel(dotDict[parseJsonRef.graph.nodes[i].key], parseJsonRef.graph.nodes[i].key);
+                ColourDot(dotDict[gameManager.graph.nodes[i].key].GetComponent<Image>(), activeColor);
+                if (dotDict[gameManager.graph.nodes[i].key].GetComponentInChildren<MinimapLabel>() == null)
+                    SpawnLabel(dotDict[gameManager.graph.nodes[i].key], gameManager.graph.nodes[i].key);
             }
         }
 
         //edges 
-        GameObject[] activeLineArray = new GameObject[parseJsonRef.graph.edges.Length + 1];
-        for (int j = 0; j < parseJsonRef.graph.edges.Length; j++)
+        GameObject[] activeLineArray = new GameObject[gameManager.graph.edges.Length + 1];
+        for (int j = 0; j < gameManager.graph.edges.Length; j++)
         {
             // traversed nodes
-            if (parseJsonRef.graph.edges[j].source == parseJsonRef.previousNodeKey && parseJsonRef.graph.edges[j].target == parseJsonRef.currentNodeKey)
+            if (gameManager.graph.edges[j].source == gameManager.previousNodeKey && gameManager.graph.edges[j].target == gameManager.currentNodeKey)
             {
-                ColourLine(lineDict[parseJsonRef.graph.edges[j].key].GetComponent<LineRenderer>(), traversedColor);
-                traversedLineDict[parseJsonRef.graph.edges[j].key] = lineDict[parseJsonRef.graph.edges[j].key];
+                ColourLine(lineDict[gameManager.graph.edges[j].key].GetComponent<LineRenderer>(), traversedColor);
+                traversedLineDict[gameManager.graph.edges[j].key] = lineDict[gameManager.graph.edges[j].key];
             }
             // upcoming / active nodes
-            else if (parseJsonRef.graph.edges[j].source == parseJsonRef.currentNodeKey)
+            else if (gameManager.graph.edges[j].source == gameManager.currentNodeKey)
             {
-                ColourLine(lineDict[parseJsonRef.graph.edges[j].key].GetComponent<LineRenderer>(), activeColor);
-                activeLineArray[j] = lineDict[parseJsonRef.graph.edges[j].key];
+                ColourLine(lineDict[gameManager.graph.edges[j].key].GetComponent<LineRenderer>(), activeColor);
+                activeLineArray[j] = lineDict[gameManager.graph.edges[j].key];
                 //Debug.Log("upcoming line - " + parseJsonRef.graph.edges[j].key);
             } // previously coloured lines
 
-            if (lineDict[parseJsonRef.graph.edges[j].key].GetComponent<LineRenderer>().startColor != traversedColor)
+            if (lineDict[gameManager.graph.edges[j].key].GetComponent<LineRenderer>().startColor != traversedColor)
             {
-                if (lineDict[parseJsonRef.graph.edges[j].key] == activeLineArray[j])
+                if (lineDict[gameManager.graph.edges[j].key] == activeLineArray[j])
                 {
-                    ColourLine(lineDict[parseJsonRef.graph.edges[j].key].GetComponent<LineRenderer>(), activeColor);
+                    ColourLine(lineDict[gameManager.graph.edges[j].key].GetComponent<LineRenderer>(), activeColor);
                 }
-                else if (traversedLineDict.ContainsKey(parseJsonRef.graph.edges[j].key))
+                else if (traversedLineDict.ContainsKey(gameManager.graph.edges[j].key))
                 {
-                    ColourLine(lineDict[parseJsonRef.graph.edges[j].key].GetComponent<LineRenderer>(), traversedColor);
+                    ColourLine(lineDict[gameManager.graph.edges[j].key].GetComponent<LineRenderer>(), traversedColor);
                 }
                 else
                 {
-                    ColourLine(lineDict[parseJsonRef.graph.edges[j].key].GetComponent<LineRenderer>(), defaultColor);
+                    ColourLine(lineDict[gameManager.graph.edges[j].key].GetComponent<LineRenderer>(), defaultColor);
                 }
             }
             //Debug.LogError(j + " "+parseJsonRef.graph.edges[j].key + " " + parseJsonRef.graph.edges[j].attributes.label);
@@ -174,11 +174,11 @@ public class DrawMinimap : MonoBehaviour
         GameObject label = Instantiate(labelPrefab, dot.transform);
 
         TextMeshProUGUI textmesh = label.GetComponentInChildren<TextMeshProUGUI>();
-        for (int i = 0; i < parseJsonRef.graph.nodes.Length; i++)
+        for (int i = 0; i < gameManager.graph.nodes.Length; i++)
         {
-            if (parseJsonRef.graph.nodes[i].key == index)
+            if (gameManager.graph.nodes[i].key == index)
             {
-                textmesh.text = parseJsonRef.graph.nodes[i].attributes.label;
+                textmesh.text = gameManager.graph.nodes[i].attributes.label;
                 break;
             }
         }

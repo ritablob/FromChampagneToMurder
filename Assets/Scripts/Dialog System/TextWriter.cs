@@ -9,7 +9,7 @@ using UnityEngine.EventSystems;
 public class TextWriter : MonoBehaviour
 {
     public float typingSpeed = 0.1f;
-    ParseJson parser;
+    GameManager parser;
     [HideInInspector]
     public bool finishedTyping = false;
     public UnityEvent TalkingStart;
@@ -21,7 +21,7 @@ public class TextWriter : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
-        parser = GetComponent<ParseJson>();
+        parser = GetComponent<GameManager>();
     }
     void Start()
     {

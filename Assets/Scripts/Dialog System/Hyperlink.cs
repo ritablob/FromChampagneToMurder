@@ -27,7 +27,7 @@ public class Hyperlink : MonoBehaviour
     int selectedLinkIndex; // index of the hyperlink you just clicked on (from 0 to infinity, each hyperlink
                            // in the text has the next int number index)
 
-    public ParseJson parseJsonRef;
+    public GameManager parseJsonRef;
     protected virtual void Awake()
     {
         m_TextComponent = GetComponent<TMP_Text>();

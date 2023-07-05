@@ -19,7 +19,7 @@ public class MinimapCollider : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        if (!inputManager.isDragging)
+        if (!inputManager.isDragging) // if has exited the pointer and is not currently dragging
         {
             hoveringOverMinimap = false;
         }

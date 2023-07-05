@@ -11,7 +11,7 @@ using UnityEditorInternal;
 /// parses the json file and puts all the data into the Nodegraph variable :)
 /// <para>Basically the game manager script lol</para>
 /// </summary>
-public class ParseJson : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     public NodeGraph graph;
     public TextAsset jsonFile;
