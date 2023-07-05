@@ -7,15 +7,17 @@ public class CameraMovingManager : MonoBehaviour
     public float zoomSpeed = 1f;
     public float maxZoomIn = 10f;
     public float maxZoomOut = 1000f;
+    public Transform lowerLeftCorner;
+    public Transform upperRightCorner;
 
     public float dragSpeed = 1f;
 
     private Vector3 originalCameraPos;
     private Vector3 mouseOrigin;
     private Vector3 diference;
-    private bool dragging = false;
     private float currentOrtho;
     private float originalOrtho;
+    private Vector3 cameraPosition;
 
     void Start()
     {
@@ -24,38 +26,31 @@ public class CameraMovingManager : MonoBehaviour
         currentOrtho = minimapCam.orthographicSize;
         originalOrtho = currentOrtho;
     }
-    void LateUpdate()
+    public void SetMouseOrigin()
     {
-        if (Input.GetMouseButton(0))
-        {
-            diference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - minimapCam.transform.position;
-            if (dragging == false)
-            {
-                dragging = true;
-                mouseOrigin = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-               // Debug.Log("camera - "+Camera.main.transform.position+", mouse origin - "+ mouseOrigin);
-            }
-            //Debug.Log("camera - " + Camera.main.transform.position + ", difference - " + diference);
-        }
-        else
-        {
-            dragging = false;
-        }
-        if (dragging == true)
-        {
-            minimapCam.transform.position = mouseOrigin - diference;
-        }
-        //RESET CAMERA TO STARTING POSITION WITH RIGHT CLICK
-        if (Input.GetMouseButton(1))
-        {
-            minimapCam.transform.position = originalCameraPos;
-            minimapCam.orthographicSize = originalOrtho;
-            currentOrtho = originalOrtho;
-        }
-
-        CameraZoom();
+        mouseOrigin = minimapCam.ScreenToWorldPoint(Input.mousePosition);
+        Debug.LogWarning("camera - " + minimapCam.transform.position + ", mouse origin - " + mouseOrigin);
     }
-    void CameraZoom()
+    public void DragCamera()
+    {
+        diference = minimapCam.ScreenToWorldPoint(Input.mousePosition) - minimapCam.transform.position;
+
+        cameraPosition = mouseOrigin - diference;
+        Debug.Log(cameraPosition.x + ", " + cameraPosition.y);
+
+        // clamp values 
+        cameraPosition.x = Mathf.Clamp(cameraPosition.x, lowerLeftCorner.position.x, upperRightCorner.position.x);
+        cameraPosition.y = Mathf.Clamp(cameraPosition.y, lowerLeftCorner.position.y, upperRightCorner.position.y);
+
+        minimapCam.transform.position = cameraPosition;
+    }
+    public void ResetCameraValues()
+    {
+        minimapCam.transform.position = originalCameraPos;
+        minimapCam.orthographicSize = originalOrtho;
+        currentOrtho = originalOrtho;
+    }
+    public void CameraZoom()
     {
         if (Input.mouseScrollDelta.y != 0)
         {
@@ -68,13 +63,13 @@ public class CameraMovingManager : MonoBehaviour
                 }
                 else
                 {
-                    Debug.LogWarning("zoom hit the zone");
+                    //Debug.LogWarning("zoom hit the zone");
                     currentOrtho += zoomSpeed;
                 }
             }
             else
             {
-                Debug.LogWarning("zoom hit the zone");
+               // Debug.LogWarning("zoom hit the zone");
                 currentOrtho -= zoomSpeed;
             }
         }

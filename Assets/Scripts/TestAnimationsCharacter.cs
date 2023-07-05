@@ -74,7 +74,7 @@ public class TestAnimationsCharacter : MonoBehaviour
     {
         if ((_motionController == null) || (animation == null))
         {
-            Debug.LogWarning("Animation could not be played, no Motion Controller or Animation");
+            Debug.LogWarning("Animation could not be played, no Motion Controller or Animation " + _motionController + " "+ animation);
             return;
         }
         _motionController.PlayAnimation(animation, isLoop: looping, layerIndex: (int)animation_layer); //Enum os changed to int so PlayAnimation can be called
