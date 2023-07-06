@@ -6,23 +6,24 @@ public class CameraMovingManager : MonoBehaviour
 {
     public Camera minimapCam;
     public RectTransform minimapCamRect;
-    public Transform lowerLeftCorner;
-    public Transform upperRightCorner;
-    public RectTransform backgroundRef;
+    public RectTransform MapBackgroundRef;
+    public RectTransform MiniMapBackgroundRef;
+    [SerializeField] bool start_with_minimap = true;
 
     [Header("Adjustables")]
-    public float dragSpeed = 1f;
-    public float zoomSpeed = 50f;
-    public float maxZoomIn = 150f;
-    public float maxZoomOut = 500f;
-    public bool inverted_mouse_wheel = true;
-    public bool inverted_drag = true;
+    [SerializeField] float dragSpeed = 1f;
+    [SerializeField] float zoomSpeed = 50f;
+    [SerializeField] float maxZoomIn = 150f;
+    [SerializeField] float maxZoomOut = 500f;
+    [SerializeField] [Range(0f, 0.002f)] float zoomDecreaseMultiplicator = 0.001f;
+    [SerializeField] [Range(0f, 0.01f)] float dragDecreaseMultiplicator = 0.007f;
+    [SerializeField] bool inverted_mouse_wheel = true;
+    [SerializeField] bool inverted_drag = true;
 
     private Vector3 originalCameraPos;
     private Vector3 MouseStartPos;
+    private RectTransform backgroundRef;
 
-    private Vector3 diference;
-    private float currentOrtho;
     private float originalOrtho;
     private Vector3 cameraPosition;
 
@@ -31,53 +32,37 @@ public class CameraMovingManager : MonoBehaviour
     {
         minimapCam = GetComponent<Camera>();
         originalCameraPos = minimapCam.transform.position;
-        currentOrtho = minimapCam.orthographicSize;
-        originalOrtho = currentOrtho;
+        originalOrtho = minimapCam.orthographicSize;
+        SwitchToMinimap();
     }
     public void SetMouseOrigin()
     {
-        //mouseOrigin = minimapCam.ScreenToWorldPoint(Input.mousePosition);
-        //Debug.LogWarning("camera - " + minimapCam.transform.position + ", mouse origin - " + mouseOrigin);
-
-        //Copied Code
         MouseStartPos = Input.mousePosition;
     }
     public void DragCamera()
     {
-        //diference = minimapCam.ScreenToWorldPoint(Input.mousePosition) - minimapCam.transform.position;
-
-        //cameraPosition = mouseOrigin - diference;
-        //Debug.Log(cameraPosition.x + ", " + cameraPosition.y);
-
-        //// clamp values 
-        //cameraPosition *= dragSpeed;
-        //cameraPosition.x = Mathf.Clamp(cameraPosition.x, lowerLeftCorner.position.x, upperRightCorner.position.x);
-        //cameraPosition.y = Mathf.Clamp(cameraPosition.y, lowerLeftCorner.position.y, upperRightCorner.position.y);
-
-        //minimapCam.transform.position = cameraPosition;
-
 
         //Fixed Code
+        Vector2 diference;
         diference = Input.mousePosition - MouseStartPos; //Vector from origin to mouse position
-        diference = new Vector3(diference.x * dragSpeed, diference.y * dragSpeed, 0);    //Add Drag Speed & Get rid of z
         if (inverted_drag) diference *= -1; //invert drag
-        // clamp values 
-        //diference.x = Mathf.Clamp(diference.x, lowerLeftCorner.position.x, upperRightCorner.position.x);
-        //diference.y = Mathf.Clamp(diference.y, lowerLeftCorner.position.y, upperRightCorner.position.y);
+
+        float adj_dragSpeed = dragSpeed - ((maxZoomOut - minimapCam.orthographicSize) * dragDecreaseMultiplicator); //Decrease Drag Speed
+        if (adj_dragSpeed < 0) adj_dragSpeed = 0;
+
+        diference = new Vector2(diference.x * adj_dragSpeed, diference.y * adj_dragSpeed);    //Add Drag Speed & Get rid of 
         if (backgroundRef == null)
         {
             Debug.LogAssertion("BackgroundRef not set, couldn't clamp");
             return;
         }
-        //diference.x = Mathf.Clamp(diference.x, backgroundRef.rect.xMin, backgroundRef.rect.xMax);
-        //diference.y = Mathf.Clamp(diference.y, backgroundRef.rect.yMin, backgroundRef.rect.yMax);
-        Debug.Log(minimapCamRect.position.x.ToString() +" + "+ diference.x.ToString() +" "+ backgroundRef.rect.xMin.ToString() + " " + backgroundRef.rect.xMax.ToString());
-        diference.x = Mathf.Clamp(minimapCamRect.localPosition.x + diference.x, backgroundRef.rect.xMin + minimapCam.orthographicSize, backgroundRef.rect.xMax - minimapCam.orthographicSize) - minimapCamRect.localPosition.x;
-        diference.y = Mathf.Clamp(minimapCamRect.localPosition.y + diference.y, backgroundRef.rect.yMin + minimapCam.orthographicSize, backgroundRef.rect.yMax - minimapCam.orthographicSize) - minimapCamRect.localPosition.y;
-        Debug.Log("Diference: " + diference);
 
-
-        minimapCamRect.position += diference;
+        Vector2 current_camera_position = new Vector2(minimapCamRect.localPosition.x, minimapCamRect.localPosition.y);
+        Vector2 next_position = current_camera_position + diference;
+        //get new position vector
+        diference = ClampPositionIntoRectTransform(next_position, backgroundRef, minimapCam.orthographicSize) - current_camera_position;
+        //Set new position vecotr
+        minimapCamRect.localPosition = new Vector3(minimapCamRect.localPosition.x + diference.x, minimapCamRect.localPosition.y + diference.y, minimapCamRect.localPosition.z);
 
         SetMouseOrigin(); //To account for main camera's position not being changed
     }
@@ -85,33 +70,79 @@ public class CameraMovingManager : MonoBehaviour
     {
         minimapCam.transform.position = originalCameraPos;
         minimapCam.orthographicSize = originalOrtho;
-        currentOrtho = originalOrtho;
     }
     public void CameraZoom()
     {
-        float my_mouseScrollDelta = Input.mouseScrollDelta.y * zoomSpeed;
+        float my_mouseScrollDelta = Input.mouseScrollDelta.y * zoomSpeed; //Get Data
         if (inverted_mouse_wheel) my_mouseScrollDelta *= -1; //Inverts Data
 
         if (Input.mouseScrollDelta.y != 0)
         {
-            if (currentOrtho < maxZoomOut)
+            float currentOrtho = minimapCam.orthographicSize;
+
+            // Zoom Decrease
+            float avgZoom = (maxZoomIn + maxZoomOut) / 2;
+            
+            if (currentOrtho >= avgZoom && my_mouseScrollDelta > 0) //Zoom Out
             {
-                if (currentOrtho > maxZoomIn)
-                {
-                    currentOrtho += my_mouseScrollDelta;
-                    minimapCam.orthographicSize = currentOrtho;
-                }
-                else
-                {
-                    //Debug.LogWarning("zoom hit the zone");
-                    currentOrtho += zoomSpeed;
-                }
+                my_mouseScrollDelta -= ((currentOrtho - avgZoom) * zoomDecreaseMultiplicator);
+                if (my_mouseScrollDelta < 0) my_mouseScrollDelta = 0;
             }
-            else
+
+            if (currentOrtho < avgZoom && my_mouseScrollDelta < 0) //Zoom In
             {
-               // Debug.LogWarning("zoom hit the zone");
-                currentOrtho -= zoomSpeed;
+                my_mouseScrollDelta += ((avgZoom - currentOrtho) * zoomDecreaseMultiplicator);
+                if (my_mouseScrollDelta > 0) my_mouseScrollDelta = 0;
             }
+
+            float newOrtho = currentOrtho + my_mouseScrollDelta; 
+            
+            if (newOrtho < maxZoomIn) newOrtho = maxZoomIn; //Max Values
+            if (newOrtho > maxZoomOut) newOrtho = maxZoomOut;
+            
+            minimapCam.orthographicSize = newOrtho; //Set new Size
+
+            CheckPositionInRect(); //Fix Position Issues
         }
+    }
+
+    public Vector2 ClampPositionIntoRectTransform(Vector2 position, RectTransform borders, float orthographicSize = 0) //Input a Position Outputs the position clambed into the given Borders
+    {
+        float ConfinesXMin = borders.rect.xMin + orthographicSize; //The Borders
+        float ConfinesXMax = borders.rect.xMax - orthographicSize;
+        float ConfinesYMin = borders.rect.yMin + orthographicSize;
+        float ConfinesYMax = borders.rect.yMax - orthographicSize;
+
+        ConfinesXMin += borders.localPosition.x; //account for changed position of background
+        ConfinesXMax += borders.localPosition.x;
+        ConfinesYMin += borders.localPosition.y;
+        ConfinesYMax += borders.localPosition.y;
+
+        Vector2 new_position;
+        
+        new_position.x = Mathf.Clamp(position.x, ConfinesXMin, ConfinesXMax);
+        new_position.y = Mathf.Clamp(position.y, ConfinesYMin, ConfinesYMax);
+
+        return(new_position);
+    }
+
+    public void SwitchToMap()
+    {
+        backgroundRef = MapBackgroundRef;
+        CheckPositionInRect();
+
+    }
+
+    public void SwitchToMinimap()
+    {
+        backgroundRef = MiniMapBackgroundRef;
+        CheckPositionInRect();
+    }
+
+    public void CheckPositionInRect()
+    {
+        Vector2 current_camera_position = minimapCamRect.localPosition; //Fix Position Issues
+        Vector2 new_position = ClampPositionIntoRectTransform(current_camera_position, backgroundRef, minimapCam.orthographicSize);
+        minimapCamRect.localPosition = new Vector3(new_position.x, new_position.y, minimapCamRect.localPosition.z);
     }
 }

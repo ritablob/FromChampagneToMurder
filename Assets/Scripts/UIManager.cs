@@ -8,16 +8,19 @@ public class UIManager : MonoBehaviour
     public GameObject map;
     public GameObject textBox;
     public GameObject reportScreen;
+    public CameraMovingManager minimapCamera;
 
     public void SwitchToMinimap()
     {
         minimap.SetActive(true);
         map.SetActive(false);
+        minimapCamera.SwitchToMinimap();
     }
     public void SwitchToMap()
     {
         map.SetActive(true);
         minimap.SetActive(false);
+        minimapCamera.SwitchToMap();
     }
 
     // ----- report crime screen --------
