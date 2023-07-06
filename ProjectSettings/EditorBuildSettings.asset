@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Rita Test Scene.unity
     guid: b8bb9ca476ba0944a89d0ac50497b91d
+  - enabled: 1
+    path: Assets/Scenes/Rita Scene Copy.unity
+    guid: 70f5a946bddc0a24db6c3078faabbeef
   m_configObjects: {}

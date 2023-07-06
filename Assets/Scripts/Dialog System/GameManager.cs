@@ -16,10 +16,13 @@ public class GameManager : MonoBehaviour
     public NodeGraph graph;
     public TextAsset jsonFile;
     public DoubtMeter doubtm;
+    [Tooltip("Make sure you provide the *key* of the node, and not the index in the array.")]
+    public int finalNodeKey;
 
     [HideInInspector] public int currentNodeKey;
     [HideInInspector] public int previousNodeKey;
     [HideInInspector] public int currentNodeIndex;
+    [HideInInspector] public bool startingEnding = false;
 
     TextWriter writer;
 
@@ -28,24 +31,36 @@ public class GameManager : MonoBehaviour
     {
         graph = NodeGraph.CreateFromJSON(jsonFile.text);
         writer = GetComponent<TextWriter>();
+        startingEnding = false;
     }
-
+    private void Update()
+    {
+        if (startingEnding)
+        {
+            startingEnding = false;
+            currentNodeIndex = FindNodeIndex(finalNodeKey);
+            writer.WriteText();
+        }
+    }
     public void FindNextNodeID(string linkName)
     {
-        //Debug.Log("Finding node ID, link - " + linkName);
-        int nextNodeKey;
-        for (int i = 0; i < graph.edges.Length; i++)
+        if (!startingEnding)
         {
-            // check if the edge is right + make sure we are clicking on the right link
-            if (graph.edges[i].source == currentNodeKey && graph.edges[i].attributes.label.ToLower() == linkName)
+            //Debug.Log("Finding node ID, link - " + linkName);
+            int nextNodeKey;
+            for (int i = 0; i < graph.edges.Length; i++)
             {
-                nextNodeKey = graph.edges[i].target;
-                doubtm.ChangeDoubtMeter(nextNodeKey);
-                CheckIfEdgesAreValid(nextNodeKey);
-                previousNodeKey = currentNodeKey;
-                currentNodeKey = nextNodeKey;
-                writer.WriteText();
-                break;
+                // check if the edge is right + make sure we are clicking on the right link
+                if (graph.edges[i].source == currentNodeKey && graph.edges[i].attributes.label.ToLower() == linkName)
+                {
+                    nextNodeKey = graph.edges[i].target;
+                    doubtm.AddDoubt(graph.nodes[FindNodeIndex(nextNodeKey)].attributes.DoubtImpact);
+                    CheckIfEdgesAreValid(nextNodeKey);
+                    previousNodeKey = currentNodeKey;
+                    currentNodeKey = nextNodeKey;
+                    writer.WriteText();
+                    break;
+                }
             }
         }
     }
@@ -59,6 +74,10 @@ public class GameManager : MonoBehaviour
             }
         }
         return -1;
+    }
+    public Nodes GetNodeByIndex(int index)
+    {
+        return graph.nodes[index];
     }
     public void CheckIfEdgesAreValid(int nodeKey)
     {
@@ -172,6 +191,7 @@ public class NodeAttributes
     public double y;
     public string characterDialogue;
     public string Type;
+    public int DoubtImpact;
 }
 [Serializable]
 public class Edges

@@ -1,14 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
     public GameObject minimap;
     public GameObject map;
     public GameObject textBox;
-    public GameObject reportScreen;
+    public ReportCrimeScene reportScreen;
     public CameraMovingManager minimapCamera;
+
+    int triesTaken;
 
     public void SwitchToMinimap()
     {
@@ -26,12 +29,12 @@ public class UIManager : MonoBehaviour
     // ----- report crime screen --------
     public void ReportScreenOpen()
     {
-        reportScreen.SetActive(true);
+        reportScreen.gameObject.SetActive(true);
         DisableInputReportScreen();
     }
     public void ReportScreenClose()
     {
-        reportScreen.SetActive(false);
+        reportScreen.gameObject.SetActive(false);
         EnableInputReportScreen();
     }
     public void ReportScreenConfirm()
@@ -44,6 +47,18 @@ public class UIManager : MonoBehaviour
         // if correct, win game 
 
         Debug.Log("pressed Report scene");
+        if (reportScreen.DoesTextMatch())
+        {
+            //SceneManager.LoadScene(1); load ending win scene
+        }
+        else
+        {
+            triesTaken++;
+            if (triesTaken > 1)
+            {
+                //SceneManager.LoadScene(0); load ending lose scene
+            }
+        }
     }
     public void DisableInputReportScreen() // so that there is no overlapping input
     {
