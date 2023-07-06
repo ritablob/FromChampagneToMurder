@@ -31,7 +31,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 4687510854035358073}
+  - {fileID: 1470014272763896196}
+  - {fileID: 5310387971114192197}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -52,16 +55,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffc4233856d170642a3a5cd2ccde2589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapScale: 1
-  defaultColor: {r: 1, g: 1, b: 1, a: 0}
-  activeColor: {r: 1, g: 0, b: 0, a: 1}
-  traversedColor: {r: 0, g: 0, b: 0, a: 1}
-  lineWidth: 2
-  nodeSize: 1
   linePrefab: {fileID: 425626991882857960, guid: dd8340205264da349a4274916e11654e, type: 3}
   dotPrefab: {fileID: 1389829946650032406, guid: e04d4779ec49fa24088b75155619ce34, type: 3}
   labelPrefab: {fileID: 7776220886532757357, guid: 139fbbcbd718d9646b58c0e660ac4b60, type: 3}
-  parseJsonRef: {fileID: 0}
+  Dots: {fileID: 6787423152464118455}
+  Lines: {fileID: 5191298292699964834}
+  Labels: {fileID: 1758889692920480217}
+  gameManager: {fileID: 0}
+  mapScale: 1
+  lineWidth: 2
+  nodeSize: 1
+  spawn_labels: 1
+  defaultColorNodes: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  show_about_to_pass_nodes: 1
+  mark_about_to_pass_nodes_as_traversed: 0
+  aboutToPassColorNodes: {r: 1, g: 0, b: 0, a: 1}
+  show_active_node: 1
+  activeColorNodes: {r: 1, g: 0, b: 0, a: 1}
+  show_just_passed_nodes: 1
+  justPassedColorNodes: {r: 1, g: 0, b: 0, a: 1}
+  show_traversed_nodes: 1
+  traversedColorNodes: {r: 0, g: 0, b: 0, a: 1}
+  defaultColorEdges: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  show_about_to_pass_edges: 1
+  mark_about_to_pass_edges_as_traversed: 0
+  aboutToPassColorEdges: {r: 1, g: 0, b: 0, a: 1}
+  show_just_passed_edges: 1
+  justPassedColorEdges: {r: 1, g: 0, b: 0, a: 1}
+  show_traversed_edges: 1
+  traversedColorEdges: {r: 0, g: 0, b: 0, a: 1}
 --- !u!61 &95267699805516390
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -117,3 +139,111 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 4
   m_TargetDisplay: 0
+--- !u!1 &1758889692920480217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5310387971114192197}
+  m_Layer: 6
+  m_Name: Labels
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5310387971114192197
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758889692920480217}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 554673445156488101}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &5191298292699964834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1470014272763896196}
+  m_Layer: 6
+  m_Name: Lines
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1470014272763896196
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5191298292699964834}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 554673445156488101}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &6787423152464118455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4687510854035358073}
+  m_Layer: 6
+  m_Name: Dots
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4687510854035358073
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6787423152464118455}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 554673445156488101}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}

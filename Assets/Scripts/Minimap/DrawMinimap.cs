@@ -14,6 +14,10 @@ public class DrawMinimap : MonoBehaviour
     public GameObject dotPrefab;
     public GameObject labelPrefab;
 
+    public GameObject Dots;
+    public GameObject Lines;
+    public GameObject Labels;
+
     public GameManager gameManager;
 
     [Header("Map Adjustables")]
@@ -91,7 +95,7 @@ public class DrawMinimap : MonoBehaviour
         endPos = new Vector2 (endPos.x*mapScale, endPos.y*mapScale);   
 
         // spawn line prefab
-        lineRef = Instantiate(linePrefab, gameObject.transform);
+        lineRef = Instantiate(linePrefab, Lines.transform);
         lineRenderer = lineRef.GetComponent<LineRenderer>();
 
         // draw line
@@ -110,7 +114,7 @@ public class DrawMinimap : MonoBehaviour
     {
         pos = new Vector2(pos.x*mapScale, pos.y*mapScale);
 
-        dotRef = Instantiate(dotPrefab, gameObject.transform);
+        dotRef = Instantiate(dotPrefab, Dots.transform);
         dotRef.transform.localPosition = pos;
         dotRef.GetComponent<Image>().color = defaultColorNodes;
 
@@ -228,7 +232,7 @@ public class DrawMinimap : MonoBehaviour
 
     public void SpawnLabel(GameObject dot, int index) // activates label prefab and adds text to it
     {
-        GameObject label = Instantiate(labelPrefab, dot.transform);
+        GameObject label = Instantiate(labelPrefab, dot.transform.position, Quaternion.identity, Labels.transform);
 
         TextMeshProUGUI textmesh = label.GetComponentInChildren<TextMeshProUGUI>();
         for (int i = 0; i < gameManager.graph.nodes.Length; i++)
