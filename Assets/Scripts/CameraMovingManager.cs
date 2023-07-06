@@ -4,16 +4,19 @@ using UnityEngine;
 public class CameraMovingManager : MonoBehaviour
 {
     public Camera minimapCam;
-    public float zoomSpeed = 1f;
-    public float maxZoomIn = 10f;
-    public float maxZoomOut = 1000f;
     public Transform lowerLeftCorner;
     public Transform upperRightCorner;
 
+    [Header("Adjustables")]
     public float dragSpeed = 1f;
+    public float zoomSpeed = 50f;
+    public float maxZoomIn = 150f;
+    public float maxZoomOut = 500f;
+    public bool inverted_mouse_wheel = true;
 
     private Vector3 originalCameraPos;
     private Vector3 mouseOrigin;
+
     private Vector3 diference;
     private float currentOrtho;
     private float originalOrtho;
@@ -52,6 +55,9 @@ public class CameraMovingManager : MonoBehaviour
     }
     public void CameraZoom()
     {
+        Vector2 my_mouseScrollDelta = Input.mouseScrollDelta;
+        if (inverted_mouse_wheel) my_mouseScrollDelta *= -1; //Inverts Data
+
         if (Input.mouseScrollDelta.y != 0)
         {
             if (currentOrtho < maxZoomOut)
