@@ -18,349 +18,421 @@
         "Special Type": "Start",
         "Clue/Filler": "Clue",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 3,
+        "Degree": 3
       }
     },
     {
       "key": "128",
       "attributes": {
         "label": "Rejected from Hotel",
-        "x": -304.60022,
-        "y": 73.575584,
-        "size": 12.5,
+        "x": -111.71361,
+        "y": -914.1531,
+        "size": 18.571428,
         "color": "#43a57c",
         "characterDialogue": "The original hotel they wanted to stay at rejected them",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 2,
-        "How easy to reach": 2
+        "How easy to reach": 2,
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
       }
     },
     {
       "key": "127",
       "attributes": {
         "label": "Restaurant \"Above the skies\"",
-        "x": -1841.0184,
-        "y": -24218.75,
-        "size": 5.0,
+        "x": -24218.75,
+        "y": 23364.314,
+        "size": 10.0,
         "color": "#006d2c",
         "characterDialogue": "Now that you mention \"skies\", There was this one Restaurant called \"Above the skies\". Their name is weird, because when she passed it they only served sandwiches",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": 3,
-        "How easy to reach": 5
+        "How easy to reach": 5,
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
       }
     },
     {
       "key": "126",
       "attributes": {
         "label": "City Hall",
-        "x": -417.46054,
-        "y": 22.202126,
-        "size": 12.5,
+        "x": -26.849297,
+        "y": -1201.0715,
+        "size": 15.714286,
         "color": "#43a57c",
         "characterDialogue": "They were here",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": 2,
-        "How easy to reach": 2
+        "How easy to reach": 2,
+        "indegree": 2,
+        "outdegree": 2,
+        "Degree": 4
       }
     },
     {
       "key": "125",
       "attributes": {
         "label": "The Viewing Platform",
-        "x": 148.56721,
-        "y": 293.23636,
-        "size": 10.0,
+        "x": -168.55101,
+        "y": 365.54117,
+        "size": 12.857143,
         "color": "#006d2c",
         "characterDialogue": "She was at one of the Viewing Platform. The view was actually quite nice.",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": 3,
-        "How easy to reach": 3
+        "How easy to reach": 3,
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
       }
     },
     {
       "key": "124",
       "attributes": {
         "label": "Shark Pound",
-        "x": 165.68845,
-        "y": -188.63287,
-        "size": 12.5,
+        "x": 1045.9775,
+        "y": 52.66396,
+        "size": 18.571428,
         "color": "#43a57c",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": 2,
-        "How easy to reach": 2
+        "How easy to reach": 2,
+        "indegree": 3,
+        "outdegree": 4,
+        "Degree": 7
       }
     },
     {
       "key": "123",
       "attributes": {
         "label": "Coffee Shops",
-        "x": -7.9349566,
-        "y": -137.72162,
-        "size": 12.5,
+        "x": 711.77313,
+        "y": -238.45563,
+        "size": 18.571428,
         "color": "#93d4c1",
         "characterDialogue": "They went to one Coffee Shop in the morning",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 1,
-        "How easy to reach": 2
+        "How easy to reach": 2,
+        "indegree": 3,
+        "outdegree": 4,
+        "Degree": 7
       }
     },
     {
       "key": "122",
       "attributes": {
         "label": "Greenery",
-        "x": -219.01208,
-        "y": 30.77501,
-        "size": 15.0,
+        "x": 108.36855,
+        "y": -674.81555,
+        "size": 24.285715,
         "color": "#93d4c1",
         "characterDialogue": "She saw a lot of greenery",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": 1,
-        "How easy to reach": 1
+        "How easy to reach": 1,
+        "indegree": 5,
+        "outdegree": 3,
+        "Degree": 8
       }
     },
     {
       "key": "121",
       "attributes": {
-        "x": -13240.344,
-        "y": -24218.75,
+        "x": -24218.75,
+        "y": 24957.068,
         "size": 10.0,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
       }
     },
     {
       "key": "120",
       "attributes": {
         "label": "Harbor",
-        "x": -280.05545,
-        "y": -17.305807,
-        "size": 12.5,
+        "x": 251.58678,
+        "y": -834.1711,
+        "size": 15.714286,
         "color": "#93d4c1",
         "characterDialogue": "They avoided the Harbor, because the she hates the stinking fish",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 1,
-        "How easy to reach": 2
+        "How easy to reach": 2,
+        "indegree": 2,
+        "outdegree": 4,
+        "Degree": 6
       }
     },
     {
       "key": "119",
       "attributes": {
         "label": "Fish \u0026 Crab Market",
-        "x": -370.9353,
-        "y": -105.741356,
-        "size": 12.5,
+        "x": 381.13083,
+        "y": -1123.4961,
+        "size": 18.571428,
         "color": "#43a57c",
         "characterDialogue": "They went past this and she hated the smell",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 2,
-        "How easy to reach": 2
+        "How easy to reach": 2,
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
       }
     },
     {
       "key": "118",
       "attributes": {
         "label": "Surfing Club",
-        "x": 54.244938,
-        "y": -474.8922,
-        "size": 12.5,
+        "x": 1642.9847,
+        "y": -480.1807,
+        "size": 18.571428,
         "color": "#93d4c1",
         "characterDialogue": "She liked seeing hot surfers guys on the beach. There where really hot once, close to the Surfing Club in Misora. Her husband was mad at her for whistling but she doesnt understand why",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 1,
-        "How easy to reach": 2
+        "How easy to reach": 2,
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
       }
     },
     {
       "key": "117",
       "attributes": {
         "label": "The Trip was horrible",
-        "x": -43.224697,
-        "y": 150.55864,
-        "size": 10.0,
+        "x": 29.202614,
+        "y": -192.36148,
+        "size": 30.0,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 7,
+        "outdegree": 3,
+        "Degree": 10
       }
     },
     {
       "key": "116",
       "attributes": {
         "label": "Restricted Parks",
-        "x": -273.69025,
-        "y": 145.203,
-        "size": 10.0,
+        "x": -188.20288,
+        "y": -765.9845,
+        "size": 21.428572,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 4,
+        "Degree": 8
       }
     },
     {
       "key": "115",
       "attributes": {
         "label": "No meal plans in Hotel",
-        "x": -148.5412,
-        "y": 19.40851,
-        "size": 10.0,
+        "x": 218.45105,
+        "y": -547.56006,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 4,
+        "Degree": 7
       }
     },
     {
       "key": "114",
       "attributes": {
         "label": "Special Services for Cozy Camping",
-        "x": 278.83563,
-        "y": 124.3552,
-        "size": 10.0,
+        "x": 349.05872,
+        "y": 535.4215,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 4,
+        "Degree": 7
       }
     },
     {
       "key": "113",
       "attributes": {
         "label": "Noise",
-        "x": 10.109185,
-        "y": 82.93305,
-        "size": 10.0,
+        "x": 205.00012,
+        "y": -100.96265,
+        "size": 21.428572,
         "color": "#c0c0c0",
         "characterDialogue": "Everything was so loud and annoying",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 4,
+        "Degree": 8
       }
     },
     {
       "key": "112",
       "attributes": {
         "label": "Bought Gem Jewellery",
-        "x": -135.41579,
-        "y": -648.4358,
-        "size": 10.0,
+        "x": 1918.171,
+        "y": -1101.5151,
+        "size": 18.571428,
         "color": "#43a57c",
         "characterDialogue": "She brought home some expensive Jewellery, like a pearl necklace and an emerald bracelet. Her husband said she doesn\u0027t need it but she believes otherwise",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 2,
-        "How easy to reach": 3
+        "How easy to reach": 3,
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
       }
     },
     {
       "key": "111",
       "attributes": {
         "label": "Not needingPublic Transport",
-        "x": -266.9,
-        "y": -171.77036,
-        "size": 10.0,
+        "x": 598.08734,
+        "y": -989.0368,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
       }
     },
     {
       "key": "110",
       "attributes": {
         "label": "Style Boutiques",
-        "x": 153.6051,
-        "y": -412.1022,
-        "size": 12.5,
+        "x": 1619.6233,
+        "y": -128.54735,
+        "size": 21.428572,
         "color": "#93d4c1",
         "characterDialogue": "They went to a lot of different Style Boutiques",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 1,
-        "How easy to reach": 2
+        "How easy to reach": 2,
+        "indegree": 4,
+        "outdegree": 4,
+        "Degree": 8
       }
     },
     {
       "key": "109",
       "attributes": {
         "label": "Busses",
-        "x": -56.371704,
-        "y": 34.73673,
-        "size": 15.0,
+        "x": 232.58624,
+        "y": -299.95468,
+        "size": 24.285715,
         "color": "#93d4c1",
         "characterDialogue": "They went on a bus in the morning. The busses were  also with an audio guide, teeling them about the different buildings they passed",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 1,
-        "How easy to reach": 1
+        "How easy to reach": 1,
+        "indegree": 5,
+        "outdegree": 3,
+        "Degree": 8
       }
     },
     {
       "key": "108",
       "attributes": {
-        "x": -6768.246,
-        "y": -24218.75,
-        "size": 10.0,
+        "x": -24218.75,
+        "y": 25781.25,
+        "size": 12.857143,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2
       }
     },
     {
       "key": "107",
       "attributes": {
-        "x": -6732.1714,
-        "y": -24218.75,
-        "size": 10.0,
+        "x": -24218.75,
+        "y": 25781.25,
+        "size": 12.857143,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2
       }
     },
     {
       "key": "106",
       "attributes": {
         "label": "Bad Restaurants",
-        "x": -56.172115,
-        "y": -51.294277,
-        "size": 12.5,
+        "x": 420.82825,
+        "y": -311.00266,
+        "size": 21.428572,
         "color": "#93d4c1",
         "characterDialogue": "They were in multiple Restaurants",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 1,
-        "How easy to reach": 2
+        "How easy to reach": 2,
+        "indegree": 4,
+        "outdegree": 4,
+        "Degree": 8
       }
     },
     {
@@ -375,22 +447,28 @@
         "Special Type": "Her Values",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
       }
     },
     {
       "key": "86",
       "attributes": {
         "label": "Dressing appropriate",
-        "x": 379.87793,
-        "y": -546.20276,
+        "x": 2346.03,
+        "y": 364.4213,
         "size": 10.0,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her Values",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 1,
+        "Degree": 1
       }
     },
     {
@@ -405,706 +483,850 @@
         "Special Type": "Selling you her product",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
       }
     },
     {
       "key": "129",
       "attributes": {
         "label": "Ocean annoying",
-        "x": 155.00372,
-        "y": 40.747696,
-        "size": 10.0,
+        "x": 432.19266,
+        "y": 254.71878,
+        "size": 12.857143,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
       }
     },
     {
       "key": "130",
       "attributes": {
         "label": "Galleries",
-        "x": -144.84914,
-        "y": -441.6329,
-        "size": 12.5,
+        "x": 1390.2117,
+        "y": -920.7694,
+        "size": 15.714286,
         "color": "#43a57c",
         "characterDialogue": "They first wanted to go inside a Gallery in morning but it wasn\u0027t open yet, So they headed to another",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 2,
-        "How easy to reach": 2
+        "How easy to reach": 2,
+        "indegree": 2,
+        "outdegree": 4,
+        "Degree": 6
       }
     },
     {
       "key": "131",
       "attributes": {
         "label": "The great view",
-        "x": 108.78995,
-        "y": 253.03229,
-        "size": 10.0,
+        "x": -113.185585,
+        "y": 259.40985,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 4,
+        "Degree": 7
       }
     },
     {
       "key": "132",
       "attributes": {
         "label": "Boat Tours",
-        "x": 197.93324,
-        "y": -42.4142,
-        "size": 7.5,
+        "x": 686.4471,
+        "y": 280.8539,
+        "size": 21.428572,
         "color": "#006d2c",
         "characterDialogue": "There are a lot of Boat Tours, but the only thing she got out of it was getting seasick. At least I didn\u0027t throw up like my husband",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 3,
-        "How easy to reach": 4
+        "How easy to reach": 4,
+        "indegree": 4,
+        "outdegree": 3,
+        "Degree": 7
       }
     },
     {
       "key": "133",
       "attributes": {
-        "x": 178.77756,
-        "y": 341.66455,
-        "size": 10.0,
+        "x": -232.33514,
+        "y": 454.11893,
+        "size": 12.857143,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
       }
     },
     {
       "key": "134",
       "attributes": {
         "label": "a fan of architecture",
-        "x": -471.63892,
-        "y": -81.09456,
-        "size": 10.0,
+        "x": 178.46872,
+        "y": -1411.9877,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
       }
     },
     {
       "key": "135",
       "attributes": {
         "label": "Stores",
-        "x": -110.78691,
-        "y": -496.45053,
-        "size": 12.5,
+        "x": 1546.8054,
+        "y": -886.42035,
+        "size": 27.142857,
         "color": "#93d4c1",
         "characterDialogue": "They were in a bunch of \"different\" premium stores",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 1,
-        "How easy to reach": 2
+        "How easy to reach": 2,
+        "indegree": 6,
+        "outdegree": 3,
+        "Degree": 9
       }
     },
     {
       "key": "136",
       "attributes": {
         "label": "Beaches",
-        "x": -105.05497,
-        "y": -342.60577,
-        "size": 10.0,
+        "x": 1186.2501,
+        "y": -747.0348,
+        "size": 18.571428,
         "color": "#43a57c",
         "characterDialogue": "They traveled along the beach because they wanted to get to a gallery at the end",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 2,
-        "How easy to reach": 3
+        "How easy to reach": 3,
+        "indegree": 3,
+        "outdegree": 4,
+        "Degree": 7
       }
     },
     {
       "key": "137",
       "attributes": {
         "label": "Seafood Restaurant",
-        "x": -91.956825,
-        "y": -152.48018,
-        "size": 10.0,
+        "x": 703.74634,
+        "y": -510.75327,
+        "size": 18.571428,
         "color": "#93d4c1",
         "characterDialogue": "They ate together in one Seafood restaurant which was very close to the beach, It also offered a boat ride which she thought was interesting",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 1,
-        "How easy to reach": 3
+        "How easy to reach": 3,
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
       }
     },
     {
       "key": "140",
       "attributes": {
         "label": "Appreciating Beauty",
-        "x": -31.387594,
-        "y": -449.41748,
-        "size": 10.0,
+        "x": 1511.5227,
+        "y": -630.0492,
+        "size": 21.428572,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 4,
+        "Degree": 8
       }
     },
     {
       "key": "141",
       "attributes": {
         "label": "The Cathedral on the hill",
-        "x": -491.8977,
-        "y": -30.601168,
-        "size": 10.0,
+        "x": 52.38399,
+        "y": -1491.1273,
+        "size": 15.714286,
         "color": "#c0c0c0",
         "characterDialogue": "It looked magnificent. They wanted to go but the were really hungry and wanted to eat something",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
       }
     },
     {
       "key": "142",
       "attributes": {
         "label": "Hurting Feet",
-        "x": -14.8215,
-        "y": 345.67422,
-        "size": 10.0,
+        "x": -399.10684,
+        "y": -7.3223634,
+        "size": 15.714286,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
       }
     },
     {
       "key": "143",
       "attributes": {
         "label": "Hot Boys",
-        "x": 94.50056,
-        "y": -315.27548,
-        "size": 10.0,
+        "x": 1308.3875,
+        "y": -185.94975,
+        "size": 21.428572,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 3,
+        "Degree": 7
       }
     },
     {
       "key": "144",
       "attributes": {
         "label": "Climate Activists",
-        "x": -186.34755,
-        "y": -397.72867,
-        "size": 10.0,
+        "x": 1224.9503,
+        "y": -974.9773,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
       }
     },
     {
       "key": "145",
       "attributes": {
         "label": "Hotel: The Pearl",
-        "x": -140.27638,
-        "y": 241.29657,
-        "size": 10.0,
+        "x": -336.79446,
+        "y": -367.13065,
+        "size": 18.571428,
         "color": "#43a57c",
         "characterDialogue": "She isn\u0027t a fan anymore, first they deny her stay and then they didn\u0027t even let her pass through. She had to take such a long path arounf the property to get where she wanted to go",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 2,
-        "How easy to reach": 3
+        "How easy to reach": 3,
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
       }
     },
     {
       "key": "146",
       "attributes": {
         "label": "Why it\u0027s called Platypus Beach",
-        "x": 282.4419,
-        "y": -261.65967,
-        "size": 10.0,
+        "x": 1325.8705,
+        "y": 314.20377,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
       }
     },
     {
       "key": "147",
       "attributes": {
         "label": "Getting up early",
-        "x": 48.024246,
-        "y": -153.34296,
-        "size": 10.0,
+        "x": 823.098,
+        "y": -203.94081,
+        "size": 30.0,
         "color": "#c0c0c0",
         "characterDialogue": "She always get\u0027s up early on vacation to be able to see as much as possible",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 7,
+        "outdegree": 3,
+        "Degree": 10
       }
     },
     {
       "key": "148",
       "attributes": {
         "label": "Cozy Camping Gondola",
-        "x": 197.10095,
-        "y": 241.6366,
-        "size": 10.0,
+        "x": -42.551,
+        "y": 457.36316,
+        "size": 15.714286,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
       }
     },
     {
       "key": "149",
       "attributes": {
         "label": "Names of the shopping district streets",
-        "x": 207.31143,
-        "y": -273.0263,
-        "size": 10.0,
+        "x": 1304.5223,
+        "y": 131.48329,
+        "size": 21.428572,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 3,
+        "Degree": 7
       }
     },
     {
       "key": "150",
       "attributes": {
         "label": "Duckling Lake",
-        "x": 302.834,
-        "y": -156.51514,
-        "size": 10.0,
+        "x": 1050.5706,
+        "y": 381.5984,
+        "size": 21.428572,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 5,
+        "Degree": 9
       }
     },
     {
       "key": "151",
       "attributes": {
         "label": "No sleep",
-        "x": -177.20012,
-        "y": 124.22664,
-        "size": 10.0,
+        "x": -121.85526,
+        "y": -552.5552,
+        "size": 21.428572,
         "color": "#c0c0c0",
         "characterDialogue": "She couldn\u0027t get any sleep in the night it was horrible",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "\u003cnull value\u003e",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 3,
+        "Degree": 7
       }
     },
     {
       "key": "152",
       "attributes": {
         "label": "Gondolas",
-        "x": 128.23434,
-        "y": 340.78165,
-        "size": 7.5,
+        "x": -319.21835,
+        "y": 402.51294,
+        "size": 15.714286,
         "color": "#43a57c",
         "characterDialogue": "She took a gondola down the mountain",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 2,
-        "How easy to reach": 4
+        "How easy to reach": 4,
+        "indegree": 2,
+        "outdegree": 2,
+        "Degree": 4
       }
     },
     {
       "key": "153",
       "attributes": {
         "label": "Quality over Quantity",
-        "x": -143.19872,
-        "y": -215.89429,
-        "size": 10.0,
+        "x": 817.99286,
+        "y": -672.9085,
+        "size": 15.714286,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
       }
     },
     {
       "key": "154",
       "attributes": {
         "label": "Sickness",
-        "x": 109.26083,
-        "y": -28.637644,
-        "size": 10.0,
+        "x": 551.1344,
+        "y": 69.440025,
+        "size": 15.714286,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
       }
     },
     {
       "key": "155",
       "attributes": {
         "label": "Hiking / Mountain",
-        "x": 84.063354,
-        "y": 308.40036,
-        "size": 7.5,
+        "x": -270.38232,
+        "y": 252.23952,
+        "size": 12.857143,
         "color": "#006d2c",
         "characterDialogue": "When she went up the Mount Doom it was very annoying for her",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 3,
-        "How easy to reach": 4
+        "How easy to reach": 4,
+        "indegree": 1,
+        "outdegree": 4,
+        "Degree": 5
       }
     },
     {
       "key": "156",
       "attributes": {
         "label": "Evening Restaurant",
-        "x": -148.09178,
-        "y": -40.881805,
-        "size": 15.0,
+        "x": 361.2773,
+        "y": -535.1848,
+        "size": 15.714286,
         "color": "#93d4c1",
         "characterDialogue": "She went to a Restaurant in the evening",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 1,
-        "How easy to reach": 1
+        "How easy to reach": 1,
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
       }
     },
     {
       "key": "157",
       "attributes": {
-        "x": -23413.51,
-        "y": -24218.75,
+        "x": -24218.75,
+        "y": 25311.172,
         "size": 10.0,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
       }
     },
     {
       "key": "158",
       "attributes": {
         "label": "The scorching sun",
-        "x": 148.27748,
-        "y": -252.47624,
-        "size": 10.0,
+        "x": 1180.1542,
+        "y": -16.984995,
+        "size": 27.142857,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 6,
+        "outdegree": 3,
+        "Degree": 9
       }
     },
     {
       "key": "159",
       "attributes": {
         "label": "Classy Lady",
-        "x": -269.18915,
-        "y": -78.32343,
-        "size": 10.0,
+        "x": 365.1882,
+        "y": -899.64923,
+        "size": 21.428572,
         "color": "#c0c0c0",
         "characterDialogue": "She is so special and perfect, and people should respect that, but instead the whole city didnt show any respect",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 3,
+        "Degree": 7
       }
     },
     {
       "key": "160",
       "attributes": {
         "label": "Her interest in vintage cars",
-        "x": -241.908,
-        "y": -428.346,
-        "size": 12.5,
+        "x": 1259.6016,
+        "y": -1119.1661,
+        "size": 15.714286,
         "color": "#93d4c1",
         "characterDialogue": "She loves cars especially vintage ones, shes disappointed of Misora. She heard of a car colletion but couldnt find one.",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": 1,
-        "How easy to reach": 2
+        "How easy to reach": 2,
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
       }
     },
     {
       "key": "161",
       "attributes": {
         "label": "Names of the Boat Tours",
-        "x": 265.24277,
-        "y": -120.13145,
-        "size": 10.0,
+        "x": 948.649,
+        "y": 384.92157,
+        "size": 24.285715,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 5,
+        "outdegree": 3,
+        "Degree": 8
       }
     },
     {
       "key": "162",
       "attributes": {
         "label": "Discrimination",
-        "x": -4.19858,
-        "y": 213.61098,
-        "size": 10.0,
+        "x": -146.1104,
+        "y": -67.52326,
+        "size": 21.428572,
         "color": "#c0c0c0",
         "characterDialogue": "On the Trip she was discriminated against for being a woman, because she wasnt able to access certain attractions",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 3,
+        "Degree": 7
       }
     },
     {
       "key": "163",
       "attributes": {
         "label": "Dolphin Tour",
-        "x": 326.37018,
-        "y": -8.752259,
-        "size": 10.0,
+        "x": 712.98334,
+        "y": 575.7718,
+        "size": 12.857143,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 4,
+        "Degree": 5
       }
     },
     {
       "key": "164",
       "attributes": {
         "label": "Annoying Husband",
-        "x": -94.938,
-        "y": 100.02216,
-        "size": 10.0,
+        "x": -6.5755663,
+        "y": -326.28503,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "She talks about her and her husband going on the trip together, but starts complaining about him immediately",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 4,
+        "Degree": 7
       }
     },
     {
       "key": "165",
       "attributes": {
         "label": "Leaving the Hotel",
-        "x": 73.775085,
-        "y": 11.48516,
-        "size": 10.0,
+        "x": 325.75934,
+        "y": 63.658764,
+        "size": 15.714286,
         "color": "#c0c0c0",
         "characterDialogue": "Here she is talking about the start of her day, how they took the bus and got coffee",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 2,
+        "Degree": 4
       }
     },
     {
       "key": "166",
       "attributes": {
         "label": "Too much walking",
-        "x": -4.405968,
-        "y": 289.40454,
-        "size": 10.0,
+        "x": -293.7606,
+        "y": 16.802229,
+        "size": 24.285715,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 5,
+        "outdegree": 3,
+        "Degree": 8
       }
     },
     {
       "key": "167",
       "attributes": {
         "label": "Fisherman",
-        "x": -354.38354,
-        "y": 93.26748,
-        "size": 10.0,
+        "x": -32.566,
+        "y": -974.6634,
+        "size": 12.857143,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
       }
     },
     {
       "key": "169",
       "attributes": {
         "label": "Algea Bay",
-        "x": -285.40228,
-        "y": -234.34523,
-        "size": 10.0,
+        "x": 731.0992,
+        "y": -1075.0809,
+        "size": 15.714286,
         "color": "#c0c0c0",
         "characterDialogue": "They took a look at it and decided it wasn\u0027t worth going to",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
       }
     },
     {
       "key": "170",
       "attributes": {
         "label": "Her own Beauty",
-        "x": 12.867794,
-        "y": -541.56445,
-        "size": 10.0,
+        "x": 1781.7156,
+        "y": -631.7486,
+        "size": 30.0,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 7,
+        "outdegree": 3,
+        "Degree": 10
       }
     },
     {
       "key": "171",
       "attributes": {
-        "x": -20357.736,
-        "y": -24218.75,
+        "x": -21576.533,
+        "y": 25781.25,
         "size": 10.0,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
       }
     },
     {
       "key": "172",
       "attributes": {
-        "x": -24073.465,
-        "y": -24218.75,
+        "x": -24218.75,
+        "y": 24535.656,
         "size": 10.0,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
       }
     },
     {
       "key": "173",
       "attributes": {
         "label": "Spa",
-        "x": 107.28236,
-        "y": -640.0619,
-        "size": 10.0,
+        "x": 2085.7305,
+        "y": -484.9462,
+        "size": 15.714286,
         "color": "#43a57c",
         "characterDialogue": "She was at a Spa in Misora",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 2,
-        "How easy to reach": 3
+        "How easy to reach": 3,
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
       }
     },
     {
       "key": "174",
       "attributes": {
-        "x": -24134.268,
-        "y": -23986.246,
+        "x": -24218.75,
+        "y": 24038.145,
         "size": 10.0,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
       }
     },
     {
       "key": "175",
       "attributes": {
-        "x": -16363.758,
-        "y": -24218.75,
+        "x": -23286.758,
+        "y": 25781.25,
         "size": 10.0,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
       }
     },
     {
       "key": "187",
       "attributes": {
         "label": "Having Disagreements",
-        "x": 189.25029,
-        "y": -677.0371,
-        "size": 10.0,
+        "x": 2260.7898,
+        "y": -348.1269,
+        "size": 12.857143,
         "color": "#edf8fb",
         "characterDialogue": "From time to time there are some times instances where her husband gets angry at her for no reason, but those can be quickly resolved and would never destroy the bond they share",
         "Special Type": "Her private life",
         "Clue/Filler": "null",
         "Importance": 0,
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2
       }
     },
     {
       "key": "192",
       "attributes": {
         "label": "Her husband",
-        "x": 238.78682,
-        "y": -757.62054,
+        "x": 2492.7327,
+        "y": -302.7751,
         "size": 10.0,
         "color": "#edf8fb",
         "characterDialogue": "\"I love my husband\"",
         "Special Type": "Her private life",
         "Clue/Filler": "null",
         "Importance": 0,
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 1,
+        "Degree": 1
       }
     },
     {
       "key": "198",
       "attributes": {
         "label": "Her dress she is wearing",
-        "x": 315.6621,
-        "y": -507.50967,
-        "size": 10.0,
+        "x": 2143.9995,
+        "y": 228.31384,
+        "size": 12.857143,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "Her sucessful life",
         "Clue/Filler": "Filler",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2
       }
     },
     {
@@ -1118,284 +1340,341 @@
         "Special Type": "Border",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
       }
     },
     {
       "key": "235",
       "attributes": {
         "label": "Hotel \"Cozy Camping\"",
-        "x": 260.422,
-        "y": 57.478947,
-        "size": 7.5,
+        "x": 481.23505,
+        "y": 488.54938,
+        "size": 21.428572,
         "color": "#006d2c",
         "characterDialogue": "She is very glad she didn\u0027t stay there, They passed the Hotel and all of the Campers smelled horrible",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": 3,
-        "How easy to reach": 4
+        "How easy to reach": 4,
+        "indegree": 4,
+        "outdegree": 4,
+        "Degree": 8
       }
     },
     {
       "key": "237",
       "attributes": {
         "label": "The young generation",
-        "x": -27.696012,
-        "y": -388.0318,
-        "size": 10.0,
+        "x": 1321.0162,
+        "y": -614.5937,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 2,
+        "Degree": 5
       }
     },
     {
       "key": "238",
       "attributes": {
         "label": "Religious Sites",
-        "x": -519.4171,
-        "y": 15.436549,
-        "size": 10.0,
+        "x": -79.64411,
+        "y": -1499.7515,
+        "size": 12.857143,
         "color": "#c0c0c0",
         "characterDialogue": "She is a fan of religious sites and actually passed one in Misora, but there was a Wedding Happening so she couldn\u0027t enter",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 2,
+        "Degree": 3
       }
     },
     {
       "key": "239",
       "attributes": {
         "label": "Poor people",
-        "x": -406.56616,
-        "y": 81.25056,
-        "size": 10.0,
+        "x": -97.136055,
+        "y": -1104.5511,
+        "size": 30.0,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 7,
+        "outdegree": 3,
+        "Degree": 10
       }
     },
     {
       "key": "240",
       "attributes": {
         "label": "Holy Mario",
-        "x": 80.019196,
-        "y": -562.31354,
-        "size": 10.0,
+        "x": 1837.4567,
+        "y": -460.01678,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
       }
     },
     {
       "key": "241",
       "attributes": {
         "label": "The stuff she brought home",
-        "x": -197.66542,
-        "y": -664.12177,
-        "size": 10.0,
+        "x": 1931.8529,
+        "y": -1255.5712,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
       }
     },
     {
       "key": "242",
       "attributes": {
         "label": "Displaying Wealth",
-        "x": -501.0776,
-        "y": -542.19324,
-        "size": 10.0,
+        "x": 1335.4581,
+        "y": -1957.9572,
+        "size": 21.428572,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 3,
+        "Degree": 7
       }
     },
     {
       "key": "243",
       "attributes": {
         "label": "a shop for statues",
-        "x": -139.70024,
-        "y": -558.06213,
-        "size": 10.0,
+        "x": 1659.9766,
+        "y": -1026.2349,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "She went to a premium souvenier shop of statues for the different memorials. They didn\u0027t have names so she just picked the one which was prettiest, she also got a stone as a gift, which she is still confused by.",
         "Special Type": "null",
         "Clue/Filler": "\u003cnull value\u003e",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
       }
     },
     {
       "key": "244",
       "attributes": {
         "label": "Video Games",
-        "x": 106.86381,
-        "y": -530.63226,
-        "size": 10.0,
+        "x": 1747.4342,
+        "y": -448.4223,
+        "size": 12.857143,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
       }
     },
     {
       "key": "245",
       "attributes": {
         "label": "City Info",
-        "x": 112.46213,
-        "y": 142.17056,
-        "size": 10.0,
+        "x": 147.90175,
+        "y": 220.76624,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "They didnt receive as much info about the city as they would have liked, she complains that there wasn\u0027t any info point",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 4,
+        "Degree": 7
       }
     },
     {
       "key": "246",
       "attributes": {
         "label": "Hotel Old Inn",
-        "x": -24218.75,
-        "y": -24218.75,
+        "x": -22836.396,
+        "y": 25781.25,
         "size": 10.0,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
       }
     },
     {
       "key": "247",
       "attributes": {
         "label": "Her plan for a private Mansion",
-        "x": -352.95145,
-        "y": -355.56708,
-        "size": 10.0,
+        "x": 975.74963,
+        "y": -1359.518,
+        "size": 30.0,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 7,
+        "outdegree": 3,
+        "Degree": 10
       }
     },
     {
       "key": "248",
       "attributes": {
         "label": "Plankton Zoo",
-        "x": 165.3007,
-        "y": -310.70563,
-        "size": 10.0,
+        "x": 1305.7169,
+        "y": -16.886604,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
       }
     },
     {
       "key": "249",
       "attributes": {
         "label": "Museum of Modern Art",
-        "x": -183.93886,
-        "y": -588.5286,
-        "size": 10.0,
+        "x": 1723.5844,
+        "y": -1128.6237,
+        "size": 21.428572,
         "color": "#c0c0c0",
         "characterDialogue": "They saw it, but didn\u0027t go because \"You can\u0027t buy the paintings there\"",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 3,
+        "Degree": 7
       }
     },
     {
       "key": "250",
       "attributes": {
         "label": "Friedas Garden Center",
-        "x": -325.6659,
-        "y": -124.33981,
-        "size": 10.0,
+        "x": 375.88385,
+        "y": -1055.3556,
+        "size": 15.714286,
         "color": "#c0c0c0",
         "characterDialogue": "They passed it but didnt go, she also talk about a weird fact about it",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
       }
     },
     {
       "key": "251",
       "attributes": {
         "label": "House Plants",
-        "x": -331.86166,
-        "y": -60.87965,
-        "size": 10.0,
+        "x": 249.24194,
+        "y": -1050.099,
+        "size": 12.857143,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
       }
     },
     {
       "key": "252",
       "attributes": {
         "label": "She works hard",
-        "x": -340.11124,
-        "y": 233.18893,
-        "size": 10.0,
+        "x": -506.20688,
+        "y": -924.81116,
+        "size": 21.428572,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 2,
+        "Degree": 6
       }
     },
     {
       "key": "253",
       "attributes": {
         "label": "Didn\u0027t passed through Tunnel",
-        "x": -24218.75,
-        "y": -24124.328,
+        "x": -22292.963,
+        "y": 25781.25,
         "size": 10.0,
         "color": "#c0c0c0",
         "characterDialogue": "They did not pass through a tunnel",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
       }
     },
     {
       "key": "254",
       "attributes": {
         "label": "Hotel Cassis",
-        "x": 6248.4795,
+        "x": -24218.75,
         "y": -24218.75,
         "size": 10.0,
         "color": "#c0c0c0",
@@ -1403,422 +1682,509 @@
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
       }
     },
     {
       "key": "255",
       "attributes": {
         "label": "Gambling",
-        "x": -449.07886,
-        "y": -327.3892,
-        "size": 10.0,
+        "x": 898.79205,
+        "y": -1505.3633,
+        "size": 15.714286,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2
       }
     },
     {
       "key": "256",
       "attributes": {
         "label": "Burger Queen",
-        "x": -18271.203,
-        "y": -24218.75,
+        "x": -23676.273,
+        "y": 25781.25,
         "size": 10.0,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
       }
     },
     {
       "key": "257",
       "attributes": {
         "label": "Magpie Island",
-        "x": -439.83572,
-        "y": -377.42883,
-        "size": 10.0,
+        "x": 980.443,
+        "y": -1694.3855,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 2,
+        "Degree": 5
       }
     },
     {
       "key": "258",
       "attributes": {
         "label": "Ocean Animals",
-        "x": -66.04691,
-        "y": -226.47778,
-        "size": 10.0,
+        "x": 907.2658,
+        "y": -521.5956,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 4,
+        "Degree": 7
       }
     },
     {
       "key": "259",
       "attributes": {
         "label": "Getting pickpocketed",
-        "x": -383.55945,
-        "y": -198.09113,
-        "size": 10.0,
+        "x": 564.2561,
+        "y": -1205.1682,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 1,
+        "Degree": 4
       }
     },
     {
       "key": "260",
       "attributes": {
         "label": "Getting scammed",
-        "x": -419.9957,
-        "y": -164.18393,
-        "size": 10.0,
+        "x": 480.10138,
+        "y": -1257.7028,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
       }
     },
     {
       "key": "261",
       "attributes": {
         "label": "Working hard",
-        "x": -347.8766,
-        "y": 185.281,
-        "size": 10.0,
+        "x": -398.00702,
+        "y": -932.02466,
+        "size": 21.428572,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 3,
+        "Degree": 7
       }
     },
     {
       "key": "262",
       "attributes": {
         "label": "She is super important",
-        "x": -232.1266,
-        "y": 282.89075,
-        "size": 10.0,
+        "x": -531.7635,
+        "y": -585.82855,
+        "size": 21.428572,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 4,
+        "Degree": 8
       }
     },
     {
       "key": "263",
       "attributes": {
         "label": "Media Attention",
-        "x": -269.46777,
-        "y": 380.11118,
-        "size": 10.0,
+        "x": -823.984,
+        "y": -606.4476,
+        "size": 12.857143,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "Trap",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1
       }
     },
     {
       "key": "264",
       "attributes": {
         "label": "What her company does",
-        "x": -589.89764,
-        "y": -470.9832,
-        "size": 10.0,
+        "x": 1096.1001,
+        "y": -2148.879,
+        "size": 15.714286,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 1,
+        "Degree": 3
       }
     },
     {
       "key": "265",
       "attributes": {
         "label": "She has so much money",
-        "x": -224.0428,
-        "y": -327.1914,
-        "size": 10.0,
+        "x": 1056.6891,
+        "y": -1046.7565,
+        "size": 21.428572,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 5,
+        "Degree": 9
       }
     },
     {
       "key": "266",
       "attributes": {
         "label": "Cooling Water",
-        "x": 14.495295,
-        "y": -330.82904,
-        "size": 10.0,
+        "x": 1273.349,
+        "y": -420.83936,
+        "size": 12.857143,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
       }
     },
     {
       "key": "267",
       "attributes": {
         "label": "Rarities",
-        "x": -233.94255,
-        "y": -531.31995,
-        "size": 10.0,
+        "x": 1555.7749,
+        "y": -1230.2777,
+        "size": 27.142857,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 6,
+        "outdegree": 4,
+        "Degree": 10
       }
     },
     {
       "key": "268",
       "attributes": {
-        "x": 108.34395,
-        "y": -137.44844,
-        "size": 10.0,
+        "x": 862.4638,
+        "y": -65.39566,
+        "size": 12.857143,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 0,
+        "Degree": 1
       }
     },
     {
       "key": "280",
       "attributes": {
         "label": "Annoying Children",
-        "x": 198.00008,
-        "y": 96.73171,
-        "size": 10.0,
+        "x": 337.7342,
+        "y": 397.0879,
+        "size": 24.285715,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 5,
+        "outdegree": 3,
+        "Degree": 8
       }
     },
     {
       "key": "281",
       "attributes": {
         "label": "Mount  Doom",
-        "x": 255.7594,
-        "y": 190.91612,
-        "size": 10.0,
+        "x": 184.48846,
+        "y": 534.7976,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "\u003cnull value\u003e",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
       }
     },
     {
       "key": "271",
       "attributes": {
         "label": "Weird City Names",
-        "x": 251.25325,
-        "y": -385.25162,
-        "size": 10.0,
+        "x": 1589.2229,
+        "y": 105.52,
+        "size": 24.285715,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 5,
+        "outdegree": 3,
+        "Degree": 8
       }
     },
     {
       "key": "272",
       "attributes": {
         "label": "a beautiful dress",
-        "x": -39.752914,
-        "y": -678.98834,
-        "size": 10.0,
+        "x": 2079.0217,
+        "y": -861.4878,
+        "size": 12.857143,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
       }
     },
     {
       "key": "273",
       "attributes": {
         "label": "Owning a second Island",
-        "x": -443.7242,
-        "y": -464.885,
-        "size": 10.0,
+        "x": 1204.6528,
+        "y": -1760.4323,
+        "size": 12.857143,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
       }
     },
     {
       "key": "274",
       "attributes": {
         "label": "She is all natural",
-        "x": 45.044506,
-        "y": -658.8894,
-        "size": 10.0,
+        "x": 2045.3138,
+        "y": -640.1332,
+        "size": 12.857143,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 2,
+        "Degree": 3
       }
     },
     {
       "key": "275",
       "attributes": {
         "label": "She is still young",
-        "x": -41.717896,
-        "y": -555.6408,
-        "size": 10.0,
+        "x": 1717.2017,
+        "y": -758.1479,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
       }
     },
     {
       "key": "276",
       "attributes": {
         "label": "Ancient Statues",
-        "x": -26.187391,
-        "y": -632.7767,
-        "size": 10.0,
+        "x": 1964.5596,
+        "y": -812.4517,
+        "size": 15.714286,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 2,
+        "Degree": 4
       }
     },
     {
       "key": "278",
       "attributes": {
-        "x": 196.35184,
-        "y": -523.4561,
-        "size": 10.0,
+        "x": 1859.6996,
+        "y": -177.91824,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 2,
+        "Degree": 5
       }
     },
     {
       "key": "279",
       "attributes": {
-        "x": 164.16159,
-        "y": -577.7504,
-        "size": 10.0,
+        "x": 2023.7856,
+        "y": -273.6394,
+        "size": 15.714286,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 2,
+        "Degree": 4
       }
     },
     {
       "key": "282",
       "attributes": {
-        "x": -664.0587,
-        "y": -534.5549,
+        "x": 1187.1615,
+        "y": -2390.112,
         "size": 10.0,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 2,
+        "Degree": 2
       }
     },
     {
       "key": "283",
       "attributes": {
-        "x": -404.55774,
-        "y": 278.25543,
+        "x": -670.13965,
+        "y": -1027.2678,
         "size": 10.0,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 2,
+        "Degree": 2
       }
     },
     {
       "key": "284",
       "attributes": {
         "label": "Naming of the Pathways",
-        "x": 290.81192,
-        "y": -47.78698,
-        "size": 10.0,
+        "x": 795.71313,
+        "y": 493.25378,
+        "size": 15.714286,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
       }
     },
     {
       "key": "286",
       "attributes": {
         "label": "Auctions",
-        "x": -323.1542,
-        "y": -480.37213,
-        "size": 10.0,
+        "x": 1364.5651,
+        "y": -1415.1025,
+        "size": 18.571428,
         "color": "#c0c0c0",
         "characterDialogue": "null",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
-        "How easy to reach": "null"
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
       }
     }
   ],
