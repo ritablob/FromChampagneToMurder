@@ -5,7 +5,6 @@ using Newtonsoft.Json;
 using System;
 using UnityEngine.Networking.Types;
 using System.Text.RegularExpressions;
-using UnityEditorInternal;
 
 /// <summary>
 /// parses the json file and puts all the data into the Nodegraph variable :)
