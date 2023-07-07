@@ -54,7 +54,7 @@ public class TextWriter : MonoBehaviour
         else
         {
             finishedTyping=true;
-            TalkingFinish.Invoke();
+            //TalkingFinish.Invoke();
             //Debug.LogWarning("finished typing");
             yield return null;
         }

@@ -192,6 +192,7 @@ public class NodeAttributes
     public string characterDialogue;
     public string Type;
     public int DoubtImpact;
+    public string Emotion;
 }
 [Serializable]
 public class Edges
