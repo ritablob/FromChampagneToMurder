@@ -17,8 +17,8 @@ public class CameraMovingManager : MonoBehaviour
     [SerializeField] float zoomSpeed = 50f;
     [SerializeField] float maxZoomIn = 150f;
     [SerializeField] float maxZoomOut = 500f;
-    [SerializeField] [Range(0f, 0.002f)] float zoomDecreaseMultiplicator = 0.001f;
-    [SerializeField] [Range(0f, 0.01f)] float dragDecreaseMultiplicator = 0.007f;
+    [SerializeField] float zoomDecreaseMultiplicator = 0.001f;
+    [SerializeField] float dragDecreaseMultiplicator = 0.00335f;
     [SerializeField] bool inverted_mouse_wheel = true;
     [SerializeField] bool inverted_drag = true;
 
@@ -37,6 +37,13 @@ public class CameraMovingManager : MonoBehaviour
     private float timer = 0f;
     private bool is_transitioning = false; //slay
 
+    public RectTransform DebugSquareGreen;
+    public RectTransform DebugSquareRed;
+    public RectTransform DebugSquareBLue;
+
+    public bool track_nodes = true;
+    private bool track_nodes_inter = true;
+    public float zoom_out_when_tracking = 300f;
 
     void Start()
     {
@@ -59,7 +66,7 @@ public class CameraMovingManager : MonoBehaviour
     }
     public void DragCamera()
     {
-
+        is_transitioning = false;
         //Fixed Code
         Vector2 diference;
         diference = Input.mousePosition - MouseStartPos; //Vector from origin to mouse position
@@ -140,14 +147,23 @@ public class CameraMovingManager : MonoBehaviour
         
         new_position.x = Mathf.Clamp(position.x, ConfinesXMin, ConfinesXMax);
         new_position.y = Mathf.Clamp(position.y, ConfinesYMin, ConfinesYMax);
+        
+        //Debug
+        DebugSquareBLue.localPosition = new_position;
+        DebugSquareBLue.sizeDelta = new Vector2(orthographicSize, orthographicSize);
 
-        return(new_position);
+        //Debug
+        DebugSquareRed.localPosition = position;
+        DebugSquareRed.sizeDelta = new Vector2(100, 100);
+
+        return (new_position);
     }
 
     public void SwitchToMap()
     {
         backgroundRef = MapBackgroundRef;
         CheckPositionInRect();
+        track_nodes_inter = false;
 
     }
 
@@ -155,6 +171,7 @@ public class CameraMovingManager : MonoBehaviour
     {
         backgroundRef = MiniMapBackgroundRef;
         CheckPositionInRect();
+        track_nodes_inter = true;
     }
 
     //will apply cramp
@@ -166,7 +183,7 @@ public class CameraMovingManager : MonoBehaviour
     }
 
 
-    Rect CreateRectToFitPositions(List<Vector2> position_list, Vector2 center, float zoom_out_value = 10)
+    Rect CreateRectToFitPositions(List<Vector2> position_list, Vector2 center, float zoom_out_value = 300, bool make_it_square = true)
     {
         Rect new_rect = Rect.zero;
 
@@ -188,12 +205,28 @@ public class CameraMovingManager : MonoBehaviour
         new_rect.max = new Vector2(Mathf.Max(x_positions.ToArray()), Mathf.Max(y_positions.ToArray()));
         new_rect.min = new Vector2(Mathf.Min(x_positions.ToArray()), Mathf.Min(y_positions.ToArray()));
 
-        new_rect.center = center;
+        Vector2 rect_center = new_rect.center;
+        
+        //Square
+        if (make_it_square)
+        {
+            float max_size = Mathf.Max(new_rect.size.x, new_rect.size.x);
+            //float difference = new_rect.size.x - new_rect.size.y;
+            //new_rect.center -= new Vector2(difference, difference) / 2;
+            new_rect.size = new Vector2(max_size, max_size);
+        }
 
         //Zoom Out
-        new_rect.size += new Vector2(zoom_out_value,zoom_out_value);
+        new_rect.size += new Vector2(zoom_out_value, zoom_out_value);
+        //new_rect.center -= new Vector2(zoom_out_value, zoom_out_value) / 2;
 
-        return(new_rect);
+        new_rect.center = rect_center;
+
+        //Debug
+        DebugSquareGreen.localPosition = new_rect.center;
+        DebugSquareGreen.sizeDelta = new_rect.size;
+
+        return (new_rect);
     }
 
     void UpdateCamera()
@@ -216,9 +249,13 @@ public class CameraMovingManager : MonoBehaviour
 
     void SetNewTargetForCamera(Rect target)
     {
-        current_target_ortho_size = Mathf.Clamp(Mathf.Max(target.xMax, target.yMax),maxZoomIn,maxZoomOut);
+        current_target_ortho_size = Mathf.Clamp(target.size.x,maxZoomIn,maxZoomOut);
 
-        current_target_position = ClampPositionIntoRectTransform(target.position, backgroundRef, current_target_ortho_size);
+        ////Debug
+        //DebugSquareGreen.localPosition = current_target_position;
+        //DebugSquareGreen.sizeDelta = new Vector2(current_target_ortho_size, current_target_ortho_size);
+
+        current_target_position = ClampPositionIntoRectTransform(target.center, backgroundRef, current_target_ortho_size);
         current_target_position.z = originalCameraPositionZ;
 
         timer = 0f;
@@ -227,7 +264,11 @@ public class CameraMovingManager : MonoBehaviour
 
     public void SetNewTargetForCamera(List<Vector2> positions, Vector2 centre)
     {
-        if (positions.Count == 0) return;
-        SetNewTargetForCamera(CreateRectToFitPositions(positions, centre));
+        if (positions.Count == 0 || !track_nodes || !track_nodes_inter) return;
+        SetNewTargetForCamera(CreateRectToFitPositions(positions, centre,  zoom_out_when_tracking));
+        ////Debug
+        //Rect test = CreateRectToFitPositions(positions, centre);
+        //DebugSquareRed.localPosition = test.center;
+        //DebugSquareRed.sizeDelta = test.size;
     }
 }

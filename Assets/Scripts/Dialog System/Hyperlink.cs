@@ -14,7 +14,7 @@ public class Hyperlink : MonoBehaviour
 
     private int pCurrentLink = -1;
     public bool IsLinkHighlighted { get { return pCurrentLink != -1; } }
-    public Canvas pCanvas;
+    [HideInInspector] public Canvas pCanvas;
 
     private TextMeshProUGUI pTextMeshPro;
     private Camera pCamera;
