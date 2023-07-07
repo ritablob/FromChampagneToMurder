@@ -19,6 +19,7 @@ public class DrawMinimap : MonoBehaviour
     public GameObject Labels;
 
     public GameManager gameManager;
+    public CameraMovingManager cameraMovingManager;
 
     [Header("Map Adjustables")]
     public float mapScale = 1f;
@@ -29,10 +30,12 @@ public class DrawMinimap : MonoBehaviour
     [SerializeField] private bool spawn_labels = true;
     [SerializeField] private bool render_lines_on_top_of_labels = true;
     [SerializeField] private Vector2 ShadowOffset;
+    [SerializeField] bool track_nodes_with_camera;
+
 
     [Header("Random Values")]
     [SerializeField][Tooltip("In what range the Nodes will randomly rotate in, e.g. from x = -10 to y = 15. The value will be added to the rotation, - is left")] 
-    private Vector2 Random_rotation_range_nodes = new Vector2(45f,12.5f);
+    private Vector2 Random_rotation_range_nodes = new Vector2(-45f,12.5f);
     [SerializeField][Tooltip("In what range the Nodes will Scale, from x to y, the value will be added to the scale")] 
     private Vector2 Random_scale_range_nodes = new Vector2(-0.2f, 0.2f);
     [SerializeField]
@@ -91,6 +94,9 @@ public class DrawMinimap : MonoBehaviour
     private Dictionary<int, Vector2> nodePositions = new();
     private Dictionary<int, GameObject> traversedLineDict = new();
     private Dictionary<int, GameObject> traversedNodeDict = new();
+
+    public List<Vector2> NodesToTrack = new List<Vector2>();
+    public Vector2 NodeToCentreOnTRack;
 
     /* To do:
      * - edit scale of the map
@@ -204,13 +210,17 @@ public class DrawMinimap : MonoBehaviour
             int key = gameManager.graph.nodes[i].key;
             if (key == gameManager.previousNodeKey)
             {
-                if (show_just_passed_nodes) ColourDot(dotDict[key].GetComponent<Image>(), justPassedColorNodes);    //Just Passed Nodes
+                if (show_just_passed_nodes) ColourDot(dotDict[key].GetComponent<Image>(), justPassedColorNodes);                  //Just Passed Nodes
                 traversedNodeDict[key] = dotDict[key];
             }
             else if (key == gameManager.currentNodeKey)
             {
-                if (show_active_node) ColourDot(dotDict[key].GetComponent<Image>(), activeColorNodes);              //Active Color Nodes
-                if (dotDict[key].GetComponentInChildren<MinimapLabel>() == null && spawn_labels)                    //Spawning Label
+                if (show_active_node)
+                {//Active Color Nodes
+                    ColourDot(dotDict[key].GetComponent<Image>(), activeColorNodes, dotDict[key]);
+                    NodeToCentreOnTRack = new Vector2(dotDict[key].transform.localPosition.x, dotDict[key].transform.position.y);
+                }              
+                if (dotDict[key].GetComponentInChildren<MinimapLabel>() == null && spawn_labels)                                  //Spawning Label
                     if (!spawn_all_labels_at_start) SpawnLabel(dotDict[key], key);
             }
             else if (show_about_to_pass_nodes && traversedNodeDict.ContainsKey(key)) ColourDot(dotDict[key].GetComponent<Image>(), traversedColorNodes);
@@ -243,7 +253,7 @@ public class DrawMinimap : MonoBehaviour
                         int key = gameManager.graph.nodes[k].key;
                         if (key == gameManager.graph.edges[j].target)
                         {
-                            ColourDot(dotDict[gameManager.graph.nodes[k].key].GetComponent<Image>(), aboutToPassColorNodes);            //About to Pass Nodes
+                            ColourDot(dotDict[gameManager.graph.nodes[k].key].GetComponent<Image>(), aboutToPassColorNodes, dotDict[gameManager.graph.nodes[k].key]);            //About to Pass Nodes
                             if (mark_about_to_pass_nodes_as_traversed) traversedNodeDict[key] = dotDict[key];
                         }
                     }
@@ -268,9 +278,16 @@ public class DrawMinimap : MonoBehaviour
                 }
             }
             //Debug.LogError(j + " "+parseJsonRef.graph.edges[j].key + " " + parseJsonRef.graph.edges[j].attributes.label);
-
-
         }
+
+        //Camera
+        if (track_nodes_with_camera)
+        {
+            cameraMovingManager.SetNewTargetForCamera(NodesToTrack, NodeToCentreOnTRack);
+            NodesToTrack.Clear();
+            NodeToCentreOnTRack = Vector2.zero;
+        }
+
     }
     public void ColourLine(LineRenderer lineRenderer, Color color)
     {
@@ -290,9 +307,15 @@ public class DrawMinimap : MonoBehaviour
         }
         //Debug.Log("Line coloured, game object - " +  lineRenderer.gameObject.name);
     }
-    public void ColourDot(Image image, Color color)
+    public void ColourDot(Image image, Color color, GameObject node_if_tracked = null)
     {
         image.color = color;
+        if (track_nodes_with_camera && node_if_tracked != null)
+        {
+            NodesToTrack.Add(new Vector2(node_if_tracked.transform.localPosition.x, node_if_tracked.transform.localPosition.y));
+            //Debug.Log(node_if_tracked.transform.localPosition.x);
+        }
+
     }
 
     public void SpawnLabel(GameObject dot, int index) // activates label prefab and adds text to it

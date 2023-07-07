@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using System.Security.Cryptography;
 using UnityEditorInternal;
 using UnityEngine;
@@ -26,6 +28,14 @@ public class CameraMovingManager : MonoBehaviour
 
     private float originalOrtho;
     private Vector3 cameraPosition;
+    private Rect originalCameraRect;
+    private float originalCameraPositionZ;
+
+    Vector3 current_target_position;
+    float current_target_ortho_size;
+    [SerializeField] float transition_time = 1f;
+    private float timer = 0f;
+    private bool is_transitioning = false; //slay
 
 
     void Start()
@@ -33,8 +43,16 @@ public class CameraMovingManager : MonoBehaviour
         minimapCam = GetComponent<Camera>();
         originalCameraPos = minimapCam.transform.position;
         originalOrtho = minimapCam.orthographicSize;
+        originalCameraPositionZ = minimapCamRect.localPosition.z;
         SwitchToMinimap();
     }
+
+    private void Update()
+    {
+        originalCameraRect = minimapCamRect.rect;
+        UpdateCamera();
+    }
+
     public void SetMouseOrigin()
     {
         MouseStartPos = Input.mousePosition;
@@ -68,8 +86,8 @@ public class CameraMovingManager : MonoBehaviour
     }
     public void ResetCameraValues()
     {
-        minimapCam.transform.position = originalCameraPos;
-        minimapCam.orthographicSize = originalOrtho;
+        SetNewTargetForCamera(originalCameraRect);
+        Debug.Log("Reset");
     }
     public void CameraZoom()
     {
@@ -106,7 +124,7 @@ public class CameraMovingManager : MonoBehaviour
         }
     }
 
-    public Vector2 ClampPositionIntoRectTransform(Vector2 position, RectTransform borders, float orthographicSize = 0) //Input a Position Outputs the position clambed into the given Borders
+    public Vector2 ClampPositionIntoRectTransform(Vector2 position, RectTransform borders, float orthographicSize = 0) //Input a Position, Outputs the position clambed into the given Borders
     {
         float ConfinesXMin = borders.rect.xMin + orthographicSize; //The Borders
         float ConfinesXMax = borders.rect.xMax - orthographicSize;
@@ -139,10 +157,77 @@ public class CameraMovingManager : MonoBehaviour
         CheckPositionInRect();
     }
 
-    public void CheckPositionInRect()
+    //will apply cramp
+    private void CheckPositionInRect()
     {
         Vector2 current_camera_position = minimapCamRect.localPosition; //Fix Position Issues
         Vector2 new_position = ClampPositionIntoRectTransform(current_camera_position, backgroundRef, minimapCam.orthographicSize);
         minimapCamRect.localPosition = new Vector3(new_position.x, new_position.y, minimapCamRect.localPosition.z);
+    }
+
+
+    Rect CreateRectToFitPositions(List<Vector2> position_list, Vector2 center, float zoom_out_value = 10)
+    {
+        Rect new_rect = Rect.zero;
+
+        List<float> x_positions = new List<float>();
+        List<float> y_positions = new List<float>();
+
+        // Fit Points
+        foreach (Vector2 position in position_list)
+        {
+            x_positions.Add(position.x);
+            y_positions.Add(position.y);
+        };
+
+        //new_rect.xMax = Mathf.Max(x_positions.ToArray());
+        //new_rect.yMax = Mathf.Max(y_positions.ToArray());
+        //new_rect.xMin = Mathf.Min(x_positions.ToArray());
+        //new_rect.yMin = Mathf.Min(y_positions.ToArray());
+
+        new_rect.max = new Vector2(Mathf.Max(x_positions.ToArray()), Mathf.Max(y_positions.ToArray()));
+        new_rect.min = new Vector2(Mathf.Min(x_positions.ToArray()), Mathf.Min(y_positions.ToArray()));
+
+        new_rect.center = center;
+
+        //Zoom Out
+        new_rect.size += new Vector2(zoom_out_value,zoom_out_value);
+
+        return(new_rect);
+    }
+
+    void UpdateCamera()
+    {
+        //public Transform target;
+        //public float speed;
+
+        //float step = speed * Time.deltaTime;
+        //transform.position = Vector3.MoveTowards(transform.position, target.position, step);
+        if (is_transitioning)
+        {
+            timer += Time.deltaTime;
+
+            minimapCamRect.localPosition = Vector3.Lerp(minimapCamRect.localPosition, current_target_position, timer);
+            minimapCam.orthographicSize = Mathf.Lerp(minimapCam.orthographicSize, current_target_ortho_size , timer);
+
+            if (timer >= transition_time) is_transitioning = false;
+        }
+    }
+
+    void SetNewTargetForCamera(Rect target)
+    {
+        current_target_ortho_size = Mathf.Clamp(Mathf.Max(target.xMax, target.yMax),maxZoomIn,maxZoomOut);
+
+        current_target_position = ClampPositionIntoRectTransform(target.position, backgroundRef, current_target_ortho_size);
+        current_target_position.z = originalCameraPositionZ;
+
+        timer = 0f;
+        is_transitioning = true;
+    }
+
+    public void SetNewTargetForCamera(List<Vector2> positions, Vector2 centre)
+    {
+        if (positions.Count == 0) return;
+        SetNewTargetForCamera(CreateRectToFitPositions(positions, centre));
     }
 }
