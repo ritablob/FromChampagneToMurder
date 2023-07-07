@@ -22,19 +22,34 @@ public class DrawMinimap : MonoBehaviour
 
     [Header("Map Adjustables")]
     public float mapScale = 1f;
-    public float lineWidth;
-    public float nodeSize;
+    public float lineWidth = 5f;
+    [Tooltip("default is 1")]
+    public float nodeSize = 1f;
+    [SerializeField] private bool spawn_all_labels_at_start = false;
     [SerializeField] private bool spawn_labels = true;
+    [SerializeField] private bool render_lines_on_top_of_labels = true;
+    [SerializeField] private Vector2 ShadowOffset;
 
-    
+    [Header("Random Values")]
+    [SerializeField][Tooltip("In what range the Nodes will randomly rotate in, e.g. from x = -10 to y = 15. The value will be added to the rotation, - is left")] 
+    private Vector2 Random_rotation_range_nodes = new Vector2(45f,12.5f);
+    [SerializeField][Tooltip("In what range the Nodes will Scale, from x to y, the value will be added to the scale")] 
+    private Vector2 Random_scale_range_nodes = new Vector2(-0.2f, 0.2f);
+    [SerializeField]
+    [Tooltip("In what range the Labels will randomly rotate in, e.g. from x = -10 to y = 15. The value will be added to the rotation, - is left")]
+    private Vector2 Random_rotation_range_labels = new Vector2(12.5f, 12.5f);
+    [SerializeField][Tooltip("In what range the Labels will randomly Scale, from x to y, the value will be added to the scale")] 
+    private Vector2 Random_scale_range_labels = new Vector2(-0.1f, 0.1f);
+
     [Header("Colors - Nodes")]
     [Tooltip("Unused nodes, nodes you havent traversed yet, etc.")]
     public Color defaultColorNodes = Color.grey;
+    public Color LineColorShadow = Color.Lerp(Color.clear,Color.black,0.5f);
 
     [SerializeField] bool show_about_to_pass_nodes = true;
-    [SerializeField] bool mark_about_to_pass_nodes_as_traversed = false;
+    [SerializeField] bool mark_about_to_pass_nodes_as_traversed = true;
     [Tooltip("Nodes that you are about to traverse + currently are standing on")]
-    public Color aboutToPassColorNodes = Color.red;
+    public Color aboutToPassColorNodes = Color.cyan;
 
     [SerializeField] bool show_active_node = true;
     [Tooltip("Nodes that you are about to traverse + currently are standing on")]
@@ -42,7 +57,7 @@ public class DrawMinimap : MonoBehaviour
 
     [SerializeField] bool show_just_passed_nodes = true;
     [Tooltip("Nodes that you are about to traverse + currently are standing on")]
-    public Color justPassedColorNodes = Color.red;
+    public Color justPassedColorNodes = Color.magenta;
 
     [SerializeField] bool show_traversed_nodes = true;
     [Tooltip("Nodes you have traversed already")]
@@ -60,7 +75,7 @@ public class DrawMinimap : MonoBehaviour
 
     [SerializeField] bool show_just_passed_edges = true;
     [Tooltip("Nodes that you are about to traverse + currently are standing on")]
-    public Color justPassedColorEdges = Color.red;
+    public Color justPassedColorEdges = Color.magenta;
 
     [SerializeField] bool show_traversed_edges = true;
     [Tooltip("Nodes you have traversed already")]
@@ -107,6 +122,33 @@ public class DrawMinimap : MonoBehaviour
         lineRenderer.SetPosition(1, endPos);
 
         lineRenderer.useWorldSpace = false;
+        if (render_lines_on_top_of_labels) lineRenderer.sortingOrder = 6;
+
+        //Shadow
+        GameObject lineRefShadow = Instantiate(linePrefab, lineRef.transform);
+        LineRenderer lineRendererShadow = lineRefShadow.GetComponent<LineRenderer>();
+
+        lineRendererShadow.startColor = LineColorShadow;
+        lineRendererShadow.endColor = LineColorShadow;
+        lineRendererShadow.startWidth = lineWidth;
+        lineRendererShadow.endWidth = lineWidth;
+        lineRendererShadow.SetPosition(0, startPos + ShadowOffset);
+        lineRendererShadow.SetPosition(1, endPos + ShadowOffset);
+
+        lineRendererShadow.useWorldSpace = false;
+        if (render_lines_on_top_of_labels) lineRendererShadow.sortingOrder = 5;
+
+        //Copied from ColourLine
+        if (defaultColorEdges.a == 0)
+        {
+            lineRendererShadow.startColor = Color.clear;
+            lineRendererShadow.endColor = Color.clear;
+        }
+        else
+        {
+            lineRendererShadow.startColor = LineColorShadow;
+            lineRendererShadow.endColor = LineColorShadow;
+        }
 
         return lineRef;
     }
@@ -117,6 +159,14 @@ public class DrawMinimap : MonoBehaviour
         dotRef = Instantiate(dotPrefab, Dots.transform);
         dotRef.transform.localPosition = pos;
         dotRef.GetComponent<Image>().color = defaultColorNodes;
+
+        //RandomRotation
+        RectTransform dotRefRect = dotRef.GetComponent<RectTransform>();
+        float random_rotation = UnityEngine.Random.Range(Random_rotation_range_nodes.x, Random_rotation_range_nodes.y);
+        dotRef.transform.Rotate(0,0,-random_rotation);
+        //RandomScale
+        float random_scale = UnityEngine.Random.Range(Random_scale_range_nodes.x, Random_scale_range_nodes.y);
+        dotRefRect.localScale += new Vector3(random_scale * nodeSize, random_scale * nodeSize, random_scale * nodeSize);
 
         return dotRef;
     }
@@ -132,8 +182,11 @@ public class DrawMinimap : MonoBehaviour
             for (int i = 0; i < gameManager.graph.nodes.Length; i++)
             {
                 Vector2 pos = new Vector2((float)gameManager.graph.nodes[i].attributes.x, (float)gameManager.graph.nodes[i].attributes.y);
-                nodePositions[gameManager.graph.nodes[i].key] = pos;
+                int key = gameManager.graph.nodes[i].key;
+                nodePositions[key] = pos;
                 dotDict[gameManager.graph.nodes[i].key] = DrawMinimapDot(pos);
+                if (spawn_all_labels_at_start) SpawnLabel(dotDict[key], key);
+
             }
             // draw lines
             for (int i = 0; i < gameManager.graph.edges.Length; i++)
@@ -158,7 +211,7 @@ public class DrawMinimap : MonoBehaviour
             {
                 if (show_active_node) ColourDot(dotDict[key].GetComponent<Image>(), activeColorNodes);              //Active Color Nodes
                 if (dotDict[key].GetComponentInChildren<MinimapLabel>() == null && spawn_labels)                    //Spawning Label
-                    SpawnLabel(dotDict[key], key);
+                    if (!spawn_all_labels_at_start) SpawnLabel(dotDict[key], key);
             }
             else if (show_about_to_pass_nodes && traversedNodeDict.ContainsKey(key)) ColourDot(dotDict[key].GetComponent<Image>(), traversedColorNodes);
            
@@ -223,6 +276,18 @@ public class DrawMinimap : MonoBehaviour
     {
         lineRenderer.startColor = color;
         lineRenderer.endColor = color;
+
+        LineRenderer shadowLineRenderer = lineRenderer.gameObject.GetComponentInChildren<LineRenderer>();
+        if (color.a == 0)
+        {
+            shadowLineRenderer.startColor = Color.clear;
+            shadowLineRenderer.endColor = Color.clear;
+        }
+        else
+        {
+            shadowLineRenderer.startColor = LineColorShadow;
+            shadowLineRenderer.endColor = LineColorShadow;
+        }
         //Debug.Log("Line coloured, game object - " +  lineRenderer.gameObject.name);
     }
     public void ColourDot(Image image, Color color)
@@ -240,6 +305,12 @@ public class DrawMinimap : MonoBehaviour
             if (gameManager.graph.nodes[i].key == index)
             {
                 textmesh.text = gameManager.graph.nodes[i].attributes.label;
+                //Random Rotation
+                float random_rotation = UnityEngine.Random.Range(Random_rotation_range_labels.x, Random_rotation_range_labels.y);
+                label.transform.Rotate(0,0,0);
+                //Random Scale
+                float random_scale = UnityEngine.Random.Range(Random_scale_range_nodes.x, Random_scale_range_nodes.y);
+                label.transform.localScale += new Vector3(random_scale, random_scale, random_scale);
                 break;
             }
         }
