@@ -3,6 +3,8 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using Unity.IO.LowLevel.Unsafe;
 using UnityEngine;
+using static TestAnimationsCharacter;
+
 public class TestAnimationsCharacter : MonoBehaviour
 {
     public enum ANIMATIONLAYER
@@ -144,10 +146,15 @@ public class TestAnimationsCharacter : MonoBehaviour
                 new_emotion = Emotion.Excited; break;
             case "Null":
                 new_emotion = Emotion.Null; break;
+            case "Normal":
+                new_emotion = Emotion.Null; break;
             default:
-                Debug.LogWarning("Emotion " + emotion.ToString() + " not found, set default animation"); break;
+                Debug.LogWarning("Emotion " + emotion + " not found, set default animation");
+                new_emotion = Emotion.Normal; break;
         }
+        ChangeEmotion(new_emotion);
         StartMouthAnimation(new_emotion);
+        CurrentlyTalking = true;
     }
 
     public void StartTalking()
@@ -163,6 +170,7 @@ public class TestAnimationsCharacter : MonoBehaviour
 
     public void ChangeEmotion(Emotion next_emotion)
     {
+        Debug.Log("Emotion:" + next_emotion);
         if (CurrentEmotion == next_emotion)
         {
             if (!disable_debug_messages) Debug.Log("Skipped ChangeEmotion(), Emotion was the same ");

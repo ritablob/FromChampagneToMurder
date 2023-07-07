@@ -24,6 +24,9 @@ public class GameManager : MonoBehaviour
     [HideInInspector] public int currentNodeIndex;
     [HideInInspector] public bool startingEnding = false;
 
+    [Tooltip("Amotion playing for the Ending Node")]
+    [SerializeField] string end_emotion = "Angry";
+
     TextWriter writer;
 
 
@@ -39,7 +42,7 @@ public class GameManager : MonoBehaviour
         {
             startingEnding = false;
             currentNodeIndex = FindNodeIndex(finalNodeKey);
-            writer.WriteText();
+            writer.WriteText(end_emotion);
         }
     }
     public void FindNextNodeID(string linkName)
@@ -58,7 +61,7 @@ public class GameManager : MonoBehaviour
                     CheckIfEdgesAreValid(nextNodeKey);
                     previousNodeKey = currentNodeKey;
                     currentNodeKey = nextNodeKey;
-                    writer.WriteText();
+                    writer.WriteText(graph.edges[i].attributes.Emotion);
                     break;
                 }
             }
@@ -162,6 +165,19 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public Edges GetEdgeData(int source_key, int target_key)
+    {
+        foreach (Edges edge in graph.edges)
+        {
+            if (edge.source == source_key && target_key == edge.target)
+            {
+                return (edge);
+            }
+        }
+        Debug.LogWarning("Edge between: " + source_key + " and " + target_key + "couldn't be found");
+        return null;
+    }
+
 }
 
 // node graph classes based on the json data groups vvv
@@ -192,7 +208,6 @@ public class NodeAttributes
     public string characterDialogue;
     public string Type;
     public int DoubtImpact;
-    public string Emotion;
 }
 [Serializable]
 public class Edges
@@ -206,4 +221,5 @@ public class Edges
 public class EdgeAttributes
 {
     public string label;
+    public string Emotion;
 }

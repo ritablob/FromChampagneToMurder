@@ -14,6 +14,8 @@ public class TextWriter : MonoBehaviour
     public bool finishedTyping = false;
     public TestAnimationsCharacter testAnimations;
 
+    [SerializeField] string starting_emotion = "Normal";
+
 
     public TextMeshProUGUI tmp;
 
@@ -27,15 +29,13 @@ public class TextWriter : MonoBehaviour
         WriteText();
     }
 
-    public void WriteText()
+    public void WriteText(string emotion = "Normal")
     {
         //Debug.LogWarning("typing Start");
         tmp.maxVisibleCharacters = 0;
         finishedTyping = false;
 
-        string emotion;
-        //emotion = parser.graph.nodes[parser.currentNodeIndex].attributes.Emotion;
-        //testAnimations.StartTalking(emotion);
+        testAnimations.StartTalking(emotion);                                               // Character Animations
 
         tmp.text = parser.graph.nodes[parser.currentNodeIndex].attributes.characterDialogue; // this is the problem
         //Debug.Log(nodeID);
@@ -53,9 +53,12 @@ public class TextWriter : MonoBehaviour
         }
         else
         {
-            finishedTyping=true;
+            finishedTyping=true;                                                            
             //TalkingFinish.Invoke();
             //Debug.LogWarning("finished typing");
+
+            testAnimations.FinishTalking();                                                // Character Animations
+
             yield return null;
         }
         yield return null;
