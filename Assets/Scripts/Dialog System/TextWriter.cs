@@ -12,8 +12,7 @@ public class TextWriter : MonoBehaviour
     GameManager parser;
     [HideInInspector]
     public bool finishedTyping = false;
-    public UnityEvent TalkingStart;
-    public UnityEvent TalkingFinish;
+    public TestAnimationsCharacter testAnimations;
 
 
     public TextMeshProUGUI tmp;
@@ -33,7 +32,11 @@ public class TextWriter : MonoBehaviour
         //Debug.LogWarning("typing Start");
         tmp.maxVisibleCharacters = 0;
         finishedTyping = false;
-        TalkingStart.Invoke();
+
+        string emotion;
+        //emotion = parser.graph.nodes[parser.currentNodeIndex].attributes.Emotion;
+        //testAnimations.StartTalking(emotion);
+
         tmp.text = parser.graph.nodes[parser.currentNodeIndex].attributes.characterDialogue; // this is the problem
         //Debug.Log(nodeID);
         StartCoroutine(AnimateTypewriter(tmp));

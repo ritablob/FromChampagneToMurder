@@ -121,16 +121,40 @@ public class TestAnimationsCharacter : MonoBehaviour
         }
     }
 
-    public void StartTalking()
+    public void StartTalking(Emotion emotion)
     {
-        //if (emotion_changed != Emotion.Null)
-        //{
-        //    ChangeEmotion(emotion_changed);
-        //}
-        StartMouthAnimation(CurrentEmotion);
+        ChangeEmotion(emotion);
+        StartMouthAnimation(emotion);
         CurrentlyTalking = true;
     }
-    
+
+    public void StartTalking(string emotion)
+    {
+        //Get Emotion from string
+        Emotion new_emotion = Emotion.Null;
+        switch (emotion)
+        {
+            case "Angry":
+                new_emotion = Emotion.Angry; break;
+            case "Bored":
+                new_emotion = Emotion.Bored; break;
+            case "Doubtful":
+                new_emotion = Emotion.Doubtful; break;
+            case "Excited":
+                new_emotion = Emotion.Excited; break;
+            case "Null":
+                new_emotion = Emotion.Null; break;
+            default:
+                Debug.LogWarning("Emotion " + emotion.ToString() + " not found, set default animation"); break;
+        }
+        StartMouthAnimation(new_emotion);
+    }
+
+    public void StartTalking()
+    {
+        StartMouthAnimation(CurrentEmotion);
+    }
+
     public void FinishTalking()
     {
         StopMouthAnimation(CurrentEmotion);
@@ -249,4 +273,5 @@ public class TestAnimationsCharacter : MonoBehaviour
                 break;
         }
     }
+
 }
