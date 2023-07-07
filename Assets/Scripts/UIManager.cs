@@ -2,30 +2,45 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
+    public Color buttonSelectedColor = Color.cyan; 
+    public Color buttonNormalcolor = Color.blue;
     public GameObject minimap;
     public GameObject map;
     public GameObject textBox;
     public ReportCrimeScene reportScreen;
     public CameraMovingManager minimapCamera;
+    private Image previouslySelectedButtonImage;
 
     int triesTaken;
 
-    public void SwitchToMinimap()
+    public void SwitchToMinimap(Image buttonImage)
     {
+        SwitchColor(buttonImage);
         minimap.SetActive(true);
         map.SetActive(false);
         minimapCamera.SwitchToMinimap();
     }
-    public void SwitchToMap()
+    public void SwitchToMap(Image buttonImage)
     {
+        SwitchColor(buttonImage);
         map.SetActive(true);
         minimap.SetActive(false);
         minimapCamera.SwitchToMap();
     }
 
+    public void SwitchColor(Image buttonImage)
+    {
+        buttonImage.color = buttonSelectedColor;
+        if (previouslySelectedButtonImage != null)
+        {
+            previouslySelectedButtonImage.color = buttonNormalcolor;
+        }
+        previouslySelectedButtonImage = buttonImage;
+    }
     // ----- report crime screen --------
     public void ReportScreenOpen()
     {
