@@ -1922,7 +1922,7 @@
       "target": "162",
       "attributes": {
         "label": "Discrimination",
-        "color": "#808080",
+        "color": "#1eff00",
         "weight": 1.0,
         "DoubtImpact": -1,
         "Emotion": "Excited"
@@ -1934,10 +1934,10 @@
       "target": "116",
       "attributes": {
         "label": "Restricted Parks",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Angry"
       }
     },
     {
@@ -1946,7 +1946,7 @@
       "target": "235",
       "attributes": {
         "label": "Cozy Camping",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -1958,7 +1958,7 @@
       "target": "170",
       "attributes": {
         "label": "HerOwnBeauty",
-        "color": "#808080",
+        "color": "#1eff00",
         "weight": 1.0,
         "DoubtImpact": -1,
         "Emotion": "Excited"
@@ -1970,7 +1970,7 @@
       "target": "109",
       "attributes": {
         "label": "Busses",
-        "color": "#808080",
+        "color": "#e8c100",
         "weight": 1.0,
         "DoubtImpact": 2,
         "Emotion": "Doubtful"
@@ -1982,10 +1982,10 @@
       "target": "117",
       "attributes": {
         "label": "Horrible Trip",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Angry"
       }
     },
     {
@@ -1994,10 +1994,10 @@
       "target": "145",
       "attributes": {
         "label": "The Pearl",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Angry"
       }
     },
     {
@@ -2006,7 +2006,7 @@
       "target": "140",
       "attributes": {
         "label": "Appreciating Beauty",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2018,7 +2018,7 @@
       "target": "154",
       "attributes": {
         "label": "Sickness",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2030,7 +2030,7 @@
       "target": "132",
       "attributes": {
         "label": "Boat Tours",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2042,7 +2042,7 @@
       "target": "160",
       "attributes": {
         "label": "HerInterestInVintageCars",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2054,7 +2054,7 @@
       "target": "151",
       "attributes": {
         "label": "No Sleep",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2066,7 +2066,7 @@
       "target": "109",
       "attributes": {
         "label": "Busses",
-        "color": "#808080",
+        "color": "#e8c100",
         "weight": 1.0,
         "DoubtImpact": 2,
         "Emotion": "Doubtful"
@@ -2078,10 +2078,10 @@
       "target": "143",
       "attributes": {
         "label": "Hot Boys",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Flirtatious"
       }
     },
     {
@@ -2090,7 +2090,7 @@
       "target": "161",
       "attributes": {
         "label": "BoatTourNames",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2102,7 +2102,7 @@
       "target": "113",
       "attributes": {
         "label": "Noise",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2114,7 +2114,7 @@
       "target": "154",
       "attributes": {
         "label": "Sickness",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2126,7 +2126,7 @@
       "target": "122",
       "attributes": {
         "label": "Greenery",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2138,7 +2138,7 @@
       "target": "162",
       "attributes": {
         "label": "Discrimination",
-        "color": "#808080",
+        "color": "#1eff00",
         "weight": 1.0,
         "DoubtImpact": -1,
         "Emotion": "Excited"
@@ -2150,10 +2150,10 @@
       "target": "143",
       "attributes": {
         "label": "Hot Boys",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Flirtatious"
       }
     },
     {
@@ -2162,10 +2162,10 @@
       "target": "106",
       "attributes": {
         "label": "Bad Restaurants",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Angry"
       }
     },
     {
@@ -2174,7 +2174,7 @@
       "target": "146",
       "attributes": {
         "label": "WhyItsCalledPlatypusBeach",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2186,10 +2186,10 @@
       "target": "116",
       "attributes": {
         "label": "Restricted Parks",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Angry"
       }
     },
     {
@@ -2198,7 +2198,7 @@
       "target": "118",
       "attributes": {
         "label": "Surfing Club",
-        "color": "#808080",
+        "color": "#e8c100",
         "weight": 1.0,
         "DoubtImpact": 2,
         "Emotion": "Doubtful"
@@ -2210,7 +2210,7 @@
       "target": "152",
       "attributes": {
         "label": "Gondolas",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2222,7 +2222,7 @@
       "target": "163",
       "attributes": {
         "label": "Dolphin Tour",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2234,7 +2234,7 @@
       "target": "110",
       "attributes": {
         "label": "Style Boutiques",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2246,7 +2246,7 @@
       "target": "130",
       "attributes": {
         "label": "Galleries",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2258,7 +2258,7 @@
       "target": "129",
       "attributes": {
         "label": "Annoying Ocean",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2270,7 +2270,7 @@
       "target": "128",
       "attributes": {
         "label": "RejectedFromHotel",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2282,7 +2282,7 @@
       "target": "133",
       "attributes": {
         "label": "NULL",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2294,7 +2294,7 @@
       "target": "135",
       "attributes": {
         "label": "Visiting Stores",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2306,7 +2306,7 @@
       "target": "166",
       "attributes": {
         "label": "TooMuchWalking",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2318,7 +2318,7 @@
       "target": "126",
       "attributes": {
         "label": "City Hall",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2330,7 +2330,7 @@
       "target": "152",
       "attributes": {
         "label": "Gondolas",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2342,7 +2342,7 @@
       "target": "125",
       "attributes": {
         "label": "Viewing Platform",
-        "color": "#808080",
+        "color": "#e8c100",
         "weight": 1.0,
         "DoubtImpact": 2,
         "Emotion": "Doubtful"
@@ -2354,7 +2354,7 @@
       "target": "274",
       "attributes": {
         "label": "SheIsAllNatural",
-        "color": "#808080",
+        "color": "#1eff00",
         "weight": 1.0,
         "DoubtImpact": -1,
         "Emotion": "Excited"
@@ -2366,7 +2366,7 @@
       "target": "132",
       "attributes": {
         "label": "Boat Tours",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2378,10 +2378,10 @@
       "target": "106",
       "attributes": {
         "label": "Bad Restaurants",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Angry"
       }
     },
     {
@@ -2390,7 +2390,7 @@
       "target": "146",
       "attributes": {
         "label": "WhyItsCalledPlatypusBeach",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2402,7 +2402,7 @@
       "target": "161",
       "attributes": {
         "label": "BoatTourNames",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2414,7 +2414,7 @@
       "target": "110",
       "attributes": {
         "label": "Style Boutiques",
-        "color": "#4a4a4a",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2426,7 +2426,7 @@
       "target": "135",
       "attributes": {
         "label": "Visiting Stores",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2438,10 +2438,10 @@
       "target": "143",
       "attributes": {
         "label": "Hot Boys",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Flirtatious"
       }
     },
     {
@@ -2450,7 +2450,7 @@
       "target": "156",
       "attributes": {
         "label": "Evening Restaurant",
-        "color": "#4a4a4a",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2462,7 +2462,7 @@
       "target": "137",
       "attributes": {
         "label": "Seafood Restaurant",
-        "color": "#4a4a4a",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2474,7 +2474,7 @@
       "target": "156",
       "attributes": {
         "label": "Evening Restaurant",
-        "color": "#808080",
+        "color": "#ff0000",
         "weight": 1.0,
         "DoubtImpact": 4,
         "Emotion": "Angry"
@@ -2486,7 +2486,7 @@
       "target": "118",
       "attributes": {
         "label": "Surfing Club",
-        "color": "#4a4a4a",
+        "color": "#e8c100",
         "weight": 1.0,
         "DoubtImpact": 2,
         "Emotion": "Doubtful"
@@ -2498,7 +2498,7 @@
       "target": "112",
       "attributes": {
         "label": "Bought Jewellery",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2509,7 +2509,7 @@
       "source": "86",
       "target": "198",
       "attributes": {
-        "color": "#4a4a4a",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2521,7 +2521,7 @@
       "target": "117",
       "attributes": {
         "label": "Horrible Trip",
-        "color": "#808080",
+        "color": "#e8c100",
         "weight": 1.0,
         "DoubtImpact": 2,
         "Emotion": "Doubtful"
@@ -2533,10 +2533,10 @@
       "target": "115",
       "attributes": {
         "label": "No HotelMeals",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Angry"
       }
     },
     {
@@ -2545,7 +2545,7 @@
       "target": "170",
       "attributes": {
         "label": "HerOwnBeauty",
-        "color": "#808080",
+        "color": "#1eff00",
         "weight": 1.0,
         "DoubtImpact": -1,
         "Emotion": "Excited"
@@ -2557,7 +2557,7 @@
       "target": "155",
       "attributes": {
         "label": "HikingUpTheMountain",
-        "color": "#808080",
+        "color": "#e8c100",
         "weight": 1.0,
         "DoubtImpact": 2,
         "Emotion": "Doubtful"
@@ -2569,7 +2569,7 @@
       "target": "131",
       "attributes": {
         "label": "Great View",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2581,7 +2581,7 @@
       "target": "114",
       "attributes": {
         "label": "SpecialServicesCozyCamping",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2592,7 +2592,7 @@
       "source": "192",
       "target": "187",
       "attributes": {
-        "color": "#4a4a4a",
+        "color": "#f36000",
         "weight": 1.0,
         "DoubtImpact": 3,
         "Emotion": "Doubtful"
@@ -2604,7 +2604,7 @@
       "target": "147",
       "attributes": {
         "label": "Getting Up Early",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2616,7 +2616,7 @@
       "target": "142",
       "attributes": {
         "label": "Hurting Feet",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2628,7 +2628,7 @@
       "target": "123",
       "attributes": {
         "label": "Coffee Shop",
-        "color": "#808080",
+        "color": "#e8c100",
         "weight": 1.0,
         "DoubtImpact": 2,
         "Emotion": "Doubtful"
@@ -2640,7 +2640,7 @@
       "target": "123",
       "attributes": {
         "label": "Coffee Shop",
-        "color": "#4a4a4a",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2652,7 +2652,7 @@
       "target": "131",
       "attributes": {
         "label": "Great View",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2664,7 +2664,7 @@
       "target": "132",
       "attributes": {
         "label": "Boat Tours",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2676,7 +2676,7 @@
       "target": "142",
       "attributes": {
         "label": "Hurting Feet",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2688,7 +2688,7 @@
       "target": "114",
       "attributes": {
         "label": "SpecialServicesCozyCamping",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2700,7 +2700,7 @@
       "target": "159",
       "attributes": {
         "label": "Classy Lady",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2712,7 +2712,7 @@
       "target": "140",
       "attributes": {
         "label": "Appreciating Beauty",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2724,7 +2724,7 @@
       "target": "149",
       "attributes": {
         "label": "ShoppingDistrictNames",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2736,7 +2736,7 @@
       "target": "109",
       "attributes": {
         "label": "Busses",
-        "color": "#808080",
+        "color": "#e8c100",
         "weight": 1.0,
         "DoubtImpact": 2,
         "Emotion": "Doubtful"
@@ -2748,7 +2748,7 @@
       "target": "159",
       "attributes": {
         "label": "Classy Lady",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2760,7 +2760,7 @@
       "target": "128",
       "attributes": {
         "label": "RejectedFromHotel",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2772,7 +2772,7 @@
       "target": "122",
       "attributes": {
         "label": "Greenery",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2784,10 +2784,10 @@
       "target": "145",
       "attributes": {
         "label": "The Pearl",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Angry"
       }
     },
     {
@@ -2796,10 +2796,10 @@
       "target": "117",
       "attributes": {
         "label": "Horrible Trip",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Angry"
       }
     },
     {
@@ -2808,7 +2808,7 @@
       "target": "151",
       "attributes": {
         "label": "No Sleep",
-        "color": "#808080",
+        "color": "#f36000",
         "weight": 1.0,
         "DoubtImpact": 3,
         "Emotion": "Doubtful"
@@ -2820,7 +2820,7 @@
       "target": "164",
       "attributes": {
         "label": "Annoying Husband",
-        "color": "#808080",
+        "color": "#f36000",
         "weight": 1.0,
         "DoubtImpact": 3,
         "Emotion": "Doubtful"
@@ -2832,7 +2832,7 @@
       "target": "113",
       "attributes": {
         "label": "Noise",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2844,7 +2844,7 @@
       "target": "150",
       "attributes": {
         "label": "Duckling Lake",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2856,7 +2856,7 @@
       "target": "165",
       "attributes": {
         "label": "Leaving Hotel",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2868,7 +2868,7 @@
       "target": "147",
       "attributes": {
         "label": "Getting Up Early",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2880,7 +2880,7 @@
       "target": "128",
       "attributes": {
         "label": "RejectedFromHotel",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2892,7 +2892,7 @@
       "target": "235",
       "attributes": {
         "label": "Cozy Camping",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2904,7 +2904,7 @@
       "target": "109",
       "attributes": {
         "label": "Busses",
-        "color": "#808080",
+        "color": "#e8c100",
         "weight": 1.0,
         "DoubtImpact": 2,
         "Emotion": "Doubtful"
@@ -2916,7 +2916,7 @@
       "target": "122",
       "attributes": {
         "label": "Greenery",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2928,7 +2928,7 @@
       "target": "158",
       "attributes": {
         "label": "Scorching Sun",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2940,7 +2940,7 @@
       "target": "111",
       "attributes": {
         "label": "Public Transport",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2952,7 +2952,7 @@
       "target": "114",
       "attributes": {
         "label": "SpecialServicesCozyCamping",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2964,7 +2964,7 @@
       "target": "148",
       "attributes": {
         "label": "CozyCamping Gondola",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2976,7 +2976,7 @@
       "target": "153",
       "attributes": {
         "label": "QualityOverQuantity",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -2988,7 +2988,7 @@
       "target": "164",
       "attributes": {
         "label": "Annoying Husband",
-        "color": "#808080",
+        "color": "#f36000",
         "weight": 1.0,
         "DoubtImpact": 3,
         "Emotion": "Doubtful"
@@ -3000,7 +3000,7 @@
       "target": "162",
       "attributes": {
         "label": "Discrimination",
-        "color": "#808080",
+        "color": "#1eff00",
         "weight": 1.0,
         "DoubtImpact": -1,
         "Emotion": "Excited"
@@ -3012,7 +3012,7 @@
       "target": "158",
       "attributes": {
         "label": "Scorching Sun",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3024,7 +3024,7 @@
       "target": "170",
       "attributes": {
         "label": "HerOwnBeauty",
-        "color": "#808080",
+        "color": "#1eff00",
         "weight": 1.0,
         "DoubtImpact": -1,
         "Emotion": "Excited"
@@ -3036,10 +3036,10 @@
       "target": "144",
       "attributes": {
         "label": "Climate Activists",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Angry"
       }
     },
     {
@@ -3048,7 +3048,7 @@
       "target": "237",
       "attributes": {
         "label": "Young generation",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3060,7 +3060,7 @@
       "target": "117",
       "attributes": {
         "label": "Horrible Trip",
-        "color": "#808080",
+        "color": "#e8c100",
         "weight": 1.0,
         "DoubtImpact": 2,
         "Emotion": "Doubtful"
@@ -3072,7 +3072,7 @@
       "target": "239",
       "attributes": {
         "label": "Poor People",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3084,7 +3084,7 @@
       "target": "239",
       "attributes": {
         "label": "Poor People",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3096,7 +3096,7 @@
       "target": "238",
       "attributes": {
         "label": "Religious Sites",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3108,7 +3108,7 @@
       "target": "134",
       "attributes": {
         "label": "Architecture Fan",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3120,7 +3120,7 @@
       "target": "134",
       "attributes": {
         "label": "Architecture Fan",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3132,7 +3132,7 @@
       "target": "247",
       "attributes": {
         "label": "HerPlanForAPrivateMansion",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3144,7 +3144,7 @@
       "target": "247",
       "attributes": {
         "label": "HerPlanForAPrivateMansion",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3156,7 +3156,7 @@
       "target": "136",
       "attributes": {
         "label": "Beaches",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3168,7 +3168,7 @@
       "target": "240",
       "attributes": {
         "label": "Holy Mario",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3180,7 +3180,7 @@
       "target": "244",
       "attributes": {
         "label": "Video Games",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3192,7 +3192,7 @@
       "target": "251",
       "attributes": {
         "label": "House Plants",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3204,7 +3204,7 @@
       "target": "250",
       "attributes": {
         "label": "Friedas GardenCenter",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3216,7 +3216,7 @@
       "target": "122",
       "attributes": {
         "label": "Greenery",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3228,7 +3228,7 @@
       "target": "247",
       "attributes": {
         "label": "HerPlanForAPrivateMansion",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3240,7 +3240,7 @@
       "target": "247",
       "attributes": {
         "label": "HerPlanForAPrivateMansion",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3252,7 +3252,7 @@
       "target": "252",
       "attributes": {
         "label": "SheWorksHard",
-        "color": "#808080",
+        "color": "#1eff00",
         "weight": 1.0,
         "DoubtImpact": -1,
         "Emotion": "Excited"
@@ -3264,7 +3264,7 @@
       "target": "159",
       "attributes": {
         "label": "Classy Lady",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3276,7 +3276,7 @@
       "target": "141",
       "attributes": {
         "label": "Hill Cathedral",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3288,7 +3288,7 @@
       "target": "169",
       "attributes": {
         "label": "AlgeaBay",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3300,7 +3300,7 @@
       "target": "249",
       "attributes": {
         "label": "MuseumOfModernArt",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3312,7 +3312,7 @@
       "target": "258",
       "attributes": {
         "label": "Ocean Animals",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3324,7 +3324,7 @@
       "target": "136",
       "attributes": {
         "label": "Beaches",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3336,7 +3336,7 @@
       "target": "124",
       "attributes": {
         "label": "Shark Pound",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3348,7 +3348,7 @@
       "target": "259",
       "attributes": {
         "label": "Getting Pickpocketed",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3360,7 +3360,7 @@
       "target": "119",
       "attributes": {
         "label": "FishCrab Market",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3372,7 +3372,7 @@
       "target": "120",
       "attributes": {
         "label": "Harbor",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3384,7 +3384,7 @@
       "target": "119",
       "attributes": {
         "label": "FishCrab Market",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3396,7 +3396,7 @@
       "target": "260",
       "attributes": {
         "label": "Getting Scammed",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3408,7 +3408,7 @@
       "target": "259",
       "attributes": {
         "label": "Getting Pickpocketed",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3420,7 +3420,7 @@
       "target": "169",
       "attributes": {
         "label": "AlgeaBay",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3432,7 +3432,7 @@
       "target": "239",
       "attributes": {
         "label": "Poor People",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3444,7 +3444,7 @@
       "target": "167",
       "attributes": {
         "label": "Fisherman",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3456,7 +3456,7 @@
       "target": "120",
       "attributes": {
         "label": "Harbor",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3468,7 +3468,7 @@
       "target": "261",
       "attributes": {
         "label": "Working Hard",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3480,7 +3480,7 @@
       "target": "262",
       "attributes": {
         "label": "SheIsSuperImportant",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3492,7 +3492,7 @@
       "target": "262",
       "attributes": {
         "label": "SheIsSuperImportant",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3504,7 +3504,7 @@
       "target": "252",
       "attributes": {
         "label": "SheWorksHard",
-        "color": "#808080",
+        "color": "#1eff00",
         "weight": 1.0,
         "DoubtImpact": -1,
         "Emotion": "Excited"
@@ -3516,7 +3516,7 @@
       "target": "239",
       "attributes": {
         "label": "Poor People",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3528,7 +3528,7 @@
       "target": "162",
       "attributes": {
         "label": "Discrimination",
-        "color": "#808080",
+        "color": "#1eff00",
         "weight": 1.0,
         "DoubtImpact": -1,
         "Emotion": "Excited"
@@ -3540,7 +3540,7 @@
       "target": "111",
       "attributes": {
         "label": "Public Transport",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3552,7 +3552,7 @@
       "target": "255",
       "attributes": {
         "label": "Gambling",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3564,7 +3564,7 @@
       "target": "134",
       "attributes": {
         "label": "Architecture Fan",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3576,7 +3576,7 @@
       "target": "242",
       "attributes": {
         "label": "DisplayingWealth",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 0.5,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3588,7 +3588,7 @@
       "target": "247",
       "attributes": {
         "label": "HerPlanForAPrivateMansion",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 0.5,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3600,7 +3600,7 @@
       "target": "257",
       "attributes": {
         "label": "Magpie Island",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3612,7 +3612,7 @@
       "target": "247",
       "attributes": {
         "label": "HerPlanForAPrivateMansion",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3624,7 +3624,7 @@
       "target": "150",
       "attributes": {
         "label": "Duckling Lake",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3636,7 +3636,7 @@
       "target": "111",
       "attributes": {
         "label": "Public Transport",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3648,7 +3648,7 @@
       "target": "265",
       "attributes": {
         "label": "SheHasSoMuchMoney",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3660,7 +3660,7 @@
       "target": "170",
       "attributes": {
         "label": "HerOwnBeauty",
-        "color": "#808080",
+        "color": "#1eff00",
         "weight": 1.0,
         "DoubtImpact": -1,
         "Emotion": "Excited"
@@ -3672,7 +3672,7 @@
       "target": "135",
       "attributes": {
         "label": "Visiting Stores",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3684,7 +3684,7 @@
       "target": "153",
       "attributes": {
         "label": "QualityOverQuantity",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3696,7 +3696,7 @@
       "target": "266",
       "attributes": {
         "label": "TheCoolingWater",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3708,7 +3708,7 @@
       "target": "258",
       "attributes": {
         "label": "Ocean Animals",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3720,7 +3720,7 @@
       "target": "118",
       "attributes": {
         "label": "Surfing Club",
-        "color": "#808080",
+        "color": "#e8c100",
         "weight": 1.0,
         "DoubtImpact": 2,
         "Emotion": "Doubtful"
@@ -3732,7 +3732,7 @@
       "target": "158",
       "attributes": {
         "label": "Scorching Sun",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3744,7 +3744,7 @@
       "target": "160",
       "attributes": {
         "label": "HerInterestInVintageCars",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3756,7 +3756,7 @@
       "target": "267",
       "attributes": {
         "label": "Rarities",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3768,7 +3768,7 @@
       "target": "267",
       "attributes": {
         "label": "Rarities",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3780,7 +3780,7 @@
       "target": "140",
       "attributes": {
         "label": "Appreciating Beauty",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3792,7 +3792,7 @@
       "target": "135",
       "attributes": {
         "label": "Visiting Stores",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3804,7 +3804,7 @@
       "target": "119",
       "attributes": {
         "label": "FishCrab Market",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3816,7 +3816,7 @@
       "target": "147",
       "attributes": {
         "label": "Getting Up Early",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3828,7 +3828,7 @@
       "target": "280",
       "attributes": {
         "label": "AnnoyingChildren",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3840,7 +3840,7 @@
       "target": "147",
       "attributes": {
         "label": "Getting Up Early",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3852,7 +3852,7 @@
       "target": "271",
       "attributes": {
         "label": "WeirdCityNames",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3864,7 +3864,7 @@
       "target": "149",
       "attributes": {
         "label": "ShoppingDistrictNames",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3876,7 +3876,7 @@
       "target": "248",
       "attributes": {
         "label": "Plankton Zoo",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3888,7 +3888,7 @@
       "target": "110",
       "attributes": {
         "label": "Style Boutiques",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3900,7 +3900,7 @@
       "target": "271",
       "attributes": {
         "label": "WeirdCityNames",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3912,7 +3912,7 @@
       "target": "243",
       "attributes": {
         "label": "ShopForStatues",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3924,7 +3924,7 @@
       "target": "241",
       "attributes": {
         "label": "TheStuffSheBroughtHome",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3936,7 +3936,7 @@
       "target": "241",
       "attributes": {
         "label": "TheStuffSheBroughtHome",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3948,7 +3948,7 @@
       "target": "249",
       "attributes": {
         "label": "MuseumOfModernArt",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3960,7 +3960,7 @@
       "target": "243",
       "attributes": {
         "label": "ShopForStatues",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3972,7 +3972,7 @@
       "target": "272",
       "attributes": {
         "label": "ABeautifulDress",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3984,7 +3984,7 @@
       "target": "273",
       "attributes": {
         "label": "OwningSecondIsland",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -3996,7 +3996,7 @@
       "target": "257",
       "attributes": {
         "label": "Magpie Island",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4008,7 +4008,7 @@
       "target": "247",
       "attributes": {
         "label": "HerPlanForAPrivateMansion",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4020,7 +4020,7 @@
       "target": "267",
       "attributes": {
         "label": "Rarities",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4032,7 +4032,7 @@
       "target": "173",
       "attributes": {
         "label": "Spa",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4044,7 +4044,7 @@
       "target": "170",
       "attributes": {
         "label": "HerOwnBeauty",
-        "color": "#808080",
+        "color": "#1eff00",
         "weight": 1.0,
         "DoubtImpact": -1,
         "Emotion": "Excited"
@@ -4056,7 +4056,7 @@
       "target": "170",
       "attributes": {
         "label": "HerOwnBeauty",
-        "color": "#808080",
+        "color": "#1eff00",
         "weight": 1.0,
         "DoubtImpact": -1,
         "Emotion": "Excited"
@@ -4068,7 +4068,7 @@
       "target": "241",
       "attributes": {
         "label": "TheStuffSheBroughtHome",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4080,7 +4080,7 @@
       "target": "112",
       "attributes": {
         "label": "Bought Jewellery",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4092,7 +4092,7 @@
       "target": "275",
       "attributes": {
         "label": "SheIsStillYoung",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4104,7 +4104,7 @@
       "target": "237",
       "attributes": {
         "label": "Young generation",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4116,7 +4116,7 @@
       "target": "249",
       "attributes": {
         "label": "MuseumOfModernArt",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4128,7 +4128,7 @@
       "target": "275",
       "attributes": {
         "label": "SheIsStillYoung",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4140,10 +4140,10 @@
       "target": "144",
       "attributes": {
         "label": "Climate Activists",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Angry"
       }
     },
     {
@@ -4152,7 +4152,7 @@
       "target": "276",
       "attributes": {
         "label": "AncientStatues",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4164,7 +4164,7 @@
       "target": "278",
       "attributes": {
         "label": "NULL",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4176,7 +4176,7 @@
       "target": "240",
       "attributes": {
         "label": "Holy Mario",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4188,7 +4188,7 @@
       "target": "276",
       "attributes": {
         "label": "AncientStatues",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4200,7 +4200,7 @@
       "target": "278",
       "attributes": {
         "label": "NULL",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4212,7 +4212,7 @@
       "target": "271",
       "attributes": {
         "label": "WeirdCityNames",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4224,7 +4224,7 @@
       "target": "279",
       "attributes": {
         "label": "NULL",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4236,7 +4236,7 @@
       "target": "279",
       "attributes": {
         "label": "NULL",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4248,7 +4248,7 @@
       "target": "173",
       "attributes": {
         "label": "Spa",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4260,7 +4260,7 @@
       "target": "110",
       "attributes": {
         "label": "Style Boutiques",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4272,7 +4272,7 @@
       "target": "149",
       "attributes": {
         "label": "ShoppingDistrictNames",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4284,7 +4284,7 @@
       "target": "158",
       "attributes": {
         "label": "Scorching Sun",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4296,7 +4296,7 @@
       "target": "235",
       "attributes": {
         "label": "Cozy Camping",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4308,7 +4308,7 @@
       "target": "113",
       "attributes": {
         "label": "Noise",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4320,7 +4320,7 @@
       "target": "280",
       "attributes": {
         "label": "AnnoyingChildren",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4332,7 +4332,7 @@
       "target": "166",
       "attributes": {
         "label": "TooMuchWalking",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4344,10 +4344,10 @@
       "target": "144",
       "attributes": {
         "label": "Climate Activists",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Angry"
       }
     },
     {
@@ -4356,7 +4356,7 @@
       "target": "245",
       "attributes": {
         "label": "City Info",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4368,7 +4368,7 @@
       "target": "281",
       "attributes": {
         "label": "MountDoom",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4380,10 +4380,10 @@
       "target": "145",
       "attributes": {
         "label": "The Pearl",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Angry"
       }
     },
     {
@@ -4392,7 +4392,7 @@
       "target": "166",
       "attributes": {
         "label": "TooMuchWalking",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4404,7 +4404,7 @@
       "target": "131",
       "attributes": {
         "label": "Great View",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4416,7 +4416,7 @@
       "target": "235",
       "attributes": {
         "label": "Cozy Camping",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4428,7 +4428,7 @@
       "target": "243",
       "attributes": {
         "label": "ShopForStatues",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 0.5,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4440,7 +4440,7 @@
       "target": "124",
       "attributes": {
         "label": "Shark Pound",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 0.5,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4452,7 +4452,7 @@
       "target": "265",
       "attributes": {
         "label": "SheHasSoMuchMoney",
-        "color": "#808080",
+        "color": "#e8c100",
         "weight": 0.5,
         "DoubtImpact": 2,
         "Emotion": "Doubtful"
@@ -4464,7 +4464,7 @@
       "target": "264",
       "attributes": {
         "label": "WhatHerCompanyDoes",
-        "color": "#808080",
+        "color": "#1eff00",
         "weight": 0.5,
         "DoubtImpact": -1,
         "Emotion": "Excited"
@@ -4476,7 +4476,7 @@
       "target": "242",
       "attributes": {
         "label": "DisplayingWealth",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 0.5,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4488,7 +4488,7 @@
       "target": "112",
       "attributes": {
         "label": "Bought Jewellery",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 0.5,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4500,7 +4500,7 @@
       "target": "252",
       "attributes": {
         "label": "SheWorksHard",
-        "color": "#808080",
+        "color": "#1eff00",
         "weight": 0.5,
         "DoubtImpact": -1,
         "Emotion": "Excited"
@@ -4512,7 +4512,7 @@
       "target": "242",
       "attributes": {
         "label": "DisplayingWealth",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 0.5,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4524,7 +4524,7 @@
       "target": "264",
       "attributes": {
         "label": "WhatHerCompanyDoes",
-        "color": "#808080",
+        "color": "#1eff00",
         "weight": 1.0,
         "DoubtImpact": -1,
         "Emotion": "Excited"
@@ -4536,7 +4536,7 @@
       "target": "261",
       "attributes": {
         "label": "Working Hard",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4548,7 +4548,7 @@
       "target": "252",
       "attributes": {
         "label": "SheWorksHard",
-        "color": "#808080",
+        "color": "#1eff00",
         "weight": 1.0,
         "DoubtImpact": -1,
         "Emotion": "Excited"
@@ -4560,7 +4560,7 @@
       "target": "165",
       "attributes": {
         "label": "Leaving Hotel",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4572,7 +4572,7 @@
       "target": "150",
       "attributes": {
         "label": "Duckling Lake",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4584,7 +4584,7 @@
       "target": "147",
       "attributes": {
         "label": "Getting Up Early",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4596,7 +4596,7 @@
       "target": "271",
       "attributes": {
         "label": "WeirdCityNames",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4608,7 +4608,7 @@
       "target": "240",
       "attributes": {
         "label": "Holy Mario",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4620,7 +4620,7 @@
       "target": "151",
       "attributes": {
         "label": "No Sleep",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4632,7 +4632,7 @@
       "target": "267",
       "attributes": {
         "label": "Rarities",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4644,7 +4644,7 @@
       "target": "280",
       "attributes": {
         "label": "AnnoyingChildren",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4656,7 +4656,7 @@
       "target": "281",
       "attributes": {
         "label": "MountDoom",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4668,7 +4668,7 @@
       "target": "284",
       "attributes": {
         "label": "NamingOfThePathways",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4680,7 +4680,7 @@
       "target": "149",
       "attributes": {
         "label": "ShoppingDistrictNames",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4692,7 +4692,7 @@
       "target": "284",
       "attributes": {
         "label": "NamingOfThePathways",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4704,7 +4704,7 @@
       "target": "161",
       "attributes": {
         "label": "BoatTourNames",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4716,7 +4716,7 @@
       "target": "248",
       "attributes": {
         "label": "Plankton Zoo",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4728,7 +4728,7 @@
       "target": "280",
       "attributes": {
         "label": "AnnoyingChildren",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4740,7 +4740,7 @@
       "target": "117",
       "attributes": {
         "label": "Horrible Trip",
-        "color": "#808080",
+        "color": "#e8c100",
         "weight": 1.0,
         "DoubtImpact": 2,
         "Emotion": "Doubtful"
@@ -4752,10 +4752,10 @@
       "target": "106",
       "attributes": {
         "label": "Bad Restaurants",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Angry"
       }
     },
     {
@@ -4764,7 +4764,7 @@
       "target": "260",
       "attributes": {
         "label": "Getting Scammed",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4776,7 +4776,7 @@
       "target": "170",
       "attributes": {
         "label": "HerOwnBeauty",
-        "color": "#808080",
+        "color": "#1eff00",
         "weight": 1.0,
         "DoubtImpact": -1,
         "Emotion": "Excited"
@@ -4788,7 +4788,7 @@
       "target": "275",
       "attributes": {
         "label": "SheIsStillYoung",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4800,7 +4800,7 @@
       "target": "239",
       "attributes": {
         "label": "Poor People",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4812,7 +4812,7 @@
       "target": "258",
       "attributes": {
         "label": "Ocean Animals",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4824,7 +4824,7 @@
       "target": "113",
       "attributes": {
         "label": "Noise",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4836,10 +4836,10 @@
       "target": "143",
       "attributes": {
         "label": "Hot Boys",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 0.5,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Flirtatious"
       }
     },
     {
@@ -4848,7 +4848,7 @@
       "target": "261",
       "attributes": {
         "label": "Working Hard",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4860,7 +4860,7 @@
       "target": "151",
       "attributes": {
         "label": "No Sleep",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4872,7 +4872,7 @@
       "target": "261",
       "attributes": {
         "label": "Working Hard",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4884,7 +4884,7 @@
       "target": "237",
       "attributes": {
         "label": "Young generation",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 0.5,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4896,7 +4896,7 @@
       "target": "117",
       "attributes": {
         "label": "Horrible Trip",
-        "color": "#808080",
+        "color": "#e8c100",
         "weight": 1.0,
         "DoubtImpact": 2,
         "Emotion": "Doubtful"
@@ -4908,7 +4908,7 @@
       "target": "262",
       "attributes": {
         "label": "SheIsSuperImportant",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4920,7 +4920,7 @@
       "target": "239",
       "attributes": {
         "label": "Poor People",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4932,7 +4932,7 @@
       "target": "280",
       "attributes": {
         "label": "AnnoyingChildren",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4944,7 +4944,7 @@
       "target": "257",
       "attributes": {
         "label": "Magpie Island",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 0.5,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4956,7 +4956,7 @@
       "target": "141",
       "attributes": {
         "label": "Hill Cathedral",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 0.5,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4968,7 +4968,7 @@
       "target": "124",
       "attributes": {
         "label": "Shark Pound",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 0.5,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4980,7 +4980,7 @@
       "target": "150",
       "attributes": {
         "label": "Duckling Lake",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -4992,7 +4992,7 @@
       "target": "136",
       "attributes": {
         "label": "Beaches",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5004,7 +5004,7 @@
       "target": "271",
       "attributes": {
         "label": "WeirdCityNames",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5016,7 +5016,7 @@
       "target": "161",
       "attributes": {
         "label": "BoatTourNames",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5028,7 +5028,7 @@
       "target": "245",
       "attributes": {
         "label": "City Info",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5040,7 +5040,7 @@
       "target": "158",
       "attributes": {
         "label": "Scorching Sun",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5052,7 +5052,7 @@
       "target": "281",
       "attributes": {
         "label": "MountDoom",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5064,7 +5064,7 @@
       "target": "166",
       "attributes": {
         "label": "TooMuchWalking",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5076,7 +5076,7 @@
       "target": "286",
       "attributes": {
         "label": "Auctions",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5088,7 +5088,7 @@
       "target": "130",
       "attributes": {
         "label": "Galleries",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5100,7 +5100,7 @@
       "target": "255",
       "attributes": {
         "label": "Gambling",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5112,7 +5112,7 @@
       "target": "286",
       "attributes": {
         "label": "Auctions",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5124,7 +5124,7 @@
       "target": "265",
       "attributes": {
         "label": "SheHasSoMuchMoney",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5136,7 +5136,7 @@
       "target": "242",
       "attributes": {
         "label": "DisplayingWealth",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5148,7 +5148,7 @@
       "target": "126",
       "attributes": {
         "label": "City Hall",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5160,7 +5160,7 @@
       "target": "159",
       "attributes": {
         "label": "Classy Lady",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5172,7 +5172,7 @@
       "target": "239",
       "attributes": {
         "label": "Poor People",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5184,7 +5184,7 @@
       "target": "260",
       "attributes": {
         "label": "Getting Scammed",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5196,7 +5196,7 @@
       "target": "267",
       "attributes": {
         "label": "Rarities",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5208,7 +5208,7 @@
       "target": "109",
       "attributes": {
         "label": "Busses",
-        "color": "#808080",
+        "color": "#e8c100",
         "weight": 0.5,
         "DoubtImpact": 2,
         "Emotion": "Doubtful"
@@ -5220,10 +5220,10 @@
       "target": "116",
       "attributes": {
         "label": "Restricted Parks",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Angry"
       }
     },
     {
@@ -5232,7 +5232,7 @@
       "target": "262",
       "attributes": {
         "label": "SheIsSuperImportant",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5244,7 +5244,7 @@
       "target": "267",
       "attributes": {
         "label": "Rarities",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5256,7 +5256,7 @@
       "target": "158",
       "attributes": {
         "label": "Scorching Sun",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5268,7 +5268,7 @@
       "target": "135",
       "attributes": {
         "label": "Visiting Stores",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5280,7 +5280,7 @@
       "target": "123",
       "attributes": {
         "label": "Coffee Shop",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5292,10 +5292,10 @@
       "target": "106",
       "attributes": {
         "label": "Bad Restaurants",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Angry"
       }
     },
     {
@@ -5304,7 +5304,7 @@
       "target": "265",
       "attributes": {
         "label": "SheHasSoMuchMoney",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5316,7 +5316,7 @@
       "target": "166",
       "attributes": {
         "label": "TooMuchWalking",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5328,7 +5328,7 @@
       "target": "245",
       "attributes": {
         "label": "City Info",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5340,7 +5340,7 @@
       "target": "148",
       "attributes": {
         "label": "CozyCamping Gondola",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5352,10 +5352,10 @@
       "target": "115",
       "attributes": {
         "label": "No HotelMeals",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Angry"
       }
     },
     {
@@ -5364,7 +5364,7 @@
       "target": "137",
       "attributes": {
         "label": "Seafood Restaurant",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5376,10 +5376,10 @@
       "target": "116",
       "attributes": {
         "label": "Restricted Parks",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Angry"
       }
     },
     {
@@ -5388,10 +5388,10 @@
       "target": "115",
       "attributes": {
         "label": "No HotelMeals",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
-        "Emotion": "null"
+        "Emotion": "Angry"
       }
     },
     {
@@ -5400,7 +5400,7 @@
       "target": "164",
       "attributes": {
         "label": "Annoying Husband",
-        "color": "#808080",
+        "color": "#f36000",
         "weight": 1.0,
         "DoubtImpact": 3,
         "Emotion": "Doubtful"
@@ -5412,7 +5412,7 @@
       "target": "259",
       "attributes": {
         "label": "Getting Pickpocketed",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5424,7 +5424,7 @@
       "target": "122",
       "attributes": {
         "label": "Greenery",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5436,7 +5436,7 @@
       "target": "147",
       "attributes": {
         "label": "Getting Up Early",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5448,7 +5448,7 @@
       "target": "286",
       "attributes": {
         "label": "Auctions",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5460,7 +5460,7 @@
       "target": "147",
       "attributes": {
         "label": "Getting Up Early",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5472,7 +5472,7 @@
       "target": "249",
       "attributes": {
         "label": "MuseumOfModernArt",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5484,7 +5484,7 @@
       "target": "278",
       "attributes": {
         "label": "NULL",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5496,7 +5496,7 @@
       "target": "248",
       "attributes": {
         "label": "Plankton Zoo",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5508,7 +5508,7 @@
       "target": "146",
       "attributes": {
         "label": "WhyItsCalledPlatypusBeach",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5520,7 +5520,7 @@
       "target": "140",
       "attributes": {
         "label": "Appreciating Beauty",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5532,7 +5532,7 @@
       "target": "137",
       "attributes": {
         "label": "Seafood Restaurant",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5544,7 +5544,7 @@
       "target": "135",
       "attributes": {
         "label": "Visiting Stores",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5556,7 +5556,7 @@
       "target": "132",
       "attributes": {
         "label": "Boat Tours",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 0.5,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5568,7 +5568,7 @@
       "target": "117",
       "attributes": {
         "label": "Horrible Trip",
-        "color": "#808080",
+        "color": "#e8c100",
         "weight": 1.0,
         "DoubtImpact": 2,
         "Emotion": "Doubtful"
@@ -5580,7 +5580,7 @@
       "target": "161",
       "attributes": {
         "label": "BoatTourNames",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5592,7 +5592,7 @@
       "target": "250",
       "attributes": {
         "label": "Friedas GardenCenter",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5604,7 +5604,7 @@
       "target": "127",
       "attributes": {
         "label": "Restaurant \"Above tthe skies\"",
-        "color": "#808080",
+        "color": "#f36000",
         "weight": 1.0,
         "DoubtImpact": 3,
         "Emotion": "Doubtful"
@@ -5616,7 +5616,7 @@
       "target": "142",
       "attributes": {
         "label": "Hurting Feet",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"
@@ -5628,7 +5628,7 @@
       "target": "152",
       "attributes": {
         "label": "Gondolas",
-        "color": "#808080",
+        "color": "#c3ff00",
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "null"

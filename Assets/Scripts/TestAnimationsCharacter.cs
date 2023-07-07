@@ -17,7 +17,10 @@ public class TestAnimationsCharacter : MonoBehaviour
         EMOTION_SECONDARY = 6
     }
 
-    public enum Emotion { Normal, Angry, Bored, Doubtful, Excited, Null }
+    public enum Emotion
+    {
+        Null, Normal, Angry, Bored, Doubtful, Excited, Unhappy, Flirtatious
+    }
 
     CubismMotionController _motionController;
 
@@ -153,6 +156,10 @@ public class TestAnimationsCharacter : MonoBehaviour
                 new_emotion = Emotion.Null; break;
             case "Normal":
                 new_emotion = Emotion.Null; break;
+            case "Unhappy":
+                new_emotion = Emotion.Unhappy; break;
+            case "Flirtatious":
+                new_emotion = Emotion.Flirtatious; break;
             default:
                 Debug.LogWarning("Emotion " + emotion + " not found, set default animation");
                 new_emotion = Emotion.Normal; break;
@@ -216,6 +223,11 @@ public class TestAnimationsCharacter : MonoBehaviour
                 break;
             case Emotion.Angry:
                 PlayMotion(angry_animation, animation_layer, true);
+                break;
+            case Emotion.Unhappy:
+                break;
+            case Emotion.Flirtatious:
+                PlayMotion(doubtful_animation, animation_layer, true);
                 break;  
             
             default:
@@ -228,6 +240,8 @@ public class TestAnimationsCharacter : MonoBehaviour
 
     void StartMouthAnimation(Emotion emotion)
     {
+        AnimationClip new_talking_animation = null;
+
         switch (emotion)
         {
             case Emotion.Null:
@@ -235,65 +249,74 @@ public class TestAnimationsCharacter : MonoBehaviour
                 break;
 
             case Emotion.Normal:
-                PlayMotion(happy_talking_animation, ANIMATIONLAYER.MOUTH_TALKING, true);
-                StopMotion(ANIMATIONLAYER.MOUTH_IDLE);
+                new_talking_animation = happy_talking_animation;
                 break;
             case Emotion.Doubtful:
-                PlayMotion(sad_talking_animation, ANIMATIONLAYER.MOUTH_TALKING, true);
-                StopMotion(ANIMATIONLAYER.MOUTH_IDLE);
+                new_talking_animation = sad_talking_animation;
                 break;
             case Emotion.Excited:
-                PlayMotion(happy_talking_animation, ANIMATIONLAYER.MOUTH_TALKING, true);
-                StopMotion(ANIMATIONLAYER.MOUTH_IDLE);
+                new_talking_animation = happy_talking_animation;
                 break;
             case Emotion.Bored:
-                PlayMotion(sad_talking_animation, ANIMATIONLAYER.MOUTH_TALKING, true);
-                StopMotion(ANIMATIONLAYER.MOUTH_IDLE);
+                new_talking_animation = sad_talking_animation;
                 break;
             case Emotion.Angry:
-                PlayMotion(sad_talking_animation, ANIMATIONLAYER.MOUTH_TALKING, true);
-                StopMotion(ANIMATIONLAYER.MOUTH_IDLE);
+                new_talking_animation = sad_talking_animation;
                 break;
-            
+            case Emotion.Unhappy:
+                new_talking_animation = sad_talking_animation;
+                break;
+            case Emotion.Flirtatious:
+                new_talking_animation = happy_talking_animation;
+                break;
+
             default:
                 if (!disable_warning_messages) Debug.LogWarning("Emotion not found: " + emotion);
                 break;
         }
+        
+        PlayMotion(sad_talking_animation, ANIMATIONLAYER.MOUTH_TALKING, true);
+        StopMotion(ANIMATIONLAYER.MOUTH_IDLE);
     }
 
     void StopMouthAnimation(Emotion emotion)
     {
+        AnimationClip new_mouth_animation = null;
+
         switch (emotion)
         {
             case Emotion.Null:
                 if (!disable_warning_messages) Debug.LogWarning("Emotion was Null");
                 break;
-
             case Emotion.Normal:
-                PlayMotion(smile_mouth_animation, ANIMATIONLAYER.MOUTH_IDLE, true);
-                StopMotion(ANIMATIONLAYER.MOUTH_TALKING);
+                new_mouth_animation = smile_mouth_animation;
                 break;
             case Emotion.Doubtful:
-                PlayMotion(unhappy_mouth_animation, ANIMATIONLAYER.MOUTH_IDLE, true);
-                StopMotion(ANIMATIONLAYER.MOUTH_TALKING);
+                new_mouth_animation = unhappy_mouth_animation;
                 break;
             case Emotion.Excited:
-                PlayMotion(smile_mouth_animation, ANIMATIONLAYER.MOUTH_IDLE, true);
-                StopMotion(ANIMATIONLAYER.MOUTH_TALKING);
+                new_mouth_animation = smile_mouth_animation;
                 break;
             case Emotion.Bored:
-                PlayMotion(unhappy_mouth_animation, ANIMATIONLAYER.MOUTH_IDLE, true);
-                StopMotion(ANIMATIONLAYER.MOUTH_TALKING);
+                new_mouth_animation = unhappy_mouth_animation;
                 break;
             case Emotion.Angry:
-                PlayMotion(unhappy_mouth_animation, ANIMATIONLAYER.MOUTH_IDLE, true);
-                StopMotion(ANIMATIONLAYER.MOUTH_TALKING);
+                new_mouth_animation = unhappy_mouth_animation;
                 break;
-            
+            case Emotion.Unhappy:
+                new_mouth_animation = unhappy_mouth_animation;
+                break;
+            case Emotion.Flirtatious:
+                new_mouth_animation = happy_talking_animation;
+                break;
+
             default:
                 if (!disable_warning_messages) Debug.LogWarning("Emotion not found: " + emotion);
                 break;
         }
+
+        PlayMotion(new_mouth_animation, ANIMATIONLAYER.MOUTH_IDLE, true);
+        StopMotion(ANIMATIONLAYER.MOUTH_TALKING);
     }
 
 }
