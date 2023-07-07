@@ -13,9 +13,11 @@ public class UIManager : MonoBehaviour
     public GameObject textBox;
     public ReportCrimeScene reportScreen;
     public CameraMovingManager minimapCamera;
-    private Image previouslySelectedButtonImage;
+    [SerializeField] Image previouslySelectedButtonImage;
 
     int triesTaken;
+
+ 
 
     public void SwitchToMinimap(Image buttonImage)
     {
