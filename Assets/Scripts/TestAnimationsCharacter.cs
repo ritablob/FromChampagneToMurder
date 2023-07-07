@@ -13,7 +13,8 @@ public class TestAnimationsCharacter : MonoBehaviour
         BODY_BOUNCE = 2,
         MOUTH_IDLE = 3,
         MOUTH_TALKING = 4,
-        EMOTION = 5
+        EMOTION = 5,
+        EMOTION_SECONDARY = 6
     }
 
     public enum Emotion { Normal, Angry, Bored, Doubtful, Excited, Null }
@@ -50,6 +51,8 @@ public class TestAnimationsCharacter : MonoBehaviour
 
     bool emotion_was_changed = false;
 
+    private bool use_secondary_emotion_layer = false;
+
     private void Start()
     {
         _motionController = GetComponent<CubismMotionController>();
@@ -62,11 +65,11 @@ public class TestAnimationsCharacter : MonoBehaviour
 
     private void Update()
     {
-        if (emotion_was_changed) //Continues with the emotion change form the last frame
-        {
-            PlayEmotion(CurrentEmotion);
-            emotion_was_changed = false;
-        }
+        //if (emotion_was_changed) //Continues with the emotion change form the last frame
+        //{
+        //    PlayEmotion(CurrentEmotion);
+        //    emotion_was_changed = false;
+        //}
         if (!disable_test_animation_keys) UpdateAnim();
     }
 
@@ -74,6 +77,7 @@ public class TestAnimationsCharacter : MonoBehaviour
     //If one layer overwrites parameters of another layer, the motion with the higher priority takes over
     public void PlayMotion(AnimationClip animation, ANIMATIONLAYER animation_layer, bool looping = false, int priority = CubismMotionPriority.PriorityNormal)
     {
+        Debug.Log("Play animation on Layer " + animation_layer);
         if ((_motionController == null) || (animation == null))
         {
             Debug.LogWarning("Animation could not be played, no Motion Controller or Animation " + _motionController + " "+ animation);
@@ -85,6 +89,7 @@ public class TestAnimationsCharacter : MonoBehaviour
     //Stops Animations, animations take one frame to become stopped
     public void StopMotion(ANIMATIONLAYER animation_layer) 
     {
+        Debug.Log("Stop Motion on Layer" + animation_layer);
         _motionController.StopAnimation(1, (int)animation_layer); //I litarally have no fucking clue why there is an animation index (that 3) the function doesnt even use it
     }
 
@@ -152,9 +157,7 @@ public class TestAnimationsCharacter : MonoBehaviour
                 Debug.LogWarning("Emotion " + emotion + " not found, set default animation");
                 new_emotion = Emotion.Normal; break;
         }
-        ChangeEmotion(new_emotion);
-        StartMouthAnimation(new_emotion);
-        CurrentlyTalking = true;
+        StartTalking(new_emotion);
     }
 
     public void StartTalking()
@@ -170,46 +173,57 @@ public class TestAnimationsCharacter : MonoBehaviour
 
     public void ChangeEmotion(Emotion next_emotion)
     {
-        Debug.Log("Emotion:" + next_emotion);
+        Debug.Log("Change to Emotion:" + next_emotion);
         if (CurrentEmotion == next_emotion)
         {
             if (!disable_debug_messages) Debug.Log("Skipped ChangeEmotion(), Emotion was the same ");
             return;
         }
+
         CurrentEmotion = next_emotion;
-        emotion_was_changed = true;
-        PlayEmotion(Emotion.Normal); //Stops Emotion from being played
+        //emotion_was_changed = true;
+        PlayEmotion(next_emotion); //Stops Emotion from being played
         //PlayEmotion(CurrentEmotion); //Moved to the following frames Update
     }
 
     void PlayEmotion(Emotion emotion)
     {
+        ANIMATIONLAYER animation_layer = ANIMATIONLAYER.EMOTION;
+        ANIMATIONLAYER secondary_animation_layer = ANIMATIONLAYER.EMOTION_SECONDARY;
+        if (use_secondary_emotion_layer) 
+        {
+            animation_layer = ANIMATIONLAYER.EMOTION_SECONDARY;
+            secondary_animation_layer = ANIMATIONLAYER.EMOTION;
+        }
+        use_secondary_emotion_layer = !use_secondary_emotion_layer;
+
         switch (emotion)
         {
             case Emotion.Null:
                 if (!disable_warning_messages) Debug.LogWarning("Emotion was Null");
                 break;
-
             case Emotion.Normal: 
-                StopMotion(ANIMATIONLAYER.EMOTION); 
+                StopMotion(animation_layer); 
                 break;
             case Emotion.Doubtful:
-                PlayMotion(doubtful_animation, ANIMATIONLAYER.EMOTION, true);
+                PlayMotion(doubtful_animation, animation_layer, true);
                 break;
             case Emotion.Excited:
-                PlayMotion(excited_animation, ANIMATIONLAYER.EMOTION, true);
+                PlayMotion(excited_animation, animation_layer, true);
                 break;
             case Emotion.Bored:
-                PlayMotion(bored_animation, ANIMATIONLAYER.EMOTION, true);
+                PlayMotion(bored_animation, animation_layer, true);
                 break;
             case Emotion.Angry:
-                PlayMotion(angry_animation, ANIMATIONLAYER.EMOTION, true);
+                PlayMotion(angry_animation, animation_layer, true);
                 break;  
             
             default:
                 if (!disable_warning_messages) Debug.LogWarning("Emotion not found: " + emotion);
                 break;
         }
+
+        StopMotion(secondary_animation_layer);
     }
 
     void StartMouthAnimation(Emotion emotion)
