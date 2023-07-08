@@ -12,7 +12,7 @@ public class TextWriter : MonoBehaviour
     GameManager parser;
     [HideInInspector]
     public bool finishedTyping = false;
-    public TestAnimationsCharacter testAnimations;
+    public CharacterAnimator characterAnimator;
 
     [SerializeField] string starting_emotion = "Normal";
 
@@ -35,7 +35,7 @@ public class TextWriter : MonoBehaviour
         tmp.maxVisibleCharacters = 0;
         finishedTyping = false;
 
-        //testAnimations.StartTalking(emotion);                                               // Character Animations
+        characterAnimator.StartTalking(emotion);                                               // Character Animations
 
         tmp.text = parser.graph.nodes[parser.currentNodeIndex].attributes.characterDialogue; // this is the problem
         //Debug.Log(nodeID);
@@ -57,7 +57,7 @@ public class TextWriter : MonoBehaviour
             //TalkingFinish.Invoke();
             //Debug.LogWarning("finished typing");
 
-            testAnimations.FinishTalking();                                                // Character Animations
+            characterAnimator.FinishTalking();                                                // Character Animations
 
             yield return null;
         }
