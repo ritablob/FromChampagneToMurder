@@ -1,8 +1,9 @@
-using UnityEngine;
+﻿using UnityEngine;
 using Live2D.Cubism.Framework.Motion;
 
 public class CubismMotionLoopPlayer : MonoBehaviour
 {
+    // ループ再生させるAnimationClip
     [SerializeField]
     public AnimationClip Animation;
 

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: doubtful animation.fade
   m_EditorClassIdentifier: 
   MotionName: Assets/3/emotion animations/doubtful animation.motion3.json
-  FadeInTime: 10
-  FadeOutTime: 10
+  FadeInTime: 2
+  FadeOutTime: 2
   ParameterIds:
   - ParamEyeLOpen
   - ParamEyeROpen
