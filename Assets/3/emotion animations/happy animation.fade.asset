@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: happy animation.fade
   m_EditorClassIdentifier: 
   MotionName: Assets/3/emotion animations/happy animation.motion3.json
-  FadeInTime: 10
-  FadeOutTime: 10
+  FadeInTime: 2
+  FadeOutTime: 2
   ParameterIds:
   - ParamEyeLSmile
   - ParamEyeRSmile
