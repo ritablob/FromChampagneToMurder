@@ -1913,6 +1913,24 @@
         "outdegree": 3,
         "Degree": 6
       }
+    },
+    {
+      "key": "292",
+      "attributes": {
+        "label": "End",
+        "x": -379.21637,
+        "y": -79.38611,
+        "size": 10.0,
+        "color": "#000000",
+        "characterDialogue": "This is the End",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
     }
   ],
   "edges": [
