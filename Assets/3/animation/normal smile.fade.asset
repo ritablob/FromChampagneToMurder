@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: normal smile.fade
   m_EditorClassIdentifier: 
   MotionName: Assets/3/animation/normal smile.motion3.json
-  FadeInTime: 1
-  FadeOutTime: 1
+  FadeInTime: 0.5
+  FadeOutTime: 0.5
   ParameterIds:
   - Param39
   - Param15

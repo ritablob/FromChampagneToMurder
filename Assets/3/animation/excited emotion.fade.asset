@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: excited emotion.fade
   m_EditorClassIdentifier: 
   MotionName: Assets/3/animation/excited emotion.motion3.json
-  FadeInTime: 1
-  FadeOutTime: 1
+  FadeInTime: 0.5
+  FadeOutTime: 0.5
   ParameterIds:
   - ParamEyeLOpen
   - ParamEyeLSmile

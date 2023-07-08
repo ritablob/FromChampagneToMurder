@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: blinking.fade
   m_EditorClassIdentifier: 
   MotionName: Assets/3/animation/blinking.motion3.json
-  FadeInTime: 1
-  FadeOutTime: 1
+  FadeInTime: 0.5
+  FadeOutTime: 0.5
   ParameterIds:
   - ParamEyeLOpen
   - ParamEyeROpen

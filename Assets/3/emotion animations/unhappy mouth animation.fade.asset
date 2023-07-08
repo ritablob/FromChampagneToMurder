@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: unhappy mouth animation.fade
   m_EditorClassIdentifier: 
   MotionName: Assets/3/emotion animations/unhappy mouth animation.motion3.json
-  FadeInTime: 1
-  FadeOutTime: 1
+  FadeInTime: 0.5
+  FadeOutTime: 0.5
   ParameterIds:
   - Param32
   ParameterCurves:
