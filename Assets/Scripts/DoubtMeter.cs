@@ -11,7 +11,7 @@ public class DoubtMeter : MonoBehaviour
     public bool dontReduceDoubtAtMaxValue = false;
 
     Slider slider;
-
+    private int sliderValue;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,14 +21,16 @@ public class DoubtMeter : MonoBehaviour
     }
     public void AddDoubt(int doubtImpact)
     {
-        if (slider.value <= slider.maxValue) // below or equal max value 
+        if (slider.value < slider.maxValue) // below max value
         {
             slider.value += doubtImpact;
+            sliderValue += doubtImpact;
         }
-        else // above max value 
+        else // equal max value (slider doesnt go above max value)
         {
             if (doubtImpact > 0)
             {
+                Debug.LogError("Starting ending");
                 gameManager.startingEnding = true;
             }
             else if (dontReduceDoubtAtMaxValue && doubtImpact < 0)
@@ -38,8 +40,16 @@ public class DoubtMeter : MonoBehaviour
             else
             {
                 slider.value += doubtImpact;
+                sliderValue += doubtImpact;
             }
         }
 
+    }
+    public void ValueChange() // probably redundant but just in case
+    {
+        if (sliderValue > slider.maxValue)
+        {
+            gameManager.startingEnding = true;
+        }
     }
 }
