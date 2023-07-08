@@ -40,43 +40,6 @@ public enum Emotion
 public class CharacterAnimator : MonoBehaviour
 {
     public Emotion_Triggers[] TriggerArray;
-    
-    static Dictionary<Emotion, string> Emotion_Triggers =
-        new Dictionary<Emotion, string>()
-        {
-            {Emotion.Null, "Default"},
-            {Emotion.Normal, "Default"},
-            {Emotion.Bored, "Default"},
-            {Emotion.Unhappy, "Default"},
-            {Emotion.Flirtatious, "Doubtful"},
-            {Emotion.Doubtful, "Doubtful"},
-            {Emotion.Angry, "Angry"},
-            {Emotion.Excited, "Excited"},
-        };
-    static Dictionary<Emotion, string> StartTalking_Triggers =
-    new Dictionary<Emotion, string>()
-        {
-            {Emotion.Null, "SadTalking"},
-            {Emotion.Normal, "SadTalking"},
-            {Emotion.Bored, "SadTalking"},
-            {Emotion.Unhappy, "SadTalking"},
-            {Emotion.Flirtatious, "HappyTalking"},
-            {Emotion.Doubtful, "SadTalking"},
-            {Emotion.Angry, "SadTalking"},
-            {Emotion.Excited, "HappyTalking"},
-        };
-    static Dictionary<Emotion, string> StopTalking_Triggers =
-    new Dictionary<Emotion, string>()
-        {
-            {Emotion.Null, "Smile"},
-            {Emotion.Normal, "Smile"},
-            {Emotion.Bored, "Smile"},
-            {Emotion.Unhappy, "UnhappyMouth"},
-            {Emotion.Flirtatious, "Smile"},
-            {Emotion.Doubtful, "UnhappyMouth"},
-            {Emotion.Angry, "UnhappyMouth"},
-            {Emotion.Excited, "Smile"},
-        };
 
 public CubismMotionController _motionController;
     public Animator animator;
@@ -210,7 +173,6 @@ public CubismMotionController _motionController;
 
     public void ChangeEmotion(Emotion next_emotion)
     {
-        Debug.Log("Change to Emotion:" + next_emotion);
         if (CurrentEmotion == next_emotion)
         {
             if (!disable_debug_messages) Debug.Log("Skipped ChangeEmotion(), Emotion was the same ");
@@ -254,9 +216,15 @@ public CubismMotionController _motionController;
         //        if (!disable_warning_messages) Debug.LogWarning("Emotion not found: " + emotion);
         //        break;
         //}
+        //animator.SetTrigger(trigger);
 
-        string trigger = Emotion_Triggers[emotion];
-        animator.SetTrigger(trigger);
+        foreach (Emotion_Triggers emotion_Triggers in TriggerArray)
+        {
+            if (emotion_Triggers.enumValue == emotion)
+            {
+                animator.SetTrigger(emotion_Triggers.emotion_trigger);
+            }
+        }
     }
 
     void StartMouthAnimation(Emotion emotion)
@@ -298,8 +266,14 @@ public CubismMotionController _motionController;
 
         //PlayMotion(sad_talking_animation, ANIMATIONLAYER.MOUTH_TALKING, true);
         //StopMotion(ANIMATIONLAYER.MOUTH_IDLE);
-        string trigger = StartTalking_Triggers[emotion];
-        animator.SetTrigger(trigger);
+        
+        foreach (Emotion_Triggers emotion_Triggers in TriggerArray)
+        {
+            if (emotion_Triggers.enumValue == emotion)
+            {
+                animator.SetTrigger(emotion_Triggers.start_talking_trigger);
+            }
+        }
     }
 
     void StopMouthAnimation(Emotion emotion)
@@ -341,8 +315,13 @@ public CubismMotionController _motionController;
         //PlayMotion(new_mouth_animation, ANIMATIONLAYER.MOUTH_IDLE, true);
         //StopMotion(ANIMATIONLAYER.MOUTH_TALKING);
 
-        string trigger = StopTalking_Triggers[emotion];
-        animator.SetTrigger(trigger);
+        foreach (Emotion_Triggers emotion_Triggers in TriggerArray)
+        {
+            if (emotion_Triggers.enumValue == emotion)
+            {
+                animator.SetTrigger(emotion_Triggers.finish_talking_trigger);
+            }
+        }
     }
 
 }
