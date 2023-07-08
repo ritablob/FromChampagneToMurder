@@ -66,14 +66,14 @@ public class UIManager : MonoBehaviour
         Debug.Log("pressed Report scene");
         if (reportScreen.DoesTextMatch())
         {
-            //SceneManager.LoadScene(1); load ending win scene
+            SceneManager.LoadScene(1); // ending win scene
         }
         else
         {
             triesTaken++;
             if (triesTaken > 1)
             {
-                //SceneManager.LoadScene(0); load ending lose scene
+                SceneManager.LoadScene(2); // ending lose scene
             }
         }
     }

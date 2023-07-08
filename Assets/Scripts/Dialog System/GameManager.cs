@@ -56,7 +56,8 @@ public class GameManager : MonoBehaviour
                 if (graph.edges[i].source == currentNodeKey && graph.edges[i].attributes.label.ToLower() == linkName)
                 {
                     nextNodeKey = graph.edges[i].target;
-                    doubtm.AddDoubt(graph.nodes[FindNodeIndex(nextNodeKey)].attributes.DoubtImpact);
+                    Debug.LogWarning("Doubt impact - " + graph.edges[i].attributes.DoubtImpact);
+                    doubtm.AddDoubt(graph.edges[i].attributes.DoubtImpact);
                     CheckIfEdgesAreValid(nextNodeKey);
                     previousNodeKey = currentNodeKey;
                     currentNodeKey = nextNodeKey;
@@ -206,7 +207,6 @@ public class NodeAttributes
     public double y;
     public string characterDialogue;
     public string Type;
-    public int DoubtImpact;
 }
 [Serializable]
 public class Edges
@@ -221,4 +221,5 @@ public class EdgeAttributes
 {
     public string label;
     public string Emotion;
+    public int DoubtImpact;
 }
