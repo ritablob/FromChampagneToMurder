@@ -86,7 +86,7 @@ public class TestAnimationsCharacter : MonoBehaviour
             Debug.LogWarning("Animation could not be played, no Motion Controller or Animation " + _motionController + " "+ animation);
             return;
         }
-        _motionController.PlayAnimation(animation, isLoop: looping, layerIndex: (int)animation_layer); //Enum os changed to int so PlayAnimation can be called
+        _motionController.PlayAnimation(animation, isLoop: false, layerIndex: (int)animation_layer); //Enum os changed to int so PlayAnimation can be called
     }
 
     //Stops Animations, animations take one frame to become stopped
