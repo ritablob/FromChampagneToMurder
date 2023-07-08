@@ -3,7 +3,6 @@ using Live2D.Cubism.Framework.Motion;
 
 public class CubismMotionLoopPlayer : MonoBehaviour
 {
-    // AnimationClip to be played in a loop
     [SerializeField]
     public AnimationClip Animation;
 
@@ -15,7 +14,19 @@ public class CubismMotionLoopPlayer : MonoBehaviour
         _motionController = GetComponent<CubismMotionController>();
 
 
-        // Loop playback of motions
-        _motionController.PlayAnimation(Animation);
+        // Register a callback function in the handler of CubismMotionController
+        _motionController.AnimationEndHandler += OnAnimationEnded;
+
+
+        // Let the motion play directly only the first time
+        OnAnimationEnded(0);
+    }
+
+
+    // Callback when the motion has finished playing
+    private void OnAnimationEnded(float instanceId)
+    {
+        // Motion playback (loop playback disable
+        _motionController.PlayAnimation(Animation, isLoop: false);
     }
 }
