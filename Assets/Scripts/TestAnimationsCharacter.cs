@@ -22,7 +22,7 @@ public class TestAnimationsCharacter : MonoBehaviour
         Null, Normal, Angry, Bored, Doubtful, Excited, Unhappy, Flirtatious
     }
 
-    CubismMotionController _motionController;
+    public CubismMotionController _motionController;
 
     [TextArea]
     [Tooltip("USe the Keys Q (Reset) W E R T to switch between the Animations")]
