@@ -35,7 +35,7 @@ public class TextWriter : MonoBehaviour
         tmp.maxVisibleCharacters = 0;
         finishedTyping = false;
 
-        testAnimations.StartTalking(emotion);                                               // Character Animations
+        //testAnimations.StartTalking(emotion);                                               // Character Animations
 
         tmp.text = parser.graph.nodes[parser.currentNodeIndex].attributes.characterDialogue; // this is the problem
         //Debug.Log(nodeID);
