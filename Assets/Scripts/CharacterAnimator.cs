@@ -41,12 +41,7 @@ public class CharacterAnimator : MonoBehaviour
 {
     public Emotion_Triggers[] TriggerArray;
 
-public CubismMotionController _motionController;
     public Animator animator;
-
-    [TextArea]
-    [Tooltip("USe the Keys Q (Reset) W E R T to switch between the Animations")]
-    public string Summary = "This component shouldn't be removed, it does important stuff.";
 
     [Header("Debug")]
     [SerializeField] bool disable_debug_messages = false;
@@ -57,11 +52,9 @@ public CubismMotionController _motionController;
     public Emotion CurrentEmotion = Emotion.Normal;
     public bool CurrentlyTalking;
 
-    bool emotion_was_changed = false;
-
     private void Start()
     {
-        _motionController = GetComponent<CubismMotionController>();
+
     }
 
     //private void Update()
