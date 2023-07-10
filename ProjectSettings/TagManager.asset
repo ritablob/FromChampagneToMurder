@@ -6,6 +6,7 @@ TagManager:
   tags:
   - SecondaryCamera
   - Minimap
+  - Pin
   layers:
   - Default
   - TransparentFX
