@@ -35,6 +35,10 @@ public class GameManager : MonoBehaviour
         writer = GetComponent<TextWriter>();
         startingEnding = false;
     }
+    private void Start()
+    {
+        CheckIfEdgesAreValid(graph.nodes[0].key);
+    }
     private void Update()
     {
         if (startingEnding)

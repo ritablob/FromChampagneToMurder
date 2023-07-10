@@ -97,16 +97,15 @@ public class DrawMinimap : MonoBehaviour
     public List<Vector2> NodesToTrack = new List<Vector2>();
     public Vector2 NodeToCentreOnTRack;
 
-    /* To do:
-     * - edit scale of the map
-     * - line / dot highlights when hovered (probably not gonna be needed, talk to design first pls)
-     */
+    private Dictionary<int, GameObject> labelDict = new();
 
 
     void Start()
     {
         lineRenderer = GetComponent<LineRenderer>();
         DrawFullMinimap();
+        SpawnLabel(dotDict[gameManager.graph.nodes[0].key], gameManager.graph.nodes[0].key);
+        ColourDot(dotDict[gameManager.graph.nodes[0].key].GetComponent<Image>(), activeColorNodes);
     }
 
     public GameObject DrawMinimapLine(Vector2 startPos, Vector2 endPos)
@@ -186,6 +185,10 @@ public class DrawMinimap : MonoBehaviour
             // draw dots
             for (int i = 0; i < gameManager.graph.nodes.Length; i++)
             {
+                if (i == 0)
+                {
+                    gameManager.currentNodeKey = gameManager.graph.nodes[i].key;
+                }
                 Vector2 pos = new Vector2((float)gameManager.graph.nodes[i].attributes.x, (float)gameManager.graph.nodes[i].attributes.y);
                 int key = gameManager.graph.nodes[i].key;
                 nodePositions[key] = pos;
@@ -214,6 +217,7 @@ public class DrawMinimap : MonoBehaviour
             }
             else if (key == gameManager.currentNodeKey)
             {
+                Debug.Log("Active node key - " + key);
                 if (show_active_node)
                 {//Active Color Nodes
                     ColourDot(dotDict[key].GetComponent<Image>(), activeColorNodes, dotDict[key]);
@@ -319,21 +323,25 @@ public class DrawMinimap : MonoBehaviour
 
     public void SpawnLabel(GameObject dot, int index) // activates label prefab and adds text to it
     {
-        GameObject label = Instantiate(labelPrefab, dot.transform.position, Quaternion.identity, Labels.transform);
-
-        TextMeshProUGUI textmesh = label.GetComponentInChildren<TextMeshProUGUI>();
-        for (int i = 0; i < gameManager.graph.nodes.Length; i++)
+        if (!labelDict.TryGetValue(index, out GameObject label1)) // check if label already exists
         {
-            if (gameManager.graph.nodes[i].key == index)
+            GameObject label = Instantiate(labelPrefab, dot.transform.position, Quaternion.identity, Labels.transform);
+
+            TextMeshProUGUI textmesh = label.GetComponentInChildren<TextMeshProUGUI>();
+            for (int i = 0; i < gameManager.graph.nodes.Length; i++)
             {
-                textmesh.text = gameManager.graph.nodes[i].attributes.label;
-                //Random Rotation
-                float random_rotation = UnityEngine.Random.Range(Random_rotation_range_labels.x, Random_rotation_range_labels.y);
-                label.transform.Rotate(0,0,0);
-                //Random Scale
-                float random_scale = UnityEngine.Random.Range(Random_scale_range_nodes.x, Random_scale_range_nodes.y);
-                label.transform.localScale += new Vector3(random_scale, random_scale, random_scale);
-                break;
+                if (gameManager.graph.nodes[i].key == index)
+                {
+                    textmesh.text = gameManager.graph.nodes[i].attributes.label;
+                    //Random Rotation
+                    float random_rotation = UnityEngine.Random.Range(Random_rotation_range_labels.x, Random_rotation_range_labels.y);
+                    label.transform.Rotate(0, 0, 0);
+                    //Random Scale
+                    float random_scale = UnityEngine.Random.Range(Random_scale_range_nodes.x, Random_scale_range_nodes.y);
+                    label.transform.localScale += new Vector3(random_scale, random_scale, random_scale);
+                    labelDict[index] = label;
+                    break;
+                }
             }
         }
     }
