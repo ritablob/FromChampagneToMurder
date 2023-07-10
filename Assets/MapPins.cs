@@ -25,7 +25,7 @@ public class MapPins : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        map_camera_ref = map_camera_obj_ref.GetComponent<Camera>();
     }
 
     public void PlacePin()
