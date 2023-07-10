@@ -1,0 +1,6095 @@
+{
+  "attributes": {
+    "creator": "Gephi 0.10.1"
+  },
+  "options": {
+    "multi": false,
+    "allowSelfLoops": true,
+    "type": "directed"
+  },
+  "nodes": [
+    {
+      "key": "0",
+      "attributes": {
+        "label": "Start - Her one day trip to Misora",
+        "size": 60.0,
+        "color": "#c0c0c0",
+        "characterDialogue": "My weekend was unfortunately not that great. I went on a one-day trip to Misora. With my \u003cstyle\u003d\"Link\"\u003eAnnoying Husband\u003c/style\u003e. Just kidding, he is great.  You wonder why it was bad? So, we stayed at this very ugly and chaotic \u003cstyle\u003d\"Link\"\u003eHotel\u003c/style\u003e. And honestly, I don\u0027t know about you but I absolutely hate chaos. On top of that, we didn\u0027t get any food there, so we had to eat in the Local \u003cstyle\u003d\"Link\"\u003eBad Restaurants\u003c/style\u003e.",
+        "Special Type": "Start",
+        "Clue/Filler": "Clue",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 3,
+        "Degree": 3
+      }
+    },
+    {
+      "key": "128",
+      "attributes": {
+        "label": "Rejected from Hotel",
+        "x": -208.68185,
+        "y": -752.85425,
+        "size": 60.0,
+        "color": "#f7a473",
+        "characterDialogue": "The original hotel they wanted to stay at rejected them",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "Clue",
+        "Importance": 2,
+        "How easy to reach": 2,
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "127",
+      "attributes": {
+        "label": "Restaurant \"Above the skies\"",
+        "x": 624.1999,
+        "y": -456.17657,
+        "size": 60.0,
+        "color": "#fdc898",
+        "characterDialogue": "Hmmm \"Above the Clouds\" Now that you mention it, That reminds me of this one Restaurant in Misora called \"Above the skies\". Their name is weird, because when I was there they only served sandwiches. Like why call yourself \"Above the skies\" then, how am I suppposed to understand what they are selling?",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": 3,
+        "How easy to reach": 5,
+        "indegree": 1,
+        "outdegree": 2,
+        "Degree": 1
+      }
+    },
+    {
+      "key": "126",
+      "attributes": {
+        "label": "City Hall",
+        "x": -66.18498,
+        "y": -887.9945,
+        "size": 60.0,
+        "color": "#f5996b",
+        "characterDialogue": " They were here",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": 2,
+        "How easy to reach": 2,
+        "indegree": 2,
+        "outdegree": 2,
+        "Degree": 4
+      }
+    },
+    {
+      "key": "125",
+      "attributes": {
+        "label": "The Viewing Platform",
+        "x": -736.55536,
+        "y": 265.18866,
+        "size": 60.0,
+        "color": "#ed7753",
+        "characterDialogue": "She was at one of the Viewing Platform. The view was actually quite nice.",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": 3,
+        "How easy to reach": 3,
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
+      }
+    },
+    {
+      "key": "124",
+      "attributes": {
+        "label": "Shark Pound",
+        "x": 409.67758,
+        "y": 409.1884,
+        "size": 60.0,
+        "color": "#ea6b4b",
+        "characterDialogue": "Shark Pund, Duckling Lake, Weird City Names, Beaches",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": 2,
+        "How easy to reach": 2,
+        "indegree": 3,
+        "outdegree": 4,
+        "Degree": 7
+      }
+    },
+    {
+      "key": "123",
+      "attributes": {
+        "label": "Coffee Shop",
+        "x": 289.93768,
+        "y": 124.6747,
+        "size": 60.0,
+        "color": "#faaf7b",
+        "characterDialogue": "Right, the Coffe Shop. You know, I know how to make good coffee, because I like getting up \u003cstyle\u003d\"Link\"\u003eEarly\u003c/style\u003e at home and watching all the \u003cstyle\u003d\"Link\"\u003eHot Boys\u003c/style\u003e do their Workouts in the Park, heh. From the balcony though, I don\u0027t really like \u003cstyle\u003d\"Link\"\u003eGreenery\u003c/style\u003e. So yeah I know what good coffee is, but this mass production, eh. \u003cstyle\u003d\"Link\"\u003eQuality\u003c/style\u003e over Quantity, i always say. ",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "Clue",
+        "Importance": 1,
+        "How easy to reach": 2,
+        "indegree": 3,
+        "outdegree": 4,
+        "Degree": 7
+      }
+    },
+    {
+      "key": "122",
+      "attributes": {
+        "label": "Greenery",
+        "x": -122.936,
+        "y": -530.28156,
+        "size": 60.0,
+        "color": "#f28d63",
+        "characterDialogue": "There was a lot of greenery in the city",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": 1,
+        "How easy to reach": 1,
+        "indegree": 5,
+        "outdegree": 3,
+        "Degree": 8
+      }
+    },
+    {
+      "key": "120",
+      "attributes": {
+        "label": "Harbor",
+        "x": -13.752852,
+        "y": -670.08514,
+        "size": 60.0,
+        "color": "#fdbf8a",
+        "characterDialogue": " They avoided the Harbor, because she hates the stinking fish",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "Clue",
+        "Importance": 1,
+        "How easy to reach": 2,
+        "indegree": 2,
+        "outdegree": 4,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "119",
+      "attributes": {
+        "label": "Fish \u0026 Crab Market",
+        "x": 253.2579,
+        "y": -832.81104,
+        "size": 60.0,
+        "color": "#fdbf8a",
+        "characterDialogue": " They went past the Fish \u0026 Crab Market and she hated the smell",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "Clue",
+        "Importance": 2,
+        "How easy to reach": 2,
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "118",
+      "attributes": {
+        "label": "Surfing Club",
+        "x": 1053.1714,
+        "y": 220.62018,
+        "size": 60.0,
+        "color": "#ff0000",
+        "characterDialogue": "She liked seeing hot surfers guys on the beach. There where really hot once, close to the Surfing Club in Misora. Her husband was mad at her for whistling but she doesnt understand why",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "Clue",
+        "Importance": 1,
+        "How easy to reach": 2,
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "117",
+      "attributes": {
+        "label": "Horrible Trip",
+        "x": -264.8588,
+        "y": -154.99867,
+        "size": 60.0,
+        "color": "#f28d63",
+        "characterDialogue": "To sum it all up, the trip was horrible! First I got \u003cstyle\u003d\"Link\"\u003eSick\u003c/style\u003e from the terrible food, combined with a boat ride with one of the most incompetent captains I have ever met. Even my husband could do that better. On top of that, I \u003cstyle\u003d\"Link\"\u003eCouldn\u0027t Sleep\u003c/style\u003e all night! But not because of my mind! I meditate a lot and therefore live in perfect Edu..Eudaimoni...! Oh and then there was all the \u003cstyle\u003d\"Link\"\u003eDiscrimination\u003c/style\u003e! No one respects a successful Lady. Sometimes I think I\u0027m too kind to people...",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "\u003cnull value\u003e",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 7,
+        "outdegree": 3,
+        "Degree": 10
+      }
+    },
+    {
+      "key": "116",
+      "attributes": {
+        "label": "Restricted Parks",
+        "x": -379.85794,
+        "y": -668.65295,
+        "size": 60.0,
+        "color": "#f7a473",
+        "characterDialogue": "All of those restricted areas in Misora at the City Hall and at the Hotel were so annoying!  They were rejected both times from entering. Unbelievable! She isn\u0027t one of those poor people and shouldnt\u0027t be treated like that and even after she explained them for 10 minutes that they should still be permitted to enter, they still didn\u0027t let them in. Then they had to walk all the way around.",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 4,
+        "Degree": 8
+      }
+    },
+    {
+      "key": "115",
+      "attributes": {
+        "label": "No meal plans in the Hotel",
+        "x": -63.211494,
+        "y": -359.4848,
+        "size": 60.0,
+        "color": "#f7a473",
+        "characterDialogue": "It is unbelievable that the Hotels in Misora don\u0027t offer any food, that is a total scam. And being forced to eat all that horrible food at those restaurants just further ruined her trip",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 4,
+        "Degree": 7
+      }
+    },
+    {
+      "key": "114",
+      "attributes": {
+        "label": "Special Services for Cozy Camping",
+        "x": -292.8295,
+        "y": 634.8609,
+        "size": 60.0,
+        "color": "#ff0000",
+        "characterDialogue": "Dolphin Tour, Annoying Children, Mount Doom, Cozy Camping Gondolas",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "\u003cnull value\u003e",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 4,
+        "Degree": 7
+      }
+    },
+    {
+      "key": "113",
+      "attributes": {
+        "label": "Noise",
+        "x": -133.10324,
+        "y": 90.087425,
+        "size": 60.0,
+        "color": "#f28d63",
+        "characterDialogue": "Ohh, the Noise. I have very sensitive ears, and all those loud \u003cstyle\u003d\"Link\"\u003eChildren\u003c/style\u003e there and my \u003cstyle\u003d\"Link\"\u003eHusband\u003c/style\u003e on top of that. That was too much. I felt so \u003cstyle\u003d\"Link\"\u003eDiscriminated\u003c/style\u003e! If you were as unique of a person as I am, you would understand what I am talking about. Everything is always made for the average people. It\u0027s so unfair, just a \u003cstyle\u003d\"Link\"\u003eHorrible Experience\u003c/style\u003e. ",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 4,
+        "Degree": 8
+      }
+    },
+    {
+      "key": "112",
+      "attributes": {
+        "label": "Bought Gem Jewelry",
+        "x": 1211.5901,
+        "y": -308.7701,
+        "size": 60.0,
+        "color": "#f0825b",
+        "characterDialogue": "She brought home some expensive Jewellery, like a pearl necklace and an emerald bracelet. When she bought it her husband said she doesn\u0027t need it but she believes otherwise",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "Clue",
+        "Importance": 2,
+        "How easy to reach": 3,
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "111",
+      "attributes": {
+        "label": "Not needingPublic Transport",
+        "x": 384.4527,
+        "y": -577.4983,
+        "size": 60.0,
+        "color": "#fdbb84",
+        "characterDialogue": "Because she is a lady of class, she doesnt need to use public transport, she only makes exceptions where it is absolutely nessesary, like in Misora, when they took the bus. Good thing she wasn\u0027t pickpocketed",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "110",
+      "attributes": {
+        "label": "Style Boutiques",
+        "x": 953.0025,
+        "y": 420.99347,
+        "size": 60.0,
+        "color": "#faaf7b",
+        "characterDialogue": " They went to a lot of different Style Boutiques",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "Clue",
+        "Importance": 1,
+        "How easy to reach": 2,
+        "indegree": 4,
+        "outdegree": 4,
+        "Degree": 8
+      }
+    },
+    {
+      "key": "109",
+      "attributes": {
+        "label": "Busses",
+        "x": -6.835125,
+        "y": -219.76413,
+        "size": 60.0,
+        "color": "#ed7753",
+        "characterDialogue": " They went on a bus in the morning. The busses were  also with an audio guide, teeling them about the different buildings they passed",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "Clue",
+        "Importance": 1,
+        "How easy to reach": 1,
+        "indegree": 5,
+        "outdegree": 3,
+        "Degree": 8
+      }
+    },
+    {
+      "key": "106",
+      "attributes": {
+        "label": "Bad Local Restaurants",
+        "x": 153.98875,
+        "y": -63.33039,
+        "size": 60.0,
+        "color": "#f7a473",
+        "characterDialogue": "Oh yeah, the Restaurants really turned it into a \u003cstyle\u003d\"Link\"\u003eHorrible Trip\u003c/style\u003e! But still, we wanted to give them a chance, hah. I remember a \u003cstyle\u003d\"Link\"\u003eCoffee Shop\u003c/style\u003e a \u003cstyle\u003d\"Link\"\u003eSeafood Restaurant\u003c/style\u003e another \u003cstyle\u003d\"Link\"\u003eRestaurant\u003c/style\u003e before returning back to the Hotel, and this other one in the mountains. But yeah, anyways have I told you about the \u003cstyle\u003d\"Link\"\u003eHot Boys\u003c/style\u003e?",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "Clue",
+        "Importance": 1,
+        "How easy to reach": 2,
+        "indegree": 4,
+        "outdegree": 4,
+        "Degree": 8
+      }
+    },
+    {
+      "key": "86",
+      "attributes": {
+        "label": "Start in the Web",
+        "x": 1305.5558,
+        "y": 990.83466,
+        "size": 60.0,
+        "color": "#c0c0c0",
+        "characterDialogue": "null",
+        "Special Type": "Her Values",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 1,
+        "Degree": 1
+      }
+    },
+    {
+      "key": "129",
+      "attributes": {
+        "label": "Ocean annoying",
+        "x": -41.05645,
+        "y": 377.5496,
+        "size": 60.0,
+        "color": "#f7a473",
+        "characterDialogue": "Annoying Children, Boat Tour, Noise",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "\u003cnull value\u003e",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
+      }
+    },
+    {
+      "key": "130",
+      "attributes": {
+        "label": "Galleries",
+        "x": 985.86694,
+        "y": -398.78485,
+        "size": 60.0,
+        "color": "#fdbf8a",
+        "characterDialogue": " They first wanted to go inside a Gallery in morning but it wasn\u0027t open yet, So they headed to another",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "Clue",
+        "Importance": 2,
+        "How easy to reach": 2,
+        "indegree": 2,
+        "outdegree": 4,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "131",
+      "attributes": {
+        "label": "The great view",
+        "x": -445.64685,
+        "y": 100.98953,
+        "size": 60.0,
+        "color": "#e86043",
+        "characterDialogue": "The view from the Top was just crazy good, you could see so much of the city",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "\u003cnull value\u003e",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 4,
+        "Degree": 7
+      }
+    },
+    {
+      "key": "132",
+      "attributes": {
+        "label": "Boat Tours",
+        "x": 130.97755,
+        "y": 487.92233,
+        "size": 60.0,
+        "color": "#ed7753",
+        "characterDialogue": "There are a lot of Boat Tours, but the only thing she got out of it was getting seasick. At least She didn\u0027t throw up like my husband",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "Clue",
+        "Importance": 3,
+        "How easy to reach": 4,
+        "indegree": 4,
+        "outdegree": 3,
+        "Degree": 7
+      }
+    },
+    {
+      "key": "133",
+      "attributes": {
+        "label": "All  those small walkways",
+        "x": -594.09955,
+        "y": -22.211454,
+        "size": 60.0,
+        "color": "#f28d63",
+        "characterDialogue": "You can see all the hiking paths from the viewign platform, the gondolas and they are all on mount doom",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
+      }
+    },
+    {
+      "key": "134",
+      "attributes": {
+        "label": "a fan of architecture",
+        "x": 187.62701,
+        "y": -1193.8674,
+        "size": 60.0,
+        "color": "#f0825b",
+        "characterDialogue": "Architecture is one of her hobbies. Misora was supposed to have beatiful architecture, but really it was not that much. The churches were definitly impressive but that is always the case for religious sites. The City hall was not that impressive. Quite the scam actually",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "135",
+      "attributes": {
+        "label": "Stores",
+        "x": 1030.4358,
+        "y": -234.80127,
+        "size": 60.0,
+        "color": "#f5996b",
+        "characterDialogue": " They were in a bunch of \"different\" premium stores",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "Clue",
+        "Importance": 1,
+        "How easy to reach": 2,
+        "indegree": 6,
+        "outdegree": 3,
+        "Degree": 9
+      }
+    },
+    {
+      "key": "136",
+      "attributes": {
+        "label": "Beaches",
+        "x": 785.52466,
+        "y": -203.69212,
+        "size": 60.0,
+        "color": "#ff0000",
+        "characterDialogue": " They traveled along the beach because they wanted to get to a gallery at the end",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "Clue",
+        "Importance": 2,
+        "How easy to reach": 3,
+        "indegree": 3,
+        "outdegree": 4,
+        "Degree": 7
+      }
+    },
+    {
+      "key": "137",
+      "attributes": {
+        "label": "Seafood Restaurant",
+        "x": 341.75027,
+        "y": -90.099335,
+        "size": 60.0,
+        "color": "#f7a473",
+        "characterDialogue": "We went to this seafood restaurant near the beach, together. It was very expensive, which wasn\u0027t the problem because I mean, I have the \u003cstyle\u003d\"Link\"\u003eMoney\u003c/style\u003e. But the food...just the thought of eating slimy \u003cstyle\u003d\"Link\"\u003eOcean Animals\u003c/style\u003e is so disgusting. But you know, there were \u003cstyle\u003d\"Link\"\u003eNo meal\u003c/style\u003e plans in the Hotel, so we had to eat the local junk.",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "Clue",
+        "Importance": 1,
+        "How easy to reach": 3,
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "140",
+      "attributes": {
+        "label": "Appreciating Beauty",
+        "x": 884.1646,
+        "y": -31.554441,
+        "size": 60.0,
+        "color": "#faaf7b",
+        "characterDialogue": "",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 4,
+        "Degree": 8
+      }
+    },
+    {
+      "key": "141",
+      "attributes": {
+        "label": "The Cathedral on the hill",
+        "x": 8.460155,
+        "y": -1232.4027,
+        "size": 60.0,
+        "color": "#ea6b4b",
+        "characterDialogue": "It looked magnificent.  They wanted to go but the were really hungry and wanted to eat something",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
+      }
+    },
+    {
+      "key": "142",
+      "attributes": {
+        "label": "Hurting Feet",
+        "x": -808.0075,
+        "y": -125.23775,
+        "size": 60.0,
+        "color": "#ed7753",
+        "characterDialogue": "From all that Hiking her feet hurt so much. An important lady like her shouldnt have to worry about something like that. One of the many reasons why this trip was horrible",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
+      }
+    },
+    {
+      "key": "143",
+      "attributes": {
+        "label": "Hot Boys",
+        "x": 739.74304,
+        "y": 294.19354,
+        "size": 60.0,
+        "color": "#f5996b",
+        "characterDialogue": "Hmm, that reminds me of the Hot Boys in Misora. That\u0027s one good thing about \u003cstyle\u003d\"Link\"\u003eThe scorching sun\u003c/style\u003e. Especially the ones from the \u003cstyle\u003d\"Link\"\u003eSurfing Club\u003c/style\u003e, in their swimming shorts.  They all looked like they were modeling for the local \u003cstyle\u003d\"Link\"\u003eStyle Boutiques\u003c/style\u003e. Hmm, I love vacations. ",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 3,
+        "Degree": 7
+      }
+    },
+    {
+      "key": "144",
+      "attributes": {
+        "label": "Climate Activists",
+        "x": 802.19476,
+        "y": -444.3499,
+        "size": 60.0,
+        "color": "#faaf7b",
+        "characterDialogue": "She hates those climate activist always spraying tomato sauce over rare items. So that\u0027s what the young generation is all about now? Riding busses and destroying rare items?",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "145",
+      "attributes": {
+        "label": "Hotel: The Pearl",
+        "x": -549.40076,
+        "y": -423.77878,
+        "size": 60.0,
+        "color": "#ed7753",
+        "characterDialogue": "She isn\u0027t a fan of the Hotel \"The Pearl\" anymore, first they deny them the stay and then they didn\u0027t even let them pass through.  They had to take such a long path around the property to get where she wanted to go",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "Clue",
+        "Importance": 2,
+        "How easy to reach": 3,
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "146",
+      "attributes": {
+        "label": "Why it\u0027s called Platypus Beach",
+        "x": 622.629,
+        "y": 775.7603,
+        "size": 60.0,
+        "color": "#f5996b",
+        "characterDialogue": "Weird City Names, Names of the boat tour, The scourchin sun",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "147",
+      "attributes": {
+        "label": "Getting up early",
+        "x": 507.63455,
+        "y": 105.20733,
+        "size": 60.0,
+        "color": "#f7a473",
+        "characterDialogue": "I ALWAYS get up early. Especially on vacation! That way I am able to see as much as possible! But sleeping with all that \u003cstyle\u003d\"Link\"\u003eNoise\u003c/style\u003e in Misora, was not easy anyways. So even my husband got up early and we managed to take the first \u003cstyle\u003d\"Link\"\u003eBus\u003c/style\u003e towards the city center.",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 7,
+        "outdegree": 3,
+        "Degree": 10
+      }
+    },
+    {
+      "key": "148",
+      "attributes": {
+        "label": "Cozy Camping Gondola",
+        "x": -538.39594,
+        "y": 317.65057,
+        "size": 60.0,
+        "color": "#ff0000",
+        "characterDialogue": "Gondolas, Discrimination, Hotel Cozy Camping",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
+      }
+    },
+    {
+      "key": "149",
+      "attributes": {
+        "label": "Names of the shopping district streets",
+        "x": 580.98706,
+        "y": 589.1955,
+        "size": 60.0,
+        "color": "#f5996b",
+        "characterDialogue": "Why its called Platypus Beach, Coffee Shop, Stores",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 3,
+        "Degree": 7
+      }
+    },
+    {
+      "key": "150",
+      "attributes": {
+        "label": "Duckling Lake",
+        "x": 358.55286,
+        "y": 787.9406,
+        "size": 60.0,
+        "color": "#ff0000",
+        "characterDialogue": "Special Services for Cozy Camping, Why its called platypus beach, weird city names, hot boys",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "\u003cnull value\u003e",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 5,
+        "Degree": 9
+      }
+    },
+    {
+      "key": "151",
+      "attributes": {
+        "label": "No sleep",
+        "x": -291.8342,
+        "y": -436.63092,
+        "size": 60.0,
+        "color": "#f28d63",
+        "characterDialogue": "Yeah, I got no sleep there! The hotel we got \u003cstyle\u003d\"Link\"\u003eRejected\u003c/style\u003e from would have been more to my standards! My body is a temple, and you don\u0027t place a temple on cheap foam matrasses! But besides that, I usually \u003cstyle\u003d\"Link\"\u003eWake Up\u003c/style\u003eearly and also\u003cstyle\u003d\"Link\"\u003eWork Hard\u003c/style\u003e and into the Night, and because of that I am simply not used to this mode of doing nothing, you know. Oh don\u0027t look at me like that. That is what it takes if you want to be as successful as me, my dear. ",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "\u003cnull value\u003e",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 3,
+        "Degree": 7
+      }
+    },
+    {
+      "key": "152",
+      "attributes": {
+        "label": "Gondolas",
+        "x": -791.2881,
+        "y": 75.11855,
+        "size": 60.0,
+        "color": "#ff0000",
+        "characterDialogue": "She took a gondola down the mountain",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "Clue",
+        "Importance": 2,
+        "How easy to reach": 4,
+        "indegree": 2,
+        "outdegree": 2,
+        "Degree": 4
+      }
+    },
+    {
+      "key": "153",
+      "attributes": {
+        "label": "Quality over Quantity",
+        "x": 423.72015,
+        "y": -231.52951,
+        "size": 60.0,
+        "color": "#f5996b",
+        "characterDialogue": "She believes in \"Quality over Quantity\". She strives to stay a Lady of Class and appreciates True Beauty. Because of this she actually developed quite the Fine Taste, which not everyone can please. Especially not those awful restaurants, she was at in Misora.",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
+      }
+    },
+    {
+      "key": "154",
+      "attributes": {
+        "label": "Sickness",
+        "x": 122.641464,
+        "y": 287.49765,
+        "size": 60.0,
+        "color": "#f28d63",
+        "characterDialogue": "Ocean annoying, Bad local restaurants, the scorching sun",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
+      }
+    },
+    {
+      "key": "155",
+      "attributes": {
+        "label": "Hiking / Mountain",
+        "x": -627.3548,
+        "y": 140.7148,
+        "size": 60.0,
+        "color": "#f28d63",
+        "characterDialogue": "When she went up the Mount Doom it was very annoying for her",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "Clue",
+        "Importance": 3,
+        "How easy to reach": 4,
+        "indegree": 1,
+        "outdegree": 4,
+        "Degree": 5
+      }
+    },
+    {
+      "key": "156",
+      "attributes": {
+        "label": "Restaurant in the Evening",
+        "x": 154.57037,
+        "y": -288.24002,
+        "size": 60.0,
+        "color": "#f28d63",
+        "characterDialogue": "In the evening, I went to this small Pizzeria, near our Hotel. Thought I could get some normal food there since there are \u003cstyle\u003d\"Link\"\u003eNo Meal\u003c/style\u003e plans in the Hotel hah. And after the hike, I was very hungry. But it wasn\u0027t really a place for a \u003cstyle\u003d\"Link\"\u003eClassy Lady\u003c/style\u003e like me. It was very simple and bland but at least not as bad as the \u003cstyle\u003d\"Link\"\u003eSeafood Restaurant\u003c/style\u003e.",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "Clue",
+        "Importance": 1,
+        "How easy to reach": 1,
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
+      }
+    },
+    {
+      "key": "158",
+      "attributes": {
+        "label": "The scorching sun",
+        "x": 594.7107,
+        "y": 403.26242,
+        "size": 60.0,
+        "color": "#ff0000",
+        "characterDialogue": "Oh, don\u0027t remind me. The sun was horrible. That much UV exposure is not good for my \u003cstyle\u003d\"Link\"\u003eBeauty\u003c/style\u003e. But it does help with \u003cstyle\u003d\"Link\"\u003eGetting Up\u003c/style\u003e Early, even though I usually get up before the sun rises.  But with all the heat that it brought, I wish we would have passed by the \u003cstyle\u003d\"Link\"\u003eDucking Lake\u003c/style\u003e. I heard it is wonderful for bathing.",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 6,
+        "outdegree": 3,
+        "Degree": 9
+      }
+    },
+    {
+      "key": "159",
+      "attributes": {
+        "label": "Classy Lady",
+        "x": 96.06991,
+        "y": -499.01877,
+        "size": 60.0,
+        "color": "#f7a473",
+        "characterDialogue": "She is so special and perfect, and people should respect that, but instead the whole city didnt show any respect",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 3,
+        "Degree": 7
+      }
+    },
+    {
+      "key": "160",
+      "attributes": {
+        "label": "Her interest in vintage cars",
+        "x": 935.9523,
+        "y": -575.19995,
+        "size": 60.0,
+        "color": "#faaf7b",
+        "characterDialogue": "She loves cars especially vintage ones, she\u0027s disappointed of Misora. She heard of a car colletion but they couldnt find one.",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": 1,
+        "How easy to reach": 2,
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
+      }
+    },
+    {
+      "key": "161",
+      "attributes": {
+        "label": "Names of the Boat Tours",
+        "x": 301.3152,
+        "y": 619.96655,
+        "size": 60.0,
+        "color": "#f0825b",
+        "characterDialogue": "Plankton Zoo, Names of the shopping district streets, Boat Tours",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "\u003cnull value\u003e",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 5,
+        "outdegree": 3,
+        "Degree": 8
+      }
+    },
+    {
+      "key": "162",
+      "attributes": {
+        "label": "Discrimination",
+        "x": -440.48816,
+        "y": -160.64096,
+        "size": 60.0,
+        "color": "#f7a473",
+        "characterDialogue": "On the Trip she was discriminated against for being a woman, because she wasn\u0027t able to access certain attractions",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 3,
+        "Degree": 7
+      }
+    },
+    {
+      "key": "163",
+      "attributes": {
+        "label": "Dolphin Tour",
+        "x": 8.975855,
+        "y": 825.0934,
+        "size": 60.0,
+        "color": "#faaf7b",
+        "characterDialogue": "The Dolphin Tour is a special \u003cstyle\u003d\"Link\"\u003eBoat Tour\u003c/style\u003e only for guest of \u003cstyle\u003d\"Link\"\u003eCozy Camping\u003c/style\u003e. It leads directly to \u003cstyle\u003d\"Link\"\u003eDuckling Lake\u003c/style\u003e. She finds the \u003cstyle\u003d\"Link\"\u003enaming conventions\u003c/style\u003e",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 4,
+        "Degree": 5
+      }
+    },
+    {
+      "key": "164",
+      "attributes": {
+        "label": "Annoying Husband",
+        "x": -121.38747,
+        "y": -99.425644,
+        "size": 60.0,
+        "color": "#ed7753",
+        "characterDialogue": "She talks about her and her husband going on the trip together, but starts complaining about him immediately",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 4,
+        "Degree": 7
+      }
+    },
+    {
+      "key": "165",
+      "attributes": {
+        "label": "Hotel",
+        "x": 96.61471,
+        "y": 129.16397,
+        "size": 60.0,
+        "color": "#fdbb84",
+        "characterDialogue": "Our day started with checking in to our small and simple Hotel. Im so glad that we took the \u003cstyle\u003d\"Link\"\u003ePlane\u003c/style\u003e and not the Train like my goofy husband suggested. He cares about the environment, but I\u0027m more of a luxury person. \nHowever, he turned me so eco-friendly in Misora, haha. Right after we got to the Hotel  we took the local\u003cstyle\u003d\"Link\"\u003eBus\u003c/style\u003e  to get to a \u003cstyle\u003d\"Link\"\u003eCoffee Shop\u003c/style\u003e.  ",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 2,
+        "Degree": 4
+      }
+    },
+    {
+      "key": "166",
+      "attributes": {
+        "label": "Too much walking",
+        "x": -641.8545,
+        "y": -193.79826,
+        "size": 60.0,
+        "color": "#e86043",
+        "characterDialogue": "She had to walk way to much. ",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "\u003cnull value\u003e",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 5,
+        "outdegree": 3,
+        "Degree": 8
+      }
+    },
+    {
+      "key": "167",
+      "attributes": {
+        "label": "Fisherman",
+        "x": -294.06323,
+        "y": -914.8545,
+        "size": 60.0,
+        "color": "#fdbb84",
+        "characterDialogue": "She hates the harbor but those fisherman, she does respect.  They work hard and as you can see they are clearly very rich people since they can effort all those boats",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
+      }
+    },
+    {
+      "key": "169",
+      "attributes": {
+        "label": "Algea Bay",
+        "x": 487.36026,
+        "y": -713.33405,
+        "size": 60.0,
+        "color": "#f5996b",
+        "characterDialogue": " They saw it from the distance and decided it wasn\u0027t worth going to",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "\u003cnull value\u003e",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
+      }
+    },
+    {
+      "key": "170",
+      "attributes": {
+        "label": "Beauty",
+        "x": 1177.5688,
+        "y": 74.46433,
+        "size": 60.0,
+        "color": "#f5996b",
+        "characterDialogue": "Oh, thank you for noticing. My beauty is \u003cstyle\u003d\"Link\"\u003eall natural\u003c/style\u003e of course. \u003cstyle\u003d\"Link\"\u003eAppearance\u003c/style\u003e means a lot to me. That is how others see you, and you would only want them to see the best of you am I right?  \u003cstyle\u003d\"Link\"\u003eShopping\u003c/style\u003e for these looks is not always that cheap, but it is worth it!  ",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 7,
+        "outdegree": 3,
+        "Degree": 10
+      }
+    },
+    {
+      "key": "173",
+      "attributes": {
+        "label": "Spa",
+        "x": 1529.9225,
+        "y": 307.9571,
+        "size": 60.0,
+        "color": "#faaf7b",
+        "characterDialogue": " They were at a Spa in Misora",
+        "Special Type": "Her recent Trip",
+        "Clue/Filler": "Clue",
+        "Importance": 2,
+        "How easy to reach": 3,
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
+      }
+    },
+    {
+      "key": "187",
+      "attributes": {
+        "label": "Having Disagreements with her husband",
+        "x": 1455.5173,
+        "y": 604.5215,
+        "size": 60.0,
+        "color": "#c0c0c0",
+        "characterDialogue": "From time to time there are some times instances where her husband gets angry at her for no reason, but those can be quickly resolved and would never destroy the bond they share",
+        "Special Type": "Her private life",
+        "Clue/Filler": "null",
+        "Importance": 0,
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2
+      }
+    },
+    {
+      "key": "192",
+      "attributes": {
+        "label": "Start in the Web",
+        "x": 1604.4414,
+        "y": 729.08374,
+        "size": 60.0,
+        "color": "#c0c0c0",
+        "characterDialogue": "",
+        "Special Type": "",
+        "Clue/Filler": "null",
+        "Importance": 0,
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 1,
+        "Degree": 1
+      }
+    },
+    {
+      "key": "198",
+      "attributes": {
+        "label": "Her dress she is wearing",
+        "x": 1200.5996,
+        "y": 822.6762,
+        "size": 60.0,
+        "color": "#c0c0c0",
+        "characterDialogue": "null",
+        "Special Type": "Her sucessful life",
+        "Clue/Filler": "Filler",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 1,
+        "Degree": 2
+      }
+    },
+    {
+      "key": "235",
+      "attributes": {
+        "label": "Hotel \"Cozy Camping\"",
+        "x": -87.96317,
+        "y": 601.69586,
+        "size": 60.0,
+        "color": "#f7a473",
+        "characterDialogue": "She is very glad she didn\u0027t stay at Cozy Camping,  They passed the Hotel and all of the Campers smelled horrible",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": 3,
+        "How easy to reach": 4,
+        "indegree": 4,
+        "outdegree": 4,
+        "Degree": 8
+      }
+    },
+    {
+      "key": "237",
+      "attributes": {
+        "label": "The young generation",
+        "x": 1052.1294,
+        "y": -62.13195,
+        "size": 60.0,
+        "color": "#faaf7b",
+        "characterDialogue": "Ah, this young generation... Always \u003cstyle\u003d\"Link\"\u003esleeping in\u003c/style\u003ebecause they play \u003cstyle\u003d\"Link\"\u003evideo games\u003c/style\u003e all day. I have a nephew, I know what I\u0027m talking about.",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 2,
+        "Degree": 5
+      }
+    },
+    {
+      "key": "238",
+      "attributes": {
+        "label": "Religious Sites",
+        "x": -88.95725,
+        "y": -1365.7896,
+        "size": 60.0,
+        "color": "#f5996b",
+        "characterDialogue": "She is a fan of religious sites and they actually passed one in Misora, but there was a wedding happening so she couldn\u0027t enter.",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 2,
+        "Degree": 3
+      }
+    },
+    {
+      "key": "239",
+      "attributes": {
+        "label": "Poor people",
+        "x": -162.85841,
+        "y": -1046.7844,
+        "size": 60.0,
+        "color": "#f7a473",
+        "characterDialogue": "Poverty is a mindset, all those poor people just dont work hard enough.  They should take an example on those fisherman.  They at least work hard. She is just not meant to be around poor people. That is why she doesnt usually use the public transport",
+        "Special Type": "null",
+        "Clue/Filler": "\u003cnull value\u003e",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 7,
+        "outdegree": 3,
+        "Degree": 10
+      }
+    },
+    {
+      "key": "240",
+      "attributes": {
+        "label": "Holy Mario",
+        "x": 1272.7312,
+        "y": 283.03113,
+        "size": 60.0,
+        "color": "#fdbf8a",
+        "characterDialogue": " They went past this weird statue, but she couldn\u0027t get a close look at it. It\u0027s a very weird statue with a very weird name. As an appreciator of real beauty she says she can live without buying it at the statue shop",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "241",
+      "attributes": {
+        "label": "The stuff she brought home",
+        "x": 1516.739,
+        "y": -409.45108,
+        "size": 60.0,
+        "color": "#f5996b",
+        "characterDialogue": "She brought a bunch of stuff home, her favourite piece is the dress they bought. Honestly she has bought so much stuff, she would have even bought out the museum if the stuff in there wasn\u0027t \"Not for Sale\"",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "242",
+      "attributes": {
+        "label": "Displaying Wealth",
+        "x": 985.3399,
+        "y": -1219.5215,
+        "size": 60.0,
+        "color": "#ed7753",
+        "characterDialogue": "Bought Gem Jewellery, Her plan for private Mansion, Money",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 3,
+        "Degree": 7
+      }
+    },
+    {
+      "key": "243",
+      "attributes": {
+        "label": "a shop for statues",
+        "x": 1387.2605,
+        "y": -263.03735,
+        "size": 60.0,
+        "color": "#f5996b",
+        "characterDialogue": " They went to a premium souvenier shop of statues for the different memorials.  They didn\u0027t have names so she just picked the one which was prettiest, they also got a stone as a gift, which she is still confused by.",
+        "Special Type": "null",
+        "Clue/Filler": "\u003cnull value\u003e",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "244",
+      "attributes": {
+        "label": "Video Games",
+        "x": 1363.485,
+        "y": 150.00136,
+        "size": 60.0,
+        "color": "#fdbf8a",
+        "characterDialogue": "Oh yes video games, my nephew is always glued ot them and playing all day. I must admit, I\u0027ve caught myself sneaking a few round of this racing game. Guess I\u0027m still young at hearth after all. You know, when I heard the name \"Mario\" in Misora I thought I was gonna see the one from the video game, but instead it was just a boring old statue, which doesn\u0027t look like Mario at all.  They shouldn\u0027t have named it like that. It\u0027s so confusing. This city really was full of weird and confusing names.",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
+      }
+    },
+    {
+      "key": "245",
+      "attributes": {
+        "label": "City Info",
+        "x": -287.86972,
+        "y": 242.62627,
+        "size": 60.0,
+        "color": "#f28d63",
+        "characterDialogue": " They didnt receive as much info about the city as they would have liked, she complains that there wasn\u0027t any info point",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 4,
+        "Degree": 7
+      }
+    },
+    {
+      "key": "288",
+      "attributes": {
+        "label": "Didn\u0027t pass through a tunnel ",
+        "x": 1970.442,
+        "y": -1019.8549,
+        "size": 60.0,
+        "color": "#c0c0c0",
+        "characterDialogue": " They did not pass through a tunnel",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "247",
+      "attributes": {
+        "label": "Her plan for a private Mansion",
+        "x": 785.0107,
+        "y": -807.2724,
+        "size": 60.0,
+        "color": "#f0825b",
+        "characterDialogue": "As a fan of architecture her goal of course is to have her own private mansion and fill it with all the rare stuff she gathered. She plans to buy a second island.",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 7,
+        "outdegree": 3,
+        "Degree": 10
+      }
+    },
+    {
+      "key": "248",
+      "attributes": {
+        "label": "Plankton Zoo",
+        "x": 752.38245,
+        "y": 513.7696,
+        "size": 60.0,
+        "color": "#f5996b",
+        "characterDialogue": "Why its called Platypus Beach, weird City Names, Seafood restaurant",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "249",
+      "attributes": {
+        "label": "Museum of Modern Art",
+        "x": 1343.4084,
+        "y": -461.47003,
+        "size": 60.0,
+        "color": "#faaf7b",
+        "characterDialogue": " They saw it, but didn\u0027t go because \"You can\u0027t buy the paintings there\"",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 3,
+        "Degree": 7
+      }
+    },
+    {
+      "key": "250",
+      "attributes": {
+        "label": "Friedas Garden Center",
+        "x": 129.63531,
+        "y": -952.13855,
+        "size": 60.0,
+        "color": "#fdbb84",
+        "characterDialogue": " They passed it but didnt go, she also talk about a weird fact about it",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
+      }
+    },
+    {
+      "key": "251",
+      "attributes": {
+        "label": "House Plants",
+        "x": 79.55404,
+        "y": -805.44495,
+        "size": 60.0,
+        "color": "#f7a473",
+        "characterDialogue": "She loves houseplant, especially either really big ones or really small cute one\u0027s. She can put those in her mansion.  They saw a Garden Center but didnt go at the end. One has to set priorities.",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
+      }
+    },
+    {
+      "key": "252",
+      "attributes": {
+        "label": "She works hard",
+        "x": -607.31396,
+        "y": -842.0355,
+        "size": 60.0,
+        "color": "#f28d63",
+        "characterDialogue": "To become the important person she is now she needed to work hard, something which the poor people definitly dont know how to do",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 2,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "255",
+      "attributes": {
+        "label": "Gambling",
+        "x": 454.19403,
+        "y": -1126.0533,
+        "size": 60.0,
+        "color": "#faaf7b",
+        "characterDialogue": "Although she would have the money for it, she would never gamble. Gambling is just a scam and she doesn\u0027t understand why some people would go as far as to gamble their saving away. Just Stop, when you already spend to much. Then they don\u0027t have to be surprised if the can\u0027t effort anything anymore. She\u0027s glad she didn\u0027t have to look at one in Misora",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 0,
+        "Degree": 2
+      }
+    },
+    {
+      "key": "257",
+      "attributes": {
+        "label": "Magpie Island",
+        "x": 774.46655,
+        "y": -1035.8982,
+        "size": 60.0,
+        "color": "#ea6b4b",
+        "characterDialogue": "Yes my private Island \"Magpie Island\" or how I like to call it \"My kingdom\". It\u0027s close to Misora. I love it! That\u0027s why I went, to check out the neighborhood. There is actually a Boat Tour going to my island but I couldn\u0027t find where it started. Actually now that I think about it, I should get another! ",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 2,
+        "Degree": 5
+      }
+    },
+    {
+      "key": "258",
+      "attributes": {
+        "label": "Ocean Animals",
+        "x": 548.4257,
+        "y": -76.74153,
+        "size": 60.0,
+        "color": "#faaf7b",
+        "characterDialogue": "This city seems to really like ocean animals. \"Shark Pound\" \"Plankton Zoo\"? She thinks they are crazy. Although it makes sense, considering the live close to the beach and Harbor",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 4,
+        "Degree": 7
+      }
+    },
+    {
+      "key": "259",
+      "attributes": {
+        "label": "Getting money stolen",
+        "x": 435.425,
+        "y": -890.28436,
+        "size": 60.0,
+        "color": "#faaf7b",
+        "characterDialogue": "The fear of getting all her money stolen is just so stressfull on her. Getting pickpocketed is just the worse, which is why they avoided the Fish and Crab Market in Misora. Aand that is also why she founded her company, to protect the people that need their money protected.",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 1,
+        "Degree": 4
+      }
+    },
+    {
+      "key": "260",
+      "attributes": {
+        "label": "Getting scammed",
+        "x": 316.42142,
+        "y": -1012.60474,
+        "size": 60.0,
+        "color": "#f5996b",
+        "characterDialogue": "There are Scams everywhere, like this shitty excuse of a beach called \"Algea Bay\" in Misora. Or all of those dirty tricks that are used in Casinos. I\u0027m sure you can\u0027t even win anything. But the biggest scam of all time is of course the moon landing. Fake all through",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "261",
+      "attributes": {
+        "label": "Working hard",
+        "x": -473.80093,
+        "y": -951.1405,
+        "size": 60.0,
+        "color": "#f7a473",
+        "characterDialogue": "She believes that, working hard is a thing that the young generation has forgot about. But all they say is \"Uhhhhh my 10 hours of sleep weeeeeee\".  They should get their shit together and take example on herself",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 3,
+        "Degree": 7
+      }
+    },
+    {
+      "key": "262",
+      "attributes": {
+        "label": "She is super important",
+        "x": -645.0352,
+        "y": -612.05524,
+        "size": 60.0,
+        "color": "#f28d63",
+        "characterDialogue": "She is a woman of great importance and should be discriminated against like she was in Misora. She should have access to anywhere and others should work to respect the high position she is in",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 4,
+        "Degree": 8
+      }
+    },
+    {
+      "key": "264",
+      "attributes": {
+        "label": "What her company does",
+        "x": 626.20087,
+        "y": -1199.0822,
+        "size": 60.0,
+        "color": "#f28d63",
+        "characterDialogue": "My company? You don\u0027t know what we do? We sell the very prestige service of offering people that need it to register their company on my private island and since it is declared as it\u0027s own country, I make the rules there. Which are \"Do what you want\" and \"Don\u0027t pay any taxes\". A much better enviroment to thrive than those horrible goverments.",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 1,
+        "Degree": 3
+      }
+    },
+    {
+      "key": "265",
+      "attributes": {
+        "label": "Money",
+        "x": 655.2639,
+        "y": -608.2535,
+        "size": 60.0,
+        "color": "#f0825b",
+        "characterDialogue": "Having so much money and so much responsibility can bo so stressfull. But not for her, because she knows exactly where it is best invested in, her own beauty. As well as going shopping and finding the real quality products.",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 4,
+        "outdegree": 5,
+        "Degree": 9
+      }
+    },
+    {
+      "key": "266",
+      "attributes": {
+        "label": "Cooling Water",
+        "x": 764.159,
+        "y": 115.48577,
+        "size": 60.0,
+        "color": "#ff0000",
+        "characterDialogue": "Yes some cooling water for that scourchin sun would have been nice. Maybe she should learn to surf at a surf club, then she can be cool and do sport at the same time. Or maybe she just becomes an ocean animal, then she can stay in the water forever.",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
+      }
+    },
+    {
+      "key": "267",
+      "attributes": {
+        "label": "Rarities",
+        "x": 1169.8948,
+        "y": -551.9992,
+        "size": 60.0,
+        "color": "#f5996b",
+        "characterDialogue": "She is quite the fan of collecting rarities, like rare vintage cars. When going on a trip you of course have to bring home some of those home. To do that they were at premium souvenir shop. It\u0027s a shame there were no auctions running, she would have totally bought something there.",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 6,
+        "outdegree": 4,
+        "Degree": 10
+      }
+    },
+    {
+      "key": "280",
+      "attributes": {
+        "label": "Annoying Children",
+        "x": -207.38773,
+        "y": 444.1123,
+        "size": 60.0,
+        "color": "#f28d63",
+        "characterDialogue": "Hotel Cozy Camping, Names of the Boat Tours, Horrible Trip",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 5,
+        "outdegree": 3,
+        "Degree": 8
+      }
+    },
+    {
+      "key": "281",
+      "attributes": {
+        "label": "Mount  Doom",
+        "x": -403.27435,
+        "y": 451.79718,
+        "size": 60.0,
+        "color": "#f7a473",
+        "characterDialogue": "The great view, Mount everest, Hotel Cozy Camping, Naming of the pathways",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "271",
+      "attributes": {
+        "label": "Weird City Names",
+        "x": 892.5063,
+        "y": 677.102,
+        "size": 60.0,
+        "color": "#f0825b",
+        "characterDialogue": "Names of the shopping district streets, Styles abroad are so unique, Plankton ZoOo",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 5,
+        "outdegree": 3,
+        "Degree": 8
+      }
+    },
+    {
+      "key": "272",
+      "attributes": {
+        "label": "a beautiful dress",
+        "x": 1434.9569,
+        "y": -27.527685,
+        "size": 60.0,
+        "color": "#faaf7b",
+        "characterDialogue": "Styles abroad are so unique, beauty, Bought Gem Jewellery",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
+      }
+    },
+    {
+      "key": "273",
+      "attributes": {
+        "label": "Owning a second Island",
+        "x": 1010.1879,
+        "y": -1027.9819,
+        "size": 60.0,
+        "color": "#f5996b",
+        "characterDialogue": "I should definitly get myself a second island. I already have a plan. I got \"My Kingdom\" during an auction, so I\u0027m going to visit the upcoming auctions and wait for my chance to strike. I can usually sniff a good deal the moment I see it. Ahhh It\u0027s gonna be so amazing having a second island to show and inspire other people of how a successfull person looks like.",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 3,
+        "Degree": 4
+      }
+    },
+    {
+      "key": "274",
+      "attributes": {
+        "label": "She is all natural",
+        "x": 1537.8898,
+        "y": 124.495155,
+        "size": 60.0,
+        "color": "#faaf7b",
+        "characterDialogue": "Though a lot of people think so, she is actually completly natural. No plastic surgeries, no Make Up. She says it\u0027s because of her regular spa visits, but it might actually be because of her age. Because she is actually very young, you see",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 1,
+        "outdegree": 2,
+        "Degree": 3
+      }
+    },
+    {
+      "key": "275",
+      "attributes": {
+        "label": "She is still young",
+        "x": 1281.5089,
+        "y": -95.01395,
+        "size": 60.0,
+        "color": "#fdbf8a",
+        "characterDialogue": "The young generation, Climate Activists, Museum of Modern art",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "276",
+      "attributes": {
+        "label": "Ancient Statues",
+        "x": 1595.0262,
+        "y": -64.6765,
+        "size": 60.0,
+        "color": "#faaf7b",
+        "characterDialogue": "Holy mario, Museum of Modern art",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 2,
+        "Degree": 4
+      }
+    },
+    {
+      "key": "278",
+      "attributes": {
+        "label": "So many things to do",
+        "x": 1197.5413,
+        "y": 508.33386,
+        "size": 60.0,
+        "color": "#faaf7b",
+        "characterDialogue": "She talks about all the possiblities of what young people these days can do  and how everything is changing ",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 2,
+        "Degree": 5
+      }
+    },
+    {
+      "key": "279",
+      "attributes": {
+        "label": "Styles abroad are so unique",
+        "x": 1355.8704,
+        "y": 447.20932,
+        "size": 60.0,
+        "color": "#f5996b",
+        "characterDialogue": "Stuff is so different abroad. Especially these unique fashions style in the clothing stores and the great asian massages at the spa",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 2,
+        "Degree": 4
+      }
+    },
+    {
+      "key": "282",
+      "attributes": {
+        "label": "Start in the Web - She uses the service herself",
+        "x": 771.2917,
+        "y": -1468.8529,
+        "size": 60.0,
+        "color": "#c0c0c0",
+        "characterDialogue": "She uses the service herself and starts talking about her company",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 2,
+        "Degree": 2
+      }
+    },
+    {
+      "key": "283",
+      "attributes": {
+        "label": "Start in the Web 2",
+        "x": -703.6216,
+        "y": -1038.7605,
+        "size": 60.0,
+        "color": "#c0c0c0",
+        "characterDialogue": "No one is willing to work these days anymore",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 2,
+        "Degree": 2
+      }
+    },
+    {
+      "key": "284",
+      "attributes": {
+        "label": "Naming of the Pathways",
+        "x": 115.52037,
+        "y": 691.0108,
+        "size": 60.0,
+        "color": "#f5996b",
+        "characterDialogue": "She noticed that the pathways have very weird animal names",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 2,
+        "outdegree": 3,
+        "Degree": 5
+      }
+    },
+    {
+      "key": "286",
+      "attributes": {
+        "label": "Auctions",
+        "x": 1046.6025,
+        "y": -790.02875,
+        "size": 60.0,
+        "color": "#faaf7b",
+        "characterDialogue": "She loves going to different auctions, a much better way to spend so much money, than gambling all of your money away. She espacially likes going to the one\u0027s in different galleries around the world.",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 3,
+        "outdegree": 3,
+        "Degree": 6
+      }
+    },
+    {
+      "key": "292",
+      "attributes": {
+        "label": "End",
+        "x": -861.28656,
+        "y": -753.0073,
+        "size": 60.0,
+        "color": "#c0c0c0",
+        "characterDialogue": "Mmmmmm now that I think about it, you are actually not really worth my time, \u003cstyle\u003d\"Link\"\u003ebyeeeeeeee\u003c/style\u003e",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "293",
+      "attributes": {
+        "label": "Planes",
+        "x": 589.4115,
+        "y": -265.31705,
+        "size": 60.0,
+        "color": "#fdc491",
+        "characterDialogue": "That\u0027s the thing, I just love being in \u003cstyle\u003d\"Link\"\u003eGreat Hights\u003c/style\u003e. But to get to Misora, we had to be \u003cstyle\u003d\"Link\"\u003e Awake Early \u003c/style\u003e just for the Plane to be late once again. That\u0027s the problem with planes. Always late! Even worse than \u003cstyle\u003d\"Link\"\u003ePublic Transport\u003c/style\u003e, which I also hate. At least I got to \u003cstyle\u003d\"Link\"\u003eBuy Jewelery\u003c/style\u003e at the airport.",
+        "Special Type": "null",
+        "Clue/Filler": "\u003cnull value\u003e",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "294",
+      "attributes": {
+        "label": "The moon landing was fake",
+        "x": 602.69586,
+        "y": -907.6128,
+        "size": 60.0,
+        "color": "#faaf7b",
+        "characterDialogue": "She believes the moon landing is fake. Our horrible goverment has definitly set the whole thing up, they just wanted to brag with all of their expensive rockets. And those high up skyshots were definitly either computer generated or made with those wheather balons. When she is the richest person on earth she plans to take a look herself",
+        "Special Type": "null",
+        "Clue/Filler": "\u003cnull value\u003e",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "295",
+      "attributes": {
+        "label": "The mount everest",
+        "x": -295.31677,
+        "y": 12.592687,
+        "size": 60.0,
+        "color": "#fdbb84",
+        "characterDialogue": "It\u0027s unbelievable but she never actually went. She is a lady of class and the hiking up would just be too physical. Especially because the enviroment will get really rough in those great heights.  They should build a Gondola up like Cozy Camping did",
+        "Special Type": "null",
+        "Clue/Filler": "null",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "296",
+      "attributes": {
+        "label": "Great Heights",
+        "x": 352.97763,
+        "y": -384.55032,
+        "size": 60.0,
+        "color": "#fdbf8a",
+        "characterDialogue": "Oh yes, I just love being up high. Maybe its the great view over everything. You know that\u0027s what my dream mansion is gonna look like. High up on a hill and appreciating all of the beautiful scenery. I\u0027m starting to get why these greek people build their temples on this mountain above the cloud.",
+        "Special Type": "null",
+        "Clue/Filler": "The feeling of being above the clouds is just different. It\u0027s beatiful honestly, you can really take in the view. I should also build my mansion high up",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    },
+    {
+      "key": "297",
+      "attributes": {
+        "label": "The horrible government ",
+        "x": 200.83345,
+        "y": -665.5638,
+        "size": 60.0,
+        "color": "#f7a473",
+        "characterDialogue": "This goverment? It is just horrible! Period. Firstly it completly discredits womanhood, by still allowing abortions. Like do they even realise how harmful abortions can be to woman. Like even offering me an abortion is basically saying \"Your child should die and I will do that for you\". Like do they think I\u0027m not good enough to be a mother?  They also still haven\u0027t done anything against these climate activists, what if they destroy my painting with their tomato sauce? And even worse the are constantly wanting to steal my money and diguising it as taxes.",
+        "Special Type": "null",
+        "Clue/Filler": "\u003cnull value\u003e",
+        "Importance": "null",
+        "How easy to reach": "null",
+        "indegree": 0,
+        "outdegree": 0,
+        "Degree": 0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "397",
+      "source": "117",
+      "target": "162",
+      "attributes": {
+        "label": "Discrimination",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": -1,
+        "Emotion": "Excited"
+      }
+    },
+    {
+      "key": "444",
+      "source": "122",
+      "target": "116",
+      "attributes": {
+        "label": "Restricted Parks",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "439",
+      "source": "148",
+      "target": "235",
+      "attributes": {
+        "label": "Cozy Camping",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "413",
+      "source": "112",
+      "target": "170",
+      "attributes": {
+        "label": "HerOwnBeauty",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": -1,
+        "Emotion": "Excited"
+      }
+    },
+    {
+      "key": "459",
+      "source": "164",
+      "target": "109",
+      "attributes": {
+        "label": "Busses",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 2,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "392",
+      "source": "106",
+      "target": "117",
+      "attributes": {
+        "label": "Horrible Trip",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "398",
+      "source": "162",
+      "target": "145",
+      "attributes": {
+        "label": "The Pearl",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "400",
+      "source": "153",
+      "target": "140",
+      "attributes": {
+        "label": "Appreciating Beauty",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "393",
+      "source": "117",
+      "target": "154",
+      "attributes": {
+        "label": "Sick",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "384",
+      "source": "163",
+      "target": "132",
+      "attributes": {
+        "label": "Boat Tour",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "403",
+      "source": "140",
+      "target": "160",
+      "attributes": {
+        "label": "HerInterestInVintageCars",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "431",
+      "source": "117",
+      "target": "151",
+      "attributes": {
+        "label": "Couldn\u0027t Sleep",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "428",
+      "source": "165",
+      "target": "109",
+      "attributes": {
+        "label": "Busses",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 2,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "441",
+      "source": "123",
+      "target": "143",
+      "attributes": {
+        "label": "Hot Boys",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Flirtatious"
+      }
+    },
+    {
+      "key": "388",
+      "source": "146",
+      "target": "161",
+      "attributes": {
+        "label": "BoatTourNames",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "429",
+      "source": "109",
+      "target": "113",
+      "attributes": {
+        "label": "Noise",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "390",
+      "source": "132",
+      "target": "154",
+      "attributes": {
+        "label": "Sickness",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "461",
+      "source": "164",
+      "target": "122",
+      "attributes": {
+        "label": "Greenery",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "382",
+      "source": "148",
+      "target": "162",
+      "attributes": {
+        "label": "Discrimination",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": -1,
+        "Emotion": "Excited"
+      }
+    },
+    {
+      "key": "401",
+      "source": "140",
+      "target": "143",
+      "attributes": {
+        "label": "Hot Boys",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Flirtatious"
+      }
+    },
+    {
+      "key": "391",
+      "source": "154",
+      "target": "106",
+      "attributes": {
+        "label": "Bad Restaurants",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "387",
+      "source": "149",
+      "target": "146",
+      "attributes": {
+        "label": "WhyItsCalledPlatypusBeach",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "449",
+      "source": "159",
+      "target": "116",
+      "attributes": {
+        "label": "Restricted Parks",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "379",
+      "source": "143",
+      "target": "118",
+      "attributes": {
+        "label": "Surfing Club",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 2,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "381",
+      "source": "148",
+      "target": "152",
+      "attributes": {
+        "label": "Gondolas",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "383",
+      "source": "114",
+      "target": "163",
+      "attributes": {
+        "label": "Dolphin Tour",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "404",
+      "source": "140",
+      "target": "110",
+      "attributes": {
+        "label": "Style Boutiques",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "402",
+      "source": "140",
+      "target": "130",
+      "attributes": {
+        "label": "Galleries",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "394",
+      "source": "154",
+      "target": "129",
+      "attributes": {
+        "label": "Annoying Ocean",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "454",
+      "source": "159",
+      "target": "128",
+      "attributes": {
+        "label": "RejectedFromHotel",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "369",
+      "source": "125",
+      "target": "133",
+      "attributes": {
+        "label": "NULL",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "410",
+      "source": "160",
+      "target": "135",
+      "attributes": {
+        "label": "Visiting Stores",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "450",
+      "source": "116",
+      "target": "166",
+      "attributes": {
+        "label": "TooMuchWalking",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "445",
+      "source": "116",
+      "target": "126",
+      "attributes": {
+        "label": "City Hall",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "370",
+      "source": "133",
+      "target": "152",
+      "attributes": {
+        "label": "Gondolas",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "368",
+      "source": "131",
+      "target": "125",
+      "attributes": {
+        "label": "Viewing Platform",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 2,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "554",
+      "source": "170",
+      "target": "274",
+      "attributes": {
+        "label": "all natural",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": -1,
+        "Emotion": "Excited"
+      }
+    },
+    {
+      "key": "395",
+      "source": "129",
+      "target": "132",
+      "attributes": {
+        "label": "Boat Tours",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "418",
+      "source": "0",
+      "target": "106",
+      "attributes": {
+        "label": "Bad Restaurants",
+        "color": "#ff0000",
+        "weight": 3.0,
+        "DoubtImpact": 1,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "417",
+      "source": "150",
+      "target": "146",
+      "attributes": {
+        "label": "WhyItsCalledPlatypusBeach",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "385",
+      "source": "163",
+      "target": "161",
+      "attributes": {
+        "label": "naming conventions",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "228",
+      "source": "198",
+      "target": "110",
+      "attributes": {
+        "label": "Style Boutiques",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "411",
+      "source": "170",
+      "target": "135",
+      "attributes": {
+        "label": "Shopping",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "378",
+      "source": "150",
+      "target": "143",
+      "attributes": {
+        "label": "Hot Boys",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Flirtatious"
+      }
+    },
+    {
+      "key": "230",
+      "source": "106",
+      "target": "156",
+      "attributes": {
+        "label": "Restaurant",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "231",
+      "source": "106",
+      "target": "137",
+      "attributes": {
+        "label": "Seafood Restaurant",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "421",
+      "source": "164",
+      "target": "156",
+      "attributes": {
+        "label": "Evening Restaurant",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 4,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "237",
+      "source": "187",
+      "target": "118",
+      "attributes": {
+        "label": "Surfing Club",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 2,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "412",
+      "source": "135",
+      "target": "112",
+      "attributes": {
+        "label": "Bought Jewellery",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "227",
+      "source": "86",
+      "target": "198",
+      "attributes": {
+        "label": "her dress",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "396",
+      "source": "142",
+      "target": "117",
+      "attributes": {
+        "label": "Horrible Trip",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 2,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "455",
+      "source": "137",
+      "target": "115",
+      "attributes": {
+        "label": "No meal",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "406",
+      "source": "110",
+      "target": "170",
+      "attributes": {
+        "label": "HerOwnBeauty",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": -1,
+        "Emotion": "Excited"
+      }
+    },
+    {
+      "key": "372",
+      "source": "142",
+      "target": "155",
+      "attributes": {
+        "label": "HikingUpTheMountain",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 2,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "373",
+      "source": "155",
+      "target": "131",
+      "attributes": {
+        "label": "Great View",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "416",
+      "source": "150",
+      "target": "114",
+      "attributes": {
+        "label": "SpecialServicesCozyCamping",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "238",
+      "source": "192",
+      "target": "187",
+      "attributes": {
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 3,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "432",
+      "source": "123",
+      "target": "147",
+      "attributes": {
+        "label": "Early",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "451",
+      "source": "166",
+      "target": "142",
+      "attributes": {
+        "label": "Hurting Feet",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "422",
+      "source": "165",
+      "target": "123",
+      "attributes": {
+        "label": "Coffee Shop",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 2,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "229",
+      "source": "106",
+      "target": "123",
+      "attributes": {
+        "label": "Coffee Shop",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "367",
+      "source": "152",
+      "target": "131",
+      "attributes": {
+        "label": "Great View",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "389",
+      "source": "161",
+      "target": "132",
+      "attributes": {
+        "label": "Boat Tours",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "371",
+      "source": "125",
+      "target": "142",
+      "attributes": {
+        "label": "Hurting Feet",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "438",
+      "source": "162",
+      "target": "114",
+      "attributes": {
+        "label": "SpecialServicesCozyCamping",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "448",
+      "source": "153",
+      "target": "159",
+      "attributes": {
+        "label": "Classy Lady",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "407",
+      "source": "170",
+      "target": "140",
+      "attributes": {
+        "label": "Appearance",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "386",
+      "source": "161",
+      "target": "149",
+      "attributes": {
+        "label": "ShoppingDistrictNames",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "433",
+      "source": "147",
+      "target": "109",
+      "attributes": {
+        "label": "Bus",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 2,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "425",
+      "source": "156",
+      "target": "159",
+      "attributes": {
+        "label": "Classy Lady",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "453",
+      "source": "151",
+      "target": "128",
+      "attributes": {
+        "label": "Rejected",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "443",
+      "source": "123",
+      "target": "122",
+      "attributes": {
+        "label": "Greenery",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "446",
+      "source": "116",
+      "target": "145",
+      "attributes": {
+        "label": "The Pearl",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "435",
+      "source": "113",
+      "target": "117",
+      "attributes": {
+        "label": "Horrible Experience",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "452",
+      "source": "164",
+      "target": "151",
+      "attributes": {
+        "label": "No Sleep",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": 3,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "419",
+      "source": "0",
+      "target": "164",
+      "attributes": {
+        "label": "Annoying Husband",
+        "color": "#ff0000",
+        "weight": 3.0,
+        "DoubtImpact": 3,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "436",
+      "source": "129",
+      "target": "113",
+      "attributes": {
+        "label": "Noise",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "415",
+      "source": "163",
+      "target": "150",
+      "attributes": {
+        "label": "Duckling Lake",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "420",
+      "source": "0",
+      "target": "165",
+      "attributes": {
+        "label": "Hotel",
+        "color": "#c9c9c9",
+        "weight": 3.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "464",
+      "source": "158",
+      "target": "147",
+      "attributes": {
+        "label": "Getting Up Early",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "456",
+      "source": "115",
+      "target": "128",
+      "attributes": {
+        "label": "RejectedFromHotel",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "440",
+      "source": "163",
+      "target": "235",
+      "attributes": {
+        "label": "Cozy Camping",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "409",
+      "source": "111",
+      "target": "109",
+      "attributes": {
+        "label": "Busses",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 2,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "447",
+      "source": "145",
+      "target": "122",
+      "attributes": {
+        "label": "Greenery",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "430",
+      "source": "154",
+      "target": "158",
+      "attributes": {
+        "label": "Scorching Sun",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "408",
+      "source": "160",
+      "target": "111",
+      "attributes": {
+        "label": "Public Transport",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "374",
+      "source": "235",
+      "target": "114",
+      "attributes": {
+        "label": "SpecialServicesCozyCamping",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "380",
+      "source": "114",
+      "target": "148",
+      "attributes": {
+        "label": "CozyCamping Gondola",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "399",
+      "source": "123",
+      "target": "153",
+      "attributes": {
+        "label": "Quality over Quantity",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "462",
+      "source": "113",
+      "target": "164",
+      "attributes": {
+        "label": "Husband",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 3,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "463",
+      "source": "113",
+      "target": "162",
+      "attributes": {
+        "label": "Discriminated",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": -1,
+        "Emotion": "Excited"
+      }
+    },
+    {
+      "key": "465",
+      "source": "143",
+      "target": "158",
+      "attributes": {
+        "label": "Scorching Sun",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "466",
+      "source": "158",
+      "target": "170",
+      "attributes": {
+        "label": "Beauty",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": -1,
+        "Emotion": "Excited"
+      }
+    },
+    {
+      "key": "467",
+      "source": "130",
+      "target": "144",
+      "attributes": {
+        "label": "Climate Activists",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "468",
+      "source": "144",
+      "target": "237",
+      "attributes": {
+        "label": "Young generation",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "469",
+      "source": "145",
+      "target": "117",
+      "attributes": {
+        "label": "Horrible Trip",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 2,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "470",
+      "source": "116",
+      "target": "239",
+      "attributes": {
+        "label": "Poor People",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "473",
+      "source": "238",
+      "target": "239",
+      "attributes": {
+        "label": "Poor People",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "472",
+      "source": "134",
+      "target": "238",
+      "attributes": {
+        "label": "Religious Sites",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "474",
+      "source": "247",
+      "target": "134",
+      "attributes": {
+        "label": "Architecture Fan",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "475",
+      "source": "128",
+      "target": "134",
+      "attributes": {
+        "label": "Architecture Fan",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "476",
+      "source": "160",
+      "target": "247",
+      "attributes": {
+        "label": "HerPlanForAPrivateMansion",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "524",
+      "source": "136",
+      "target": "247",
+      "attributes": {
+        "label": "HerPlanForAPrivateMansion",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "478",
+      "source": "118",
+      "target": "136",
+      "attributes": {
+        "label": "Beaches",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "479",
+      "source": "244",
+      "target": "240",
+      "attributes": {
+        "label": "Holy Mario",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "480",
+      "source": "237",
+      "target": "244",
+      "attributes": {
+        "label": "video games",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "481",
+      "source": "122",
+      "target": "251",
+      "attributes": {
+        "label": "House Plants",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "482",
+      "source": "251",
+      "target": "250",
+      "attributes": {
+        "label": "Friedas GardenCenter",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "483",
+      "source": "250",
+      "target": "122",
+      "attributes": {
+        "label": "Greenery",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "484",
+      "source": "251",
+      "target": "247",
+      "attributes": {
+        "label": "HerPlanForAPrivateMansion",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "485",
+      "source": "250",
+      "target": "247",
+      "attributes": {
+        "label": "HerPlanForAPrivateMansion",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "486",
+      "source": "151",
+      "target": "252",
+      "attributes": {
+        "label": "WorkHard",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": -1,
+        "Emotion": "Excited"
+      }
+    },
+    {
+      "key": "487",
+      "source": "111",
+      "target": "159",
+      "attributes": {
+        "label": "Classy Lady",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "488",
+      "source": "238",
+      "target": "141",
+      "attributes": {
+        "label": "Hill Cathedral",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "489",
+      "source": "136",
+      "target": "169",
+      "attributes": {
+        "label": "AlgeaBay",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "490",
+      "source": "130",
+      "target": "249",
+      "attributes": {
+        "label": "MuseumOfModernArt",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "491",
+      "source": "137",
+      "target": "258",
+      "attributes": {
+        "label": "Ocean Animals",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "492",
+      "source": "258",
+      "target": "136",
+      "attributes": {
+        "label": "Beaches",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "493",
+      "source": "258",
+      "target": "124",
+      "attributes": {
+        "label": "Shark Pound",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "494",
+      "source": "111",
+      "target": "259",
+      "attributes": {
+        "label": "Getting Pickpocketed",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "495",
+      "source": "259",
+      "target": "119",
+      "attributes": {
+        "label": "FishCrab Market",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "496",
+      "source": "258",
+      "target": "120",
+      "attributes": {
+        "label": "Harbor",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "497",
+      "source": "120",
+      "target": "119",
+      "attributes": {
+        "label": "FishCrab Market",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "498",
+      "source": "119",
+      "target": "260",
+      "attributes": {
+        "label": "Getting Scammed",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "499",
+      "source": "260",
+      "target": "259",
+      "attributes": {
+        "label": "Getting Pickpocketed",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "500",
+      "source": "260",
+      "target": "169",
+      "attributes": {
+        "label": "AlgeaBay",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "501",
+      "source": "120",
+      "target": "239",
+      "attributes": {
+        "label": "Poor People",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "502",
+      "source": "239",
+      "target": "167",
+      "attributes": {
+        "label": "Fisherman",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "503",
+      "source": "167",
+      "target": "120",
+      "attributes": {
+        "label": "Harbor",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "504",
+      "source": "239",
+      "target": "261",
+      "attributes": {
+        "label": "Working Hard",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "505",
+      "source": "145",
+      "target": "262",
+      "attributes": {
+        "label": "SheIsSuperImportant",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "506",
+      "source": "252",
+      "target": "262",
+      "attributes": {
+        "label": "SheIsSuperImportant",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "507",
+      "source": "261",
+      "target": "252",
+      "attributes": {
+        "label": "SheWorksHard",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": -1,
+        "Emotion": "Excited"
+      }
+    },
+    {
+      "key": "508",
+      "source": "252",
+      "target": "239",
+      "attributes": {
+        "label": "Poor People",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "509",
+      "source": "262",
+      "target": "162",
+      "attributes": {
+        "label": "Discrimination",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": -1,
+        "Emotion": "Excited"
+      }
+    },
+    {
+      "key": "511",
+      "source": "239",
+      "target": "111",
+      "attributes": {
+        "label": "Public Transport",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "512",
+      "source": "260",
+      "target": "255",
+      "attributes": {
+        "label": "Gambling",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "513",
+      "source": "141",
+      "target": "134",
+      "attributes": {
+        "label": "Architecture Fan",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "514",
+      "source": "141",
+      "target": "242",
+      "attributes": {
+        "label": "DisplayingWealth",
+        "color": "#c9c9c9",
+        "weight": 0.5,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "515",
+      "source": "242",
+      "target": "247",
+      "attributes": {
+        "label": "HerPlanForAPrivateMansion",
+        "color": "#c9c9c9",
+        "weight": 0.5,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "516",
+      "source": "264",
+      "target": "257",
+      "attributes": {
+        "label": "Magpie Island",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "517",
+      "source": "257",
+      "target": "247",
+      "attributes": {
+        "label": "HerPlanForAPrivateMansion",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "518",
+      "source": "158",
+      "target": "150",
+      "attributes": {
+        "label": "Duckling Lake",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "519",
+      "source": "144",
+      "target": "111",
+      "attributes": {
+        "label": "Public Transport",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "520",
+      "source": "137",
+      "target": "265",
+      "attributes": {
+        "label": "Money",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "521",
+      "source": "265",
+      "target": "170",
+      "attributes": {
+        "label": "HerOwnBeauty",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": -1,
+        "Emotion": "Excited"
+      }
+    },
+    {
+      "key": "522",
+      "source": "265",
+      "target": "135",
+      "attributes": {
+        "label": "Visiting Stores",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "523",
+      "source": "265",
+      "target": "153",
+      "attributes": {
+        "label": "QualityOverQuantity",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "525",
+      "source": "136",
+      "target": "266",
+      "attributes": {
+        "label": "TheCoolingWater",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "526",
+      "source": "266",
+      "target": "258",
+      "attributes": {
+        "label": "Ocean Animals",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "527",
+      "source": "266",
+      "target": "118",
+      "attributes": {
+        "label": "Surfing Club",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 2,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "528",
+      "source": "266",
+      "target": "158",
+      "attributes": {
+        "label": "Scorching Sun",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "529",
+      "source": "267",
+      "target": "160",
+      "attributes": {
+        "label": "HerInterestInVintageCars",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "530",
+      "source": "136",
+      "target": "267",
+      "attributes": {
+        "label": "Rarities",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "531",
+      "source": "249",
+      "target": "267",
+      "attributes": {
+        "label": "Rarities",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "532",
+      "source": "135",
+      "target": "140",
+      "attributes": {
+        "label": "Appreciating Beauty",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "533",
+      "source": "130",
+      "target": "135",
+      "attributes": {
+        "label": "Visiting Stores",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "534",
+      "source": "250",
+      "target": "119",
+      "attributes": {
+        "label": "FishCrab Market",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "535",
+      "source": "151",
+      "target": "147",
+      "attributes": {
+        "label": "Getting Up Early",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "578",
+      "source": "113",
+      "target": "280",
+      "attributes": {
+        "label": "Children",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "577",
+      "source": "110",
+      "target": "147",
+      "attributes": {
+        "label": "Getting Up Early",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "539",
+      "source": "146",
+      "target": "271",
+      "attributes": {
+        "label": "WeirdCityNames",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "540",
+      "source": "271",
+      "target": "149",
+      "attributes": {
+        "label": "ShoppingDistrictNames",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "541",
+      "source": "271",
+      "target": "248",
+      "attributes": {
+        "label": "Plankton Zoo",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "542",
+      "source": "143",
+      "target": "110",
+      "attributes": {
+        "label": "Style Boutiques",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "543",
+      "source": "240",
+      "target": "271",
+      "attributes": {
+        "label": "WeirdCityNames",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "544",
+      "source": "267",
+      "target": "243",
+      "attributes": {
+        "label": "ShopForStatues",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "545",
+      "source": "267",
+      "target": "241",
+      "attributes": {
+        "label": "TheStuffSheBroughtHome",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "546",
+      "source": "243",
+      "target": "241",
+      "attributes": {
+        "label": "TheStuffSheBroughtHome",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "547",
+      "source": "241",
+      "target": "249",
+      "attributes": {
+        "label": "MuseumOfModernArt",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "548",
+      "source": "240",
+      "target": "243",
+      "attributes": {
+        "label": "ShopForStatues",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "549",
+      "source": "241",
+      "target": "272",
+      "attributes": {
+        "label": "ABeautifulDress",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "550",
+      "source": "247",
+      "target": "273",
+      "attributes": {
+        "label": "OwningSecondIsland",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "551",
+      "source": "273",
+      "target": "257",
+      "attributes": {
+        "label": "Magpie Island",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "552",
+      "source": "243",
+      "target": "247",
+      "attributes": {
+        "label": "HerPlanForAPrivateMansion",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "553",
+      "source": "247",
+      "target": "267",
+      "attributes": {
+        "label": "Rarities",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "555",
+      "source": "274",
+      "target": "173",
+      "attributes": {
+        "label": "Spa",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "556",
+      "source": "173",
+      "target": "170",
+      "attributes": {
+        "label": "HerOwnBeauty",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": -1,
+        "Emotion": "Excited"
+      }
+    },
+    {
+      "key": "557",
+      "source": "272",
+      "target": "170",
+      "attributes": {
+        "label": "HerOwnBeauty",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": -1,
+        "Emotion": "Excited"
+      }
+    },
+    {
+      "key": "558",
+      "source": "112",
+      "target": "241",
+      "attributes": {
+        "label": "TheStuffSheBroughtHome",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "559",
+      "source": "272",
+      "target": "112",
+      "attributes": {
+        "label": "Bought Jewellery",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "560",
+      "source": "274",
+      "target": "275",
+      "attributes": {
+        "label": "SheIsStillYoung",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "561",
+      "source": "275",
+      "target": "237",
+      "attributes": {
+        "label": "Young generation",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "562",
+      "source": "275",
+      "target": "249",
+      "attributes": {
+        "label": "MuseumOfModernArt",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "563",
+      "source": "244",
+      "target": "275",
+      "attributes": {
+        "label": "SheIsStillYoung",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "564",
+      "source": "275",
+      "target": "144",
+      "attributes": {
+        "label": "Climate Activists",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "565",
+      "source": "243",
+      "target": "276",
+      "attributes": {
+        "label": "AncientStatues",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "687",
+      "source": "244",
+      "target": "278",
+      "attributes": {
+        "label": "NULL",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "688",
+      "source": "278",
+      "target": "240",
+      "attributes": {
+        "label": "Holy Mario",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "568",
+      "source": "173",
+      "target": "276",
+      "attributes": {
+        "label": "AncientStatues",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "569",
+      "source": "173",
+      "target": "278",
+      "attributes": {
+        "label": "NULL",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "570",
+      "source": "278",
+      "target": "271",
+      "attributes": {
+        "label": "WeirdCityNames",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "571",
+      "source": "272",
+      "target": "279",
+      "attributes": {
+        "label": "NULL",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "572",
+      "source": "271",
+      "target": "279",
+      "attributes": {
+        "label": "NULL",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "573",
+      "source": "279",
+      "target": "173",
+      "attributes": {
+        "label": "Spa",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "574",
+      "source": "279",
+      "target": "110",
+      "attributes": {
+        "label": "Style Boutiques",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "575",
+      "source": "110",
+      "target": "149",
+      "attributes": {
+        "label": "ShoppingDistrictNames",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "576",
+      "source": "110",
+      "target": "158",
+      "attributes": {
+        "label": "Scorching Sun",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "579",
+      "source": "280",
+      "target": "235",
+      "attributes": {
+        "label": "Cozy Camping",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "580",
+      "source": "147",
+      "target": "113",
+      "attributes": {
+        "label": "Noise",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "581",
+      "source": "125",
+      "target": "280",
+      "attributes": {
+        "label": "AnnoyingChildren",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "582",
+      "source": "152",
+      "target": "166",
+      "attributes": {
+        "label": "TooMuchWalking",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "583",
+      "source": "169",
+      "target": "144",
+      "attributes": {
+        "label": "Climate Activists",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "584",
+      "source": "109",
+      "target": "245",
+      "attributes": {
+        "label": "City Info",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "585",
+      "source": "245",
+      "target": "281",
+      "attributes": {
+        "label": "MountDoom",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "586",
+      "source": "166",
+      "target": "145",
+      "attributes": {
+        "label": "The Pearl",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "587",
+      "source": "245",
+      "target": "166",
+      "attributes": {
+        "label": "TooMuchWalking",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "588",
+      "source": "281",
+      "target": "131",
+      "attributes": {
+        "label": "Great View",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "589",
+      "source": "281",
+      "target": "235",
+      "attributes": {
+        "label": "Cozy Camping",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "593",
+      "source": "245",
+      "target": "243",
+      "attributes": {
+        "label": "ShopForStatues",
+        "color": "#c9c9c9",
+        "weight": 0.5,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "594",
+      "source": "245",
+      "target": "124",
+      "attributes": {
+        "label": "Shark Pound",
+        "color": "#c9c9c9",
+        "weight": 0.5,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "595",
+      "source": "242",
+      "target": "265",
+      "attributes": {
+        "label": "SheHasSoMuchMoney",
+        "color": "#c9c9c9",
+        "weight": 0.5,
+        "DoubtImpact": 2,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "596",
+      "source": "265",
+      "target": "264",
+      "attributes": {
+        "label": "WhatHerCompanyDoes",
+        "color": "#c9c9c9",
+        "weight": 0.5,
+        "DoubtImpact": -1,
+        "Emotion": "Excited"
+      }
+    },
+    {
+      "key": "597",
+      "source": "241",
+      "target": "242",
+      "attributes": {
+        "label": "DisplayingWealth",
+        "color": "#c9c9c9",
+        "weight": 0.5,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "598",
+      "source": "242",
+      "target": "112",
+      "attributes": {
+        "label": "Bought Jewellery",
+        "color": "#c9c9c9",
+        "weight": 0.5,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "599",
+      "source": "265",
+      "target": "252",
+      "attributes": {
+        "label": "SheWorksHard",
+        "color": "#c9c9c9",
+        "weight": 0.5,
+        "DoubtImpact": -1,
+        "Emotion": "Excited"
+      }
+    },
+    {
+      "key": "600",
+      "source": "282",
+      "target": "242",
+      "attributes": {
+        "label": "DisplayingWealth",
+        "color": "#c9c9c9",
+        "weight": 0.5,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "601",
+      "source": "282",
+      "target": "264",
+      "attributes": {
+        "label": "WhatHerCompanyDoes",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": -1,
+        "Emotion": "Excited"
+      }
+    },
+    {
+      "key": "602",
+      "source": "283",
+      "target": "261",
+      "attributes": {
+        "label": "Working Hard",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "603",
+      "source": "283",
+      "target": "252",
+      "attributes": {
+        "label": "SheWorksHard",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": -1,
+        "Emotion": "Excited"
+      }
+    },
+    {
+      "key": "604",
+      "source": "235",
+      "target": "165",
+      "attributes": {
+        "label": "Leaving Hotel",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "605",
+      "source": "235",
+      "target": "150",
+      "attributes": {
+        "label": "Duckling Lake",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "606",
+      "source": "235",
+      "target": "147",
+      "attributes": {
+        "label": "Getting Up Early",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "607",
+      "source": "150",
+      "target": "271",
+      "attributes": {
+        "label": "WeirdCityNames",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "608",
+      "source": "276",
+      "target": "240",
+      "attributes": {
+        "label": "Holy Mario",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "609",
+      "source": "109",
+      "target": "151",
+      "attributes": {
+        "label": "No Sleep",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "610",
+      "source": "112",
+      "target": "267",
+      "attributes": {
+        "label": "Rarities",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "611",
+      "source": "114",
+      "target": "280",
+      "attributes": {
+        "label": "AnnoyingChildren",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "612",
+      "source": "114",
+      "target": "281",
+      "attributes": {
+        "label": "MountDoom",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "613",
+      "source": "281",
+      "target": "284",
+      "attributes": {
+        "label": "NamingOfThePathways",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "614",
+      "source": "284",
+      "target": "149",
+      "attributes": {
+        "label": "ShoppingDistrictNames",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "615",
+      "source": "150",
+      "target": "284",
+      "attributes": {
+        "label": "NamingOfThePathways",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "616",
+      "source": "284",
+      "target": "161",
+      "attributes": {
+        "label": "BoatTourNames",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "617",
+      "source": "161",
+      "target": "248",
+      "attributes": {
+        "label": "Plankton Zoo",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "618",
+      "source": "284",
+      "target": "280",
+      "attributes": {
+        "label": "AnnoyingChildren",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "619",
+      "source": "115",
+      "target": "117",
+      "attributes": {
+        "label": "Horrible Trip",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 2,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "620",
+      "source": "115",
+      "target": "106",
+      "attributes": {
+        "label": "Bad Restaurants",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "621",
+      "source": "115",
+      "target": "260",
+      "attributes": {
+        "label": "Getting Scammed",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "622",
+      "source": "118",
+      "target": "170",
+      "attributes": {
+        "label": "HerOwnBeauty",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": -1,
+        "Emotion": "Excited"
+      }
+    },
+    {
+      "key": "623",
+      "source": "118",
+      "target": "275",
+      "attributes": {
+        "label": "SheIsStillYoung",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "624",
+      "source": "119",
+      "target": "239",
+      "attributes": {
+        "label": "Poor People",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "625",
+      "source": "119",
+      "target": "258",
+      "attributes": {
+        "label": "Ocean Animals",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "626",
+      "source": "120",
+      "target": "113",
+      "attributes": {
+        "label": "Noise",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "627",
+      "source": "167",
+      "target": "143",
+      "attributes": {
+        "label": "Hot Boys",
+        "color": "#c9c9c9",
+        "weight": 0.5,
+        "DoubtImpact": 1,
+        "Emotion": "Flirtatious"
+      }
+    },
+    {
+      "key": "628",
+      "source": "167",
+      "target": "261",
+      "attributes": {
+        "label": "Working Hard",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "629",
+      "source": "261",
+      "target": "151",
+      "attributes": {
+        "label": "No Sleep",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "630",
+      "source": "262",
+      "target": "261",
+      "attributes": {
+        "label": "Working Hard",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "631",
+      "source": "261",
+      "target": "237",
+      "attributes": {
+        "label": "Young generation",
+        "color": "#ff0000",
+        "weight": 0.5,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "632",
+      "source": "122",
+      "target": "117",
+      "attributes": {
+        "label": "Horrible Trip",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 2,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "633",
+      "source": "128",
+      "target": "262",
+      "attributes": {
+        "label": "SheIsSuperImportant",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "634",
+      "source": "128",
+      "target": "239",
+      "attributes": {
+        "label": "Poor People",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "635",
+      "source": "129",
+      "target": "280",
+      "attributes": {
+        "label": "AnnoyingChildren",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "636",
+      "source": "131",
+      "target": "257",
+      "attributes": {
+        "label": "Magpie Island",
+        "color": "#c9c9c9",
+        "weight": 0.5,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "637",
+      "source": "131",
+      "target": "141",
+      "attributes": {
+        "label": "Hill Cathedral",
+        "color": "#c9c9c9",
+        "weight": 0.5,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "638",
+      "source": "131",
+      "target": "124",
+      "attributes": {
+        "label": "Shark Pound",
+        "color": "#c9c9c9",
+        "weight": 0.5,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "639",
+      "source": "124",
+      "target": "150",
+      "attributes": {
+        "label": "Duckling Lake",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "640",
+      "source": "124",
+      "target": "136",
+      "attributes": {
+        "label": "Beaches",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "641",
+      "source": "124",
+      "target": "271",
+      "attributes": {
+        "label": "WeirdCityNames",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "642",
+      "source": "124",
+      "target": "161",
+      "attributes": {
+        "label": "BoatTourNames",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "643",
+      "source": "132",
+      "target": "245",
+      "attributes": {
+        "label": "City Info",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "644",
+      "source": "132",
+      "target": "158",
+      "attributes": {
+        "label": "Scorching Sun",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "645",
+      "source": "133",
+      "target": "281",
+      "attributes": {
+        "label": "MountDoom",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "646",
+      "source": "133",
+      "target": "166",
+      "attributes": {
+        "label": "TooMuchWalking",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "651",
+      "source": "267",
+      "target": "286",
+      "attributes": {
+        "label": "Auctions",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "652",
+      "source": "286",
+      "target": "130",
+      "attributes": {
+        "label": "Galleries",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "653",
+      "source": "286",
+      "target": "255",
+      "attributes": {
+        "label": "Gambling",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "654",
+      "source": "273",
+      "target": "286",
+      "attributes": {
+        "label": "Auctions",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "655",
+      "source": "286",
+      "target": "265",
+      "attributes": {
+        "label": "SheHasSoMuchMoney",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "656",
+      "source": "273",
+      "target": "242",
+      "attributes": {
+        "label": "DisplayingWealth",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "657",
+      "source": "134",
+      "target": "126",
+      "attributes": {
+        "label": "City Hall",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "658",
+      "source": "126",
+      "target": "159",
+      "attributes": {
+        "label": "Classy Lady",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "659",
+      "source": "126",
+      "target": "239",
+      "attributes": {
+        "label": "Poor People",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "660",
+      "source": "134",
+      "target": "260",
+      "attributes": {
+        "label": "Getting Scammed",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "662",
+      "source": "135",
+      "target": "267",
+      "attributes": {
+        "label": "Rarities",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "663",
+      "source": "141",
+      "target": "109",
+      "attributes": {
+        "label": "Busses",
+        "color": "#c9c9c9",
+        "weight": 0.5,
+        "DoubtImpact": 2,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "664",
+      "source": "262",
+      "target": "116",
+      "attributes": {
+        "label": "Restricted Parks",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "665",
+      "source": "142",
+      "target": "262",
+      "attributes": {
+        "label": "SheIsSuperImportant",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "666",
+      "source": "144",
+      "target": "267",
+      "attributes": {
+        "label": "Rarities",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "667",
+      "source": "146",
+      "target": "158",
+      "attributes": {
+        "label": "Scorching Sun",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "668",
+      "source": "149",
+      "target": "135",
+      "attributes": {
+        "label": "Visiting Stores",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "669",
+      "source": "149",
+      "target": "123",
+      "attributes": {
+        "label": "Coffee Shop",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "670",
+      "source": "153",
+      "target": "106",
+      "attributes": {
+        "label": "Bad Restaurants",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "671",
+      "source": "159",
+      "target": "265",
+      "attributes": {
+        "label": "SheHasSoMuchMoney",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "672",
+      "source": "155",
+      "target": "166",
+      "attributes": {
+        "label": "TooMuchWalking",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "673",
+      "source": "155",
+      "target": "245",
+      "attributes": {
+        "label": "City Info",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "674",
+      "source": "155",
+      "target": "148",
+      "attributes": {
+        "label": "CozyCamping Gondola",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "678",
+      "source": "156",
+      "target": "115",
+      "attributes": {
+        "label": "No meal",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "676",
+      "source": "156",
+      "target": "137",
+      "attributes": {
+        "label": "Seafood Restaurant",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "677",
+      "source": "251",
+      "target": "116",
+      "attributes": {
+        "label": "Restricted Parks",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "679",
+      "source": "162",
+      "target": "115",
+      "attributes": {
+        "label": "No HotelMeals",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "Angry"
+      }
+    },
+    {
+      "key": "680",
+      "source": "166",
+      "target": "164",
+      "attributes": {
+        "label": "Annoying Husband",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 3,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "681",
+      "source": "169",
+      "target": "259",
+      "attributes": {
+        "label": "Getting Pickpocketed",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "682",
+      "source": "169",
+      "target": "122",
+      "attributes": {
+        "label": "Greenery",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "683",
+      "source": "237",
+      "target": "147",
+      "attributes": {
+        "label": "sleeping in",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "684",
+      "source": "249",
+      "target": "286",
+      "attributes": {
+        "label": "Auctions",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "685",
+      "source": "130",
+      "target": "147",
+      "attributes": {
+        "label": "Getting Up Early",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "686",
+      "source": "276",
+      "target": "249",
+      "attributes": {
+        "label": "MuseumOfModernArt",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "689",
+      "source": "248",
+      "target": "278",
+      "attributes": {
+        "label": "NULL",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "690",
+      "source": "258",
+      "target": "248",
+      "attributes": {
+        "label": "Plankton Zoo",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "691",
+      "source": "248",
+      "target": "146",
+      "attributes": {
+        "label": "WhyItsCalledPlatypusBeach",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "692",
+      "source": "240",
+      "target": "140",
+      "attributes": {
+        "label": "Appreciating Beauty",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "693",
+      "source": "248",
+      "target": "137",
+      "attributes": {
+        "label": "Seafood Restaurant",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "694",
+      "source": "249",
+      "target": "135",
+      "attributes": {
+        "label": "Visiting Stores",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "696",
+      "source": "257",
+      "target": "132",
+      "attributes": {
+        "label": "Boat Tours",
+        "color": "#c9c9c9",
+        "weight": 0.5,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "697",
+      "source": "280",
+      "target": "117",
+      "attributes": {
+        "label": "Horrible Trip",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 2,
+        "Emotion": "Doubtful"
+      }
+    },
+    {
+      "key": "698",
+      "source": "280",
+      "target": "161",
+      "attributes": {
+        "label": "BoatTourNames",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "699",
+      "source": "120",
+      "target": "250",
+      "attributes": {
+        "label": "Friedas GardenCenter",
+        "color": "#c9c9c9",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "717",
+      "source": "296",
+      "target": "140",
+      "attributes": {
+        "label": "Appreciating Beauty",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "716",
+      "source": "296",
+      "target": "127",
+      "attributes": {
+        "label": "Restaurant",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "715",
+      "source": "293",
+      "target": "296",
+      "attributes": {
+        "label": "Great Heights",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "705",
+      "source": "255",
+      "target": "265",
+      "attributes": {
+        "label": "Money",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "706",
+      "source": "255",
+      "target": "134",
+      "attributes": {
+        "label": "Fan of architecture",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "707",
+      "source": "255",
+      "target": "239",
+      "attributes": {
+        "label": "poor people",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "708",
+      "source": "259",
+      "target": "265",
+      "attributes": {
+        "label": "Money",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "709",
+      "source": "259",
+      "target": "264",
+      "attributes": {
+        "label": "Her company",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "714",
+      "source": "294",
+      "target": "296",
+      "attributes": {
+        "label": "Great Heights",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "713",
+      "source": "295",
+      "target": "296",
+      "attributes": {
+        "label": "Great Heights",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "718",
+      "source": "296",
+      "target": "131",
+      "attributes": {
+        "label": "Great View",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "719",
+      "source": "296",
+      "target": "247",
+      "attributes": {
+        "label": "Her private mansion",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "720",
+      "source": "165",
+      "target": "293",
+      "attributes": {
+        "label": "Planes",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "721",
+      "source": "281",
+      "target": "295",
+      "attributes": {
+        "label": "mount everest",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "722",
+      "source": "260",
+      "target": "294",
+      "attributes": {
+        "label": "Fake Moonlanding",
+        "color": "#ff0000",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "723",
+      "source": "293",
+      "target": "111",
+      "attributes": {
+        "label": "Public Transport",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "724",
+      "source": "293",
+      "target": "147",
+      "attributes": {
+        "label": "Awake Early",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "725",
+      "source": "293",
+      "target": "112",
+      "attributes": {
+        "label": "Bought Gem Jewellery",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "726",
+      "source": "294",
+      "target": "297",
+      "attributes": {
+        "label": "The horrible Government",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "727",
+      "source": "133",
+      "target": "297",
+      "attributes": {
+        "label": "The horrible Government",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "728",
+      "source": "126",
+      "target": "297",
+      "attributes": {
+        "label": "The horrible Government",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "733",
+      "source": "297",
+      "target": "144",
+      "attributes": {
+        "label": "Climate Activists",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "731",
+      "source": "264",
+      "target": "297",
+      "attributes": {
+        "label": "The horrible Government",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "732",
+      "source": "297",
+      "target": "259",
+      "attributes": {
+        "label": "Getting money stolen",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "734",
+      "source": "297",
+      "target": "162",
+      "attributes": {
+        "label": "discrimination",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "735",
+      "source": "294",
+      "target": "265",
+      "attributes": {
+        "label": "Money",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "736",
+      "source": "294",
+      "target": "242",
+      "attributes": {
+        "label": "displaying wealth ",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "737",
+      "source": "295",
+      "target": "155",
+      "attributes": {
+        "label": "Hiking",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "738",
+      "source": "295",
+      "target": "148",
+      "attributes": {
+        "label": "Cozy Camping Gondola",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "739",
+      "source": "295",
+      "target": "159",
+      "attributes": {
+        "label": "class lady",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "740",
+      "source": "127",
+      "target": "271",
+      "attributes": {
+        "label": "Weird City Names",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": "null",
+        "Emotion": "null"
+      }
+    },
+    {
+      "key": "741",
+      "source": "106",
+      "target": "143",
+      "attributes": {
+        "label": "Hot Boys",
+        "color": "#808080",
+        "weight": 1.0,
+        "DoubtImpact": 1,
+        "Emotion": "null"
+      }
+    }
+  ]
+}
