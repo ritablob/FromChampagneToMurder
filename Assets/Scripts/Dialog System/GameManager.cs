@@ -28,12 +28,13 @@ public class GameManager : MonoBehaviour
 
     [HideInInspector]public TextWriter writer;
 
-
+    public List<Nodes> traversedNodesList = new List<Nodes>();
     void Awake()
     {
         graph = NodeGraph.CreateFromJSON(jsonFile.text);
         writer = GetComponent<TextWriter>();
         startingEnding = false;
+        traversedNodesList.Clear();
     }
     private void Start()
     {
@@ -63,6 +64,7 @@ public class GameManager : MonoBehaviour
                     Debug.LogWarning("Doubt impact - " + graph.edges[i].attributes.DoubtImpact);
                     doubtm.AddDoubt(graph.edges[i].attributes.DoubtImpact);
                     CheckIfEdgesAreValid(nextNodeKey);
+                    traversedNodesList.Add(graph.nodes[FindNodeIndex(nextNodeKey)]); // adds node to traversed list
                     previousNodeKey = currentNodeKey;
                     currentNodeKey = nextNodeKey;
                     writer.WriteText(graph.edges[i].attributes.Emotion);
@@ -183,7 +185,6 @@ public class GameManager : MonoBehaviour
     }
 
 }
-
 // node graph classes based on the json data groups vvv
 
 [Serializable]
