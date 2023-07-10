@@ -12,13 +12,10 @@ public class IntroOverlayBehaviour : MonoBehaviour
      * click button to reappear it -> moves up again
      * fade in / out panel
      */
-
+    public GameManager gameManager;
     public GameObject letter;
-    public Image panel;
-    public float movingSpeed = 1f;
-    public float panelFadingSpeed = 0.1f;
-    public float finalPositionY = -1080f;
 
+    private Animator animator;
     private bool showingLetter;
 
 
@@ -29,94 +26,36 @@ public class IntroOverlayBehaviour : MonoBehaviour
         {
             showingLetter = true;
         }
+        animator = GetComponent<Animator>();
     }
-
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        if (showingLetter && Input.GetKey(KeyCode.Mouse0))
+        if (showingLetter && Input.GetKeyDown(KeyCode.Mouse0))
         {
-            HideLetter();
-            HidePanel();
+            HideIntroPanel();
         }
     }
-    void HideLetter()
+    public void ShowIntroPanel()
     {
+        animator.SetBool("hasClickedButton", true);
+        animator.SetBool("hasClickedScreen", false);
+        Invoke(nameof(SetTextBoxInactive), 1f);
+        showingLetter = true;
+    }
+    public void HideIntroPanel()
+    {
+        animator.SetBool("hasClickedButton", false);
+        animator.SetBool("hasClickedScreen", true);
+        Invoke(nameof(SetTextBoxActive), 0.5f);
+        showingLetter = false;
 
-        StartCoroutine(LetterMove(false));
-
     }
-    public void ShowLetter()
+    void SetTextBoxInactive()
     {
-        Debug.Log("show letter");
-        letter.SetActive(true);
-        StartCoroutine(LetterMove(true));
+        gameManager.writer.tmp.gameObject.SetActive(false);
     }
-
-    void HidePanel()
+    void SetTextBoxActive()
     {
-        StartCoroutine(PanelFade(false));
-    }
-    public void ShowPanel()
-    {
-        panel.gameObject.SetActive(true);
-        Debug.Log("show panel");
-    }
-    IEnumerator LetterMove(bool moveUp)
-    {
-        if (moveUp)
-        {
-
-            if (Math.Round(letter.transform.position.y, 2) < 0)
-            {
-                float posY = letter.transform.position.y + (movingSpeed * Time.deltaTime);
-                letter.transform.position = new(letter.transform.position.x, posY);
-                yield return new WaitForSeconds(1f);
-                StartCoroutine(LetterMove(moveUp));
-            }
-            showingLetter = true;
-            yield return null;
-        }
-        else
-        {
-            if (Math.Round(letter.transform.position.y, 2) > finalPositionY)
-            {
-                float posY = letter.transform.position.y - (movingSpeed * Time.deltaTime);
-                letter.transform.position = new(letter.transform.position.x, posY);
-                yield return new WaitForSeconds(1f);
-                StartCoroutine(LetterMove(moveUp));
-            }
-            showingLetter = false;
-            letter.SetActive(false);
-            yield return null;
-        }
-    }
-    IEnumerator PanelFade(bool fadeIn)
-    {
-        if (fadeIn)
-        {
-            if (panel.color.a < 1)
-            {
-                Color newColor = panel.color;
-                newColor.a += panelFadingSpeed;
-                panel.color = newColor;
-                yield return new WaitForSeconds(1f);
-                StartCoroutine(PanelFade(true));
-            }
-            yield return null;
-        }
-        else
-        {
-            if (panel.color.a > 0)
-            {
-                Color newColor = panel.color;
-                newColor.a -= panelFadingSpeed;
-                panel.color = newColor;
-                yield return new WaitForSeconds(1f);
-                StartCoroutine(PanelFade(true));
-            }
-            panel.gameObject.SetActive(false);
-            yield return null;
-        }
+        gameManager.writer.tmp.gameObject.SetActive(true);
     }
 }
