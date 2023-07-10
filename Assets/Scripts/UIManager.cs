@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour
     public Color buttonSelectedColor = Color.cyan; 
     public Color buttonNormalcolor = Color.blue;
     public GameObject minimap;
+    public GameObject pinButtons;
     public GameObject map;
     public GameObject textBox;
     public ReportCrimeScene reportScreen;
@@ -17,21 +18,26 @@ public class UIManager : MonoBehaviour
 
     int triesTaken;
 
- 
-
-    public void SwitchToMinimap(Image buttonImage)
+    public void Start()
     {
-        SwitchColor(buttonImage);
+        SwitchToMinimap();
+    }
+
+    public void SwitchToMinimap(Image buttonImage = null)
+    {
+        if (buttonImage != null) SwitchColor (buttonImage);
         minimap.SetActive(true);
         map.SetActive(false);
         minimapCamera.SwitchToMinimap();
+        pinButtons.SetActive(false);
     }
-    public void SwitchToMap(Image buttonImage)
+    public void SwitchToMap(Image buttonImage = null)
     {
-        SwitchColor(buttonImage);
+        if (buttonImage != null) SwitchColor(buttonImage);
         map.SetActive(true);
         minimap.SetActive(false);
         minimapCamera.SwitchToMap();
+        pinButtons.SetActive(true);
     }
 
     public void SwitchColor(Image buttonImage)

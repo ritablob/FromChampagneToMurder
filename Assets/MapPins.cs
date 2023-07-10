@@ -9,23 +9,13 @@ public class MapPins : MonoBehaviour
 {
     public RectTransform render_sprite_obj_ref;
     public GameObject map_camera_obj_ref;
-    public Canvas canvas;
     public GameObject pin_button;
 
-    public Camera bitch_camer_obj;
     Camera map_camera_ref;
-
-    public GameObject pin_prefab;
-
-    Vector3 camera_difference;
-    float ortho_difference;
-
-    GameObject current_pin;
 
     // Start is called before the first frame update
     void Start()
     {
-        bitch_camer_obj = Camera.main;
         map_camera_ref = map_camera_obj_ref.GetComponent<Camera>();
         DeactivatePlacingPin();
     }
@@ -33,13 +23,10 @@ public class MapPins : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            ActivatePlacingPin(pin_prefab);
-        }
+
     }
 
-    public void PlacePin()
+    public void PlacePin(GameObject pin_prefab)
     {
         Vector2 mousePos = Input.mousePosition;
 
