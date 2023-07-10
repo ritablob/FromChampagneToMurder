@@ -10,8 +10,10 @@ public class MapPins : MonoBehaviour
     public RectTransform render_sprite_obj_ref;
     public GameObject map_camera_obj_ref;
     public GameObject pin_button;
+    public GameObject pins;
 
     Camera map_camera_ref;
+    GameObject current_pin_prefab;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +28,7 @@ public class MapPins : MonoBehaviour
 
     }
 
-    public void PlacePin(GameObject pin_prefab)
+    public void PlacePin()
     {
         Vector2 mousePos = Input.mousePosition;
 
@@ -41,7 +43,7 @@ public class MapPins : MonoBehaviour
 
         Vector3 worldPos = map_camera_ref.ViewportToWorldPoint(new Vector3(uv.x, uv.y, 0));
 
-        GameObject pin = Instantiate(pin_prefab, worldPos, Quaternion.identity, transform);
+        GameObject pin = Instantiate(current_pin_prefab, worldPos, Quaternion.identity, transform);
         pin.transform.localPosition = new Vector3(pin.transform.localPosition.x, pin.transform.localPosition.y, 0);
 
         DeactivatePlacingPin();
@@ -49,11 +51,14 @@ public class MapPins : MonoBehaviour
 
     public void ActivatePlacingPin(GameObject pin_prefab)
     {
+        current_pin_prefab = pin_prefab;
         pin_button.SetActive(true);
+        pins.SetActive(false);
     }
 
     public void DeactivatePlacingPin()
     {
         pin_button.SetActive(false);
+        pins.SetActive(true);
     }
 }
