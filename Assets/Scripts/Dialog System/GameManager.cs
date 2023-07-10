@@ -27,9 +27,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] string end_emotion = "Angry";
 
     [HideInInspector]public TextWriter writer;
-    public Animator reportAnimator;
+
     public List<Nodes> traversedNodesList = new List<Nodes>();
-    private bool endingOnce = false;
     void Awake()
     {
         graph = NodeGraph.CreateFromJSON(jsonFile.text);
@@ -37,18 +36,18 @@ public class GameManager : MonoBehaviour
         startingEnding = false;
         traversedNodesList.Clear();
     }
-    private void Update()
-    {
-        if (startingEnding && !endingOnce)
-        {
-            endingOnce = true;
-            currentNodeIndex = FindNodeIndex(finalNodeKey);
-            writer.WriteText(end_emotion);
-        }
-    }
     private void Start()
     {
         CheckIfEdgesAreValid(graph.nodes[0].key);
+    }
+    private void Update()
+    {
+        if (startingEnding)
+        {
+            startingEnding = false;
+            currentNodeIndex = FindNodeIndex(finalNodeKey);
+            writer.WriteText(end_emotion);
+        }
     }
     public void FindNextNodeID(string linkName)
     {
@@ -72,19 +71,6 @@ public class GameManager : MonoBehaviour
                     break;
                 }
             }
-        }
-        else
-        {
-            Debug.Log("is ending");
-            if (reportAnimator.GetComponent<ReportCrimeScene>())
-            {
-                reportAnimator.GetComponent<ReportCrimeScene>().HideExitButton();
-            }
-            writer.tmp.gameObject.SetActive(false);
-            reportAnimator.SetTrigger("Click");
-
-
-
         }
     }
     public int FindNodeIndex(int key) // finds node position in the array based on its key

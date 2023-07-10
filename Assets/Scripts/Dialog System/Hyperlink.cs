@@ -78,7 +78,7 @@ public class Hyperlink : MonoBehaviour
                 // we send the selected link text to text writer (will have to make this cleaner in the future)
 
                 string linkName = pTextMeshPro.textInfo.linkInfo[selectedLinkIndex].GetLinkText().ToLower();
-                Debug.Log(linkName);
+                //Debug.Log(linkName);
                 parseJsonRef.FindNextNodeID(linkName);
 
                 //Debug.Log("Link Clicked, link ID = " + selectedLinkIndex + ", link name - " +linkName);

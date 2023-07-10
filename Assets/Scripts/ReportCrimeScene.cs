@@ -8,8 +8,6 @@ public class ReportCrimeScene : MonoBehaviour
 {
     public List<string> possibleCorrectAnswers = new List<string>();
     public TMP_InputField inputField;
-    public GameObject ExitButton;
-    public Animator reportAnimator;
     public bool DoesTextMatch()
     { 
         for (int i = 0; i < possibleCorrectAnswers.Count; i++)
@@ -28,9 +26,5 @@ public class ReportCrimeScene : MonoBehaviour
     public void ClearTextBox()
     {
         inputField.text = string.Empty;
-    }
-    public void HideExitButton()
-    {
-        ExitButton.SetActive(false);
     }
 }
