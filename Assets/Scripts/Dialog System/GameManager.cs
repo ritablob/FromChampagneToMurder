@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
     [Tooltip("Amotion playing for the Ending Node")]
     [SerializeField] string end_emotion = "Angry";
 
-    TextWriter writer;
+    [HideInInspector]public TextWriter writer;
 
 
     void Awake()
