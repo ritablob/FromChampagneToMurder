@@ -85,7 +85,7 @@ MonoBehaviour:
     m_SubscriptSize: 0.5
     m_UnderlineOffset: -3.2
     m_UnderlineThickness: 11.37
-    m_StrikethroughOffset: 11.2
+    m_StrikethroughOffset: 20
     m_StrikethroughThickness: 0
     m_TabWidth: 32
   m_GlyphTable:

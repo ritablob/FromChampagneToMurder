@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
-        CheckIfEdgesAreValid(graph.nodes[0].key);
+
     }
     public void FindNextNodeID(string linkName)
     {

@@ -134,7 +134,7 @@ public class DrawMinimap : MonoBehaviour
 
         lineRendererShadow.startColor = LineColorShadow;
         lineRendererShadow.endColor = LineColorShadow;
-        lineRendererShadow.startWidth = lineWidth;
+        lineRendererShadow.startWidth = lineWidth * 0.75f;
         lineRendererShadow.endWidth = lineWidth;
         lineRendererShadow.SetPosition(0, startPos + ShadowOffset);
         lineRendererShadow.SetPosition(1, endPos + ShadowOffset);
