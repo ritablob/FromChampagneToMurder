@@ -16,7 +16,7 @@ public class UIManager : MonoBehaviour
     public CameraMovingManager minimapCamera;
     [SerializeField] Image previouslySelectedButtonImage;
 
-    int triesTaken;
+
 
     public void Start()
     {
@@ -76,11 +76,7 @@ public class UIManager : MonoBehaviour
         }
         else
         {
-            triesTaken++;
-            if (triesTaken > 1)
-            {
-                SceneManager.LoadScene(2); // ending lose scene
-            }
+            SceneManager.LoadScene(2);
         }
     }
     public void DisableInputReportScreen() // so that there is no overlapping input
