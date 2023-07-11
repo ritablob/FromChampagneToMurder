@@ -1,33 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 /// <summary>
-/// Singleton that allows us to traverse through scenes with ease :)
+/// allows us to traverse through scenes with ease :)
 /// </summary>
 public class SceneManagerButCooler : MonoBehaviour
 {
-    private static SceneManagerButCooler _instance;
-
-    public static SceneManagerButCooler Instance
-    {
-        get { return _instance; }
-    }
-
-    private void Awake()
-    {
-        if (_instance != null && _instance != this)
-        {
-            Destroy(gameObject);
-            return;
-        }
-
-        _instance = this;
-        DontDestroyOnLoad(gameObject);
-    }
-
+    public Animator fadeScreenAnimator;
+    public float sceneLoadDelay = 1.0f;
     public void SceneLoad(int sceneId)
     {
+        fadeScreenAnimator.SetTrigger("FadeOut");
+        StartCoroutine(LoadWithDelay(sceneId, sceneLoadDelay));
+    }
+    public void EndGame()
+    {
+        Application.Quit();
+    }
+    IEnumerator LoadWithDelay( int sceneId, float delay = 1f)
+    {
+        yield return new WaitForSeconds(delay);
         SceneManager.LoadScene(sceneId);
+        yield return null;
     }
 }

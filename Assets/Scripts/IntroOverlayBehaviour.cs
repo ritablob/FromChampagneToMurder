@@ -48,7 +48,10 @@ public class IntroOverlayBehaviour : MonoBehaviour
         animator.SetBool("hasClickedScreen", true);
         Invoke(nameof(SetTextBoxActive), 0.5f);
         showingLetter = false;
-
+        if (gameManager.GetComponent<TextWriter>())
+        {
+            Invoke(nameof(InvokeWriteText), 0.5f);
+        }
     }
     void SetTextBoxInactive()
     {
@@ -57,5 +60,9 @@ public class IntroOverlayBehaviour : MonoBehaviour
     void SetTextBoxActive()
     {
         gameManager.writer.tmp.gameObject.SetActive(true);
+    }
+    void InvokeWriteText()
+    {
+        gameManager.GetComponent<TextWriter>().WriteText();
     }
 }

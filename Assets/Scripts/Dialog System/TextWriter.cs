@@ -31,10 +31,6 @@ public class TextWriter : MonoBehaviour
     {
         parser = GetComponent<GameManager>();
     }
-    void Start()
-    {
-        WriteText();
-    }
 
     public void WriteText(string emotion = "Normal")
     {

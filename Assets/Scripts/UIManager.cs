@@ -72,11 +72,11 @@ public class UIManager : MonoBehaviour
         Debug.Log("pressed Report scene");
         if (reportScreen.DoesTextMatch())
         {
-            SceneManager.LoadScene(1); // ending win scene
+            SceneManager.LoadScene(2); // ending win scene
         }
         else
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
     }
     public void DisableInputReportScreen() // so that there is no overlapping input
