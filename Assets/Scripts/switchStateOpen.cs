@@ -5,29 +5,36 @@ using UnityEngine;
 public class switchStateOpen : MonoBehaviour
 {
     public Animator anim;
+    public bool Hover;
+    public bool Open;
+    public bool active;
 
     public void switchState()
     {
-        if(anim.GetBool("Open")==true)
+        if(anim.GetBool("Open")==true && active == true)
         {
             anim.SetBool("Open",false);
+            Open = false;
             
         }
-        else
+        else if(active == true)
         {
             anim.SetBool("Open", true);
+            Open = true;
         }
     }
     public void switchStateHover()
     {
-        if (anim.GetBool("Hover") == true)
+        if (anim.GetBool("Hover") == true && active == true)
         {
             anim.SetBool("Hover", false);
+            Hover = false;
 
         }
-        else
+        else if(active == true)
         {
             anim.SetBool("Hover", true);
+            Hover = true;
         }
     }
 }
