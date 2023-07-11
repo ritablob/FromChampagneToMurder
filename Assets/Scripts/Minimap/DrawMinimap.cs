@@ -9,6 +9,7 @@ using UnityEngine.UI;
 
 public class DrawMinimap : MonoBehaviour
 {
+    public bool spawnLIneShadow;
     public GameObject linePrefab;
     public GameObject dotPrefab;
     public GameObject labelPrefab;
@@ -16,6 +17,7 @@ public class DrawMinimap : MonoBehaviour
     public GameObject Dots;
     public GameObject Lines;
     public GameObject Labels;
+    public GameObject lineShadows;
 
     public GameManager gameManager;
     public CameraMovingManager cameraMovingManager;
@@ -98,7 +100,7 @@ public class DrawMinimap : MonoBehaviour
     public Vector2 NodeToCentreOnTRack;
 
     private Dictionary<int, GameObject> labelDict = new();
-
+    
 
     void Start()
     {
@@ -127,33 +129,34 @@ public class DrawMinimap : MonoBehaviour
 
         lineRenderer.useWorldSpace = false;
         if (render_lines_on_top_of_labels) lineRenderer.sortingOrder = 6;
-
-        //Shadow
-        GameObject lineRefShadow = Instantiate(linePrefab, lineRef.transform);
-        LineRenderer lineRendererShadow = lineRefShadow.GetComponent<LineRenderer>();
-
-        lineRendererShadow.startColor = LineColorShadow;
-        lineRendererShadow.endColor = LineColorShadow;
-        lineRendererShadow.startWidth = lineWidth * 0.75f;
-        lineRendererShadow.endWidth = lineWidth;
-        lineRendererShadow.SetPosition(0, startPos + ShadowOffset);
-        lineRendererShadow.SetPosition(1, endPos + ShadowOffset);
-
-        lineRendererShadow.useWorldSpace = false;
-        if (render_lines_on_top_of_labels) lineRendererShadow.sortingOrder = 5;
-
-        //Copied from ColourLine
-        if (defaultColorEdges.a == 0)
+        if (spawnLIneShadow)
         {
-            lineRendererShadow.startColor = Color.clear;
-            lineRendererShadow.endColor = Color.clear;
-        }
-        else
-        {
+            //Shadow
+            GameObject lineRefShadow = Instantiate(linePrefab, lineShadows.transform);
+            LineRenderer lineRendererShadow = lineRefShadow.GetComponent<LineRenderer>();
+
             lineRendererShadow.startColor = LineColorShadow;
             lineRendererShadow.endColor = LineColorShadow;
-        }
+            lineRendererShadow.startWidth = lineWidth * 0.75f;
+            lineRendererShadow.endWidth = lineWidth;
+            lineRendererShadow.SetPosition(0, startPos + ShadowOffset);
+            lineRendererShadow.SetPosition(1, endPos + ShadowOffset);
 
+            lineRendererShadow.useWorldSpace = false;
+            if (render_lines_on_top_of_labels) lineRendererShadow.sortingOrder = 5;
+
+            //Copied from ColourLine
+            if (defaultColorEdges.a == 0)
+            {
+                lineRendererShadow.startColor = Color.clear;
+                lineRendererShadow.endColor = Color.clear;
+            }
+            else
+            {
+                lineRendererShadow.startColor = LineColorShadow;
+                lineRendererShadow.endColor = LineColorShadow;
+            }
+        }
         return lineRef;
     }
     public GameObject DrawMinimapDot(Vector2 pos)
@@ -297,17 +300,6 @@ public class DrawMinimap : MonoBehaviour
         lineRenderer.startColor = color;
         lineRenderer.endColor = color;
 
-        LineRenderer shadowLineRenderer = lineRenderer.gameObject.GetComponentInChildren<LineRenderer>();
-        if (color.a == 0)
-        {
-            shadowLineRenderer.startColor = Color.clear;
-            shadowLineRenderer.endColor = Color.clear;
-        }
-        else
-        {
-            shadowLineRenderer.startColor = LineColorShadow;
-            shadowLineRenderer.endColor = LineColorShadow;
-        }
         //Debug.Log("Line coloured, game object - " +  lineRenderer.gameObject.name);
     }
     public void ColourDot(Image image, Color color, GameObject node_if_tracked = null)
