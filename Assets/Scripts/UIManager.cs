@@ -62,12 +62,6 @@ public class UIManager : MonoBehaviour
     }
     public void ReportScreenConfirm()
     {
-        // takes text from input field
-        // parses it 
-        // checks if it is correct
-        // if wrong, gives you one more try
-        // if wrong twice, game over
-        // if correct, win game 
 
         Debug.Log("pressed Report scene");
         if (reportScreen.DoesTextMatch())
@@ -76,7 +70,7 @@ public class UIManager : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(3); // ending lose scene
         }
     }
     public void DisableInputReportScreen() // so that there is no overlapping input
