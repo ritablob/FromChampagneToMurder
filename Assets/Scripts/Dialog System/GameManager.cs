@@ -81,7 +81,7 @@ public class GameManager : MonoBehaviour
                 reportAnimator.GetComponent<ReportCrimeScene>().HideExitButton();
             }
             writer.tmp.gameObject.SetActive(false);
-            reportAnimator.SetTrigger("Click");
+            reportAnimator.SetBool("Open", true);
 
 
 
