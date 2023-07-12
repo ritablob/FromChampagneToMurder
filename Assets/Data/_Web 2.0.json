@@ -248,7 +248,7 @@
         "y": -359.4848,
         "size": 60.0,
         "color": "#f7a473",
-        "characterDialogue": "It is unbelievable that the Hotels in Misora don\u0027t offer any food, that is a total scam. And being forced to eat all that horrible food at those restaurants just further ruined her trip",
+        "characterDialogue": "It is unbelievable that the Hotels in Misora don\u0027t offer any food! That is a total \u003cstyle\u003d\"Link\"\u003eScam\u003c/style\u003e. And being forced to eat all that horrible food at those \u003cstyle\u003d\"Link\"\u003eLocal Restaurants\u003c/style\u003e just further \u003cstyle\u003d\"Link\"\u003e Ruined Everything\u003c/style\u003e. The \u003cstyle\u003d\"Link\"\u003eOriginal Hotel\u003c/style\u003e that we wanted to go to would have never done something like this. I still don\u0027t understand why they would reject such important guests like us. Their loss!",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
@@ -266,7 +266,7 @@
         "y": 634.8609,
         "size": 60.0,
         "color": "#ff0000",
-        "characterDialogue": "Dolphin Tour, Annoying Children, Mount Doom, Cozy Camping Gondolas",
+        "characterDialogue": "The Cozy Camping had so many special services, that were simply not available for everyone else. That was so discriminating! They had a private \u003cstyle\u003d\"Link\"\u003eBoat Tour\u003c/style\u003e and also \u003cstyle\u003d\"Link\"\u003ePrivate Gondolas\u003c/style\u003e that would have been the perfect way to get up to \u003cstyle\u003d\"Link\"\u003eMount Doom\u003c/style\u003e. Well, at least our Hotel didn\u0027t have that many \u003cstyle\u003d\"Link\"\u003eAnnoying Children\u003c/style\u003e, hah. ",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "\u003cnull value\u003e",
         "Importance": "null",
@@ -302,7 +302,7 @@
         "y": -308.7701,
         "size": 60.0,
         "color": "#f0825b",
-        "characterDialogue": "She brought home some expensive Jewellery, like a pearl necklace and an emerald bracelet. When she bought it her husband said she doesn\u0027t need it but she believes otherwise",
+        "characterDialogue": "I bought the most amazing jewelry in Misora. It was so expensive but I look absolutely \u003cstyle\u003d\"Link\"\u003eBeautiful\u003c/style\u003e with it. My husband said I didn\u0027t need it, but what does he know? They had some real \u003cstyle\u003d\"Link\"\u003eRarities\u003c/style\u003e there. You probably never heard of them but I knew exactly how much they were worth and knew that was something I needed to \u003cstyle\u003d\"Link\"\u003eBring Home\u003c/style\u003e.",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 2,
@@ -338,7 +338,7 @@
         "y": 420.99347,
         "size": 60.0,
         "color": "#faaf7b",
-        "characterDialogue": " They went to a lot of different Style Boutiques",
+        "characterDialogue": "Shopping in the local boutiques really made the whole trip worth it! \u003cstyle\u003d\"Link\"\u003eBeauty\u003c/style\u003e and looks are just so important to invest into! It was still \u003cstyle\u003d\"Link\"\u003eEarly Morning\u003c/style\u003e when we got there, but the \u003cstyle\u003d\"Link\"\u003eSun\u003c/style\u003e was already burning. At least we got there before all those annoying tourists so I had the stores all to myself. Even though I spend most of my time looking for the right address. You cant find anything there with those strange \u003cstyle\u003d\"Link\"\u003eStreet Names\u003c/style\u003e. Do they really think that is funny?",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 1,
@@ -356,7 +356,7 @@
         "y": -219.76413,
         "size": 60.0,
         "color": "#ed7753",
-        "characterDialogue": " They went on a bus in the morning. The busses were  also with an audio guide, teeling them about the different buildings they passed",
+        "characterDialogue": "In the morning we took one of those \u003cstyle\u003d\"Link\"\u003eCity Info\u003c/style\u003e bus tours to explore the city. Of course, it was late. Typical. But at least we were able to take a look at a beach right next to the bus station.The tour provided informative insights into the city\u0027s history but the constant \u003cstyle\u003d\"Link\"\u003eNoise\u003c/style\u003e from other passengers combined with my husband complaining about getting \u003cstyle\u003d\"Link\"\u003eNo Sleep\u003c/style\u003e, made it impossible to fully enjoy the experience.",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "Clue",
         "Importance": 1,
@@ -2065,7 +2065,7 @@
       "source": "112",
       "target": "170",
       "attributes": {
-        "label": "HerOwnBeauty",
+        "label": "Beautiful",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": -1,
@@ -2329,7 +2329,7 @@
       "source": "114",
       "target": "163",
       "attributes": {
-        "label": "Dolphin Tour",
+        "label": "Boat Tour",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -2653,7 +2653,7 @@
       "source": "110",
       "target": "170",
       "attributes": {
-        "label": "HerOwnBeauty",
+        "label": "Beauty",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": -1,
@@ -2988,7 +2988,7 @@
       "source": "115",
       "target": "128",
       "attributes": {
-        "label": "RejectedFromHotel",
+        "label": "Original Hotel",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -3012,7 +3012,7 @@
       "source": "111",
       "target": "109",
       "attributes": {
-        "label": "Busses",
+        "label": "Bus",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 2,
@@ -3072,7 +3072,7 @@
       "source": "114",
       "target": "148",
       "attributes": {
-        "label": "CozyCamping Gondola",
+        "label": "Private Gondola",
         "color": "#ff0000",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -3456,7 +3456,7 @@
       "source": "111",
       "target": "259",
       "attributes": {
-        "label": "Getting Pickpocketed",
+        "label": "Pickpocketed",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -3504,7 +3504,7 @@
       "source": "119",
       "target": "260",
       "attributes": {
-        "label": "Getting Scammed",
+        "label": "Scam",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -3948,7 +3948,7 @@
       "source": "110",
       "target": "147",
       "attributes": {
-        "label": "Getting Up Early",
+        "label": "Early Morning",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -4176,7 +4176,7 @@
       "source": "112",
       "target": "241",
       "attributes": {
-        "label": "TheStuffSheBroughtHome",
+        "label": "Bring Home",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -4380,7 +4380,7 @@
       "source": "110",
       "target": "149",
       "attributes": {
-        "label": "ShoppingDistrictNames",
+        "label": "Street Names",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -4752,7 +4752,7 @@
       "source": "114",
       "target": "280",
       "attributes": {
-        "label": "AnnoyingChildren",
+        "label": "Annoying Children",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -4764,7 +4764,7 @@
       "source": "114",
       "target": "281",
       "attributes": {
-        "label": "MountDoom",
+        "label": "Mount Doom",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -4848,7 +4848,7 @@
       "source": "115",
       "target": "117",
       "attributes": {
-        "label": "Horrible Trip",
+        "label": "Ruined Everytihng",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 2,
@@ -4860,7 +4860,7 @@
       "source": "115",
       "target": "106",
       "attributes": {
-        "label": "Bad Restaurants",
+        "label": "Local Restaurants",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -4872,7 +4872,7 @@
       "source": "115",
       "target": "260",
       "attributes": {
-        "label": "Getting Scammed",
+        "label": "Scam",
         "color": "#ff0000",
         "weight": 1.0,
         "DoubtImpact": 1,
