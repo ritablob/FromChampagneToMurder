@@ -1004,7 +1004,7 @@
         "y": 129.16397,
         "size": 60.0,
         "color": "#fdbb84",
-        "characterDialogue": "Our day started with checking in to our small and simple Hotel. Im so glad that we took the \u003cstyle\u003d\"Link\"\u003ePlane\u003c/style\u003e and not the Train like my goofy husband suggested. He cares about the environment, but I\u0027m more of a luxury person. \nHowever, he turned me so eco-friendly in Misora, haha. Right after we got to the Hotel  we took the local\u003cstyle\u003d\"Link\"\u003eBus\u003c/style\u003e  to get to a \u003cstyle\u003d\"Link\"\u003eCoffee Shop\u003c/style\u003e.  ",
+        "characterDialogue": "Our day started with checking in to our small and simple Hotel. Im so glad that we took the \u003cstyle\u003d\"Link\"\u003ePlane\u003c/style\u003e and not the Train like my goofy husband suggested. He cares about the environment, but I\u0027m more of a luxury person. \nHowever, he turned me so eco-friendly in Misora, haha. Right after we got to the Hotel  we took the local \u003cstyle\u003d\"Link\"\u003eBus\u003c/style\u003e to get to a \u003cstyle\u003d\"Link\"\u003eCoffee Shop\u003c/style\u003e.  ",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
@@ -4279,7 +4279,7 @@
       "source": "173",
       "target": "278",
       "attributes": {
-        "label": "NULL",
+        "label": "things to do",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -4303,7 +4303,7 @@
       "source": "272",
       "target": "279",
       "attributes": {
-        "label": "NULL",
+        "label": "Styles Abroad",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -4315,7 +4315,7 @@
       "source": "271",
       "target": "279",
       "attributes": {
-        "label": "NULL",
+        "label": "Styles Abroad",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -5563,7 +5563,7 @@
       "source": "248",
       "target": "278",
       "attributes": {
-        "label": "NULL",
+        "label": "Things to Do",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
