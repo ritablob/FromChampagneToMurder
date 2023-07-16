@@ -6284,7 +6284,7 @@ MonoBehaviour:
         m_MethodName: ActivatePlacingPin
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1389829946650032406, guid: 268f9b826cef7d64c844e85b96d4bb51, type: 3}
+          m_ObjectArgument: {fileID: 1389829946650032406, guid: 42cb45022fa41b94cad5058a00b26601, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
