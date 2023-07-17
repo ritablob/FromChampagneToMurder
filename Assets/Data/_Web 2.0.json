@@ -385,24 +385,6 @@
       }
     },
     {
-      "key": "86",
-      "attributes": {
-        "label": "Start in the Web",
-        "x": 1305.5558,
-        "y": 990.83466,
-        "size": 60.0,
-        "color": "#c0c0c0",
-        "characterDialogue": "null",
-        "Special Type": "Her Values",
-        "Clue/Filler": "null",
-        "Importance": "null",
-        "How easy to reach": "null",
-        "indegree": 0,
-        "outdegree": 1,
-        "Degree": 1
-      }
-    },
-    {
       "key": "129",
       "attributes": {
         "label": "Ocean annoying",
@@ -925,24 +907,6 @@
       }
     },
     {
-      "key": "161",
-      "attributes": {
-        "label": "Names of the Boat Tours",
-        "x": 301.3152,
-        "y": 619.96655,
-        "size": 60.0,
-        "color": "#f0825b",
-        "characterDialogue": "This node is sadly still missing :(",
-        "Special Type": "Her recent Trip",
-        "Clue/Filler": "\u003cnull value\u003e",
-        "Importance": "null",
-        "How easy to reach": "null",
-        "indegree": 5,
-        "outdegree": 3,
-        "Degree": 8
-      }
-    },
-    {
       "key": "162",
       "attributes": {
         "label": "Discrimination",
@@ -986,7 +950,7 @@
         "y": -99.425644,
         "size": 60.0,
         "color": "#ed7753",
-        "characterDialogue": "This node is sadly still missing :( here is a Summary: She talks about her and her husband going on the trip together, but starts complaining about him immediately",
+        "characterDialogue": "Oh, you wanna know about Brandon? Uhm well, my husband was actually the one who wanted to go to Misora because of the \u003cstyle\u003d\"Link\"\u003eNature\u003c/style\u003e here. Urgh I hate going into nature. It feels so primal. And then he also wanted to take the \u003cstyle\u003d\"Link\"\u003eBus\u003c/style\u003e everywhere. It was so annoying. I couldn\u0027t even \u003cstyle\u003d\"Link\"\u003eSleep\u003c/style\u003e the night before our trip because he was telling me about all the soo interesting things on the mountain. Why can\u0027t he be more into actually productive things? Urghh, sorry. Anyways, at least I got some peace at the \u003cstyle\u003d\"Link\"\u003eLast Restaurant\u003c/style\u003e that I went to. Let\u0027s talk about somethign else.",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
@@ -1040,7 +1004,7 @@
         "y": -914.8545,
         "size": 60.0,
         "color": "#fdbb84",
-        "characterDialogue": "This node is sadly still missing :(, here is a Summary: She hates the harbor but those fisherman, she does respect.  They work hard and as you can see they are clearly very rich people since they can effort all those boats",
+        "characterDialogue": "I dont really like the \u003cstyle\u003d\"Link\"\u003eHarbor\u003c/style\u003e. It smells and is so dirty. But honestly those fisherman, I do respect! They \u003cstyle\u003d\"Link\"\u003eWork Hard\u003c/style\u003e and as you can see it pays off. They are clearly very rich people since they can effort all those boats. Maybe take an example in them? ",
         "Special Type": "Her recent Trip",
         "Clue/Filler": "null",
         "Importance": "null",
@@ -1105,60 +1069,6 @@
       }
     },
     {
-      "key": "187",
-      "attributes": {
-        "label": "Having Disagreements with her husband",
-        "x": 1455.5173,
-        "y": 604.5215,
-        "size": 60.0,
-        "color": "#c0c0c0",
-        "characterDialogue": "This node is sadly still missing :( here is a Summary: From time to time there are some times instances where her husband gets angry at her for no reason, but those can be quickly resolved and would never destroy the bond they share",
-        "Special Type": "Her private life",
-        "Clue/Filler": "null",
-        "Importance": 0,
-        "How easy to reach": "null",
-        "indegree": 1,
-        "outdegree": 1,
-        "Degree": 2
-      }
-    },
-    {
-      "key": "192",
-      "attributes": {
-        "label": "Start in the Web",
-        "x": 1604.4414,
-        "y": 729.08374,
-        "size": 60.0,
-        "color": "#c0c0c0",
-        "characterDialogue": "",
-        "Special Type": "",
-        "Clue/Filler": "null",
-        "Importance": 0,
-        "How easy to reach": "null",
-        "indegree": 0,
-        "outdegree": 1,
-        "Degree": 1
-      }
-    },
-    {
-      "key": "198",
-      "attributes": {
-        "label": "Her dress she is wearing",
-        "x": 1200.5996,
-        "y": 822.6762,
-        "size": 60.0,
-        "color": "#c0c0c0",
-        "characterDialogue": "This node is sadly still missing :(",
-        "Special Type": "Her sucessful life",
-        "Clue/Filler": "Filler",
-        "Importance": "null",
-        "How easy to reach": "null",
-        "indegree": 1,
-        "outdegree": 1,
-        "Degree": 2
-      }
-    },
-    {
       "key": "235",
       "attributes": {
         "label": "Hotel \"Cozy Camping\"",
@@ -1220,7 +1130,7 @@
         "y": -1046.7844,
         "size": 60.0,
         "color": "#f7a473",
-        "characterDialogue": "This node is sadly still missing :(, here is a Summary: Poverty is a mindset, all those poor people just dont work hard enough.  They should take an example on those fisherman.  They at least work hard. She is just not meant to be around poor people. That is why she doesnt usually use the public transport",
+        "characterDialogue": "You know, I think poverty is simply a mindset. All those poor people just dont \u003cstyle\u003d\"Link\"\u003eWork Hard\u003c/style\u003e enough. They should take an example on those \u003cstyle\u003d\"Link\"\u003eFisherman\u003c/style\u003e. They at least work hard. Urgh, I am just not meant to be around poor people! That is also why I dont usually use  \u003cstyle\u003d\"Link\"\u003ePublic Transport\u003c/style\u003e.",
         "Special Type": "null",
         "Clue/Filler": "\u003cnull value\u003e",
         "Importance": "null",
@@ -1274,7 +1184,7 @@
         "y": -1219.5215,
         "size": 60.0,
         "color": "#ed7753",
-        "characterDialogue": "This node is sadly still missing :(",
+        "characterDialogue": "Showing my wealth is very important for me! When you have the \u003cstyle\u003d\"Link\"\u003eMoney\u003c/style\u003e, you should be able to show it. For example, I\u0027m planning on building a \u003cstyle\u003d\"Link\"\u003ePrivate Mansion\u003c/style\u003e. Maybe on another island somewhere around here? Of course I don\u0027t always go that big. I can be humble too! For example the \u003cstyle\u003d\"Link\"\u003eGem Jewelery\u003c/style\u003e that I bought in Misora already says a lot, doesnt it? ",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
@@ -1483,24 +1393,6 @@
       }
     },
     {
-      "key": "258",
-      "attributes": {
-        "label": "Ocean Animals",
-        "x": 548.4257,
-        "y": -76.74153,
-        "size": 60.0,
-        "color": "#faaf7b",
-        "characterDialogue": "This node is sadly still missing :( here is a Summary: This city seems to really like ocean animals. \"Shark Pound\" \"Plankton Zoo\"? She thinks they are crazy. Although it makes sense, considering the live close to the beach and Harbor",
-        "Special Type": "null",
-        "Clue/Filler": "null",
-        "Importance": "null",
-        "How easy to reach": "null",
-        "indegree": 3,
-        "outdegree": 4,
-        "Degree": 7
-      }
-    },
-    {
       "key": "259",
       "attributes": {
         "label": "Getting money stolen",
@@ -1544,7 +1436,7 @@
         "y": -951.1405,
         "size": 60.0,
         "color": "#f7a473",
-        "characterDialogue": "This node is sadly still missing :( here is a Summary: She believes that, working hard is a thing that the young generation has forgot about. But all they say is \"Uhhhhh my 10 hours of sleep weeeeeee\".  They should get their shit together and take example on herself",
+        "characterDialogue": "I feel like, working hard is a thing that the \u003cstyle\u003d\"Link\"\u003eYoung Generation\u003c/style\u003e has forgotten about. But all they say is \"Uhhhhh my 10 hours of sleep weeeeeee\". They should get their shit together. Take me for an example. \u003cstyle\u003d\"Link\"\u003eWorking Hard\u003c/style\u003e is my top priority and I dont care if i get \u003cstyle\u003d\"Link\"\u003eNo Sleep\u003c/style\u003e because of it.",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
@@ -1616,7 +1508,7 @@
         "y": 115.48577,
         "size": 60.0,
         "color": "#ff0000",
-        "characterDialogue": "This node is sadly still missing :( here is a Summary: Yes some cooling water for that scourchin sun would have been nice. Maybe she should learn to surf at a surf club, then she can be cool and do sport at the same time. Or maybe she just becomes an ocean animal, then she can stay in the water forever.",
+        "characterDialogue": "Oh, yeah some cooling water against that \u003cstyle\u003d\"Link\"\u003eScorching Sun\u003c/style\u003e would have been nice. Maybe the hot guys at the \u003cstyle\u003d\"Link\"\u003eSurf Club\u003c/style\u003e could teach me how to surf, then I could cool down and do sports at the same time. That would be so perfect! Except for all the animals in the ocean, of course.",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
@@ -1652,7 +1544,7 @@
         "y": 444.1123,
         "size": 60.0,
         "color": "#f28d63",
-        "characterDialogue": "This node is sadly still missing :(",
+        "characterDialogue": "Uhh, Children are the worst. They are so annoying. We actually chose not to stay at \u003cstyle\u003d\"Link\"\u003eCozy Camping\u003c/style\u003e, because I heard there are a lot of children. But of course they couldnt just stay there, no they were all over the town, crying and screaming. Uh, what a \u003cstyle\u003d\"Link\"\u003eHorrible Trip\u003c/style\u003e. ",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
@@ -1701,12 +1593,12 @@
     {
       "key": "272",
       "attributes": {
-        "label": "a beautiful dress",
+        "label": "A beautiful dress",
         "x": 1434.9569,
         "y": -27.527685,
         "size": 60.0,
         "color": "#faaf7b",
-        "characterDialogue": "This node is sadly still missing :(",
+        "characterDialogue": "I bought this wonderful dress. It has such a unique \u003cstyle\u003d\"Link\"\u003eEuropean Style\u003c/style\u003e and goes really well with the \u003cstyle\u003d\"Link\"\u003eGem Jewelery\u003c/style\u003e that I bought. It really highlights my \u003cstyle\u003d\"Link\"\u003eBeauty\u003c/style\u003e so wonderfully. But to be fair, that is not that difficult.",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
@@ -1742,7 +1634,7 @@
         "y": 124.495155,
         "size": 60.0,
         "color": "#faaf7b",
-        "characterDialogue": "This node is sadly still missing :( here is a Summary: Though a lot of people think so, she is actually completly natural. No plastic surgeries, no Make Up. She says it\u0027s because of her regular spa visits, but it might actually be because of her age. Because she is actually very young, you see",
+        "characterDialogue": "You know, a lot of people think i had plastic surgery or something, but I am actually all natural. No surgeries, no Make Up! I simply regularly go to the \u003cstyle\u003d\"Link\"\u003eSpa\u003c/style\u003e and take good care of my Beauty. And of course I am \u003cstyle\u003d\"Link\"\u003eStill Young\u003c/style\u003e.  ",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
@@ -1814,7 +1706,7 @@
         "y": 447.20932,
         "size": 60.0,
         "color": "#f5996b",
-        "characterDialogue": "This node is sadly still missing :( here is a Summary: Stuff is so different abroad. Especially these unique fashions style in the clothing stores and the great asian massages at the spa",
+        "characterDialogue": "Everything is so different abroad! Especially these unique fashions style in the \u003cstyle\u003d\"Link\"\u003eStyle Boutiques\u003c/style\u003e Or those great asian massages at the \u003cstyle\u003d\"Link\"\u003eSpa\u003c/style\u003e.",
         "Special Type": "null",
         "Clue/Filler": "null",
         "Importance": "null",
@@ -1822,42 +1714,6 @@
         "indegree": 2,
         "outdegree": 2,
         "Degree": 4
-      }
-    },
-    {
-      "key": "282",
-      "attributes": {
-        "label": "Start in the Web - She uses the service herself",
-        "x": 771.2917,
-        "y": -1468.8529,
-        "size": 60.0,
-        "color": "#c0c0c0",
-        "characterDialogue": "This node is sadly still missing :( here is a Summary: She uses the service herself and starts talking about her company",
-        "Special Type": "null",
-        "Clue/Filler": "null",
-        "Importance": "null",
-        "How easy to reach": "null",
-        "indegree": 0,
-        "outdegree": 2,
-        "Degree": 2
-      }
-    },
-    {
-      "key": "283",
-      "attributes": {
-        "label": "Start in the Web 2",
-        "x": -703.6216,
-        "y": -1038.7605,
-        "size": 60.0,
-        "color": "#c0c0c0",
-        "characterDialogue": "This node is sadly still missing :( here is a Summary: No one is willing to work these days anymore",
-        "Special Type": "null",
-        "Clue/Filler": "null",
-        "Importance": "null",
-        "How easy to reach": "null",
-        "indegree": 0,
-        "outdegree": 2,
-        "Degree": 2
       }
     },
     {
@@ -2059,7 +1915,7 @@
       "source": "164",
       "target": "109",
       "attributes": {
-        "label": "Busses",
+        "label": "Bus",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 2,
@@ -2175,18 +2031,6 @@
       }
     },
     {
-      "key": "388",
-      "source": "146",
-      "target": "161",
-      "attributes": {
-        "label": "fish names",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 1,
-        "Emotion": "Bored"
-      }
-    },
-    {
       "key": "429",
       "source": "109",
       "target": "113",
@@ -2215,7 +2059,7 @@
       "source": "164",
       "target": "122",
       "attributes": {
-        "label": "Greenery",
+        "label": "Nature",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -2487,30 +2331,6 @@
       }
     },
     {
-      "key": "385",
-      "source": "163",
-      "target": "161",
-      "attributes": {
-        "label": "naming conventions",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 1,
-        "Emotion": "Bored"
-      }
-    },
-    {
-      "key": "228",
-      "source": "198",
-      "target": "110",
-      "attributes": {
-        "label": "Style Boutiques",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 1,
-        "Emotion": "Excited"
-      }
-    },
-    {
       "key": "411",
       "source": "170",
       "target": "135",
@@ -2563,23 +2383,11 @@
       "source": "164",
       "target": "156",
       "attributes": {
-        "label": "Evening Restaurant",
+        "label": "Last Restaurant",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 4,
         "Emotion": "Angry"
-      }
-    },
-    {
-      "key": "237",
-      "source": "187",
-      "target": "118",
-      "attributes": {
-        "label": "Surfing Club",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 2,
-        "Emotion": "Doubtful"
       }
     },
     {
@@ -2588,18 +2396,6 @@
       "target": "112",
       "attributes": {
         "label": "Gem Jewels",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 1,
-        "Emotion": "Excited"
-      }
-    },
-    {
-      "key": "227",
-      "source": "86",
-      "target": "198",
-      "attributes": {
-        "label": "her dress",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -2679,18 +2475,6 @@
       }
     },
     {
-      "key": "238",
-      "source": "192",
-      "target": "187",
-      "attributes": {
-        "label": "NULL",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 3,
-        "Emotion": "Doubtful"
-      }
-    },
-    {
       "key": "432",
       "source": "123",
       "target": "147",
@@ -2751,18 +2535,6 @@
       }
     },
     {
-      "key": "389",
-      "source": "161",
-      "target": "132",
-      "attributes": {
-        "label": "Boat Tours",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 1,
-        "Emotion": "Unhappy"
-      }
-    },
-    {
       "key": "371",
       "source": "125",
       "target": "142",
@@ -2804,18 +2576,6 @@
       "target": "140",
       "attributes": {
         "label": "Appearance",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 1,
-        "Emotion": "Excited"
-      }
-    },
-    {
-      "key": "386",
-      "source": "161",
-      "target": "149",
-      "attributes": {
-        "label": "ShoppingDistrictNames",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -2899,7 +2659,7 @@
       "source": "164",
       "target": "151",
       "attributes": {
-        "label": "No Sleep",
+        "label": "Sleep",
         "color": "#ff0000",
         "weight": 1.0,
         "DoubtImpact": 3,
@@ -3387,42 +3147,6 @@
       }
     },
     {
-      "key": "491",
-      "source": "137",
-      "target": "258",
-      "attributes": {
-        "label": "Ocean Animals",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 1,
-        "Emotion": "Unhappy"
-      }
-    },
-    {
-      "key": "492",
-      "source": "258",
-      "target": "136",
-      "attributes": {
-        "label": "Beaches",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 1,
-        "Emotion": "Excited"
-      }
-    },
-    {
-      "key": "493",
-      "source": "258",
-      "target": "124",
-      "attributes": {
-        "label": "Shark Pound",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 1,
-        "Emotion": "Bored"
-      }
-    },
-    {
       "key": "494",
       "source": "111",
       "target": "259",
@@ -3440,18 +3164,6 @@
       "target": "119",
       "attributes": {
         "label": "FishCrab Market",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 1,
-        "Emotion": "Unhappy"
-      }
-    },
-    {
-      "key": "496",
-      "source": "258",
-      "target": "120",
-      "attributes": {
-        "label": "Harbor",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -3583,7 +3295,7 @@
       "source": "261",
       "target": "252",
       "attributes": {
-        "label": "SheWorksHard",
+        "label": "Working Hard",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": -1,
@@ -3667,7 +3379,7 @@
       "source": "242",
       "target": "247",
       "attributes": {
-        "label": "HerPlanForAPrivateMansion",
+        "label": "Private Mansion",
         "color": "#c9c9c9",
         "weight": 0.5,
         "DoubtImpact": 1,
@@ -3780,18 +3492,6 @@
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "Excited"
-      }
-    },
-    {
-      "key": "526",
-      "source": "266",
-      "target": "258",
-      "attributes": {
-        "label": "Ocean Animals",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 1,
-        "Emotion": "Unhappy"
       }
     },
     {
@@ -4135,7 +3835,7 @@
       "source": "272",
       "target": "170",
       "attributes": {
-        "label": "HerOwnBeauty",
+        "label": "Beauty",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": -1,
@@ -4159,7 +3859,7 @@
       "source": "272",
       "target": "112",
       "attributes": {
-        "label": "Bought Jewellery",
+        "label": "Gem Jewelery",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -4303,7 +4003,7 @@
       "source": "272",
       "target": "279",
       "attributes": {
-        "label": "Styles Abroad",
+        "label": "European Style",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -4531,7 +4231,7 @@
       "source": "242",
       "target": "265",
       "attributes": {
-        "label": "SheHasSoMuchMoney",
+        "label": "Money",
         "color": "#c9c9c9",
         "weight": 0.5,
         "DoubtImpact": 2,
@@ -4567,7 +4267,7 @@
       "source": "242",
       "target": "112",
       "attributes": {
-        "label": "Bought Jewellery",
+        "label": "Gem Jewelery",
         "color": "#c9c9c9",
         "weight": 0.5,
         "DoubtImpact": 1,
@@ -4582,54 +4282,6 @@
         "label": "SheWorksHard",
         "color": "#c9c9c9",
         "weight": 0.5,
-        "DoubtImpact": -1,
-        "Emotion": "Excited"
-      }
-    },
-    {
-      "key": "600",
-      "source": "282",
-      "target": "242",
-      "attributes": {
-        "label": "DisplayingWealth",
-        "color": "#c9c9c9",
-        "weight": 0.5,
-        "DoubtImpact": 1,
-        "Emotion": "Excited"
-      }
-    },
-    {
-      "key": "601",
-      "source": "282",
-      "target": "264",
-      "attributes": {
-        "label": "WhatHerCompanyDoes",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": -1,
-        "Emotion": "Excited"
-      }
-    },
-    {
-      "key": "602",
-      "source": "283",
-      "target": "261",
-      "attributes": {
-        "label": "Working Hard",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 1,
-        "Emotion": "Unhappy"
-      }
-    },
-    {
-      "key": "603",
-      "source": "283",
-      "target": "252",
-      "attributes": {
-        "label": "SheWorksHard",
-        "color": "#c9c9c9",
-        "weight": 1.0,
         "DoubtImpact": -1,
         "Emotion": "Excited"
       }
@@ -4779,30 +4431,6 @@
       }
     },
     {
-      "key": "616",
-      "source": "284",
-      "target": "161",
-      "attributes": {
-        "label": "BoatTourNames",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 1,
-        "Emotion": "Bored"
-      }
-    },
-    {
-      "key": "617",
-      "source": "161",
-      "target": "248",
-      "attributes": {
-        "label": "Plankton Zoo",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 1,
-        "Emotion": "Bored"
-      }
-    },
-    {
       "key": "618",
       "source": "284",
       "target": "280",
@@ -4884,18 +4512,6 @@
         "weight": 1.0,
         "DoubtImpact": 1,
         "Emotion": "Excited"
-      }
-    },
-    {
-      "key": "625",
-      "source": "119",
-      "target": "258",
-      "attributes": {
-        "label": "disgusting Ocean Animals",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 1,
-        "Emotion": "Unhappy"
       }
     },
     {
@@ -5084,18 +4700,6 @@
       "target": "271",
       "attributes": {
         "label": "weird names",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 1,
-        "Emotion": "Bored"
-      }
-    },
-    {
-      "key": "642",
-      "source": "124",
-      "target": "161",
-      "attributes": {
-        "label": "weird Boat Tours",
         "color": "#c9c9c9",
         "weight": 1.0,
         "DoubtImpact": 1,
@@ -5571,18 +5175,6 @@
       }
     },
     {
-      "key": "690",
-      "source": "258",
-      "target": "248",
-      "attributes": {
-        "label": "Plankton Zoo",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 1,
-        "Emotion": "Bored"
-      }
-    },
-    {
       "key": "691",
       "source": "248",
       "target": "146",
@@ -5652,18 +5244,6 @@
         "weight": 1.0,
         "DoubtImpact": 2,
         "Emotion": "Doubtful"
-      }
-    },
-    {
-      "key": "698",
-      "source": "280",
-      "target": "161",
-      "attributes": {
-        "label": "BoatTourNames",
-        "color": "#c9c9c9",
-        "weight": 1.0,
-        "DoubtImpact": 1,
-        "Emotion": "Bored"
       }
     },
     {
