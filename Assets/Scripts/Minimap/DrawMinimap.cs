@@ -122,7 +122,7 @@ public class DrawMinimap : MonoBehaviour
         // draw line
         lineRenderer.startColor = defaultColorEdges;
         lineRenderer.endColor = defaultColorEdges;
-        lineRenderer.startWidth = lineWidth * 0.75f;
+        lineRenderer.startWidth = lineWidth * 0.5f;
         lineRenderer.endWidth = lineWidth;
         lineRenderer.SetPosition(0, startPos);
         lineRenderer.SetPosition(1, endPos);
