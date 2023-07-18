@@ -4634,8 +4634,8 @@ GameObject:
   - component: {fileID: 2456745702545949857}
   - component: {fileID: 3405044766674568469}
   - component: {fileID: 4341784455657272924}
-  - component: {fileID: 1021491174826442862}
   - component: {fileID: 2387269568590919097}
+  - component: {fileID: 1046544730}
   m_Layer: 0
   m_Name: character model export 3
   m_TagString: Untagged
@@ -4652,7 +4652,7 @@ Transform:
   m_GameObject: {fileID: 2537019156423809863}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5.085388, y: 5.085388, z: 5.085388}
+  m_LocalScale: {x: 6.8841553, y: 6.8841553, z: 6.8841553}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3784830650656868484}
@@ -5012,35 +5012,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1021491174826442862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2537019156423809863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e31e16ac7cd15a44bec54588b0f5fcc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _motionController: {fileID: 0}
-  Summary: This component shouldn't be removed, it does important stuff.
-  disable_debug_messages: 0
-  disable_warning_messages: 0
-  disable_test_animation_keys: 0
-  CurrentEmotion: 0
-  CurrentlyTalking: 0
-  blinking_animation: {fileID: 7400000, guid: 266b25bacc0ec8c49b8cf0a33974a5ba, type: 2}
-  body_bounce_animation: {fileID: 7400000, guid: 8f9c1a1718b5b9a4685435c1d9345291, type: 2}
-  smile_mouth_animation: {fileID: 7400000, guid: bc36db50b776fc64d8a9fd6edfae2a25, type: 2}
-  unhappy_mouth_animation: {fileID: 7400000, guid: 41bcf416e6e220543b10a31db52a8215, type: 2}
-  happy_talking_animation: {fileID: 7400000, guid: 4d4793c7147b2704ca3588c48b086b33, type: 2}
-  sad_talking_animation: {fileID: 7400000, guid: b37acf0e88e6ab04aa9ba9560ee12805, type: 2}
-  angry_animation: {fileID: 7400000, guid: a6bc0f28b53f13b4bbb6ed75261068cb, type: 2}
-  bored_animation: {fileID: 7400000, guid: 96f6420c91e73c240ae486e877ed7dc9, type: 2}
-  doubtful_animation: {fileID: 7400000, guid: db2bcc71e1cfa5c4d9510a0ca305a69c, type: 2}
-  excited_animation: {fileID: 7400000, guid: 7f9ed4c2f33fc7a4ea5b486f636ce494, type: 2}
 --- !u!114 &2387269568590919097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5055,6 +5026,61 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BlendMode: 2
   MouthOpening: 1
+--- !u!114 &1046544730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2537019156423809863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a3e013a14a95dc449106cffc200e246, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TriggerArray:
+  - enumValue: 0
+    emotion_trigger: Empty
+    start_talking_trigger: SadTalking
+    finish_talking_trigger: Smile
+  - enumValue: 1
+    emotion_trigger: Empty
+    start_talking_trigger: SadTalking
+    finish_talking_trigger: Smile
+  - enumValue: 2
+    emotion_trigger: Angry
+    start_talking_trigger: SadTalking
+    finish_talking_trigger: UnhappyMouth
+  - enumValue: 3
+    emotion_trigger: Default
+    start_talking_trigger: SadTalking
+    finish_talking_trigger: UnhappyMouth
+  - enumValue: 4
+    emotion_trigger: Doubtful
+    start_talking_trigger: SadTalking
+    finish_talking_trigger: UnhappyMouth
+  - enumValue: 5
+    emotion_trigger: Excited
+    start_talking_trigger: HappyTalking
+    finish_talking_trigger: Smile
+  - enumValue: 6
+    emotion_trigger: Default
+    start_talking_trigger: SadTalking
+    finish_talking_trigger: UnhappyMouth
+  - enumValue: 7
+    emotion_trigger: Doubtful
+    start_talking_trigger: HappyTalking
+    finish_talking_trigger: Smile
+  - enumValue: 8
+    emotion_trigger: Happy
+    start_talking_trigger: HappyTalking
+    finish_talking_trigger: Smile
+  animator: {fileID: 4341784455657272924}
+  disable_debug_messages: 0
+  disable_warning_messages: 0
+  disable_test_animation_keys: 0
+  CurrentEmotion: 1
+  CurrentlyTalking: 0
 --- !u!1 &2550157997148861876
 GameObject:
   m_ObjectHideFlags: 0
